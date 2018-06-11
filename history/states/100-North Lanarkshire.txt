@@ -1,0 +1,11 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		1642 1654 1663 1671 1674 1695 1698 1705 1708 
+	}
+	manpower=400000
+	
+	state_category = large_town
+}
+

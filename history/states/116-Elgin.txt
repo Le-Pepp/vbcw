@@ -1,0 +1,10 @@
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		1947 1952 1962 1974 1976 1984 
+	}
+	manpower=50000
+	
+	state_category = rural
+}

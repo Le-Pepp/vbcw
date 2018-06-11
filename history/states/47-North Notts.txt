@@ -1,0 +1,10 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		869 876 890 930 940 973 980 
+	}
+	manpower=250000
+	
+	state_category = town
+}

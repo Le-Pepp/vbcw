@@ -1,0 +1,10 @@
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		1869 1880 1908 1916 1942 1961 1972 1981 1985 1986 2006 2013 2015 2023 2024 2040 2041 2052 
+	}
+	manpower=25000
+	
+	state_category = pastoral
+}

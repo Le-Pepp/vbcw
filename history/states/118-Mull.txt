@@ -1,0 +1,10 @@
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		1791 1794 1799 1819 1820 1824 1834 
+	}
+	manpower=25000
+	
+	state_category = pastoral
+}

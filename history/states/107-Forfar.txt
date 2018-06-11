@@ -1,0 +1,11 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		1814 1818 1821 1829 1832 1836 1845 1851 1861 1863 
+	}
+	manpower=100000
+	
+	state_category = rural
+}
+

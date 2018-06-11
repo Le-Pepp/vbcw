@@ -1,0 +1,11 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		1707 1711 1721 1728 
+	}
+	manpower=450000
+	
+	state_category = city
+}
+

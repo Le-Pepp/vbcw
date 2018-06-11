@@ -1,0 +1,10 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		279 290 307 321 331 336 
+	}
+	manpower=1500000
+	
+	state_category = metropolis
+}

@@ -1,0 +1,10 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		291 300 301 305 315 316 
+	}
+	manpower=2500000
+	
+	state_category = megalopolis
+}
