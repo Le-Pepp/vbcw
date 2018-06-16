@@ -1,0 +1,86 @@
+bookmarks = {
+	bookmark = {
+		name = "A Very British Civil War Two"
+		desc = "The Abdication Crisis has got out of hand..."
+		date = 1937.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "ROY"
+		default = yes
+		
+		"ROY"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = conservative
+		}
+		"BUF"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = fascist
+		}
+		"ANG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+		}
+		"YRK"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = conservative
+		}
+		"SCO"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = civic_nationalist
+		}
+		"SOM"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = democratic_socialist			
+		}
+		"IRE"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = conservative	
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+
+		# minors ####
+		"SOG"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = communist
+		}
+		"SOD"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+		}
+		"SOC"={
+			minor = yes
+			history = "AST_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+		}
+		"SOH"={
+			minor = yes
+			history = "NZL_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+		}
+		"SON"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+		}
+		"KER"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = civic_nationalist
+		}
+		"LIV"={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

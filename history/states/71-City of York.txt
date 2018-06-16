@@ -7,4 +7,14 @@ state={
 	manpower=150000
 	
 	state_category = city
+	
+	history={
+		owner = YRK
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			air_base = 2
+		}
+		add_core_of = YRK
+	}
 }

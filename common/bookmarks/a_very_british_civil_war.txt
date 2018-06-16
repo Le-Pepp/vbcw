@@ -1,0 +1,101 @@
+bookmarks = {
+	bookmark = {
+		name = "VBCW_NAME"
+		desc = "VBCW_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ROY"
+		default = yes
+		
+		"ROY"={
+			history = "ROY_VBCW_DESC"
+			ideology = conservative
+		}
+		"BUF"={
+			history = "BUF_VBCW_DESC"
+			ideology = fascist
+		}
+		"ANG"={
+			history = "ANG_VBCW_DESC"
+			ideology = conservative
+		}
+		"YRK"={
+			history = "YRK_VBCW_DESC"
+			ideology = conservative
+		}
+		"SCO"={
+			history = "SCO_VBCW_DESC"
+			ideology = civic_nationalist
+		}
+		"SOM"={
+			history = "SOM_VBCW_DESC"
+			ideology = democratic_socialist			
+		}
+		"IRE"={
+			history = "IRE_VBCW_DESC"
+			ideology = conservative	
+		}
+		"---"={
+			history = "OTHER_VBCW_DESC"
+		}
+
+
+
+		# minors ####
+		"SOG"={
+			minor = yes
+			history = "SOG_VBCW_DESC"
+			ideology = communist
+		}
+		"SOD"={
+			minor = yes
+			history = "SOD_VBCW_DESC"
+			ideology = democratic_socialist
+		}
+		"SOC"={
+			minor = yes
+			history = "SOC_VBCW_DESC"
+			ideology = democratic_socialist
+		}
+		"SOH"={
+			minor = yes
+			history = "SOH_VBCW_DESC"
+			ideology = democratic_socialist
+		}
+		"SON"={
+			minor = yes
+			history = "SON_VBCW_DESC"
+			ideology = democratic_socialist
+		}
+		"KER"={
+			minor = yes
+			history = "KER_VBCW_DESC"
+			ideology = civic_nationalist
+		}
+		"LIV"={
+			minor = yes
+			history = "LIV_VBCW_DESC"
+			ideology = democratic_socialist
+		}
+		"WAL"={
+			minor = yes
+			history = "WAL_VBCW_DESC"
+			ideology = civic_nationalist
+		}		
+		"JAC"={
+			minor = yes
+			history = "JAC_VBCW_DESC"
+			ideology = autocratic
+		}		
+		"MNX"={
+			minor = yes
+			history = "MNX_VBCW_DESC"
+			ideology = fascist
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
