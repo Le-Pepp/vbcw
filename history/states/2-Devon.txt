@@ -7,4 +7,16 @@ state={
 	manpower=750000
 	
 	state_category = city
+	
+	history={
+		victory_points = { 70 10 }
+		victory_points = { 100 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+		}
+	}
 }

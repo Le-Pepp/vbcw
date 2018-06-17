@@ -11,9 +11,12 @@ state={
 	
 	history={
 		owner = KER
+		victory_points { 55 25 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
 		}
 		add_core_of = KER

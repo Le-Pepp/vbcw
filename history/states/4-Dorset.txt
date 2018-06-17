@@ -2,9 +2,20 @@ state={
 	id=4
 	name="STATE_4"
 	provinces={
-		83 87 98 105 108 114 118 120 124 131 139 155 
+		83 87 98 105 107 108 114 118 120 124 131 139 155 
 	}
-	manpower=300000
+	manpower=350000
 	
 	state_category = town
+	
+	history={
+		victory_points = { 107 10 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+		}
+	}
 }
