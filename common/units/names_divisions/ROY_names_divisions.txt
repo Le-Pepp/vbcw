@@ -1,0 +1,99 @@
+﻿ROY_Inf_01 = {
+	name = "Infantry Regiments"
+
+	for_countries = { ROY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Infantry Regiment"
+	
+	ordered = {
+		1 = { "Welsh Guards" }
+		2 = { "Queen's (Royal West Surrey) Regiment" }
+		3 = { "The King's Own Royal Regiment (Lancaster)" }
+		4 = { "Royal Warwickshire Regiment" }
+		5 = { "The Royal Fusiliers (City of London Regiment)" }
+		6 = { "The Devonshire Regiment" }
+		7 = { "The Bedfordshire & Hertfordshire Regiment" }
+		8 = { "The Leicestershire Regiment" }
+		9 = { "The Lancashire Fusiliers" }
+		10 = { "The Cheshire Regiment" }
+		11 = { "The South Wales Borderers" }
+		12 = { "Royal Inniskilling Fusiliers" }
+		13 = { "The Worcestershire Regiment" }
+		14 = { "The East Lancashire Regiment" }
+		15 = { "The South Staffordshire Regiment" }
+		16 = { "The Prince of Wales's Volunteers (South Lancashire Regiment)" }
+		17 = { "Oxfordshire & Buckinghamshire Light Infantry" }
+		18 = { "The Essex Regiment" }
+		19 = { "The Loyal Regiment (North Lancashire)" }
+		20 = { "The Northhamptonshire Regiment" }
+		21 = { "The King's Shropshire Light Infantry" }
+		22 = { "The Middlesex Regiment (Duke of Cabridge's Own)" }
+		23 = { "The Manchester Regiment" }
+		24 = { "The North Staffordshire Regiment (Prince of Wales's)" } #Fictional
+		25 = { "The Royal Air Force Rifles" } #Fictional
+	}
+}
+
+ROY_Cav_01 = {
+	name = "Cavalry Regiments"
+	
+	for_countries = { ROY }
+	
+	can_use = { always = yes }
+	
+	division_types = { "cavalry" }
+	
+	fallback_name = "$d Cavalry Regiment"
+	
+	ordered = {
+		900 = { "The Life Guards
+		1 = { "%d King's Dragoon Guards
+		903 = { "3rd/6th Dragoon Guards
+		4 = { "4th/7th Dragoon Guards
+		901 = { "1st Royal Dragoons
+		3 = { "%d The King's Own Hussars
+		8 = { "%d King's Royal Irish Hussars
+		10 = { "%d Royal Hussars (Prince of Wales's Own)
+		12 = { "%d (Prince of Wales's Royal) Lancer
+		15 = { "15/19th The King's Royal Hussars
+		14 = { "14th/20th The King's Royal Hussars
+		17 = { "17th/21st Lancers
+	}
+}
+ROY_Inf_01 = {
+	name = "Militas"
+
+	for_countries = { ROY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d LDV"
+	
+	ordered = {
+		1 = { "%d LDV 'Oxford & Cambridge'" }
+		2 = { "%d LDV 'The Bard's Own'" }
+		3 = { "%d LDV 'Bucks Volunteers'" }
+		4 = { "%d LDV 'Evesham Irregulars'" }
+		14 = { "%d LDV 'City of Bristol'" }
+		23 = { "%d LDV 'Royal South Gloucesters'" }
+		27 = { "%d LDV 'Middlesex'" }
+		31 = { "%d LDV 'Royal Brecon'" }
+		33 = { "%d LDV 'Royal Wiltshire'" }
+		44 = { "%d LDV 'Glamorgan'" }
+		52 = { "%d LDV 'Herefordshire'" }
+		54 = { "%d LDV 'Shropshire'" }
+		57 = { "%d LDV 'Monmouthshire'" }
+		67 = { "%d LDV 'Worcester'" }
+		15 = { "%d Middlesex 'Docks & Customs'" }
+		901 = { "Eton Cadets" }
+		902 = { "Cambridge Militia" }
+		903 = { "Hereford Constabulary" }
+		904 = { "South Midlands Police" }
+	}
+}

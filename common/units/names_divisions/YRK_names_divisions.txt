@@ -1,0 +1,59 @@
+﻿YRK_Inf_01 = {
+	name = "Infantry Regiments"
+
+	for_countries = { YRK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Infantry Regiment"
+	
+	ordered = {
+		1 = { "Coldstream Guards" }
+		2 = { "Grenadier Guards" }
+		3 = { "The Royal Scots (The Royal Regiment)" }
+		4 = { "Royal Northumberland Fusiliers" }
+		5 = { "The Lincolnshire Regiment" }
+		6 = { "The Suffolk Regiment" }
+		7 = { "The West Yorkshire Regiment (Prince of Wales's Own" }
+		8 = { "The Green Howards (Alexandra, Princess of Wales's Own Yorkshire Regiment" }
+		9 = { "The King's Own Scottish Borderers" }
+		10 = { "The Duke of Wellington's Regiment (West Riding)" }
+		11 = { "The Border Regiment" }
+		12 = { "The Sherwood Foresters (Nottinghamshire & Derbyshire Regiment)" }
+		13 = { "The King's Own Yorkshire Light Infantry" }
+		14 = { "The King's Royal Rifle Corps" }
+		15 = { "The York & Lancaster Regiment" }
+		16 = { "Durham Light Infantry" }
+		17 = { "The Royal Ulster Rifles" }
+		18 = { "The Royal Irish Fusiliers (Princess Victoria's)" }
+		19 = { "The Rifle Brigade (The Prince Consort's Own)" }
+		20 = { "The Welch Regiment" }
+	}
+}
+
+YRK_Cav_01 = {
+	name = "Cavalry Regiments"
+	
+	for_countries = { YRK }
+	
+	can_use = { always = yes }
+	
+	division_types = { "cavalry" "motorized" "mechanized" "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	
+	fallback_name = "%d Cavalry Regiment"
+	
+	ordered = {
+		1 = { "Royal Horse Guards (The Blues)
+		2 = { "2nd Dragoon Guards (Queen's Bays)
+		5 = { "5th Inniskilling Dragoon Guards
+		202 = { "2nd Dragoons (Royal Scots Greys)
+		4 = { "4th Queen's Own Hussars
+		7 = { "7th Queen's Own Hussars
+		9 = { "9th Queen's Royal Lancers
+		11 = { "11th Hussars (Prince Albert's Own)
+		13 = { "13/18th (Queen Mary's Own Hussars
+		16 = { "16th/5th The Queen's Royal Lancers
+	}
+}
