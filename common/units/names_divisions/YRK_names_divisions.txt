@@ -45,15 +45,15 @@ YRK_Cav_01 = {
 	fallback_name = "%d Cavalry Regiment"
 	
 	ordered = {
-		1 = { "Royal Horse Guards (The Blues)
-		2 = { "2nd Dragoon Guards (Queen's Bays)
-		5 = { "5th Inniskilling Dragoon Guards
-		202 = { "2nd Dragoons (Royal Scots Greys)
-		4 = { "4th Queen's Own Hussars
-		7 = { "7th Queen's Own Hussars
-		9 = { "9th Queen's Royal Lancers
-		11 = { "11th Hussars (Prince Albert's Own)
-		13 = { "13/18th (Queen Mary's Own Hussars
-		16 = { "16th/5th The Queen's Royal Lancers
+		1 = { "Royal Horse Guards (The Blues)" }
+		2 = { "2nd Dragoon Guards (Queen's Bays)" }
+		5 = { "5th Inniskilling Dragoon Guards" }
+		202 = { "2nd Dragoons (Royal Scots Greys)" }
+		4 = { "4th Queen's Own Hussars" }
+		7 = { "7th Queen's Own Hussars" }
+		9 = { "9th Queen's Royal Lancers" }
+		11 = { "11th Hussars (Prince Albert's Own)" }
+		13 = { "13/18th (Queen Mary's Own Hussars" }
+		16 = { "16th/5th The Queen's Royal Lancers" }
 	}
 }
