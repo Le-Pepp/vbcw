@@ -11,9 +11,10 @@ state={
 	history={
 		owner = JAC
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-			air_base = 2
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 		}
 		add_core_of = JAC
 	}

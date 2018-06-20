@@ -7,4 +7,11 @@ state={
 	manpower=75000
 	
 	state_category = rural
+	
+	history={
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+		}
+	}
 }

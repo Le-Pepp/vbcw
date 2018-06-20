@@ -7,4 +7,10 @@ state={
 	manpower=250000
 	
 	state_category = pastoral
+	
+	history={
+		buildings = {
+			infrastructure = 2
+		}
+	}
 }

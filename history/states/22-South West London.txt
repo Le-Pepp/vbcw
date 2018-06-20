@@ -7,4 +7,13 @@ state={
 	manpower=1300000
 	
 	state_category = metropolis
+	
+	history={
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+			industrial_complex = 2
+			arms_factory = 4
+		}
+	}
 }

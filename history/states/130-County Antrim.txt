@@ -8,4 +8,13 @@ state={
 	manpower=200000
 	
 	state_category = town
+	
+	history={
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+	}
 }

@@ -11,9 +11,10 @@ state={
 	history={
 		owner = SOG
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-			air_base = 2
+			infrastructure = 10
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 4
 		}
 		add_core_of = SOG
 	}
