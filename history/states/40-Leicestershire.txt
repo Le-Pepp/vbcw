@@ -7,6 +7,10 @@ state={
 	}
 	manpower=600000
 	
+	resources = {
+		steel = 16
+	}
+	
 	state_category=city
 	
 	history={

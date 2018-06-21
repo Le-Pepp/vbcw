@@ -6,6 +6,11 @@ state={
 	}
 	manpower=750000
 	
+	resources = {
+		oil = 16
+		steel = 32
+	}
+	
 	state_category = large_city
 	
 	history={

@@ -6,6 +6,11 @@ state={
 	}
 	manpower=1000000
 	
+	resources = {
+		oil = 16
+		steel = 32
+	}
+	
 	state_category = metropolis
 		
 	history={
@@ -14,7 +19,6 @@ state={
 			infrastructure = 10
 			industrial_complex = 2
 			arms_factory = 2
-			dockyard = 4
 		}
 		add_core_of = SOG
 	}

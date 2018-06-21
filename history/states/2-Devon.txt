@@ -6,6 +6,10 @@ state={
 	}
 	manpower=750000
 	
+	resources = {
+		tungsten = 16
+	}
+	
 	state_category = city
 	
 	history={

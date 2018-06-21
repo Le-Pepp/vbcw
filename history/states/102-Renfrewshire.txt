@@ -6,6 +6,11 @@ state={
 	}
 	manpower=300000
 	
+	resources = {
+		oil = 16
+		steel = 16
+	}
+	
 	state_category = town
 	
 	history={
@@ -14,7 +19,7 @@ state={
 			air_base = 1
 			industrial_complex = 1
 			arms_factory = 1
-			dockyard = 1
+			dockyard = 5
 		}
 	}
 }

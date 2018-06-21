@@ -6,6 +6,10 @@ state={
 	}
 	manpower=1500000
 	
+	resources = {
+		steel = 32
+	}
+	
 	state_category = metropolis
 	
 	history={
