@@ -982,7 +982,7 @@
 981;155;161;155;land;false;plains;1
 982;250;162;105;land;false;hills;1
 983;250;162;245;land;false;urban;1
-984;250;151;235;land;true;urban;1
+984;250;151;235;land;false;urban;1
 985;250;150;155;land;false;plains;1
 986;250;111;125;land;true;plains;1
 987;75;161;75;land;false;plains;1

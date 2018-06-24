@@ -9,10 +9,13 @@ state={
 	state_category = town
 	
 	history={
-		buildings = {
+		buildings = { 
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 1
+			561 = {
+				naval_base = 2
+			}
 		}
 	}
 }

@@ -11,6 +11,12 @@ state={
 	history={
 		buildings = {
 			infrastructure = 2
+			1924 = {
+				naval_base = 1
+			}
+			1886 = {
+				naval_base = 1
+			}
 		}
 	}
 }
