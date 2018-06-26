@@ -65,7 +65,7 @@ ROY_Cav_01 = {
 	}
 }
 
-ROY_Inf_01 = {
+ROY_Mil_01 = {
 	name = "Militas"
 
 	for_countries = { ROY }
@@ -77,12 +77,12 @@ ROY_Inf_01 = {
 	fallback_name = "%d LDV"
 	
 	ordered = {
-		1 = { "%d LDV 'Oxford & Cambridge'" }
-		2 = { "%d LDV 'The Bard's Own'" }
-		3 = { "%d LDV 'Bucks Volunteers'" }
-		4 = { "%d LDV 'Evesham Irregulars'" }
-		14 = { "%d LDV 'City of Bristol'" }
-		23 = { "%d LDV 'Royal South Gloucesters'" }
+		41 = { "%d LDV 'Oxford & Cambridge'" }
+		42 = { "%d LDV 'The Bard's Own'" }
+		43 = { "%d LDV 'Bucks Volunteers'" }
+		64 = { "%d LDV 'Evesham Irregulars'" }
+		34 = { "%d LDV 'City of Bristol'" }
+		53 = { "%d LDV 'Royal South Gloucesters'" }
 		27 = { "%d LDV 'Middlesex'" }
 		31 = { "%d LDV 'Royal Brecon'" }
 		33 = { "%d LDV 'Royal Wiltshire'" }
@@ -91,7 +91,7 @@ ROY_Inf_01 = {
 		54 = { "%d LDV 'Shropshire'" }
 		57 = { "%d LDV 'Monmouthshire'" }
 		67 = { "%d LDV 'Worcester'" }
-		15 = { "%d Middlesex 'Docks & Customs'" }
+		35 = { "%d Middlesex 'Docks & Customs'" }
 		901 = { "Eton Cadets" }
 		902 = { "Cambridge Militia" }
 		903 = { "Hereford Constabulary" }

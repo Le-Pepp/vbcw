@@ -31,7 +31,7 @@ ideologies = {
 			"FACTION_NAME_AUT_1"
 			"FACTION_NAME_AUT_2"
 		}
-		color = { 120 40 120 }
+		color = { 100 20 100 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
