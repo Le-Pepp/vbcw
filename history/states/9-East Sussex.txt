@@ -13,6 +13,9 @@ state={
 	state_category = city
 	
 	history={
+		victory_points = { 127 10 }
+		victory_points = { 137 10 }
+		victory_points = { 158 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2

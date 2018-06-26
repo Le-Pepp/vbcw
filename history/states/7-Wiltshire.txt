@@ -8,6 +8,7 @@ state={
 	
 	state_category = town
 	history={
+		victory_points = { 176 10 }
 		buildings = {
 			infrastructure = 4
 			air_base = 3

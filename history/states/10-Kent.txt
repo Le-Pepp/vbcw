@@ -14,6 +14,8 @@ state={
 	state_category=city
 	
 	history={
+		victory_points = { 201 10 }
+		victory_points = { 229 10 }
 		owner = ANG
 		buildings = {
 			infrastructure = 6

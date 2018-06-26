@@ -9,6 +9,12 @@ state={
 	state_category = megalopolis
 	
 	history={
+		victory_points = { 291 5 }
+		victory_points = { 300 5 }
+		victory_points = { 301 5 }
+		victory_points = { 305 5 }
+		victory_points = { 315 5 }
+		victory_points = { 316 25 }
 		owner = BUF
 		buildings = {
 			infrastructure = 10
