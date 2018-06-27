@@ -10,7 +10,7 @@
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leCAN 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leGEN 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -31,11 +31,11 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-CAN_INF_01 = 
+GEN_INF_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -152,15 +152,15 @@ CAN_INF_01 =
 		100 = { "%dth Canadian Infantry Division" }
 		101 = { "%dst Canadian Infantry Division" }
 
-		# CAN in HoI3 had 100 Inf divs in its list, so HoI4 can have 101!
+		# GEN in HoI3 had 100 Inf divs in its list, so HoI4 can have 101!
 	}
 }
 
-CAN_CAV_01 = 
+GEN_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -233,18 +233,18 @@ CAN_CAV_01 =
 	}
 }
 
-CAN_MOT_01 = 
+GEN_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CAN_INF_01 }
+	link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d Canadian Infantry Division"
 
@@ -289,18 +289,18 @@ CAN_MOT_01 =
 	}
 }
 
-CAN_ARM_01 = 
+GEN_ARM_01 = 
 {
 	name = "Armoured Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CAN_INF_01 }
+	link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d Canadian (Armoured) Division"
 
@@ -346,18 +346,18 @@ CAN_ARM_01 =
 	}
 }
 
-CAN_MEC_01 = 
+GEN_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CAN_INF_01 }
+	link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d Canadian Infantry Division"
 
@@ -403,18 +403,18 @@ CAN_MEC_01 =
 	}
 }
 
-CAN_GAR_01 = 
+GEN_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { CAN_INF_01 }
+	#link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d District Militia"
 
@@ -477,18 +477,18 @@ CAN_GAR_01 =
 	}
 }
 
-CAN_MAR_01 = 
+GEN_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { CAN_GAR_01 }
+	#link_numbering_with = { GEN_GAR_01 }
 
 	fallback_name = "%d Royal Canadian Marine Division"
 
@@ -527,22 +527,22 @@ CAN_MAR_01 =
 		29 = { "%dth Royal Canadian Marine Division" }
 		30 = { "%dth Royal Canadian Marine Division" }
 
-		# CAN didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists.
+		# GEN didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists.
 	}
 }
 
-CAN_MTN_01 = 
+GEN_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CAN_INF_01 }
+	link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -608,18 +608,18 @@ CAN_MTN_01 =
 	}
 }
 
-CAN_PAR_01 = 
+GEN_PAR_01 = 
 {
 	name = "Airborne Divisions"
 
-	for_countries = { CAN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { CAN_INF_01 }
+	link_numbering_with = { GEN_INF_01 }
 
 	fallback_name = "%d Airborne Division"
 
@@ -681,6 +681,6 @@ CAN_PAR_01 =
 		52 = { "%dnd Airborne Division" }
 		53 = { "%drd Airborne Division" }
 
-		# CAN didn't have any Airborne divisions.  Have linked to main numbering sequence.
+		# GEN didn't have any Airborne divisions.  Have linked to main numbering sequence.
 	}
 }
