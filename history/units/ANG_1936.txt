@@ -43,7 +43,7 @@ division_template = {
 }
 division_template = {
 	name = "Local Levy"
-	division_names_group = ANG_MIL_01
+	division_names_group = ANG_GAR_01
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -64,9 +64,10 @@ units = {
 			name_order = 1
 		}
 		location = 201
-		division_template = "Infantry Division"
+		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 	}
+
 
 	
 	################
@@ -94,7 +95,8 @@ units = {
 		ship = { name = "HMS Vanessa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANG } } }	
 		ship = { name = "HMS Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANG } } }	
 		ship = { name = "HMS Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANG } } }
-	}				
+	}
+}	
 
 
 	#####################

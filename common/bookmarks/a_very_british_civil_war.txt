@@ -31,8 +31,8 @@ bookmarks = {
 			history = "SOM_VBCW_DESC"
 			ideology = democratic_socialist			
 		}
-		"IRE"={
-			history = "IRE_VBCW_DESC"
+		"IRL"={
+			history = "IRL_VBCW_DESC"
 			ideology = conservative	
 		}
 		"---"={

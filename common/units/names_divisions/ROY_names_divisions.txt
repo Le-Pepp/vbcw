@@ -1,4 +1,4 @@
-﻿ROY_Inf_01 = {
+﻿ROY_INF_01 = {
 	name = "Infantry Regiments"
 
 	for_countries = { ROY }
@@ -38,7 +38,7 @@
 	}
 }
 
-ROY_Cav_01 = {
+ROY_CAV_01 = {
 	name = "Cavalry Regiments"
 	
 	for_countries = { ROY }
@@ -65,7 +65,34 @@ ROY_Cav_01 = {
 	}
 }
 
-ROY_Mil_01 = {
+ROY_ARM_01 = {
+	name = "Tank Regiments"
+	
+	for_countries = { ROY }
+	
+	can_use = { always = yes }
+	
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	
+	fallback_name = "$d Royal Tank Regiment"
+	
+	ordered = {
+		900 = { "The Life Guards" }
+		1 = { "%d King's Dragoon Guards" }
+		903 = { "3rd/6th Dragoon Guards" }
+		4 = { "4th/7th Dragoon Guards" }
+		901 = { "1st Royal Dragoons" }
+		3 = { "%d The King's Own Hussars" }
+		8 = { "%d King's Royal Irish Hussars" }
+		10 = { "%d Royal Hussars (Prince of Wales's Own)" }
+		12 = { "%d (Prince of Wales's Royal) Lancers" }
+		15 = { "15/19th The King's Royal Hussars" }
+		14 = { "14th/20th The King's Royal Hussars" }
+		17 = { "17th/21st Lancers" }
+	}
+}
+
+ROY_MIL_01 = {
 	name = "Militas"
 
 	for_countries = { ROY }
