@@ -30,18 +30,18 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-IRE_INF_01 = 
+IRL_INF_01 = 
 {
 	name = "Infantry Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { IRE_INF_01 }
+	#link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%d Irish Infantry Division"
 
@@ -74,18 +74,18 @@ IRE_INF_01 =
 	}
 }
 
-IRE_CAV_01 = 
+IRL_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { IRE_INF_01 }
+	#link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%d Irish Cavalry Division"
 
@@ -106,18 +106,18 @@ IRE_CAV_01 =
 	}
 }
 
-IRE_MOT_01 = 
+IRL_MOT_01 = 
 {
 	name = "Motor Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { IRE_INF_01 }
+	link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%d Irish Motor Division"
 
@@ -138,18 +138,18 @@ IRE_MOT_01 =
 	}
 }
 
-IRE_MEC_01 = 
+IRL_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { IRE_INF_01 }
+	link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%d Irish Mechanized Division"
 
@@ -170,18 +170,18 @@ IRE_MEC_01 =
 	}
 }
 
-IRE_ARM_01 = 
+IRL_ARM_01 = 
 {
 	name = "Armoured Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { IRE_INF_01 }
+	#link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%d Irish Armoured Division"
 
@@ -202,18 +202,18 @@ IRE_ARM_01 =
 	}
 }
 
-IRE_PAR_01 = 
+IRL_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { IRE_INF_01 }
+	#link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%dth Irish Airborne Division"
 
@@ -234,18 +234,18 @@ IRE_PAR_01 =
 	}
 }
 
-IRE_MAR_01 = 
+IRL_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { IRE_INF_01 }
+	#link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%dth Irish Marines Division"
 
@@ -266,18 +266,18 @@ IRE_MAR_01 =
 	}
 }
 
-IRE_MNT_01 = 
+IRL_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { IRE_INF_01 }
+	link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%dth Irish Mountain Division"
 
@@ -298,18 +298,18 @@ IRE_MNT_01 =
 	}
 }
 
-IRE_GAR_01 = 
+IRL_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { IRE }
+	for_countries = { IRL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { IRE_INF_01 }
+	link_numbering_with = { IRL_INF_01 }
 
 	fallback_name = "%dth Irish Infantry Division"
 

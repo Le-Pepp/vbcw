@@ -31,7 +31,7 @@ bookmarks = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = democratic_socialist			
 		}
-		"IRE"={
+		"IRL"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = conservative	
 		}
