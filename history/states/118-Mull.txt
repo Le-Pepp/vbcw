@@ -9,6 +9,8 @@ state={
 	state_category = pastoral
 	
 	history={
+		owner = JAC
+		add_core_of = JAC
 		buildings = {
 			infrastructure = 2
 			1799 = {

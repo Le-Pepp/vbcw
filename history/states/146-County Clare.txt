@@ -9,6 +9,8 @@ state={
 	state_category = town
 	
 	history={
+		owner = IRL
+		add_core_of = IRL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

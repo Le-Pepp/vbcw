@@ -14,6 +14,7 @@ state={
 		
 	history={
 		owner = MNX
+		add_core_of = MNX
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -24,6 +25,5 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = MNX
 	}
 }

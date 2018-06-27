@@ -14,7 +14,8 @@ state={
 	state_category = city
 		
 	history={
-		owner = ULS
+		owner = IRL
+		add_core_of = IRL
 		buildings = {
 			infrastructure = 8
 			air_base = 1
@@ -25,6 +26,5 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = ULS
 	}
 }

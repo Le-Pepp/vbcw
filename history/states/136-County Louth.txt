@@ -9,6 +9,8 @@ state={
 	state_category = rural
 	
 	history={
+		owner = IRL
+		add_core_of = IRL
 		buildings = {
 			infrastructure = 4
 			1143 = {

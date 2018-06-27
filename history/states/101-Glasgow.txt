@@ -15,12 +15,12 @@ state={
 		
 	history={
 		owner = SOG
+		add_core_of = SOG
 		buildings = {
 			infrastructure = 10
 			industrial_complex = 2
 			arms_factory = 2
 		}
-		add_core_of = SOG
 	}
 }
 

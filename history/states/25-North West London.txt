@@ -9,6 +9,8 @@ state={
 	state_category = metropolis
 	
 	history={
+		owner = BUF
+		add_core_of = BUF
 		buildings = {
 			infrastructure = 8
 			air_base = 2

@@ -9,6 +9,8 @@ state={
 	state_category = rural
 	
 	history={
+		owner = JAC
+		add_core_of = JAC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

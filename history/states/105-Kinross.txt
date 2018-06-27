@@ -9,6 +9,8 @@ state={
 	state_category = pastoral
 	
 	history={
+		owner = SCO
+		add_core_of = SCO
 		buildings = {
 			infrastructure = 2
 			1747 = {

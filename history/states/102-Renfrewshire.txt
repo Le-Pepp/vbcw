@@ -11,15 +11,17 @@ state={
 		steel = 16
 	}
 	
-	state_category = town
+	state_category = city
 	
 	history={
+		owner = SOG
+		add_core_of = SOG
 		buildings = {
 			infrastructure = 6
 			air_base = 1
 			industrial_complex = 1
 			arms_factory = 1
-			dockyard = 5
+			dockyard = 4
 			1719 = {
 				naval_base = 5
 			}

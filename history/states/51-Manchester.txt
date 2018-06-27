@@ -13,6 +13,8 @@ state={
 	state_category = metropolis
 	
 	history={
+		owner = SOM
+		add_core_of = SOM
 		buildings = {
 			infrastructure = 10
 			air_base = 1

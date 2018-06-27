@@ -9,6 +9,8 @@ state={
 	state_category = rural
 	
 	history={
+		owner = WAL
+		add_core_of = WAL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

@@ -13,6 +13,8 @@ state={
 	state_category = large_city
 	
 	history={
+		owner = ROY
+		add_core_of = ROY
 		buildings = {
 			infrastructure = 6
 			air_base = 2

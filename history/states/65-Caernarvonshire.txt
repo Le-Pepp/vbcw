@@ -9,6 +9,8 @@ state={
 	state_category = town
 	
 	history={
+		owner = WAL
+		add_core_of = WAL
 		buildings = {
 			infrastructure = 6
 			air_base = 1

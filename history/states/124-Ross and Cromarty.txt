@@ -9,6 +9,8 @@ state={
 	state_category = town
 	
 	history={
+		owner = JAC
+		add_core_of = JAC
 		buildings = {
 			infrastructure = 4
 			air_base = 1
