@@ -15,6 +15,7 @@ state={
 		
 	history={
 		owner = LIV
+		victory_points { 979 10 }
 		buildings = {
 			infrastructure = 8
 			air_base = 1

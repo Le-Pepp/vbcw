@@ -17,6 +17,7 @@ state={
 		
 	history={
 		owner = IRL
+		victory_points { 950 25 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2

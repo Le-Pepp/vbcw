@@ -11,6 +11,7 @@ state={
 	history={
 		owner = IRL
 		add_core_of = IRL
+		victory_points { 1126 10 }
 		buildings = {
 			infrastructure = 4
 			air_base = 1

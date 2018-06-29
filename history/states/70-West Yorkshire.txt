@@ -15,6 +15,13 @@ state={
 	history={
 		owner = SOM
 		add_core_of = SOM
+		victory_points { 1102 10 }
+		victory_points { 1107 10 }
+		victory_points { 1114 10 }
+		victory_points { 1125 10 }
+		victory_points { 1176 10 }
+		victory_points { 1177 25 }
+		victory_points { 1197 10 }
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 4

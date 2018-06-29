@@ -11,6 +11,8 @@ state={
 	history={
 		owner = SOG
 		add_core_of = SOG
+		victory_points { 1739 10 }
+		victory_points { 1754 10 }
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

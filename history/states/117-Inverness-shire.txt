@@ -16,6 +16,7 @@ state={
 		
 	history={
 		owner = JAC
+		victory_points { 1969 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

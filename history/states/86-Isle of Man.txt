@@ -15,6 +15,7 @@ state={
 	history={
 		owner = MNX
 		add_core_of = MNX
+		victory_points { 1277 25 }
 		buildings = {
 			infrastructure = 4
 			air_base = 2

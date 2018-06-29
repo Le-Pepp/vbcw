@@ -11,6 +11,7 @@ state={
 	history={
 		owner = YRK
 		add_core_of = YRK
+		victory_points { 1349 10 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

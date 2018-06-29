@@ -11,6 +11,8 @@ state={
 	history={
 		owner = ROY
 		add_core_of = ROY
+		victory_points { 558 10 }
+		victory_points { 683 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 1
