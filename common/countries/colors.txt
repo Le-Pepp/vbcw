@@ -11,8 +11,8 @@ ANG = {
     color_ui = rgb { 0  120 200 }
 }
 YRK = {
-	color = rgb { 160  0  120 }
-    color_ui = rgb { 160  0  120 }
+	color = rgb { 140  0  100 }
+    color_ui = rgb { 140  0  100 }
 }
 SCO = {
 	color = rgb { 0  40  220 }
@@ -27,24 +27,24 @@ SOG = {
     color_ui = rgb { 250  0  0 }
 }
 SOM = {
-	color = rgb { 185  0  25 }
-    color_ui = rgb { 185  0  25 }
+	color = rgb { 185  0  10 }
+    color_ui = rgb { 185  0  10 }
 }
 SOD = {
-	color = rgb { 180  0  25 }
-    color_ui = rgb { 180  0  25 }
+	color = rgb { 180  0  15 }
+    color_ui = rgb { 180  0  15 }
 }
 SOC = {
-	color = rgb { 175  0  25 }
-    color_ui = rgb { 175  0  25 }
+	color = rgb { 175  0  10 }
+    color_ui = rgb { 175  0  10 }
 }
 SOH = {
-	color = rgb { 170  0  25 }
-    color_ui = rgb { 170  0  25 }
+	color = rgb { 170  0  10 }
+    color_ui = rgb { 170  0  10 }
 }
 SON = {
-	color = rgb { 165  0  25 }
-    color_ui = rgb { 175  0  25 }
+	color = rgb { 165  0  10 }
+    color_ui = rgb { 165  0  10 }
 }
 WAL = {
 	color = rgb { 20  180  0 }
@@ -55,8 +55,8 @@ KER = {
     color_ui = rgb { 20  20  20 }
 }
 LIV = {
-	color = rgb { 200  30  30 }
-    color_ui = rgb { 200  30  30 }
+	color = rgb { 230  60  25 }
+    color_ui = rgb { 230  60  25 }
 }
 ULS = {
 	color = rgb { 250  120  0 }
