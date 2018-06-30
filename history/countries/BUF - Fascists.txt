@@ -41,15 +41,15 @@ set_politics = {
 
 	parties = {
 		fascist = { 
-			popularity = 90
+			popularity = 80
 		}
 
 		autocratic = {
-			popularity = 5
+			popularity = 10
 		}
 		
 		conservative = {
-			popularity = 5
+			popularity = 10
 		}
 		
 		liberal = { 
