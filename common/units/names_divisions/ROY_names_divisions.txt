@@ -35,7 +35,7 @@ ROY_INF_01 =
 {
 	name = "Infantry Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -158,7 +158,7 @@ ROY_CAV_01 =
 {
 	name = "Cavalry Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -233,7 +233,7 @@ ROY_YEO_01 =
 {
 	name = "Yeomanry Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -308,7 +308,7 @@ ROY_MOT_01 =
 {
 	name = "Motor Battalions"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -363,7 +363,7 @@ ROY_ARM_01 =
 {
 	name = "Armoured Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -418,7 +418,7 @@ ROY_MEC_01 =
 {
 	name = "Mechanised Battalions"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -473,7 +473,7 @@ ROY_GAR_01 =
 {
 	name = "Militia Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -545,7 +545,7 @@ ROY_MAR_01 =
 {
 	name = "Marine Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -597,7 +597,7 @@ ROY_MTN_01 =
 {
 	name = "Mountain Regiments"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
@@ -672,7 +672,7 @@ ROY_PAR_01 =
 {
 	name = "Airborne Battalions"
 
-	for_countries = {  }
+	for_countries = { ROY }
 
 	can_use = { always = yes }
 
