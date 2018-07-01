@@ -33,7 +33,7 @@
 
 GEN_INF_01 = 
 {
-	name = "Infantry Divisions"
+	name = "Infantry Regiments"
 
 	for_countries = {  }
 
@@ -44,121 +44,119 @@ GEN_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d Canadian Infantry Division"
+	fallback_name = "%d Infantry Regiment"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Canadian Infantry Division" }
-		2 = { "%dnd Canadian Infantry Division" }
-		3 = { "%drd Canadian Infantry Division" }
-		4 = { "%dth Canadian Infantry Division" }
-		5 = { "%dth Canadian Infantry Division" }
-		6 = { "%dth Canadian Infantry Division" }
-		7 = { "%dth Canadian Infantry Division" }
-		8 = { "%dth Canadian Infantry Division" }
-		9 = { "%dth Canadian Infantry Division" }
-		10 = { "%dth Canadian Infantry Division" }
-		11 = { "%dth Canadian Infantry Division" }
-		12 = { "%dth Canadian Infantry Division" }
-		13 = { "%dth Canadian Infantry Division" }
-		14 = { "%dth Canadian Infantry Division" }
-		15 = { "%dth Canadian Infantry Division" }
-		16 = { "%dth Canadian Infantry Division" }
-		17 = { "%dth Canadian Infantry Division" }
-		18 = { "%dth Canadian Infantry Division" }
-		19 = { "%dth Canadian Infantry Division" }
-		20 = { "%dth Canadian Infantry Division" }
-		21 = { "%dst Canadian Infantry Division" }
-		22 = { "%dnd Canadian Infantry Division" }
-		23 = { "%drd Canadian Infantry Division" }
-		24 = { "%dth Canadian Infantry Division" }
-		25 = { "%dth Canadian Infantry Division" }
-		26 = { "%dth Canadian Infantry Division" }
-		27 = { "%dth Canadian Infantry Division" }
-		28 = { "%dth Canadian Infantry Division" }
-		29 = { "%dth Canadian Infantry Division" }
-		30 = { "%dth Canadian Infantry Division" }
-		31 = { "%dst Canadian Infantry Division" }
-		32 = { "%dnd Canadian Infantry Division" }
-		33 = { "%drd Canadian Infantry Division" }
-		34 = { "%dth Canadian Infantry Division" }
-		35 = { "%dth Canadian Infantry Division" }
-		36 = { "%dth Canadian Infantry Division" }
-		37 = { "%dth Canadian Infantry Division" }
-		38 = { "%dth Canadian Infantry Division" }
-		39 = { "%dth Canadian Infantry Division" }
-		40 = { "%dth Canadian Infantry Division" }
-		41 = { "%dst Canadian Infantry Division" }
-		42 = { "%dnd Canadian Infantry Division" }
-		43 = { "%drd Canadian Infantry Division" }
-		44 = { "%dth Canadian Infantry Division" }
-		45 = { "%dth Canadian Infantry Division" }
-		46 = { "%dth Canadian Infantry Division" }
-		47 = { "%dth Canadian Infantry Division" }
-		48 = { "%dth Canadian Infantry Division" }
-		49 = { "%dth Canadian Infantry Division" }
-		50 = { "%dth Canadian Infantry Division" }
-		51 = { "%dst Canadian Infantry Division" }
-		52 = { "%dnd Canadian Infantry Division" }
-		53 = { "%drd Canadian Infantry Division" }
-		54 = { "%dth Canadian Infantry Division" }
-		55 = { "%dth Canadian Infantry Division" }
-		56 = { "%dth Canadian Infantry Division" }
-		57 = { "%dth Canadian Infantry Division" }
-		58 = { "%dth Canadian Infantry Division" }
-		59 = { "%dth Canadian Infantry Division" }
-		60 = { "%dth Canadian Infantry Division" }
-		61 = { "%dst Canadian Infantry Division" }
-		62 = { "%dnd Canadian Infantry Division" }
-		63 = { "%drd Canadian Infantry Division" }
-		64 = { "%dth Canadian Infantry Division" }
-		65 = { "%dth Canadian Infantry Division" }
-		66 = { "%dth Canadian Infantry Division" }
-		67 = { "%dth Canadian Infantry Division" }
-		68 = { "%dth Canadian Infantry Division" }
-		69 = { "%dth Canadian Infantry Division" }
-		70 = { "%dth Canadian Infantry Division" }
-		71 = { "%dst Canadian Infantry Division" }
-		72 = { "%dnd Canadian Infantry Division" }
-		73 = { "%drd Canadian Infantry Division" }
-		74 = { "%dth Canadian Infantry Division" }
-		75 = { "%dth Canadian Infantry Division" }
-		76 = { "%dth Canadian Infantry Division" }
-		77 = { "%dth Canadian Infantry Division" }
-		78 = { "%dth Canadian Infantry Division" }
-		79 = { "%dth Canadian Infantry Division" }
-		80 = { "%dth Canadian Infantry Division" }
-		81 = { "%dst Canadian Infantry Division" }
-		82 = { "%dnd Canadian Infantry Division" }
-		83 = { "%drd Canadian Infantry Division" }
-		84 = { "%dth Canadian Infantry Division" }
-		85 = { "%dth Canadian Infantry Division" }
-		86 = { "%dth Canadian Infantry Division" }
-		87 = { "%dth Canadian Infantry Division" }
-		88 = { "%dth Canadian Infantry Division" }
-		89 = { "%dth Canadian Infantry Division" }
-		90 = { "%dth Canadian Infantry Division" }
-		91 = { "%dst Canadian Infantry Division" }
-		92 = { "%dnd Canadian Infantry Division" }
-		93 = { "%drd Canadian Infantry Division" }
-		94 = { "%dth Canadian Infantry Division" }
-		95 = { "%dth Canadian Infantry Division" }
-		96 = { "%dth Canadian Infantry Division" }
-		97 = { "%dth Canadian Infantry Division" }
-		98 = { "%dth Canadian Infantry Division" }
-		99 = { "%dth Canadian Infantry Division" }
-		100 = { "%dth Canadian Infantry Division" }
-		101 = { "%dst Canadian Infantry Division" }
-
-		# GEN in HoI3 had 100 Inf divs in its list, so HoI4 can have 101!
+		1 = { "%dst Infantry Regiment" }
+		2 = { "%dnd Infantry Regiment" }
+		3 = { "%drd Infantry Regiment" }
+		4 = { "%dth Infantry Regiment" }
+		5 = { "%dth Infantry Regiment" }
+		6 = { "%dth Infantry Regiment" }
+		7 = { "%dth Infantry Regiment" }
+		8 = { "%dth Infantry Regiment" }
+		9 = { "%dth Infantry Regiment" }
+		10 = { "%dth Infantry Regiment" }
+		11 = { "%dth Infantry Regiment" }
+		12 = { "%dth Infantry Regiment" }
+		13 = { "%dth Infantry Regiment" }
+		14 = { "%dth Infantry Regiment" }
+		15 = { "%dth Infantry Regiment" }
+		16 = { "%dth Infantry Regiment" }
+		17 = { "%dth Infantry Regiment" }
+		18 = { "%dth Infantry Regiment" }
+		19 = { "%dth Infantry Regiment" }
+		20 = { "%dth Infantry Regiment" }
+		21 = { "%dst Infantry Regiment" }
+		22 = { "%dnd Infantry Regiment" }
+		23 = { "%drd Infantry Regiment" }
+		24 = { "%dth Infantry Regiment" }
+		25 = { "%dth Infantry Regiment" }
+		26 = { "%dth Infantry Regiment" }
+		27 = { "%dth Infantry Regiment" }
+		28 = { "%dth Infantry Regiment" }
+		29 = { "%dth Infantry Regiment" }
+		30 = { "%dth Infantry Regiment" }
+		31 = { "%dst Infantry Regiment" }
+		32 = { "%dnd Infantry Regiment" }
+		33 = { "%drd Infantry Regiment" }
+		34 = { "%dth Infantry Regiment" }
+		35 = { "%dth Infantry Regiment" }
+		36 = { "%dth Infantry Regiment" }
+		37 = { "%dth Infantry Regiment" }
+		38 = { "%dth Infantry Regiment" }
+		39 = { "%dth Infantry Regiment" }
+		40 = { "%dth Infantry Regiment" }
+		41 = { "%dst Infantry Regiment" }
+		42 = { "%dnd Infantry Regiment" }
+		43 = { "%drd Infantry Regiment" }
+		44 = { "%dth Infantry Regiment" }
+		45 = { "%dth Infantry Regiment" }
+		46 = { "%dth Infantry Regiment" }
+		47 = { "%dth Infantry Regiment" }
+		48 = { "%dth Infantry Regiment" }
+		49 = { "%dth Infantry Regiment" }
+		50 = { "%dth Infantry Regiment" }
+		51 = { "%dst Infantry Regiment" }
+		52 = { "%dnd Infantry Regiment" }
+		53 = { "%drd Infantry Regiment" }
+		54 = { "%dth Infantry Regiment" }
+		55 = { "%dth Infantry Regiment" }
+		56 = { "%dth Infantry Regiment" }
+		57 = { "%dth Infantry Regiment" }
+		58 = { "%dth Infantry Regiment" }
+		59 = { "%dth Infantry Regiment" }
+		60 = { "%dth Infantry Regiment" }
+		61 = { "%dst Infantry Regiment" }
+		62 = { "%dnd Infantry Regiment" }
+		63 = { "%drd Infantry Regiment" }
+		64 = { "%dth Infantry Regiment" }
+		65 = { "%dth Infantry Regiment" }
+		66 = { "%dth Infantry Regiment" }
+		67 = { "%dth Infantry Regiment" }
+		68 = { "%dth Infantry Regiment" }
+		69 = { "%dth Infantry Regiment" }
+		70 = { "%dth Infantry Regiment" }
+		71 = { "%dst Infantry Regiment" }
+		72 = { "%dnd Infantry Regiment" }
+		73 = { "%drd Infantry Regiment" }
+		74 = { "%dth Infantry Regiment" }
+		75 = { "%dth Infantry Regiment" }
+		76 = { "%dth Infantry Regiment" }
+		77 = { "%dth Infantry Regiment" }
+		78 = { "%dth Infantry Regiment" }
+		79 = { "%dth Infantry Regiment" }
+		80 = { "%dth Infantry Regiment" }
+		81 = { "%dst Infantry Regiment" }
+		82 = { "%dnd Infantry Regiment" }
+		83 = { "%drd Infantry Regiment" }
+		84 = { "%dth Infantry Regiment" }
+		85 = { "%dth Infantry Regiment" }
+		86 = { "%dth Infantry Regiment" }
+		87 = { "%dth Infantry Regiment" }
+		88 = { "%dth Infantry Regiment" }
+		89 = { "%dth Infantry Regiment" }
+		90 = { "%dth Infantry Regiment" }
+		91 = { "%dst Infantry Regiment" }
+		92 = { "%dnd Infantry Regiment" }
+		93 = { "%drd Infantry Regiment" }
+		94 = { "%dth Infantry Regiment" }
+		95 = { "%dth Infantry Regiment" }
+		96 = { "%dth Infantry Regiment" }
+		97 = { "%dth Infantry Regiment" }
+		98 = { "%dth Infantry Regiment" }
+		99 = { "%dth Infantry Regiment" }
+		100 = { "%dth Infantry Regiment" }
+		101 = { "%dst Infantry Regiment" }
 	}
 }
 
 GEN_CAV_01 = 
 {
-	name = "Cavalry Divisions"
+	name = "Cavalry Regiments"
 
 	for_countries = {  }
 
@@ -169,73 +167,146 @@ GEN_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d District Cavalry"
+	fallback_name = "%d Cavalry Regiment"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst District Cavalry" }
-		2 = { "%dnd District Cavalry" }
-		3 = { "%drd District Cavalry" }
-		4 = { "%dth District Cavalry" }
-		5 = { "%dth District Cavalry" }
-		6 = { "%dth District Cavalry" }
-		7 = { "%dth District Cavalry" }
-		8 = { "%dth District Cavalry" }
-		9 = { "%dth District Cavalry" }
-		10 = { "%dth District Cavalry" }
-		11 = { "%dth District Cavalry" }
-		12 = { "%dth District Cavalry" }
-		13 = { "%dth District Cavalry" }
-		14 = { "%dth District Cavalry" }
-		15 = { "%dth District Cavalry" }
-		16 = { "%dth District Cavalry" }
-		17 = { "%dth District Cavalry" }
-		18 = { "%dth District Cavalry" }
-		19 = { "%dth District Cavalry" }
-		20 = { "%dth District Cavalry" }
-		21 = { "%dst District Cavalry" }
-		22 = { "%dnd District Cavalry" }
-		23 = { "%drd District Cavalry" }
-		24 = { "%dth District Cavalry" }
-		25 = { "%dth District Cavalry" }
-		26 = { "%dth District Cavalry" }
-		27 = { "%dth District Cavalry" }
-		28 = { "%dth District Cavalry" }
-		29 = { "%dth District Cavalry" }
-		30 = { "%dth District Cavalry" }
-		31 = { "%dst District Cavalry" }
-		32 = { "%dnd District Cavalry" }
-		33 = { "%drd District Cavalry" }
-		34 = { "%dth District Cavalry" }
-		35 = { "%dth District Cavalry" }
-		36 = { "%dth District Cavalry" }
-		37 = { "%dth District Cavalry" }
-		38 = { "%dth District Cavalry" }
-		39 = { "%dth District Cavalry" }
-		40 = { "%dth District Cavalry" }
-		41 = { "%dst District Cavalry" }
-		42 = { "%dnd District Cavalry" }
-		43 = { "%drd District Cavalry" }
-		44 = { "%dth District Cavalry" }
-		45 = { "%dth District Cavalry" }
-		46 = { "%dth District Cavalry" }
-		47 = { "%dth District Cavalry" }
-		48 = { "%dth District Cavalry" }
-		49 = { "%dth District Cavalry" }
-		50 = { "%dth District Cavalry" }
-		51 = { "%dst District Cavalry" }
-		52 = { "%dnd District Cavalry" }
-		53 = { "%drd District Cavalry" }
+		1 = { "%dst Cavalry Regiment" }
+		2 = { "%dnd Cavalry Regiment" }
+		3 = { "%drd Cavalry Regiment" }
+		4 = { "%dth Cavalry Regiment" }
+		5 = { "%dth Cavalry Regiment" }
+		6 = { "%dth Cavalry Regiment" }
+		7 = { "%dth Cavalry Regiment" }
+		8 = { "%dth Cavalry Regiment" }
+		9 = { "%dth Cavalry Regiment" }
+		10 = { "%dth Cavalry Regiment" }
+		11 = { "%dth Cavalry Regiment" }
+		12 = { "%dth Cavalry Regiment" }
+		13 = { "%dth Cavalry Regiment" }
+		14 = { "%dth Cavalry Regiment" }
+		15 = { "%dth Cavalry Regiment" }
+		16 = { "%dth Cavalry Regiment" }
+		17 = { "%dth Cavalry Regiment" }
+		18 = { "%dth Cavalry Regiment" }
+		19 = { "%dth Cavalry Regiment" }
+		20 = { "%dth Cavalry Regiment" }
+		21 = { "%dst Cavalry Regiment" }
+		22 = { "%dnd Cavalry Regiment" }
+		23 = { "%drd Cavalry Regiment" }
+		24 = { "%dth Cavalry Regiment" }
+		25 = { "%dth Cavalry Regiment" }
+		26 = { "%dth Cavalry Regiment" }
+		27 = { "%dth Cavalry Regiment" }
+		28 = { "%dth Cavalry Regiment" }
+		29 = { "%dth Cavalry Regiment" }
+		30 = { "%dth Cavalry Regiment" }
+		31 = { "%dst Cavalry Regiment" }
+		32 = { "%dnd Cavalry Regiment" }
+		33 = { "%drd Cavalry Regiment" }
+		34 = { "%dth Cavalry Regiment" }
+		35 = { "%dth Cavalry Regiment" }
+		36 = { "%dth Cavalry Regiment" }
+		37 = { "%dth Cavalry Regiment" }
+		38 = { "%dth Cavalry Regiment" }
+		39 = { "%dth Cavalry Regiment" }
+		40 = { "%dth Cavalry Regiment" }
+		41 = { "%dst Cavalry Regiment" }
+		42 = { "%dnd Cavalry Regiment" }
+		43 = { "%drd Cavalry Regiment" }
+		44 = { "%dth Cavalry Regiment" }
+		45 = { "%dth Cavalry Regiment" }
+		46 = { "%dth Cavalry Regiment" }
+		47 = { "%dth Cavalry Regiment" }
+		48 = { "%dth Cavalry Regiment" }
+		49 = { "%dth Cavalry Regiment" }
+		50 = { "%dth Cavalry Regiment" }
+		51 = { "%dst Cavalry Regiment" }
+		52 = { "%dnd Cavalry Regiment" }
+		53 = { "%drd Cavalry Regiment" }
+	}
+}
 
-		# Historically, there's no way Canada would have had 53 Cav divisions the list taken this far because of cav's suppression role in-game.
+GEN_YEO_01 = 
+{
+	name = "Yeomanry Regiments"
+
+	for_countries = {  }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d County Yeomanry"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst County Yeomanry" }
+		2 = { "%dnd County Yeomanry" }
+		3 = { "%drd County Yeomanry" }
+		4 = { "%dth County Yeomanry" }
+		5 = { "%dth County Yeomanry" }
+		6 = { "%dth County Yeomanry" }
+		7 = { "%dth County Yeomanry" }
+		8 = { "%dth County Yeomanry" }
+		9 = { "%dth County Yeomanry" }
+		10 = { "%dth County Yeomanry" }
+		11 = { "%dth County Yeomanry" }
+		12 = { "%dth County Yeomanry" }
+		13 = { "%dth County Yeomanry" }
+		14 = { "%dth County Yeomanry" }
+		15 = { "%dth County Yeomanry" }
+		16 = { "%dth County Yeomanry" }
+		17 = { "%dth County Yeomanry" }
+		18 = { "%dth County Yeomanry" }
+		19 = { "%dth County Yeomanry" }
+		20 = { "%dth County Yeomanry" }
+		21 = { "%dst County Yeomanry" }
+		22 = { "%dnd County Yeomanry" }
+		23 = { "%drd County Yeomanry" }
+		24 = { "%dth County Yeomanry" }
+		25 = { "%dth County Yeomanry" }
+		26 = { "%dth County Yeomanry" }
+		27 = { "%dth County Yeomanry" }
+		28 = { "%dth County Yeomanry" }
+		29 = { "%dth County Yeomanry" }
+		30 = { "%dth County Yeomanry" }
+		31 = { "%dst County Yeomanry" }
+		32 = { "%dnd County Yeomanry" }
+		33 = { "%drd County Yeomanry" }
+		34 = { "%dth County Yeomanry" }
+		35 = { "%dth County Yeomanry" }
+		36 = { "%dth County Yeomanry" }
+		37 = { "%dth County Yeomanry" }
+		38 = { "%dth County Yeomanry" }
+		39 = { "%dth County Yeomanry" }
+		40 = { "%dth County Yeomanry" }
+		41 = { "%dst County Yeomanry" }
+		42 = { "%dnd County Yeomanry" }
+		43 = { "%drd County Yeomanry" }
+		44 = { "%dth County Yeomanry" }
+		45 = { "%dth County Yeomanry" }
+		46 = { "%dth County Yeomanry" }
+		47 = { "%dth County Yeomanry" }
+		48 = { "%dth County Yeomanry" }
+		49 = { "%dth County Yeomanry" }
+		50 = { "%dth County Yeomanry" }
+		51 = { "%dst County Yeomanry" }
+		52 = { "%dnd County Yeomanry" }
+		53 = { "%drd County Yeomanry" }
 	}
 }
 
 GEN_MOT_01 = 
 {
-	name = "Motorised Divisions"
+	name = "Motor Battalions"
 
 	for_countries = {  }
 
@@ -246,52 +317,51 @@ GEN_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d Canadian Infantry Division"
+	fallback_name = "%d Motor Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Canadian Infantry Division" }
-		2 = { "%dnd Canadian Infantry Division" }
-		3 = { "%drd Canadian Infantry Division" }
-		4 = { "%dth Canadian Infantry Division" }
-		5 = { "%dth Canadian Infantry Division" }
-		6 = { "%dth Canadian Infantry Division" }
-		7 = { "%dth Canadian Infantry Division" }
-		8 = { "%dth Canadian Infantry Division" }
-		9 = { "%dth Canadian Infantry Division" }
-		10 = { "%dth Canadian Infantry Division" }
-		11 = { "%dth Canadian Infantry Division" }
-		12 = { "%dth Canadian Infantry Division" }
-		13 = { "%dth Canadian Infantry Division" }
-		14 = { "%dth Canadian Infantry Division" }
-		15 = { "%dth Canadian Infantry Division" }
-		16 = { "%dth Canadian Infantry Division" }
-		17 = { "%dth Canadian Infantry Division" }
-		18 = { "%dth Canadian Infantry Division" }
-		19 = { "%dth Canadian Infantry Division" }
-		20 = { "%dth Canadian Infantry Division" }
-		21 = { "%dst Canadian Infantry Division" }
-		22 = { "%dnd Canadian Infantry Division" }
-		23 = { "%drd Canadian Infantry Division" }
-		24 = { "%dth Canadian Infantry Division" }
-		25 = { "%dth Canadian Infantry Division" }
-		26 = { "%dth Canadian Infantry Division" }
-		27 = { "%dth Canadian Infantry Division" }
-		28 = { "%dth Canadian Infantry Division" }
-		29 = { "%dth Canadian Infantry Division" }
-		30 = { "%dth Canadian Infantry Division" }
-		31 = { "%dst Canadian Infantry Division" }
-		32 = { "%dnd Canadian Infantry Division" }
-		33 = { "%drd Canadian Infantry Division" }
-
+		1 = { "%dst Motor Battalion" }
+		2 = { "%dnd Motor Battalion" }
+		3 = { "%drd Motor Battalion" }
+		4 = { "%dth Motor Battalion" }
+		5 = { "%dth Motor Battalion" }
+		6 = { "%dth Motor Battalion" }
+		7 = { "%dth Motor Battalion" }
+		8 = { "%dth Motor Battalion" }
+		9 = { "%dth Motor Battalion" }
+		10 = { "%dth Motor Battalion" }
+		11 = { "%dth Motor Battalion" }
+		12 = { "%dth Motor Battalion" }
+		13 = { "%dth Motor Battalion" }
+		14 = { "%dth Motor Battalion" }
+		15 = { "%dth Motor Battalion" }
+		16 = { "%dth Motor Battalion" }
+		17 = { "%dth Motor Battalion" }
+		18 = { "%dth Motor Battalion" }
+		19 = { "%dth Motor Battalion" }
+		20 = { "%dth Motor Battalion" }
+		21 = { "%dst Motor Battalion" }
+		22 = { "%dnd Motor Battalion" }
+		23 = { "%drd Motor Battalion" }
+		24 = { "%dth Motor Battalion" }
+		25 = { "%dth Motor Battalion" }
+		26 = { "%dth Motor Battalion" }
+		27 = { "%dth Motor Battalion" }
+		28 = { "%dth Motor Battalion" }
+		29 = { "%dth Motor Battalion" }
+		30 = { "%dth Motor Battalion" }
+		31 = { "%dst Motor Battalion" }
+		32 = { "%dnd Motor Battalion" }
+		33 = { "%drd Motor Battalion" }
 	}
 }
 
 GEN_ARM_01 = 
 {
-	name = "Armoured Divisions"
+	name = "Armoured Regiments"
 
 	for_countries = {  }
 
@@ -302,53 +372,51 @@ GEN_ARM_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d Canadian (Armoured) Division"
+	fallback_name = "%d Armoured Regiment"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Canadian (Armoured) Division" }
-		2 = { "%dnd Canadian (Armoured) Division" }
-		3 = { "%drd Canadian (Armoured) Division" }
-		4 = { "%dth Canadian (Armoured) Division" }
-		5 = { "%dth Canadian (Armoured) Division" }
-		6 = { "%dth Canadian (Armoured) Division" }
-		7 = { "%dth Canadian (Armoured) Division" }
-		8 = { "%dth Canadian (Armoured) Division" }
-		9 = { "%dth Canadian (Armoured) Division" }
-		10 = { "%dth Canadian (Armoured) Division" }
-		11 = { "%dth Canadian (Armoured) Division" }
-		12 = { "%dth Canadian (Armoured) Division" }
-		13 = { "%dth Canadian (Armoured) Division" }
-		14 = { "%dth Canadian (Armoured) Division" }
-		15 = { "%dth Canadian (Armoured) Division" }
-		16 = { "%dth Canadian (Armoured) Division" }
-		17 = { "%dth Canadian (Armoured) Division" }
-		18 = { "%dth Canadian (Armoured) Division" }
-		19 = { "%dth Canadian (Armoured) Division" }
-		20 = { "%dth Canadian (Armoured) Division" }
-		21 = { "%dst Canadian (Armoured) Division" }
-		22 = { "%dnd Canadian (Armoured) Division" }
-		23 = { "%drd Canadian (Armoured) Division" }
-		24 = { "%dth Canadian (Armoured) Division" }
-		25 = { "%dth Canadian (Armoured) Division" }
-		26 = { "%dth Canadian (Armoured) Division" }
-		27 = { "%dth Canadian (Armoured) Division" }
-		28 = { "%dth Canadian (Armoured) Division" }
-		29 = { "%dth Canadian (Armoured) Division" }
-		30 = { "%dth Canadian (Armoured) Division" }
-		31 = { "%dst Canadian (Armoured) Division" }
-		32 = { "%dnd Canadian (Armoured) Division" }
-		33 = { "%drd Canadian (Armoured) Division" }
-
-		# Historically, only the 4th and 5th divisions were armoured, but by the look of it the Canadians just had one number sequence for all their 'frontline' divisions.
+		1 = { "%dst Armoured Regiment" }
+		2 = { "%dnd Armoured Regiment" }
+		3 = { "%drd Armoured Regiment" }
+		4 = { "%dth Armoured Regiment" }
+		5 = { "%dth Armoured Regiment" }
+		6 = { "%dth Armoured Regiment" }
+		7 = { "%dth Armoured Regiment" }
+		8 = { "%dth Armoured Regiment" }
+		9 = { "%dth Armoured Regiment" }
+		10 = { "%dth Armoured Regiment" }
+		11 = { "%dth Armoured Regiment" }
+		12 = { "%dth Armoured Regiment" }
+		13 = { "%dth Armoured Regiment" }
+		14 = { "%dth Armoured Regiment" }
+		15 = { "%dth Armoured Regiment" }
+		16 = { "%dth Armoured Regiment" }
+		17 = { "%dth Armoured Regiment" }
+		18 = { "%dth Armoured Regiment" }
+		19 = { "%dth Armoured Regiment" }
+		20 = { "%dth Armoured Regiment" }
+		21 = { "%dst Armoured Regiment" }
+		22 = { "%dnd Armoured Regiment" }
+		23 = { "%drd Armoured Regiment" }
+		24 = { "%dth Armoured Regiment" }
+		25 = { "%dth Armoured Regiment" }
+		26 = { "%dth Armoured Regiment" }
+		27 = { "%dth Armoured Regiment" }
+		28 = { "%dth Armoured Regiment" }
+		29 = { "%dth Armoured Regiment" }
+		30 = { "%dth Armoured Regiment" }
+		31 = { "%dst Armoured Regiment" }
+		32 = { "%dnd Armoured Regiment" }
+		33 = { "%drd Armoured Regiment" }
 	}
 }
 
 GEN_MEC_01 = 
 {
-	name = "Mechanised Divisions"
+	name = "Mechanised Battalions"
 
 	for_countries = {  }
 
@@ -359,53 +427,51 @@ GEN_MEC_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d Canadian Infantry Division"
+	fallback_name = "%d Mechanised Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Canadian Infantry Division" }
-		2 = { "%dnd Canadian Infantry Division" }
-		3 = { "%drd Canadian Infantry Division" }
-		4 = { "%dth Canadian Infantry Division" }
-		5 = { "%dth Canadian Infantry Division" }
-		6 = { "%dth Canadian Infantry Division" }
-		7 = { "%dth Canadian Infantry Division" }
-		8 = { "%dth Canadian Infantry Division" }
-		9 = { "%dth Canadian Infantry Division" }
-		10 = { "%dth Canadian Infantry Division" }
-		11 = { "%dth Canadian Infantry Division" }
-		12 = { "%dth Canadian Infantry Division" }
-		13 = { "%dth Canadian Infantry Division" }
-		14 = { "%dth Canadian Infantry Division" }
-		15 = { "%dth Canadian Infantry Division" }
-		16 = { "%dth Canadian Infantry Division" }
-		17 = { "%dth Canadian Infantry Division" }
-		18 = { "%dth Canadian Infantry Division" }
-		19 = { "%dth Canadian Infantry Division" }
-		20 = { "%dth Canadian Infantry Division" }
-		21 = { "%dst Canadian Infantry Division" }
-		22 = { "%dnd Canadian Infantry Division" }
-		23 = { "%drd Canadian Infantry Division" }
-		24 = { "%dth Canadian Infantry Division" }
-		25 = { "%dth Canadian Infantry Division" }
-		26 = { "%dth Canadian Infantry Division" }
-		27 = { "%dth Canadian Infantry Division" }
-		28 = { "%dth Canadian Infantry Division" }
-		29 = { "%dth Canadian Infantry Division" }
-		30 = { "%dth Canadian Infantry Division" }
-		31 = { "%dst Canadian Infantry Division" }
-		32 = { "%dnd Canadian Infantry Division" }
-		33 = { "%drd Canadian Infantry Division" }
-
-		# None historically.
+		1 = { "%dst Mechanised Battalion" }
+		2 = { "%dnd Mechanised Battalion" }
+		3 = { "%drd Mechanised Battalion" }
+		4 = { "%dth Mechanised Battalion" }
+		5 = { "%dth Mechanised Battalion" }
+		6 = { "%dth Mechanised Battalion" }
+		7 = { "%dth Mechanised Battalion" }
+		8 = { "%dth Mechanised Battalion" }
+		9 = { "%dth Mechanised Battalion" }
+		10 = { "%dth Mechanised Battalion" }
+		11 = { "%dth Mechanised Battalion" }
+		12 = { "%dth Mechanised Battalion" }
+		13 = { "%dth Mechanised Battalion" }
+		14 = { "%dth Mechanised Battalion" }
+		15 = { "%dth Mechanised Battalion" }
+		16 = { "%dth Mechanised Battalion" }
+		17 = { "%dth Mechanised Battalion" }
+		18 = { "%dth Mechanised Battalion" }
+		19 = { "%dth Mechanised Battalion" }
+		20 = { "%dth Mechanised Battalion" }
+		21 = { "%dst Mechanised Battalion" }
+		22 = { "%dnd Mechanised Battalion" }
+		23 = { "%drd Mechanised Battalion" }
+		24 = { "%dth Mechanised Battalion" }
+		25 = { "%dth Mechanised Battalion" }
+		26 = { "%dth Mechanised Battalion" }
+		27 = { "%dth Mechanised Battalion" }
+		28 = { "%dth Mechanised Battalion" }
+		29 = { "%dth Mechanised Battalion" }
+		30 = { "%dth Mechanised Battalion" }
+		31 = { "%dst Mechanised Battalion" }
+		32 = { "%dnd Mechanised Battalion" }
+		33 = { "%drd Mechanised Battalion" }
 	}
 }
 
 GEN_GAR_01 = 
 {
-	name = "Garrison Divisions"
+	name = "Militia Regiments"
 
 	for_countries = {  }
 
@@ -416,70 +482,68 @@ GEN_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d District Militia"
+	fallback_name = "%d Local Defence Volunteers"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst District Militia" }
-		2 = { "%dnd District Militia" }
-		3 = { "%drd District Militia" }
-		4 = { "%dth District Militia" }
-		5 = { "%dth District Militia" }
-		6 = { "%dth District Militia" }
-		7 = { "%dth District Militia" }
-		10 = { "%dth District Militia" }
-		11 = { "%dth District Militia" }
-		12 = { "%dth District Militia" }
-		13 = { "%dth District Militia" }
-		14 = { "%dth District Militia" }
-		15 = { "%dth District Militia" }
-		16 = { "%dth District Militia" }
-		17 = { "%dth District Militia" }
-		18 = { "%dth District Militia" }
-		19 = { "%dth District Militia" }
-		20 = { "%dth District Militia" }
-		21 = { "%dst District Militia" }
-		22 = { "%dnd District Militia" }
-		23 = { "%drd District Militia" }
-		24 = { "%dth District Militia" }
-		25 = { "%dth District Militia" }
-		26 = { "%dth District Militia" }
-		27 = { "%dth District Militia" }
-		28 = { "%dth District Militia" }
-		29 = { "%dth District Militia" }
-		30 = { "%dth District Militia" }
-		31 = { "%dst District Militia" }
-		32 = { "%dnd District Militia" }
-		33 = { "%drd District Militia" }
-		34 = { "%dth District Militia" }
-		35 = { "%dth District Militia" }
-		36 = { "%dth District Militia" }
-		37 = { "%dth District Militia" }
-		38 = { "%dth District Militia" }
-		39 = { "%dth District Militia" }
-		40 = { "%dth District Militia" }
-		41 = { "%dst District Militia" }
-		42 = { "%dnd District Militia" }
-		43 = { "%drd District Militia" }
-		44 = { "%dth District Militia" }
-		45 = { "%dth District Militia" }
-		46 = { "%dth District Militia" }
-		47 = { "%dth District Militia" }
-		48 = { "%dth District Militia" }
-		49 = { "%dth District Militia" }
-		51 = { "%dst District Militia" }
-		52 = { "%dnd District Militia" }
-		53 = { "%drd District Militia" }
-
-		# To be consistent with Canadian OOB in 1936 and 1939, the GAR divisions have been called District Militia.
+		1 = { "%dst Local Defence Volunteers" }
+		2 = { "%dnd Local Defence Volunteers" }
+		3 = { "%drd Local Defence Volunteers" }
+		4 = { "%dth Local Defence Volunteers" }
+		5 = { "%dth Local Defence Volunteers" }
+		6 = { "%dth Local Defence Volunteers" }
+		7 = { "%dth Local Defence Volunteers" }
+		10 = { "%dth Local Defence Volunteers" }
+		11 = { "%dth Local Defence Volunteers" }
+		12 = { "%dth Local Defence Volunteers" }
+		13 = { "%dth Local Defence Volunteers" }
+		14 = { "%dth Local Defence Volunteers" }
+		15 = { "%dth Local Defence Volunteers" }
+		16 = { "%dth Local Defence Volunteers" }
+		17 = { "%dth Local Defence Volunteers" }
+		18 = { "%dth Local Defence Volunteers" }
+		19 = { "%dth Local Defence Volunteers" }
+		20 = { "%dth Local Defence Volunteers" }
+		21 = { "%dst Local Defence Volunteers" }
+		22 = { "%dnd Local Defence Volunteers" }
+		23 = { "%drd Local Defence Volunteers" }
+		24 = { "%dth Local Defence Volunteers" }
+		25 = { "%dth Local Defence Volunteers" }
+		26 = { "%dth Local Defence Volunteers" }
+		27 = { "%dth Local Defence Volunteers" }
+		28 = { "%dth Local Defence Volunteers" }
+		29 = { "%dth Local Defence Volunteers" }
+		30 = { "%dth Local Defence Volunteers" }
+		31 = { "%dst Local Defence Volunteers" }
+		32 = { "%dnd Local Defence Volunteers" }
+		33 = { "%drd Local Defence Volunteers" }
+		34 = { "%dth Local Defence Volunteers" }
+		35 = { "%dth Local Defence Volunteers" }
+		36 = { "%dth Local Defence Volunteers" }
+		37 = { "%dth Local Defence Volunteers" }
+		38 = { "%dth Local Defence Volunteers" }
+		39 = { "%dth Local Defence Volunteers" }
+		40 = { "%dth Local Defence Volunteers" }
+		41 = { "%dst Local Defence Volunteers" }
+		42 = { "%dnd Local Defence Volunteers" }
+		43 = { "%drd Local Defence Volunteers" }
+		44 = { "%dth Local Defence Volunteers" }
+		45 = { "%dth Local Defence Volunteers" }
+		46 = { "%dth Local Defence Volunteers" }
+		47 = { "%dth Local Defence Volunteers" }
+		48 = { "%dth Local Defence Volunteers" }
+		49 = { "%dth Local Defence Volunteers" }
+		51 = { "%dst Local Defence Volunteers" }
+		52 = { "%dnd Local Defence Volunteers" }
+		53 = { "%drd Local Defence Volunteers" }
 	}
 }
 
 GEN_MAR_01 = 
 {
-	name = "Marine Divisions"
+	name = "Marine Regiments"
 
 	for_countries = {  }
 
@@ -490,50 +554,48 @@ GEN_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GEN_GAR_01 }
 
-	fallback_name = "%d Royal Canadian Marine Division"
+	fallback_name = "%d Marines"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Royal Canadian Marine Division" }
-		2 = { "%dnd Royal Canadian Marine Division" }
-		3 = { "%drd Royal Canadian Marine Division" }
-		4 = { "%dth Royal Canadian Marine Division" }
-		5 = { "%dth Royal Canadian Marine Division" }
-		6 = { "%dth Royal Canadian Marine Division" }
-		7 = { "%dth Royal Canadian Marine Division" }
-		8 = { "%dth Royal Canadian Marine Division" }
-		9 = { "%dth Royal Canadian Marine Division" }
-		10 = { "%dth Royal Canadian Marine Division" }
-		11 = { "%dth Royal Canadian Marine Division" }
-		12 = { "%dth Royal Canadian Marine Division" }
-		13 = { "%dth Royal Canadian Marine Division" }
-		14 = { "%dth Royal Canadian Marine Division" }
-		15 = { "%dth Royal Canadian Marine Division" }
-		16 = { "%dth Royal Canadian Marine Division" }
-		17 = { "%dth Royal Canadian Marine Division" }
-		18 = { "%dth Royal Canadian Marine Division" }
-		19 = { "%dth Royal Canadian Marine Division" }
-		20 = { "%dth Royal Canadian Marine Division" }
-		21 = { "%dst Royal Canadian Marine Division" }
-		22 = { "%dnd Royal Canadian Marine Division" }
-		23 = { "%drd Royal Canadian Marine Division" }
-		24 = { "%dth Royal Canadian Marine Division" }
-		25 = { "%dth Royal Canadian Marine Division" }
-		26 = { "%dth Royal Canadian Marine Division" }
-		27 = { "%dth Royal Canadian Marine Division" }
-		28 = { "%dth Royal Canadian Marine Division" }
-		29 = { "%dth Royal Canadian Marine Division" }
-		30 = { "%dth Royal Canadian Marine Division" }
-
-		# GEN didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists.
+		1 = { "%dst Marines" }
+		2 = { "%dnd Marines" }
+		3 = { "%drd Marines" }
+		4 = { "%dth Marines" }
+		5 = { "%dth Marines" }
+		6 = { "%dth Marines" }
+		7 = { "%dth Marines" }
+		8 = { "%dth Marines" }
+		9 = { "%dth Marines" }
+		10 = { "%dth Marines" }
+		11 = { "%dth Marines" }
+		12 = { "%dth Marines" }
+		13 = { "%dth Marines" }
+		14 = { "%dth Marines" }
+		15 = { "%dth Marines" }
+		16 = { "%dth Marines" }
+		17 = { "%dth Marines" }
+		18 = { "%dth Marines" }
+		19 = { "%dth Marines" }
+		20 = { "%dth Marines" }
+		21 = { "%dst Marines" }
+		22 = { "%dnd Marines" }
+		23 = { "%drd Marines" }
+		24 = { "%dth Marines" }
+		25 = { "%dth Marines" }
+		26 = { "%dth Marines" }
+		27 = { "%dth Marines" }
+		28 = { "%dth Marines" }
+		29 = { "%dth Marines" }
+		30 = { "%dth Marines" }
 	}
 }
 
 GEN_MTN_01 = 
 {
-	name = "Mountain Divisions"
+	name = "Mountain Regiments"
 
 	for_countries = {  }
 
@@ -544,73 +606,71 @@ GEN_MTN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%d Mountaineers"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Infantry Division" }
-		2 = { "%dnd Infantry Division" }
-		3 = { "%drd Infantry Division" }
-		4 = { "%dth Infantry Division" }
-		5 = { "%dth Infantry Division" }
-		6 = { "%dth Infantry Division" }
-		7 = { "%dth Infantry Division" }
-		8 = { "%dth Infantry Division" }
-		9 = { "%dth Infantry Division" }
-		10 = { "%dth Infantry Division" }
-		11 = { "%dth Infantry Division" }
-		12 = { "%dth Infantry Division" }
-		13 = { "%dth Infantry Division" }
-		14 = { "%dth Infantry Division" }
-		15 = { "%dth Infantry Division" }
-		16 = { "%dth Infantry Division" }
-		17 = { "%dth Infantry Division" }
-		18 = { "%dth Infantry Division" }
-		19 = { "%dth Infantry Division" }
-		20 = { "%dth Infantry Division" }
-		21 = { "%dst Infantry Division" }
-		22 = { "%dnd Infantry Division" }
-		23 = { "%drd Infantry Division" }
-		24 = { "%dth Infantry Division" }
-		25 = { "%dth Infantry Division" }
-		26 = { "%dth Infantry Division" }
-		27 = { "%dth Infantry Division" }
-		28 = { "%dth Infantry Division" }
-		29 = { "%dth Infantry Division" }
-		30 = { "%dth Infantry Division" }
-		31 = { "%dst Infantry Division" }
-		32 = { "%dnd Infantry Division" }
-		33 = { "%drd Infantry Division" }
-		34 = { "%dth Infantry Division" }
-		35 = { "%dth Infantry Division" }
-		36 = { "%dth Infantry Division" }
-		37 = { "%dth Infantry Division" }
-		38 = { "%dth Infantry Division" }
-		39 = { "%dth Infantry Division" }
-		40 = { "%dth Infantry Division" }
-		41 = { "%dst Infantry Division" }
-		42 = { "%dnd Infantry Division" }
-		43 = { "%drd Infantry Division" }
-		44 = { "%dth Infantry Division" }
-		45 = { "%dth Infantry Division" }
-		46 = { "%dth Infantry Division" }
-		47 = { "%dth Infantry Division" }
-		48 = { "%dth Infantry Division" }
-		49 = { "%dth Infantry Division" }
-		50 = { "%dth Infantry Division" }
-		51 = { "%dst Infantry Division" }
-		52 = { "%dnd Infantry Division" }
-		53 = { "%drd Infantry Division" }
-
-		# None in service historically.  Uses main division sequencing.
+		1 = { "%dst Mountaineers" }
+		2 = { "%dnd Mountaineers" }
+		3 = { "%drd Mountaineers" }
+		4 = { "%dth Mountaineers" }
+		5 = { "%dth Mountaineers" }
+		6 = { "%dth Mountaineers" }
+		7 = { "%dth Mountaineers" }
+		8 = { "%dth Mountaineers" }
+		9 = { "%dth Mountaineers" }
+		10 = { "%dth Mountaineers" }
+		11 = { "%dth Mountaineers" }
+		12 = { "%dth Mountaineers" }
+		13 = { "%dth Mountaineers" }
+		14 = { "%dth Mountaineers" }
+		15 = { "%dth Mountaineers" }
+		16 = { "%dth Mountaineers" }
+		17 = { "%dth Mountaineers" }
+		18 = { "%dth Mountaineers" }
+		19 = { "%dth Mountaineers" }
+		20 = { "%dth Mountaineers" }
+		21 = { "%dst Mountaineers" }
+		22 = { "%dnd Mountaineers" }
+		23 = { "%drd Mountaineers" }
+		24 = { "%dth Mountaineers" }
+		25 = { "%dth Mountaineers" }
+		26 = { "%dth Mountaineers" }
+		27 = { "%dth Mountaineers" }
+		28 = { "%dth Mountaineers" }
+		29 = { "%dth Mountaineers" }
+		30 = { "%dth Mountaineers" }
+		31 = { "%dst Mountaineers" }
+		32 = { "%dnd Mountaineers" }
+		33 = { "%drd Mountaineers" }
+		34 = { "%dth Mountaineers" }
+		35 = { "%dth Mountaineers" }
+		36 = { "%dth Mountaineers" }
+		37 = { "%dth Mountaineers" }
+		38 = { "%dth Mountaineers" }
+		39 = { "%dth Mountaineers" }
+		40 = { "%dth Mountaineers" }
+		41 = { "%dst Mountaineers" }
+		42 = { "%dnd Mountaineers" }
+		43 = { "%drd Mountaineers" }
+		44 = { "%dth Mountaineers" }
+		45 = { "%dth Mountaineers" }
+		46 = { "%dth Mountaineers" }
+		47 = { "%dth Mountaineers" }
+		48 = { "%dth Mountaineers" }
+		49 = { "%dth Mountaineers" }
+		50 = { "%dth Mountaineers" }
+		51 = { "%dst Mountaineers" }
+		52 = { "%dnd Mountaineers" }
+		53 = { "%drd Mountaineers" }
 	}
 }
 
 GEN_PAR_01 = 
 {
-	name = "Airborne Divisions"
+	name = "Airborne Battalions"
 
 	for_countries = {  }
 
@@ -621,66 +681,64 @@ GEN_PAR_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { GEN_INF_01 }
 
-	fallback_name = "%d Airborne Division"
+	fallback_name = "%d Airborne Battalion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Airborne Division" }
-		2 = { "%dnd Airborne Division" }
-		3 = { "%drd Airborne Division" }
-		4 = { "%dth Airborne Division" }
-		5 = { "%dth Airborne Division" }
-		6 = { "%dth Airborne Division" }
-		7 = { "%dth Airborne Division" }
-		8 = { "%dth Airborne Division" }
-		9 = { "%dth Airborne Division" }
-		10 = { "%dth Airborne Division" }
-		11 = { "%dth Airborne Division" }
-		12 = { "%dth Airborne Division" }
-		13 = { "%dth Airborne Division" }
-		14 = { "%dth Airborne Division" }
-		15 = { "%dth Airborne Division" }
-		16 = { "%dth Airborne Division" }
-		17 = { "%dth Airborne Division" }
-		18 = { "%dth Airborne Division" }
-		19 = { "%dth Airborne Division" }
-		20 = { "%dth Airborne Division" }
-		21 = { "%dst Airborne Division" }
-		22 = { "%dnd Airborne Division" }
-		23 = { "%drd Airborne Division" }
-		24 = { "%dth Airborne Division" }
-		25 = { "%dth Airborne Division" }
-		26 = { "%dth Airborne Division" }
-		27 = { "%dth Airborne Division" }
-		28 = { "%dth Airborne Division" }
-		29 = { "%dth Airborne Division" }
-		30 = { "%dth Airborne Division" }
-		31 = { "%dst Airborne Division" }
-		32 = { "%dnd Airborne Division" }
-		33 = { "%drd Airborne Division" }
-		34 = { "%dth Airborne Division" }
-		35 = { "%dth Airborne Division" }
-		36 = { "%dth Airborne Division" }
-		37 = { "%dth Airborne Division" }
-		38 = { "%dth Airborne Division" }
-		39 = { "%dth Airborne Division" }
-		40 = { "%dth Airborne Division" }
-		41 = { "%dst Airborne Division" }
-		42 = { "%dnd Airborne Division" }
-		43 = { "%drd Airborne Division" }
-		44 = { "%dth Airborne Division" }
-		45 = { "%dth Airborne Division" }
-		46 = { "%dth Airborne Division" }
-		47 = { "%dth Airborne Division" }
-		48 = { "%dth Airborne Division" }
-		49 = { "%dth Airborne Division" }
-		50 = { "%dth Airborne Division" }
-		51 = { "%dst Airborne Division" }
-		52 = { "%dnd Airborne Division" }
-		53 = { "%drd Airborne Division" }
-
-		# GEN didn't have any Airborne divisions.  Have linked to main numbering sequence.
+		1 = { "%dst Airborne Battalion" }
+		2 = { "%dnd Airborne Battalion" }
+		3 = { "%drd Airborne Battalion" }
+		4 = { "%dth Airborne Battalion" }
+		5 = { "%dth Airborne Battalion" }
+		6 = { "%dth Airborne Battalion" }
+		7 = { "%dth Airborne Battalion" }
+		8 = { "%dth Airborne Battalion" }
+		9 = { "%dth Airborne Battalion" }
+		10 = { "%dth Airborne Battalion" }
+		11 = { "%dth Airborne Battalion" }
+		12 = { "%dth Airborne Battalion" }
+		13 = { "%dth Airborne Battalion" }
+		14 = { "%dth Airborne Battalion" }
+		15 = { "%dth Airborne Battalion" }
+		16 = { "%dth Airborne Battalion" }
+		17 = { "%dth Airborne Battalion" }
+		18 = { "%dth Airborne Battalion" }
+		19 = { "%dth Airborne Battalion" }
+		20 = { "%dth Airborne Battalion" }
+		21 = { "%dst Airborne Battalion" }
+		22 = { "%dnd Airborne Battalion" }
+		23 = { "%drd Airborne Battalion" }
+		24 = { "%dth Airborne Battalion" }
+		25 = { "%dth Airborne Battalion" }
+		26 = { "%dth Airborne Battalion" }
+		27 = { "%dth Airborne Battalion" }
+		28 = { "%dth Airborne Battalion" }
+		29 = { "%dth Airborne Battalion" }
+		30 = { "%dth Airborne Battalion" }
+		31 = { "%dst Airborne Battalion" }
+		32 = { "%dnd Airborne Battalion" }
+		33 = { "%drd Airborne Battalion" }
+		34 = { "%dth Airborne Battalion" }
+		35 = { "%dth Airborne Battalion" }
+		36 = { "%dth Airborne Battalion" }
+		37 = { "%dth Airborne Battalion" }
+		38 = { "%dth Airborne Battalion" }
+		39 = { "%dth Airborne Battalion" }
+		40 = { "%dth Airborne Battalion" }
+		41 = { "%dst Airborne Battalion" }
+		42 = { "%dnd Airborne Battalion" }
+		43 = { "%drd Airborne Battalion" }
+		44 = { "%dth Airborne Battalion" }
+		45 = { "%dth Airborne Battalion" }
+		46 = { "%dth Airborne Battalion" }
+		47 = { "%dth Airborne Battalion" }
+		48 = { "%dth Airborne Battalion" }
+		49 = { "%dth Airborne Battalion" }
+		50 = { "%dth Airborne Battalion" }
+		51 = { "%dst Airborne Battalion" }
+		52 = { "%dnd Airborne Battalion" }
+		53 = { "%drd Airborne Battalion" }
 	}
 }

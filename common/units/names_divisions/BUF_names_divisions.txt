@@ -10,7 +10,7 @@
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leYRK 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leBUF 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -31,7 +31,7 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-YRK_INF_01 = 
+BUF_INF_01 = 
 {
 	name = "Infantry Regiments"
 
@@ -154,7 +154,7 @@ YRK_INF_01 =
 	}
 }
 
-YRK_CAV_01 = 
+BUF_CAV_01 = 
 {
 	name = "Cavalry Regiments"
 
@@ -229,7 +229,7 @@ YRK_CAV_01 =
 	}
 }
 
-YRK_YEO_01 = 
+BUF_YEO_01 = 
 {
 	name = "Yeomanry Regiments"
 
@@ -304,7 +304,7 @@ YRK_YEO_01 =
 	}
 }
 
-YRK_MOT_01 = 
+BUF_MOT_01 = 
 {
 	name = "Motor Battalions"
 
@@ -315,7 +315,7 @@ YRK_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { BUF_INF_01 }
 
 	fallback_name = "%d Motor Battalion"
 
@@ -359,7 +359,7 @@ YRK_MOT_01 =
 	}
 }
 
-YRK_ARM_01 = 
+BUF_ARM_01 = 
 {
 	name = "Armoured Regiments"
 
@@ -370,7 +370,7 @@ YRK_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { BUF_INF_01 }
 
 	fallback_name = "%d Armoured Regiment"
 
@@ -414,7 +414,7 @@ YRK_ARM_01 =
 	}
 }
 
-YRK_MEC_01 = 
+BUF_MEC_01 = 
 {
 	name = "Mechanised Battalions"
 
@@ -425,7 +425,7 @@ YRK_MEC_01 =
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { BUF_INF_01 }
 
 	fallback_name = "%d Mechanised Battalion"
 
@@ -469,7 +469,7 @@ YRK_MEC_01 =
 	}
 }
 
-YRK_GAR_01 = 
+BUF_GAR_01 = 
 {
 	name = "Militia Regiments"
 
@@ -480,68 +480,68 @@ YRK_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YRK_INF_01 }
+	#link_numbering_with = { BUF_INF_01 }
 
-	fallback_name = "%d Local Defence Volunteers"
+	fallback_name = "%d Imperial Legion"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Local Defence Volunteers" }
-		2 = { "%dnd Local Defence Volunteers" }
-		3 = { "%drd Local Defence Volunteers" }
-		4 = { "%dth Local Defence Volunteers" }
-		5 = { "%dth Local Defence Volunteers" }
-		6 = { "%dth Local Defence Volunteers" }
-		7 = { "%dth Local Defence Volunteers" }
-		10 = { "%dth Local Defence Volunteers" }
-		11 = { "%dth Local Defence Volunteers" }
-		12 = { "%dth Local Defence Volunteers" }
-		13 = { "%dth Local Defence Volunteers" }
-		14 = { "%dth Local Defence Volunteers" }
-		15 = { "%dth Local Defence Volunteers" }
-		16 = { "%dth Local Defence Volunteers" }
-		17 = { "%dth Local Defence Volunteers" }
-		18 = { "%dth Local Defence Volunteers" }
-		19 = { "%dth Local Defence Volunteers" }
-		20 = { "%dth Local Defence Volunteers" }
-		21 = { "%dst Local Defence Volunteers" }
-		22 = { "%dnd Local Defence Volunteers" }
-		23 = { "%drd Local Defence Volunteers" }
-		24 = { "%dth Local Defence Volunteers" }
-		25 = { "%dth Local Defence Volunteers" }
-		26 = { "%dth Local Defence Volunteers" }
-		27 = { "%dth Local Defence Volunteers" }
-		28 = { "%dth Local Defence Volunteers" }
-		29 = { "%dth Local Defence Volunteers" }
-		30 = { "%dth Local Defence Volunteers" }
-		31 = { "%dst Local Defence Volunteers" }
-		32 = { "%dnd Local Defence Volunteers" }
-		33 = { "%drd Local Defence Volunteers" }
-		34 = { "%dth Local Defence Volunteers" }
-		35 = { "%dth Local Defence Volunteers" }
-		36 = { "%dth Local Defence Volunteers" }
-		37 = { "%dth Local Defence Volunteers" }
-		38 = { "%dth Local Defence Volunteers" }
-		39 = { "%dth Local Defence Volunteers" }
-		40 = { "%dth Local Defence Volunteers" }
-		41 = { "%dst Local Defence Volunteers" }
-		42 = { "%dnd Local Defence Volunteers" }
-		43 = { "%drd Local Defence Volunteers" }
-		44 = { "%dth Local Defence Volunteers" }
-		45 = { "%dth Local Defence Volunteers" }
-		46 = { "%dth Local Defence Volunteers" }
-		47 = { "%dth Local Defence Volunteers" }
-		48 = { "%dth Local Defence Volunteers" }
-		49 = { "%dth Local Defence Volunteers" }
-		51 = { "%dst Local Defence Volunteers" }
-		52 = { "%dnd Local Defence Volunteers" }
-		53 = { "%drd Local Defence Volunteers" }
+		1 = { "%dst Imperial Legion" }
+		2 = { "%dnd Imperial Legion" }
+		3 = { "%drd Imperial Legion" }
+		4 = { "%dth Imperial Legion" }
+		5 = { "%dth Imperial Legion" }
+		6 = { "%dth Imperial Legion" }
+		7 = { "%dth Imperial Legion" }
+		10 = { "%dth Imperial Legion" }
+		11 = { "%dth Imperial Legion" }
+		12 = { "%dth Imperial Legion" }
+		13 = { "%dth Imperial Legion" }
+		14 = { "%dth Imperial Legion" }
+		15 = { "%dth Imperial Legion" }
+		16 = { "%dth Imperial Legion" }
+		17 = { "%dth Imperial Legion" }
+		18 = { "%dth Imperial Legion" }
+		19 = { "%dth Imperial Legion" }
+		20 = { "%dth Imperial Legion" }
+		21 = { "%dst Imperial Legion" }
+		22 = { "%dnd Imperial Legion" }
+		23 = { "%drd Imperial Legion" }
+		24 = { "%dth Imperial Legion" }
+		25 = { "%dth Imperial Legion" }
+		26 = { "%dth Imperial Legion" }
+		27 = { "%dth Imperial Legion" }
+		28 = { "%dth Imperial Legion" }
+		29 = { "%dth Imperial Legion" }
+		30 = { "%dth Imperial Legion" }
+		31 = { "%dst Imperial Legion" }
+		32 = { "%dnd Imperial Legion" }
+		33 = { "%drd Imperial Legion" }
+		34 = { "%dth Imperial Legion" }
+		35 = { "%dth Imperial Legion" }
+		36 = { "%dth Imperial Legion" }
+		37 = { "%dth Imperial Legion" }
+		38 = { "%dth Imperial Legion" }
+		39 = { "%dth Imperial Legion" }
+		40 = { "%dth Imperial Legion" }
+		41 = { "%dst Imperial Legion" }
+		42 = { "%dnd Imperial Legion" }
+		43 = { "%drd Imperial Legion" }
+		44 = { "%dth Imperial Legion" }
+		45 = { "%dth Imperial Legion" }
+		46 = { "%dth Imperial Legion" }
+		47 = { "%dth Imperial Legion" }
+		48 = { "%dth Imperial Legion" }
+		49 = { "%dth Imperial Legion" }
+		51 = { "%dst Imperial Legion" }
+		52 = { "%dnd Imperial Legion" }
+		53 = { "%drd Imperial Legion" }
 	}
 }
 
-YRK_MAR_01 = 
+BUF_MAR_01 = 
 {
 	name = "Marine Regiments"
 
@@ -552,7 +552,7 @@ YRK_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YRK_GAR_01 }
+	#link_numbering_with = { BUF_GAR_01 }
 
 	fallback_name = "%d Marines"
 
@@ -593,7 +593,7 @@ YRK_MAR_01 =
 	}
 }
 
-YRK_MTN_01 = 
+BUF_MTN_01 = 
 {
 	name = "Mountain Regiments"
 
@@ -604,7 +604,7 @@ YRK_MTN_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { BUF_INF_01 }
 
 	fallback_name = "%d Mountaineers"
 
@@ -668,7 +668,7 @@ YRK_MTN_01 =
 	}
 }
 
-YRK_PAR_01 = 
+BUF_PAR_01 = 
 {
 	name = "Airborne Battalions"
 
@@ -679,7 +679,7 @@ YRK_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { BUF_INF_01 }
 
 	fallback_name = "%d Airborne Battalion"
 

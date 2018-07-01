@@ -10,7 +10,7 @@
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leYRK 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leSOH 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -31,7 +31,7 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-YRK_INF_01 = 
+SOH_INF_01 = 
 {
 	name = "Infantry Regiments"
 
@@ -154,7 +154,7 @@ YRK_INF_01 =
 	}
 }
 
-YRK_CAV_01 = 
+SOH_CAV_01 = 
 {
 	name = "Cavalry Regiments"
 
@@ -229,7 +229,7 @@ YRK_CAV_01 =
 	}
 }
 
-YRK_YEO_01 = 
+SOH_YEO_01 = 
 {
 	name = "Yeomanry Regiments"
 
@@ -304,7 +304,7 @@ YRK_YEO_01 =
 	}
 }
 
-YRK_MOT_01 = 
+SOH_MOT_01 = 
 {
 	name = "Motor Battalions"
 
@@ -315,7 +315,7 @@ YRK_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Motor Battalion"
 
@@ -359,7 +359,7 @@ YRK_MOT_01 =
 	}
 }
 
-YRK_ARM_01 = 
+SOH_ARM_01 = 
 {
 	name = "Armoured Regiments"
 
@@ -370,7 +370,7 @@ YRK_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Armoured Regiment"
 
@@ -414,7 +414,7 @@ YRK_ARM_01 =
 	}
 }
 
-YRK_MEC_01 = 
+SOH_MEC_01 = 
 {
 	name = "Mechanised Battalions"
 
@@ -425,7 +425,7 @@ YRK_MEC_01 =
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Mechanised Battalion"
 
@@ -469,7 +469,7 @@ YRK_MEC_01 =
 	}
 }
 
-YRK_GAR_01 = 
+SOH_GAR_01 = 
 {
 	name = "Militia Regiments"
 
@@ -480,7 +480,7 @@ YRK_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YRK_INF_01 }
+	#link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Local Defence Volunteers"
 
@@ -541,7 +541,7 @@ YRK_GAR_01 =
 	}
 }
 
-YRK_MAR_01 = 
+SOH_MAR_01 = 
 {
 	name = "Marine Regiments"
 
@@ -552,7 +552,7 @@ YRK_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { YRK_GAR_01 }
+	#link_numbering_with = { SOH_GAR_01 }
 
 	fallback_name = "%d Marines"
 
@@ -593,7 +593,7 @@ YRK_MAR_01 =
 	}
 }
 
-YRK_MTN_01 = 
+SOH_MTN_01 = 
 {
 	name = "Mountain Regiments"
 
@@ -604,7 +604,7 @@ YRK_MTN_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Mountaineers"
 
@@ -668,7 +668,7 @@ YRK_MTN_01 =
 	}
 }
 
-YRK_PAR_01 = 
+SOH_PAR_01 = 
 {
 	name = "Airborne Battalions"
 
@@ -679,7 +679,7 @@ YRK_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { YRK_INF_01 }
+	link_numbering_with = { SOH_INF_01 }
 
 	fallback_name = "%d Airborne Battalion"
 
