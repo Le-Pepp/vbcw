@@ -33,6 +33,17 @@ division_template = {
 	}
 }
 division_template = {
+	name = "Yeomanry Brigade"
+	division_names_group = ANG_YEO_01
+
+	regiments = {
+		yeomanry = { x = 0 y = 0 }
+		yeomanry = { x = 0 y = 1 }
+		yeomanry = { x = 0 y = 2 }
+        yeomanry = { x = 0 y = 3 }
+	}
+}
+division_template = {
 	name = "Tank Brigade"
 	division_names_group = ANG_ARM_01
 	regiments = {
@@ -46,12 +57,12 @@ division_template = {
 	division_names_group = ANG_GAR_01
 	
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
 	}
 	priority = 0
 }
