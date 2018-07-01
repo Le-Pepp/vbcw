@@ -17,6 +17,7 @@ state={
 		add_core_of = SOM
 		victory_points { 908 10 }
 		victory_points { 939 10 }
+		victory_points { 1014 10 }
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

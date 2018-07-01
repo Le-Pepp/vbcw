@@ -18,6 +18,7 @@ state={
 		add_core_of = SOD
 		victory_points { 1405 10 }
 		victory_points { 1418 10 }
+		victory_points { 1452 10 }
 		victory_points { 1474 25 }
 		buildings = {
 			infrastructure = 6

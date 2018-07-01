@@ -2,7 +2,7 @@ state={
 	id=62
 	name="STATE_62"
 	provinces={
-		454 459 476 497 529 556 565 
+		454 459 476 497 529 556 565 2133
 	}
 	manpower=750000
 	
@@ -11,6 +11,7 @@ state={
 	history={
 		owner = WAL
 		add_core_of = WAL
+		victory_points { 2133 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
