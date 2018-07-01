@@ -35,7 +35,7 @@ GEN_INF_01 =
 {
 	name = "Infantry Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -158,7 +158,7 @@ GEN_CAV_01 =
 {
 	name = "Cavalry Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -233,7 +233,7 @@ GEN_YEO_01 =
 {
 	name = "Yeomanry Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -308,7 +308,7 @@ GEN_MOT_01 =
 {
 	name = "Motor Battalions"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -363,7 +363,7 @@ GEN_ARM_01 =
 {
 	name = "Armoured Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -418,7 +418,7 @@ GEN_MEC_01 =
 {
 	name = "Mechanised Battalions"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -473,7 +473,7 @@ GEN_GAR_01 =
 {
 	name = "Militia Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -545,7 +545,7 @@ GEN_MAR_01 =
 {
 	name = "Marine Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -597,7 +597,7 @@ GEN_MTN_01 =
 {
 	name = "Mountain Regiments"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
@@ -672,7 +672,7 @@ GEN_PAR_01 =
 {
 	name = "Airborne Battalions"
 
-	for_countries = { GEN }
+	for_countries = {  }
 
 	can_use = { always = yes }
 
