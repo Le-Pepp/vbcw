@@ -16,6 +16,10 @@ state={
 	history={
 		owner = SOG
 		add_core_of = SOG
+		add_claim_by = ROY
+		add_claim_by = YRK
+		add_claim_by = JAC
+		add_claim_by = SCO
 		victory_points { 1674 10 }
 		victory_points { 1695 10 }
 		buildings = {

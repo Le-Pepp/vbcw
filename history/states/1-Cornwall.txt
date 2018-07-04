@@ -34,5 +34,8 @@ state={
 			}
 		}
 		add_core_of = KER
+		add_claim_by = ROY
+		add_claim_by = ANG
+		add_claim_by = YRK
 	}
 }

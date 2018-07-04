@@ -11,6 +11,8 @@ state={
 	history={
 		owner = WAL
 		add_core_of = WAL
+		add_claim_by = ROY
+		add_claim_by = YRK
 		victory_points { 800 10 }
 		buildings = {
 			infrastructure = 4

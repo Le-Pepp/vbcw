@@ -27,5 +27,8 @@ state={
 			}
 		}
 		add_core_of = JAC
+		add_claim_by = ROY
+		add_claim_by = YRK
+		add_claim_by = SCO
 	}
 }

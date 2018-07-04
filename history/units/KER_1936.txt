@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"			
-	division_names_group = ROY_INF_01
+	division_names_group = KER_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -20,7 +20,7 @@
 }
 division_template = {
 	name = "Cavalry Brigade"
-	division_names_group = ROY_CAV_01
+	division_names_group = KER_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -34,7 +34,7 @@ division_template = {
 }
 division_template = {
 	name = "Yeomanry Brigade"
-	division_names_group = ROY_YEO_01
+	division_names_group = KER_YEO_01
 
 	regiments = {
 		yeomanry = { x = 0 y = 0 }
@@ -45,7 +45,7 @@ division_template = {
 }
 division_template = {
 	name = "Tank Brigade"
-	division_names_group = ROY_ARM_01
+	division_names_group = KER_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -54,7 +54,7 @@ division_template = {
 }
 division_template = {
 	name = "Local Levy"
-	division_names_group = ROY_GAR_01
+	division_names_group = KER_GAR_01
 	
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -74,7 +74,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 511
+		location = 55
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 	}
@@ -86,26 +86,13 @@ units = {
 	################
 	
 	navy = {				
-		name = "Devon Fleet"			
-		base = 100
-		location = 100 # Dover
-		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ROY } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "ROY" amount = 9 }
-				cv_nav_bomber_equipment_1 =  { owner = "ROY" amount = 12 }
-			}
-		}			
-		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }				
-		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }			
-		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }					
-		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ROY  } } }
-		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROY } } }
-		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }			
-		ship = { name = "HMS Shikari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
-		ship = { name = "HMS Venetia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
-		ship = { name = "HMS Vanessa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
-		ship = { name = "HMS Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
-		ship = { name = "HMS Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }
+		name = "Cornish Navy"			
+		base = 68
+		location = 68
+		ship = { name = "Lancelot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
+		ship = { name = "Galahad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
+		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
+		ship = { name = "Bedevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }
 	}
 }	
 
@@ -116,9 +103,9 @@ units = {
 	
 air_wings = {
 
-	16 = { 
+	1 = { 
 		fighter_equipment_0 = {
-			owner = "ROY" 
+			owner = "KER" 
 			amount = 32
 		}
 	}
@@ -133,9 +120,9 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "ROY"
+			creator = "KER"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}

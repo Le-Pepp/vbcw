@@ -79,6 +79,14 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = "People's Armies"
+add_to_faction = SOM
+add_to_faction = SOC
+add_to_faction = SOD
+add_to_faction = SOH
+add_to_faction = SON
+add_to_faction = SOG
+
 set_convoys = 50
 
 create_country_leader = {

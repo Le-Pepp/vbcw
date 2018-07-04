@@ -17,5 +17,7 @@ state={
 			arms_factory = 2
 		}
 		add_core_of = YRK
+		add_claim_by = ROY
+		add_claim_by = ANG
 	}
 }

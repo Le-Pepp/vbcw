@@ -11,7 +11,9 @@ state={
 	
 	history={
 		owner = IRL
-		add_core_of = IRL
+		add_claim_by = IRL
+		add_claim_by = ROY
+		add_claim_by = YRK
 		buildings = {
 			infrastructure = 6
 			air_base = 1

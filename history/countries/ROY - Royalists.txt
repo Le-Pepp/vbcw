@@ -79,6 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Legitimists
+add_to_faction = ROY
+add_to_faction = BUF
+
 set_convoys = 50
 
 create_country_leader = {
