@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"			
-	division_names_group = KER_INF_01
+	division_names_group = BUF_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,7 +19,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = KER_CAV_01
+	division_names_group = BUF_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -35,7 +35,7 @@ division_template = {
 }
 division_template = {
 	name = "Yeomanry Regiment"
-	division_names_group = KER_YEO_01
+	division_names_group = BUF_YEO_01
 
 	regiments = {
 		yeomanry = { x = 0 y = 0 }
@@ -48,8 +48,8 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Tank Battalion"
-	division_names_group = KER_ARM_01
+	name = "Tank Battlion"
+	division_names_group = BUF_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -57,8 +57,8 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Local Defence Volunteers"
-	division_names_group = KER_GAR_01
+	name = "Auxiliary Legion"
+	division_names_group = BUF_GAR_01
 	
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -76,14 +76,23 @@ division_template = {
 
 
 units = {
-	division= {	# "1st Infantry Division"
+	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 55
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.3
+		location = 301
+		division_template = "Auxiliary Legion"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 300
+		division_template = "Auxiliary Legion"
+		start_experience_factor = 0.2
 	}
 
 
@@ -93,13 +102,16 @@ units = {
 	################
 	
 	navy = {				
-		name = "Cornish Navy"			
-		base = 68
-		location = 68
-		ship = { name = "Lancelot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
-		ship = { name = "Galahad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Bedevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }
+		name = "Essex Fleet"			
+		base = 327
+		location = 327
+		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BUF } } }
+		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }			
+		ship = { name = "HMS Shikari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }	
+		ship = { name = "HMS Venetia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }	
+		ship = { name = "HMS Vanessa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }	
+		ship = { name = "HMS Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }	
+		ship = { name = "HMS Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BUF } } }
 	}
 }	
 
@@ -110,9 +122,9 @@ units = {
 	
 air_wings = {
 
-	1 = { 
+	20 = { 
 		fighter_equipment_0 = {
-			owner = "KER" 
+			owner = "BUF" 
 			amount = 32
 		}
 	}
@@ -127,9 +139,9 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "KER"
+			creator = "BUF"
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}

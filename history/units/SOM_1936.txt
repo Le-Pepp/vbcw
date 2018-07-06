@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Regiment"			
-	division_names_group = KER_INF_01
+	division_names_group = SOM_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,7 +19,7 @@
 }
 division_template = {
 	name = "Cavalry Regiment"
-	division_names_group = KER_CAV_01
+	division_names_group = SOM_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -35,7 +35,7 @@ division_template = {
 }
 division_template = {
 	name = "Yeomanry Regiment"
-	division_names_group = KER_YEO_01
+	division_names_group = SOM_YEO_01
 
 	regiments = {
 		yeomanry = { x = 0 y = 0 }
@@ -48,8 +48,8 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Tank Battalion"
-	division_names_group = KER_ARM_01
+	name = "Tank Battlion"
+	division_names_group = SOM_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
@@ -58,7 +58,7 @@ division_template = {
 }
 division_template = {
 	name = "Local Defence Volunteers"
-	division_names_group = KER_GAR_01
+	division_names_group = SOM_GAR_01
 	
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -76,30 +76,14 @@ division_template = {
 
 
 units = {
-	division= {	# "1st Infantry Division"
+	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 55
+		location = 647
 		division_template = "Infantry Regiment"
-		start_experience_factor = 0.3
-	}
-
-
-	
-	################
-	##### NAVY #####
-	################
-	
-	navy = {				
-		name = "Cornish Navy"			
-		base = 68
-		location = 68
-		ship = { name = "Lancelot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
-		ship = { name = "Galahad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Bedevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }
+		start_experience_factor = 0.2
 	}
 }	
 
@@ -110,9 +94,9 @@ units = {
 	
 air_wings = {
 
-	1 = { 
+	41 = { 
 		fighter_equipment_0 = {
-			owner = "KER" 
+			owner = "SOM" 
 			amount = 32
 		}
 	}
@@ -127,9 +111,9 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "KER"
+			creator = "SOM"
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}

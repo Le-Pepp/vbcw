@@ -6,12 +6,11 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+        infantry = { x = 1 y = 3 }
 	}
 	support = {
        	engineer = { x = 0 y = 0 }
@@ -19,32 +18,37 @@
 	}
 }
 division_template = {
-	name = "Cavalry Brigade"
+	name = "Cavalry Regiment"
 	division_names_group = ANG_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
-        cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 	support = {
         recon = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Yeomanry Brigade"
+	name = "Yeomanry Regiment"
 	division_names_group = ANG_YEO_01
 
 	regiments = {
 		yeomanry = { x = 0 y = 0 }
 		yeomanry = { x = 0 y = 1 }
 		yeomanry = { x = 0 y = 2 }
-        yeomanry = { x = 0 y = 3 }
+		yeomanry = { x = 1 y = 0 }
+		yeomanry = { x = 1 y = 1 }
+		yeomanry = { x = 1 y = 2 }
 	}
+	priority = 0
 }
 division_template = {
-	name = "Tank Brigade"
+	name = "Tank Battlion"
 	division_names_group = ANG_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
@@ -53,7 +57,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Local Levy"
+	name = "Local Defence Volunteers"
 	division_names_group = ANG_GAR_01
 	
 	regiments = {
@@ -63,6 +67,9 @@ division_template = {
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
 	}
 	priority = 0
 }
