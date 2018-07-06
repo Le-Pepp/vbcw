@@ -25,23 +25,28 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_organisation = 12.5
-		max_strength = 6
-		default_morale = 0.3
-		manpower = 250
+		max_strength = 20
+		max_organisation = 40
+		default_morale = 0.35
+		manpower = 150
 
 		#Misc Abilities
 		maximum_speed = 0.6
-		training_time = 15		
-		weight = 0.125
+		training_time = 120		
+		weight = 0.5
 		
 		supply_consumption = 0.12
 
 		#Offensive Abilities
 		suppression = 1.5
+		soft_attack = -0.5
+		hard_attack = -0.5
+		ap_attack = -1
+		defense = -0.3		# militia can't defend effectively
+		breakthrough = -0.3	# militia can't attack effectively
 	
 		need = {
-			infantry_equipment = 15
+			infantry_equipment = 150
 		}
 
 		forest = {

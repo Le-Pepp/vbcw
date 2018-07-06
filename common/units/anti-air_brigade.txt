@@ -28,15 +28,15 @@ sub_units = {
 		#Size Definitions
 		max_organisation = 0
 		default_morale = 0.1
-		max_strength = 0.15
-		manpower = 125
-		training_time = 30
-		weight = 0.125
+		max_strength = 0.6
+		manpower = 100
+		training_time = 20
+		weight = 0.5
 		
 		supply_consumption = 0.1
 
 		need = {
-			anti_air_equipment = 9
+			anti_air_equipment = 12
 		}
 
 		forest = {

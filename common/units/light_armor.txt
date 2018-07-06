@@ -27,12 +27,12 @@ sub_units = {
 			light_tank_equipment = 15
 		}
 		manpower = 125
-		max_organisation = 2.5
+		max_organisation = 10
 		default_morale = 0.3
-		training_time = 45
-		max_strength = 0.5
+		training_time = 180
+		max_strength = 2
 		weight = 1
-		supply_consumption = 0.05
+		supply_consumption = 0.2
 
 		#Tanks are awesome
 		# soft_attack = 0.5

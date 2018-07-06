@@ -22,14 +22,14 @@ sub_units = {
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 0.25
+		max_strength = 1
 		max_organisation = 0	
 		default_morale = 0.3
-		manpower = 125
-		training_time = 45
+		manpower = 50
+		training_time = 180
 
 		#Misc Abilities
-		weight = 0.025
+		weight = 0.1
 		supply_consumption = 0.02
 		can_be_parachuted = yes
 		
@@ -42,8 +42,8 @@ sub_units = {
 		}
 		
 		need = {
-			support_equipment = 2
-			infantry_equipment = 10
+			support_equipment = 5
+			infantry_equipment = 50
 		}
 
 	}

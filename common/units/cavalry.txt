@@ -25,15 +25,15 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_organisation = 17.5
-		max_strength = 6.25
+		max_organisation = 70
+		max_strength = 25
 		default_morale = 0.3
-		manpower = 250
+		manpower = 150
 
 		#Misc Abilities
 		maximum_speed = 0.6
-		training_time = 30		
-		weight = 0.125
+		training_time = 120		
+		weight = 0.5
 		
 		supply_consumption = 0.12
 
@@ -41,7 +41,7 @@ sub_units = {
 		suppression = 2
 	
 		need = {
-			infantry_equipment = 30
+			infantry_equipment = 150
 		}
 
 		forest = {
