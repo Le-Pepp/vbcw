@@ -79,6 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	BUF_auxiliary_constabularies
+}
+
 set_convoys = 50
 
 create_country_leader = {

@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		ANG_jam_and_jerusalem = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				out_of_supply_factor = -0.25
+				army_speed_factor = -0.1
+			}
+		}
+	}
+}

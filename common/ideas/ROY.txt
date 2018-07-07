@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+		ROY_cavalry_elan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				cavalry_attack_factor = 0.25
+				cavalry_defence_factor = -0.25
+				motorized_attack_factor = 0.25
+				motorized_defence_factor = -0.25
+			}
+		}
+	}
+}

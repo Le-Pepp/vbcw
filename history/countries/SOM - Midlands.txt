@@ -79,6 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	SOM_strike_up_the_band
+}
+
 create_faction = "People's Armies"
 add_to_faction = SOM
 add_to_faction = SOC

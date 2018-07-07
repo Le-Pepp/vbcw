@@ -79,6 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	ANG_jam_and_jerusalem
+}
+
 set_convoys = 50
 
 create_country_leader = {

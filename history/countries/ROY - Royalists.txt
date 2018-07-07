@@ -79,6 +79,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	ROY_cavalry_elan
+}
+
 create_faction = Legitimists
 add_to_faction = ROY
 add_to_faction = BUF

@@ -10,14 +10,23 @@ bookmarks = {
 		"ROY"={
 			history = "ROY_VBCW_DESC"
 			ideology = conservative
+			ideas = {
+				ROY_cavalry_elan
+			}
 		}
 		"BUF"={
 			history = "BUF_VBCW_DESC"
 			ideology = fascist
+			ideas = {
+				BUF_auxiliary_constabularies
+			}
 		}
 		"ANG"={
 			history = "ANG_VBCW_DESC"
 			ideology = conservative
+			ideas = {
+				ANG_jam_and_jerusalem
+			}
 		}
 		"YRK"={
 			history = "YRK_VBCW_DESC"
@@ -29,7 +38,10 @@ bookmarks = {
 		}
 		"SOM"={
 			history = "SOM_VBCW_DESC"
-			ideology = democratic_socialist			
+			ideology = democratic_socialist	
+			ideas = {
+				SOM_strike_up_the_band
+			}		
 		}
 		"IRL"={
 			history = "IRL_VBCW_DESC"

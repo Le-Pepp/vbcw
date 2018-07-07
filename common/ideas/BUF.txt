@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		BUF_auxiliary_constabularies = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+			
+			modifier = {
+				enemy_partisan_effect = -0.25
+				conscription_factor = -0.25
+			}
+		}
+	}
+}
