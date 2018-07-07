@@ -1,6 +1,6 @@
 ﻿capital = 57
 
-OOB = "SON_1936"
+OOB = "SOC_1936"
 
 set_research_slots = 2
 

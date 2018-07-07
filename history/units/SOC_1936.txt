@@ -93,8 +93,8 @@ units = {
 	
 	navy = {				
 		name = "Cardiff Fleet"			
-		base = 1452
-		location = 1452
+		base = 253
+		location = 253
 		ship = { name = "Rhondda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }			
 		ship = { name = "Rhymney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }	
 		ship = { name = "Taff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }	
@@ -121,14 +121,13 @@ air_wings = {
 	## STARTING PRODUCTION ##
 	#########################
 instant_effect = {
-	
 
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "SOC"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.1
 		efficiency = 50
 	}
