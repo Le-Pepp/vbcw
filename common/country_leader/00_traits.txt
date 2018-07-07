@@ -19,6 +19,43 @@ leader_traits = {
 		}
 	}
 
+	imperial_sanction = {
+		random = no
+
+		targeted_modifier = {
+			tag = CHI
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = PRC
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = SHX
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = GXC
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = YUN
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = XSM
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = SIK
+			generate_wargoal_tension_against = 0.75
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	emperor_showa = {
 		random = no
 		stability_factor = 0.6 #FOR THE EMPERAH
@@ -105,6 +142,19 @@ leader_traits = {
 #ai_focus_naval_factor
 #ai_focus_naval_air_factor
 #ai_focus_aviation_factor 
+	
+	dislikes_germany = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "GER"			
+			value = 200
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	tenacious_defender = {
 		random = no
@@ -228,6 +278,25 @@ leader_traits = {
 		}
 	}
 
+	fascist_sympathies = {
+		random = no		
+		fascist_acceptance = 70
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_communist = {
+		random = no
+		communist_acceptance = -50
+		communist_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	camarilla_leader = {
 		random = no
 		political_advisor_cost_factor = -0.25
@@ -255,6 +324,19 @@ leader_traits = {
 	appeaser = {
 		random = yes
 		war_support_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_democrat = {
+		random = no
+		conservative_acceptance = -50
+		conservative_drift = -0.02
+		liberal_acceptance = -50
+		liberal_drift = -0.02
+		stability_factor = 0.10
 
 		ai_will_do = {
 			factor = 1
@@ -303,10 +385,6 @@ leader_traits = {
 
 	victoria_iii = {
 		stability_factor = 0.05
-	}
-
-	incognito = {
-		drift_defence_factor = 0.15
 	}
 
 	nationalist_symbol = {

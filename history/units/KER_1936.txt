@@ -48,16 +48,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Tank Battalion"
-	division_names_group = KER_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Local Defence Volunteers"
+	name = "KLA Battalions"
 	division_names_group = KER_GAR_01
 	
 	regiments = {
@@ -76,14 +67,59 @@ division_template = {
 
 
 units = {
-	division= {	# "1st Infantry Division"
+	division= {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 100
 		}
-		location = 55
+		location = 78
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = 97
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 56
+		division_template = "KLA Battalions"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 78
+		division_template = "KLA Battalions"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 97
+		division_template = "KLA Battalions"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 112
+		division_template = "KLA Battalions"
+		start_experience_factor = 0.0
 	}
 
 
@@ -96,10 +132,8 @@ units = {
 		name = "Cornish Navy"			
 		base = 68
 		location = 68
-		ship = { name = "Lancelot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
-		ship = { name = "Galahad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
-		ship = { name = "Bedevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }
+		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
+		ship = { name = "Gwynevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
 	}
 }	
 
@@ -113,7 +147,7 @@ air_wings = {
 	1 = { 
 		fighter_equipment_0 = {
 			owner = "KER" 
-			amount = 32
+			amount = 12
 		}
 	}
 }

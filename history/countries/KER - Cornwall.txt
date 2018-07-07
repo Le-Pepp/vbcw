@@ -67,6 +67,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	limited_conscription
+	KER_kernow_bys_vykken
+}
+
 set_convoys = 10
 
 #Victor Emmanuel III of Italy after 39
@@ -82,13 +87,52 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Cousin Jack"
+	name = "Simon Bolitho"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
-	skill = 2
+	traits = { defensive_doctrine }
+	skill = 3
 	attack_skill = 1
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Clive Burn"
+	portrait_path = "gfx/leaders/VBCW/KER-Burn.dds"
+	traits = { war_hero }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "John Carew Pole"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_officer }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Charles Hanson"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  }
+	skill = 1
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Frederick Edward-Collins"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { spotter }
+	skill = 3
+}

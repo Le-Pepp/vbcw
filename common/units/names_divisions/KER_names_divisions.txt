@@ -149,8 +149,8 @@ KER_INF_01 =
 		97 = { "%dth Infantry Regiment" }
 		98 = { "%dth Infantry Regiment" }
 		99 = { "%dth Infantry Regiment" }
-		100 = { "%dth Infantry Regiment" }
-		101 = { "%dst Infantry Regiment" }
+		100 = { "1st Battalion Duke of Cornwall's Light Infantry" }
+		101 = { "2nd Battalion Duke of Cornwall's Light Infantry" }
 	}
 }
 
@@ -471,7 +471,7 @@ KER_MEC_01 =
 
 KER_GAR_01 = 
 {
-	name = "Militia Regiments"
+	name = "Kernow Liberation Army"
 
 	for_countries = { KER }
 
@@ -482,62 +482,62 @@ KER_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { KER_INF_01 }
 
-	fallback_name = "%d Local Defence Volunteers"
+	fallback_name = "%d Kernow Liberation Army"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Local Defence Volunteers" }
-		2 = { "%dnd Local Defence Volunteers" }
-		3 = { "%drd Local Defence Volunteers" }
-		4 = { "%dth Local Defence Volunteers" }
-		5 = { "%dth Local Defence Volunteers" }
-		6 = { "%dth Local Defence Volunteers" }
-		7 = { "%dth Local Defence Volunteers" }
-		10 = { "%dth Local Defence Volunteers" }
-		11 = { "%dth Local Defence Volunteers" }
-		12 = { "%dth Local Defence Volunteers" }
-		13 = { "%dth Local Defence Volunteers" }
-		14 = { "%dth Local Defence Volunteers" }
-		15 = { "%dth Local Defence Volunteers" }
-		16 = { "%dth Local Defence Volunteers" }
-		17 = { "%dth Local Defence Volunteers" }
-		18 = { "%dth Local Defence Volunteers" }
-		19 = { "%dth Local Defence Volunteers" }
-		20 = { "%dth Local Defence Volunteers" }
-		21 = { "%dst Local Defence Volunteers" }
-		22 = { "%dnd Local Defence Volunteers" }
-		23 = { "%drd Local Defence Volunteers" }
-		24 = { "%dth Local Defence Volunteers" }
-		25 = { "%dth Local Defence Volunteers" }
-		26 = { "%dth Local Defence Volunteers" }
-		27 = { "%dth Local Defence Volunteers" }
-		28 = { "%dth Local Defence Volunteers" }
-		29 = { "%dth Local Defence Volunteers" }
-		30 = { "%dth Local Defence Volunteers" }
-		31 = { "%dst Local Defence Volunteers" }
-		32 = { "%dnd Local Defence Volunteers" }
-		33 = { "%drd Local Defence Volunteers" }
-		34 = { "%dth Local Defence Volunteers" }
-		35 = { "%dth Local Defence Volunteers" }
-		36 = { "%dth Local Defence Volunteers" }
-		37 = { "%dth Local Defence Volunteers" }
-		38 = { "%dth Local Defence Volunteers" }
-		39 = { "%dth Local Defence Volunteers" }
-		40 = { "%dth Local Defence Volunteers" }
-		41 = { "%dst Local Defence Volunteers" }
-		42 = { "%dnd Local Defence Volunteers" }
-		43 = { "%drd Local Defence Volunteers" }
-		44 = { "%dth Local Defence Volunteers" }
-		45 = { "%dth Local Defence Volunteers" }
-		46 = { "%dth Local Defence Volunteers" }
-		47 = { "%dth Local Defence Volunteers" }
-		48 = { "%dth Local Defence Volunteers" }
-		49 = { "%dth Local Defence Volunteers" }
-		51 = { "%dst Local Defence Volunteers" }
-		52 = { "%dnd Local Defence Volunteers" }
-		53 = { "%drd Local Defence Volunteers" }
+		1 = { "%dst Kernow Liberation Army" }
+		2 = { "%dnd Kernow Liberation Army" }
+		3 = { "%drd Kernow Liberation Army" }
+		4 = { "%dth Kernow Liberation Army" }
+		5 = { "%dth Kernow Liberation Army" }
+		6 = { "%dth Kernow Liberation Army" }
+		7 = { "%dth Kernow Liberation Army" }
+		10 = { "%dth Kernow Liberation Army" }
+		11 = { "%dth Kernow Liberation Army" }
+		12 = { "%dth Kernow Liberation Army" }
+		13 = { "%dth Kernow Liberation Army" }
+		14 = { "%dth Kernow Liberation Army" }
+		15 = { "%dth Kernow Liberation Army" }
+		16 = { "%dth Kernow Liberation Army" }
+		17 = { "%dth Kernow Liberation Army" }
+		18 = { "%dth Kernow Liberation Army" }
+		19 = { "%dth Kernow Liberation Army" }
+		20 = { "%dth Kernow Liberation Army" }
+		21 = { "%dst Kernow Liberation Army" }
+		22 = { "%dnd Kernow Liberation Army" }
+		23 = { "%drd Kernow Liberation Army" }
+		24 = { "%dth Kernow Liberation Army" }
+		25 = { "%dth Kernow Liberation Army" }
+		26 = { "%dth Kernow Liberation Army" }
+		27 = { "%dth Kernow Liberation Army" }
+		28 = { "%dth Kernow Liberation Army" }
+		29 = { "%dth Kernow Liberation Army" }
+		30 = { "%dth Kernow Liberation Army" }
+		31 = { "%dst Kernow Liberation Army" }
+		32 = { "%dnd Kernow Liberation Army" }
+		33 = { "%drd Kernow Liberation Army" }
+		34 = { "%dth Kernow Liberation Army" }
+		35 = { "%dth Kernow Liberation Army" }
+		36 = { "%dth Kernow Liberation Army" }
+		37 = { "%dth Kernow Liberation Army" }
+		38 = { "%dth Kernow Liberation Army" }
+		39 = { "%dth Kernow Liberation Army" }
+		40 = { "%dth Kernow Liberation Army" }
+		41 = { "Liskeard Kernow Liberation Army" }
+		42 = { "Saltash Kernow Liberation Army" }
+		43 = { "Bodmin Kernow Liberation Army" }
+		44 = { "Falmouth Kernow Liberation Army" }
+		45 = { "Padstow Kernow Liberation Army" }
+		46 = { "%dth Kernow Liberation Army" }
+		47 = { "%dth Kernow Liberation Army" }
+		48 = { "%dth Kernow Liberation Army" }
+		49 = { "%dth Kernow Liberation Army" }
+		51 = { "%dst Kernow Liberation Army" }
+		52 = { "%dnd Kernow Liberation Army" }
+		53 = { "%drd Kernow Liberation Army" }
 	}
 }
 
