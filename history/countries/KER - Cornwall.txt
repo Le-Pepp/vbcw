@@ -70,6 +70,7 @@ set_politics = {
 add_ideas = {
 	limited_conscription
 	KER_kernow_bys_vykken
+	no_man_an_island
 }
 
 set_convoys = 10

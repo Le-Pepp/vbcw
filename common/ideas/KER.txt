@@ -92,6 +92,21 @@ ideas = {
 			
 			modifier = { local_resources_factor = 0.10
 			}
+		}		
+
+		ker_redruth_wireless_co = {
+
+			picture = generic_electronics_concern_1
+			
+			allowed = {
+				original_TAG = KER
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
 		}
 	}
 

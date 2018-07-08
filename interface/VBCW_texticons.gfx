@@ -13,7 +13,7 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GF_unit_militia_icon_small"
+		name = "GFX_unit_militia_icon_small"
 		texturefile = "gfx/texticons/unit_militia_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
