@@ -1,0 +1,79 @@
+objectTypes = {
+
+	####
+	# Sloop
+	####
+	pdxmesh = {
+		name = "generic_sloop_mesh"
+		file = "gfx/models/units/ships/generic_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+	}
+
+	####
+	# Corvette
+	####
+	pdxmesh = {
+		name = "generic_corvette_mesh"
+		file = "gfx/models/units/ships/generic_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+	}
+
+	####
+	# Trawler
+	####
+	pdxmesh = {
+		name = "generic_trawler_mesh"
+		file = "gfx/models/units/ships/generic_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+	}
+
+	####
+	# Gunboat
+	####
+	pdxmesh = {
+		name = "generic_gunboat_mesh"
+		file = "gfx/models/units/ships/generic_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+	}
+
+	####
+	# Torpedo Boat
+	####
+	pdxmesh = {
+		name = "generic_torpedo_boat_mesh"
+		file = "gfx/models/units/ships/generic_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+	}
+	
+	
+}

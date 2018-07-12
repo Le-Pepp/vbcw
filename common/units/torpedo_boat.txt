@@ -1,0 +1,17 @@
+sub_units = {
+	torpedo_boat = {
+		sprite = torpedo_boat
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { screen_ship }
+		need = { torpedo_boat = 1 }
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+
+}
+
+	

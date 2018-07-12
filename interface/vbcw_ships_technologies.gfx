@@ -1,0 +1,56 @@
+spriteTypes = {
+###CORVETTE###
+	SpriteType = { name = "GFX_early_corvette_medium"		texturefile = "gfx/interface/technologies/corvette_1.dds" }	
+	SpriteType = { name = "GFX_basic_corvette_medium"		texturefile = "gfx/interface/technologies/corvette_2.dds" }	
+	SpriteType = { name = "GFX_improved_corvette_medium"	texturefile = "gfx/interface/technologies/corvette_3.dds" }	
+	SpriteType = { name = "GFX_advanced_corvette_medium"	texturefile = "gfx/interface/technologies/corvette_3.dds" }
+	
+	SpriteType = { name = "GFX_corvette_1_medium"			texturefile = "gfx/interface/technologies/corvette_1.dds" }
+	SpriteType = { name = "GFX_corvette_2_medium"			texturefile = "gfx/interface/technologies/corvette_2.dds" }	
+	SpriteType = { name = "GFX_corvette_3_medium"			texturefile = "gfx/interface/technologies/corvette_3.dds" }	
+	SpriteType = { name = "GFX_corvette_4_medium"			texturefile = "gfx/interface/technologies/corvette_3.dds" }
+
+###SLOOP###
+	SpriteType = { name = "GFX_early_sloop_medium"			texturefile = "gfx/interface/technologies/sloop_1.dds" }	
+	SpriteType = { name = "GFX_basic_sloop_medium"			texturefile = "gfx/interface/technologies/sloop_2.dds" }	
+	SpriteType = { name = "GFX_improved_sloop_medium"		texturefile = "gfx/interface/technologies/sloop_3.dds" }	
+	SpriteType = { name = "GFX_advanced_sloop_medium"		texturefile = "gfx/interface/technologies/sloop_3.dds" }
+	
+	SpriteType = { name = "GFX_sloop_1_medium"				texturefile = "gfx/interface/technologies/sloop_1.dds" }
+	SpriteType = { name = "GFX_sloop_2_medium"				texturefile = "gfx/interface/technologies/sloop_2.dds" }	
+	SpriteType = { name = "GFX_sloop_3_medium"				texturefile = "gfx/interface/technologies/sloop_3.dds" }	
+	SpriteType = { name = "GFX_sloop_4_medium"				texturefile = "gfx/interface/technologies/sloop_3.dds" }
+	
+###TRAWLER###	
+	SpriteType = { name = "GFX_early_trawler_medium"		texturefile = "gfx/interface/technologies/trawler_1.dds" }	
+	SpriteType = { name = "GFX_basic_trawler_medium"		texturefile = "gfx/interface/technologies/trawler_2.dds" }	
+	SpriteType = { name = "GFX_improved_trawler_medium"		texturefile = "gfx/interface/technologies/trawler_3.dds" }	
+	SpriteType = { name = "GFX_advanced_trawler_medium"		texturefile = "gfx/interface/technologies/trawler_3.dds" }
+	
+	SpriteType = { name = "GFX_trawler_1_medium"			texturefile = "gfx/interface/technologies/trawler_1.dds" }
+	SpriteType = { name = "GFX_trawler_2_medium"			texturefile = "gfx/interface/technologies/trawler_2.dds" }	
+	SpriteType = { name = "GFX_trawler_3_medium"			texturefile = "gfx/interface/technologies/trawler_3.dds" }	
+	SpriteType = { name = "GFX_trawler_4_medium"			texturefile = "gfx/interface/technologies/trawler_3.dds" }
+	
+###GUNBOAT###
+	SpriteType = { name = "GFX_early_gunboat_medium"		texturefile = "gfx/interface/technologies/gunboat_1.dds" }	
+	SpriteType = { name = "GFX_basic_gunboat_medium"		texturefile = "gfx/interface/technologies/gunboat_2.dds" }	
+	SpriteType = { name = "GFX_improved_gunboat_medium"		texturefile = "gfx/interface/technologies/gunboat_3.dds" }	
+	SpriteType = { name = "GFX_advanced_gunboat_medium"		texturefile = "gfx/interface/technologies/gunboat_3.dds" }
+	
+	SpriteType = { name = "GFX_gunboat_1_medium"			texturefile = "gfx/interface/technologies/gunboat_1.dds" }
+	SpriteType = { name = "GFX_gunboat_2_medium"			texturefile = "gfx/interface/technologies/gunboat_2.dds" }	
+	SpriteType = { name = "GFX_gunboat_3_medium"			texturefile = "gfx/interface/technologies/gunboat_3.dds" }	
+	SpriteType = { name = "GFX_gunboat_4_medium"			texturefile = "gfx/interface/technologies/gunboat_3.dds" }
+	
+###TORPEDO BOAT###
+	SpriteType = { name = "GFX_early_torpedo_boat_medium"		texturefile = "gfx/interface/technologies/torpedo_boat_1.dds" }	
+	SpriteType = { name = "GFX_basic_torpedo_boat_medium"		texturefile = "gfx/interface/technologies/torpedo_boat_2.dds" }	
+	SpriteType = { name = "GFX_improved_torpedo_boat_medium"	texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }	
+	SpriteType = { name = "GFX_advanced_torpedo_boat_medium"	texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }
+	
+	SpriteType = { name = "GFX_torpedo_boat_1_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_1.dds" }
+	SpriteType = { name = "GFX_torpedo_boat_2_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_2.dds" }	
+	SpriteType = { name = "GFX_torpedo_boat_3_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }	
+	SpriteType = { name = "GFX_torpedo_boat_4_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }
+}

@@ -7,6 +7,11 @@ generic = {
 		generic = { "Submarine" }
 		unique = {}
 	}
+	corvette = {
+		prefix = ""
+		generic = { "Corvette" }
+		unique = {}
+	}
 	destroyer = {
 		prefix = ""
 		generic = { "Destroyer" }
