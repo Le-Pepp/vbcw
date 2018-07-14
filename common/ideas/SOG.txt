@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		SOG_collectivised_shipyards = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = maizuru_naval_arsenal
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				conscription_factor = -0.1
+			}
+		}
+	}
+}

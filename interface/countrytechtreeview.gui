@@ -550,19 +550,6 @@ guiTypes = {
 					orientation = upper_left
 						
 					instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 60 y = 2 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1918"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-						
-					instantTextBoxType = {
 						name = "armour_year2"
 						position = { x = 60 y = 140 }
 						textureFile = ""
@@ -577,7 +564,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 60 y = 278 }
+						position = { x = 60 y = 280 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -616,7 +603,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 60 y = 698 }
+						position = { x = 60 y = 700 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -629,7 +616,7 @@ guiTypes = {
 	
 					instantTextBoxType = {
 						name = "armour_year7"
-						position = { x = 60 y = 838 }
+						position = { x = 60 y = 840 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -738,7 +725,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 480 y = 55 }
+					position = { x = 515 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -751,7 +738,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 335 }
+					position = { x = 270 y = 335 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -764,11 +751,24 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_light"
-					position = { x = -84 y = 55  }
+					position = { x = 30 y = 55  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARMOUR_TITLE_LIGHT"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}			
+				
+				instantTextBoxType = {
+					name = "armour_subtitle_car"
+					position = { x = -210 y = -80  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_CAR"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -779,9 +779,17 @@ guiTypes = {
 				
 			gridboxtype = {
 				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 15% y = 172 }
 				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "improvised_armoured_car_tree"
+				position = { x = 15% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 60 height = 70 }
 				format = "UP"
 			}
 		}
@@ -1494,7 +1502,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "transport_tree"
-				position = { x = 150 y = 1480 }
+				position = { x = 150 y = 1900 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

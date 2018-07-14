@@ -13,7 +13,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_corvette_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_corvette.dds" }
 	spriteType = { name = "GFX_unit_trawler_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_trawler.dds" }
 	spriteType = { name = "GFX_unit_gunboat_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_gunboat.dds" }
-	spriteType = { name = "GFX_unit_topedo_boat_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat.dds" }
+	spriteType = { name = "GFX_unit_torpedo_boat_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat.dds" }
 	
 	###On-Map Counter GFX - Black###
 	
@@ -21,7 +21,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_corvette_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_corvette_inverted.dds" }
 	spriteType = { name = "GFX_unit_trawler_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_trawler_inverted.dds" }
 	spriteType = { name = "GFX_unit_gunboat_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_gunboat_inverted.dds" }
-	spriteType = { name = "GFX_unit_topedo_boat_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat_inverted.dds" }
+	spriteType = { name = "GFX_unit_torpedo_boat_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat_inverted.dds" }
 	
 	###Text Icons###
 	

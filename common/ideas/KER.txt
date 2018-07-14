@@ -116,7 +116,7 @@ ideas = {
 		
 		ker_lanhydrock = {
 			
-			picture = generic_artillery_equipment_manufacturer_2
+			picture = generic_artillery_manufacturer_2
 
 			allowed = {
 				original_TAG = KER
