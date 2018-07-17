@@ -1,0 +1,122 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Cecil Charles Colin Cyril David Dennis Donald Douglas Edmund Edward Francis Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian James Jeremy John Leopold Lester Martin Neville Nigel Oswald Max Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Reginald }
+		surnames = { }
+		callsigns = { }
+	}
+	surnames = { Allenby Battenberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Cochrane Cockburn Dundas Fairfax Fisher French Gough Grant Grenfell Haig Murphy Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts }
+	
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+
+IRL = {
+	male = {
+		names = { Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry  Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
+	callsigns = { }
+}
+
+IRA = {
+	male = {
+		names = { Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry  Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
+	callsigns = { }
+}
+
+ULS = {
+	male = {
+		names = { Ian }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Paisley }
+	callsigns = { }
+}
+
+
+WAL = {
+	male = {
+		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewellyn Morgan Davies Thomas Jenkins Lloyd }
+	callsigns = { }
+}
+
+
+SOC = {
+	male = {
+		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewellyn Morgan Davies Thomas Jenkins Lloyd }
+	callsigns = { }
+}
+
+
+SCO = {
+	male = {
+		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Campbell Stewart Scott Murray MacDonald Reid Reith Ross Abercrombie Abernathy Balfour Angus Arbuthnot Buchanan Cruickshank Dalziel Donaldson Dougal Duff Fairbairn Fraser Ferguson Innis Lawrie MacAulay MacAdam MacDougal MacLean MacLeod MacPherson McAllister McAndrew McCaskill McDougal McDuff McIntosh }
+	callsigns = { }
+}
+
+
+SOG = {
+	male = {
+		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Campbell Stewart Scott Murray MacDonald Reid Reith Ross Abercrombie Abernathy Balfour Angus Arbuthnot Buchanan Cruickshank Dalziel Donaldson Dougal Duff Fairbairn Fraser Ferguson Innis Lawrie MacAulay MacAdam MacDougal MacLean MacLeod MacPherson McAllister McAndrew McCaskill McDougal McDuff McIntosh }
+	callsigns = { }
+}
+
+
+JAC = {
+	male = {
+		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Campbell Stewart Scott Murray MacDonald Reid Reith Ross Abercrombie Abernathy Balfour Angus Arbuthnot Buchanan Cruickshank Dalziel Donaldson Dougal Duff Fairbairn Fraser Ferguson Innis Lawrie MacAulay MacAdam MacDougal MacLean MacLeod MacPherson McAllister McAndrew McCaskill McDougal McDuff McIntosh }
+	callsigns = { }
+}
+
+KER = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Cecil Charles Colin Cyril David Dennis Donald Douglas Edmund Edward Francis Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian James Jeremy John Leopold Lester Martin Neville Nigel Oswald Max Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Reginald }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Trevithick Trescothick Chegwin Penberthy Penrose Penhale }
+	callsigns = { }
+}
+

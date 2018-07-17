@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_improvised_infantry_equipment_medium"
+		texturefile = "gfx/interface/technologies/improvised_infantry_equipment.dds"
+	}
+}

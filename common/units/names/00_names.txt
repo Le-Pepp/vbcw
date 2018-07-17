@@ -7,9 +7,29 @@ generic = {
 		generic = { "Submarine" }
 		unique = {}
 	}
+	gunboat = {
+		prefix = ""
+		generic = { "MGB" }
+		unique = {}
+	}
+	torpedo_boat = {
+		prefix = ""
+		generic = { "MTB" }
+		unique = {}
+	}
+	trawler = {
+		prefix = ""
+		generic = { "Trawler" }
+		unique = {}
+	}
 	corvette = {
 		prefix = ""
 		generic = { "Corvette" }
+		unique = {}
+	}
+	sloop = {
+		prefix = ""
+		generic = { "Sloop" }
 		unique = {}
 	}
 	destroyer = {

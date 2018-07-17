@@ -41,6 +41,7 @@ set_technology = {
 	improvised_armoured_car = 1
 	early_armoured_car = 1
 	basic_armoured_car = 1
+	improvised_infantry_weapons = 1
 }
 
 set_politics = {
