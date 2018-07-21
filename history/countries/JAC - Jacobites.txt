@@ -67,6 +67,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	no_man_an_island
+}
+
 set_convoys = 50
 
 create_country_leader = {

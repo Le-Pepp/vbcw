@@ -81,6 +81,7 @@ set_politics = {
 
 add_ideas = {
 	SOM_strike_up_the_band
+	SOM_foundries_and_forges
 }
 
 create_faction = "People's Armies"

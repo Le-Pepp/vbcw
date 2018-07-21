@@ -38,17 +38,25 @@ bookmarks = {
 		"SCO"={
 			history = "SCO_VBCW_DESC"
 			ideology = civic_nationalist
+			ideas = {
+				SCO_renaissance
+				SCO_unionist_officers
+			}
 		}
 		"SOM"={
 			history = "SOM_VBCW_DESC"
 			ideology = democratic_socialist	
 			ideas = {
 				SOM_strike_up_the_band
+				SOM_foundries_and_forges
 			}		
 		}
 		"IRL"={
 			history = "IRL_VBCW_DESC"
 			ideology = conservative	
+			ideas = {
+				IRL_limited_intervention
+			}
 		}
 		"---"={
 			history = "OTHER_VBCW_DESC"

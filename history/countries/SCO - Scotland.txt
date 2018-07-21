@@ -82,6 +82,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	SCO_renaissance
+	SCO_unionist_officers
+}
+
 set_convoys = 50
 
 create_country_leader = {
