@@ -1584,18 +1584,4 @@ technologies = {
 			bicycle_battalion
 		}		
 	}
-	
-	improvised_infantry_weapons = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_equipments = {
-			improvised_infantry_equipment
-		}		
-	}
 }

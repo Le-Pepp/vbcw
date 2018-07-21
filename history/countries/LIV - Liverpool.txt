@@ -36,23 +36,23 @@ set_politics = {
 		}
 
 		autocratic = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		conservative = {
-			popularity = 10
+			popularity = 15
 		}
 		
 		liberal = { 
-			popularity = 20
+			popularity = 65
 		}
 		
 		democratic_socialist = { 
-			popularity = 60
+			popularity = 10
 		}
 				
 		communist = { 
-			popularity = 10
+			popularity = 0
 		}
 				
 		anarcho_syndicalist = { 
@@ -64,7 +64,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic_socialist
+	ruling_party = liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -77,16 +77,49 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "gfx/leaders/VBCW/LIV-Jones.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward Stanley"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/LIV-Stanley.dds"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hugh Molyneux"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/LIV-Molyneux.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
 	traits = {
 		#
 	}
 }
 
 create_field_marshal = {
-	name = "Scousey McScouseface"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
+	name = "Charles Harrington"
+	portrait_path = "gfx/leaders/VBCW/LIV-Harrington.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugh Molyneux"
+	portrait_path = "gfx/leaders/VBCW/LIV-Molyneux.dds"
+	traits = {  }
 	skill = 2
 	attack_skill = 1
     defense_skill = 3

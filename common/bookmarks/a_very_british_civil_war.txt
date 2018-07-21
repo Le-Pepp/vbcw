@@ -31,6 +31,9 @@ bookmarks = {
 		"YRK"={
 			history = "YRK_VBCW_DESC"
 			ideology = conservative
+			ideas = {
+				YRK_peoples_prince
+			}
 		}
 		"SCO"={
 			history = "SCO_VBCW_DESC"

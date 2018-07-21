@@ -16,6 +16,18 @@ default = {
 }
 
 
+ROY = {
+	male = {
+		names = { Rupert Freddie Seabury Sydney Edgar Charles Oswald Eustace Oofy Wilmot  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Fink-Nottle Bassington-Bassington Bickersteth Chuffnell Fotheringay-Phipps Potter-Pirbright Prosser Glossop Steggles Wooster Winkworth Wickhammersley  }
+	callsigns = { }
+}
+
+
 IRL = {
 	male = {
 		names = { Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
