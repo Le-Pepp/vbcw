@@ -13,7 +13,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_morale_bonus
+			picture = FRA_national_mobilization_focus
 			
 			modifier = {
 				army_org_factor = 0.1

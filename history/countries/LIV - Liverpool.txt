@@ -70,6 +70,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	LIV_city_under_siege
+}
+
 set_convoys = 50
 
 create_country_leader = {

@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		LIV_city_under_siege = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_fortify_the_borders
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				attrition = 0.25
+			}
+		}
+	}
+}

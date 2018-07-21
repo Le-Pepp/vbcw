@@ -68,6 +68,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	SOC_victory_in_the_valleys
+	SOM_strike_up_the_band
+}
+
 set_convoys = 50
 
 create_country_leader = {

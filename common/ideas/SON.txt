@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		SOH_fishermens_friends = {
+		SON_rule_the_waves = {
 
 			allowed = {
 				always = no
@@ -12,19 +12,19 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_coastal_navy
+			picture = generic_sea_focused_navy
 			
 			equipment_bonus = {
 
-				trawler = {
+				destroyer = {
 					build_cost_ic = -0.25 
 					instant = yes
 				}
-				corvette = {
+				light_cruiser = {
 					build_cost_ic = -0.25 
 					instant = yes
 				}
-				sloop = {
+				heavy_cruiser = {
 					build_cost_ic = -0.25 
 					instant = yes
 				}
