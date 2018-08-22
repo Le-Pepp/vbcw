@@ -1,0 +1,72 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_ultimate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/ultimate_medium_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ultimate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ultimate_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ultimate_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ultimate_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_intermediate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/intermediate_medium_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_intermediate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/intermediate_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_art.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_td.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_spaa.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_art.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_td.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_spaa.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_art.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_td.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_spaa.dds"
+	}
+}

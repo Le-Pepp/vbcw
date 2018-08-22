@@ -38,7 +38,6 @@ set_technology = {
 	early_trawler = 1
 	early_corvette = 1
 	early_sloop = 1
-	improvised_armoured_car = 1
 	early_armoured_car = 1
 	basic_armoured_car = 1
 }
