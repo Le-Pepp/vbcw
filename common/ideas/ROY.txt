@@ -18,8 +18,6 @@ ideas = {
 			modifier = {
 				cavalry_attack_factor = 0.25
 				cavalry_defence_factor = -0.25
-				motorized_attack_factor = 0.25
-				motorized_defence_factor = -0.25
 			}
 		}
 	}

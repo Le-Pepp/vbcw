@@ -619,7 +619,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1936
 		
 		folder = {
@@ -651,7 +651,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1939
 		
 		folder = {
@@ -683,7 +683,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1941
 		
 		folder = {
@@ -715,7 +715,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1943
 		
 		folder = {
@@ -776,7 +776,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1939
 		
 		folder = {
@@ -800,7 +800,7 @@ technologies = {
 			medium_tank_artillery_equipment_3
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1943
 		
 		folder = {
@@ -858,7 +858,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1939
 		
 		folder = {
@@ -882,7 +882,7 @@ technologies = {
 			medium_tank_destroyer_equipment_3
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1943
 		
 		folder = {
@@ -940,7 +940,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1939
 		
 		folder = {
@@ -964,7 +964,7 @@ technologies = {
 			medium_tank_aa_equipment_3
 		}
 	
-		research_cost = 2
+		research_cost = 2.5
 		start_year = 1943
 		
 		folder = {

@@ -35,6 +35,10 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
+	early_armoured_car = 1
+	basic_armoured_car = 1
+	basic_medium_tank = 1
+	basic_heavy_tank = 1
 }
 
 set_politics = {
