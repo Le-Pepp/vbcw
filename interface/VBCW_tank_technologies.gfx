@@ -69,4 +69,21 @@ spriteTypes = {
 		name = "GFX_advanced_medium_spaa_medium"
 		texturefile = "gfx/interface/technologies/advanced_medium_spaa.dds"
 	}
+	
+	###ROYALISTS###
+
+	SpriteType = {
+		name = "GFX_ROY_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ROY_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROY_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ROY_improved_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROY_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ROY_advanced_light_tank.dds"
+	}
 }
