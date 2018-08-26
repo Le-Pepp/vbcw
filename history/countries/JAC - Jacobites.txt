@@ -23,6 +23,7 @@ set_technology = {
 	basic_heavy_cruiser = 1
 	early_battleship = 1
 	transport = 1
+	highlanders_tech = 1
 }
 
 set_politics = {
@@ -69,6 +70,7 @@ set_politics = {
 
 add_ideas = {
 	no_man_an_island
+	JAC_highlanders
 }
 
 set_convoys = 50

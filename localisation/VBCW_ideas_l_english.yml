@@ -36,3 +36,5 @@
  LIV_city_under_siege_desc:0 "Liverpool is surrounded by potential enemies on all sides - except one. \n\nWith their legacy of shipbuilding, they may yet control the straits and get supplies through. However, their current supply situation is having a noticeable effect on troops in the field."
  no_man_an_island:0 "No Man an Island"
  no_man_an_island_desc:0 "With the conflict on their very doorstep, more and more men come forward to fight for our cause."
+ JAC_highlanders:0 "Highland Laddie"
+ JAC_highlanders_desc:0 "§WAll Infantry:\nHill and Mountain:\nMovement §G+10%\n§WAttack §G+10%\n§WDefence §G+10%\n\n§gThe ranks of the Jacobite Army are drawn from hardy folk, accustomed to the harsh environment of the Scottish Highlands and Islands. \n\nFarmers, poachers, ghillies, they all know how to use the Highland terrain to their advantage."

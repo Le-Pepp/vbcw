@@ -1,0 +1,25 @@
+technologies = {	
+
+	highlanders_tech = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		
+		category_all_infantry = {
+			mountain = {
+				movement = 0.10
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				movement = 0.10
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+	}
+}
