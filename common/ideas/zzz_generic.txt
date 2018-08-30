@@ -758,28 +758,191 @@ ideas = {
 
 	political_advisor = {
 
-		generic_captain_of_industry = {
+		generic_fascist_demagogue = {
+			
+			picture = generic_political_advisor_south_america_1
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			traits = { fascist_demagogue }
+	
+			do_effect = {
+				NOT = {
+					has_government = fascist
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_staunch_monarchist = {
+			
+			picture = generic_political_advisor_south_america_3
+
+			allowed = {
+			}
+			
+			traits = { staunch_monarchist }
+	
+			do_effect = {
+				NOT = {
+					has_government = autocratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_traditionalist = {
+			
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+			}
+			
+			traits = { traditionalist }
+	
+			do_effect = {
+				NOT = {
+					has_government = conservative
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_liberal_reformer = {
+			
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+			}
+			
+			traits = { liberal_reformer }
+	
+			do_effect = {
+				NOT = {
+					has_government = liberal
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_shop_steward = {
+			
+			picture = generic_political_advisor_europe_5
+
+			allowed = {
+			}
+			
+			traits = { shop_steward }
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic_socialist
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_communist_revolutionary = {
+			
+			picture = generic_political_advisor_arab_1
+
+			allowed = {
+			}
+			
+			traits = { communist_revolutionary }
+	
+			do_effect = {
+				NOT = {
+					has_government = communist
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_free_radical = {
+			
+			picture = generic_political_advisor_europe_6
+
+			allowed = {
+			}
+			
+			traits = { free_radical }
+	
+			do_effect = {
+				NOT = {
+					has_government = anarcho_syndicalist
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_cultural_champion = {
+			
+			picture = generic_political_advisor_south_america_2
+
+			allowed = {
+			}
+			
+			traits = { cultural_champion }
+	
+			do_effect = {
+				NOT = {
+					has_government = civic_nationalist
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		generic_captain_of_industry = {
+			
+			picture = generic_political_advisor_arab_3
+
+			allowed = {
 			}
 			
 			traits = { captain_of_industry }
 		}
 		
 		generic_fortification_engineer = {
+			
+			picture = generic_political_advisor_europe_4
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { fortification_engineer }
 		}
 
 		generic_war_industrialist = {
+			
+			picture = generic_political_advisor_europe_3
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { war_industrialist }
@@ -790,8 +953,9 @@ ideas = {
 		
 		generic_army_chief_off = {
 			
+			picture = generic_army_europe_3
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -799,8 +963,9 @@ ideas = {
 
 		generic_army_chief_def = {
 			
+			picture = generic_army_europe_1
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -811,8 +976,9 @@ ideas = {
 
 		generic_navy_chief_decisive_bat = {
 			
+			picture = generic_navy_europe_3
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -820,8 +986,9 @@ ideas = {
 
 		generic_navy_anti_submarine = {
 			
+			picture = generic_navy_europe_1
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -832,8 +999,9 @@ ideas = {
 
 		generic_air_close_air_sup = {
 			
+			picture = generic_air_europe_3
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -841,8 +1009,9 @@ ideas = {
 	
 		generic_air_chief_all_weather = {
 			
+			picture = generic_air_europe_1
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -853,35 +1022,39 @@ ideas = {
 
 		generic_army_art = {
 			
+			picture = generic_army_europe_3
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_artillery_1 }			
 		}
 		
 		generic_army_log = {
+			
+			picture = generic_army_europe_2
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { army_logistics_2 }			
 		}
 
 		generic_navy_fleet_log = {
+			
+			picture = generic_navy_europe_2
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
 		}
 
 		generic_air_air_combat_trainer = {
+			
+			picture = generic_air_europe_2
 
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -892,8 +1065,9 @@ ideas = {
 
 		generic_military_theorist = {
 			
+			picture = generic_army_europe_2
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {
@@ -905,8 +1079,9 @@ ideas = {
 	
 		generic_naval_theorist = {
 			
+			picture = generic_navy_europe_2
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {
@@ -918,8 +1093,9 @@ ideas = {
 
 		generic_air_warfare_theorist = {
 			
+			picture = generic_air_europe_2
+			
 			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
 			}
 			
 			research_bonus = {

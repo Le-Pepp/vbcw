@@ -10,20 +10,20 @@ default = {
 		surnames = { }
 		callsigns = { }
 	}
-	surnames = { Allenby Battenberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Cochrane Cockburn Dundas Fairfax Fisher French Gough Grant Grenfell Haig Murphy Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts }
+	surnames = { Allenby Battenberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Cochrane Cockburn Dundas Fairfax Fisher French Gough Grant Grenfell Haig Murphy Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Roberts }
 	
-	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+	callsigns = {  }
 }
 
 
 ROY = {
 	male = {
-		names = { Rupert Freddie Seabury Sydney Edgar Charles Oswald Eustace Oofy Wilmot  }
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Cecil Charles Colin Cyril David Dennis Donald Douglas Edmund Edward Francis Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian James Jeremy John Leopold Lester Martin Neville Nigel Oswald Max Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Reginald Rupert Freddie Seabury Sydney Edgar Charles Oswald Eustace Oofy Wilmot  }
 	}
 	female = {
 		names = { }
 	}
-	surnames = { Fink-Nottle Bassington-Bassington Bickersteth Chuffnell Fotheringay-Phipps Potter-Pirbright Prosser Glossop Steggles Wooster Winkworth Wickhammersley  }
+	surnames = { Allenby Battenberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Cochrane Cockburn Dundas Fairfax Fisher French Gough Grant Grenfell Haig Murphy Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Roberts Fink-Nottle Bassington-Bassington Bickersteth Chuffnell Fotheringay-Phipps Potter-Pirbright Prosser Glossop Steggles Wooster Winkworth Wickhammersley }
 	callsigns = { }
 }
 
@@ -35,7 +35,7 @@ IRL = {
 	female = {
 		names = { }
 	}
-	surnames = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry  Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
+	surnames = { Aiken Ashe Breen Brugha Byrne Collins Connolly Cosgrave Craig Donnelly Doyle FitzGerald Griffith Kelly Kennedy Larkin Lynch Mallin McCartan McCullough McGarry Mulcahy Murphy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
 	callsigns = { }
 }
 
@@ -46,7 +46,7 @@ IRA = {
 	female = {
 		names = { }
 	}
-	surnames = { Aiken Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly FitzGerald Griffith Kelly Larkin Lynch Mallin McCartan McCullough McGarry  Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
+	surnames = { Aiken Ashe Breen Brugha Byrne Collins Connolly Cosgrave Craig Donnelly Doyle FitzGerald Griffith Kelly Kennedy Larkin Lynch Mallin McCartan McCullough McGarry Mulcahy Murphy O'Brien O'Connor O'Doherty O'Higgins O'Leary O'Mara O'Toole O'Duibhghiolla Pearse Plunket White Hogan }
 	callsigns = { }
 }
 
@@ -64,25 +64,25 @@ ULS = {
 
 WAL = {
 	male = {
-		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai }
+		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai Trevor Aled Alun Bryn Caerwyn Dylan Ellis Gawain Gwyn Hywel Iago Idris Iestyn Meredydd Mervyn Mostyn  }
 	}
 	female = {
 		names = { }
 	}
-	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewellyn Morgan Davies Thomas Jenkins Lloyd }
-	callsigns = { }
+	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewelyn Morgan Davies Thomas Jenkins Lloyd Roberts Lewis Griffiths Edwards James Rees Owen Philips Moss Collins Pritchard Probert Pryce Pugh Rhys Reece Reese Rice Parry Barry Rowlands Humphries  }
+	callsigns = { Taffy }
 }
 
 
 SOC = {
 	male = {
-		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai }
+		names = { Dafydd Ifor Huw Rhys Llew Gareth Geraint Meic Ifan Ioan Ieuan Owain Iolo Ianto Rhodri Bryn Dai Trevor Aled Alun Bryn Caerwyn Dylan Ellis Gawain Gwyn Hywel Iago Idris Iestyn Meredydd Mervyn Mostyn  }
 	}
 	female = {
 		names = { }
 	}
-	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewellyn Morgan Davies Thomas Jenkins Lloyd }
-	callsigns = { }
+	surnames = { Williams Hughes Price Gruffudd Evans Jones Llewelyn Morgan Davies Thomas Jenkins Lloyd Roberts Lewis Griffiths Edwards James Rees Owen Philips Moss Collins Pritchard Probert Pryce Pugh Rhys Reece Reese Rice Parry Barry Rowlands Humphries  }
+	callsigns = { Taffy }
 }
 
 
@@ -123,12 +123,12 @@ JAC = {
 
 KER = {
 	male = {
-		names = { Albert Alexander Alfred Archibald Arthur Bernard Cecil Charles Colin Cyril David Dennis Donald Douglas Edmund Edward Francis Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian James Jeremy John Leopold Lester Martin Neville Nigel Oswald Max Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Reginald }
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Cecil Charles Colin Cyril David Dennis Donald Douglas Edmund Edward Francis Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian James Jeremy John Leopold Lester Martin Neville Nigel Oswald Max Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Reginald Daveth Jago Jory  }
 	}
 	female = {
 		names = { }
 	}
-	surnames = { Trevithick Trescothick Chegwin Penberthy Penrose Penhale }
+	surnames = { Trevithick Trescothick Chegwin Penberthy Penrose Penhale Bolitho Chenoweth Hammett Menhenick Nancarrow Nance Nancekivell Trembath Trudgeon Spargo Chegwidden Barkle Odgers Sincock Prisk Williams Roberts Stephens Richards Thomas Martin Pearce Pascoe }
 	callsigns = { }
 }
 
