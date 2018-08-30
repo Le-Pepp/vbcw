@@ -758,14 +758,14 @@ ideas = {
 
 	political_advisor = {
 
-		generic_fascist_demagogue = {
+		generic_fascist_firebrand = {
 			
 			picture = generic_political_advisor_south_america_1
 
 			allowed = {
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascist_firebrand }
 	
 			do_effect = {
 				NOT = {
@@ -858,14 +858,14 @@ ideas = {
 			}
 		}
 
-		generic_communist_revolutionary = {
+		generic_communist_subversive = {
 			
 			picture = generic_political_advisor_arab_1
 
 			allowed = {
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { communist_subversive }
 	
 			do_effect = {
 				NOT = {

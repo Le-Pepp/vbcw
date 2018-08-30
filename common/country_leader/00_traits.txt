@@ -398,7 +398,7 @@ leader_traits = {
 	
 	# drift is a percent applied weekly
 	
-	fascist_demagogue = {
+	fascist_firebrand = {
 		random = no
 		# Boosts Fascism
 		sprite = 13
@@ -453,7 +453,7 @@ leader_traits = {
 		}
 	}
 	
-	communist_revolutionary = {
+	communist_subversive = {
 		random = no
 		# Boosts Communism
 		sprite = 13

@@ -78,11 +78,10 @@ add_ideas = {
 
 set_convoys = 10
 
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "Arthur Quiller-Couch"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/VBCW/KER-Quiller-Couch.dds"
+	picture = "gfx/leaders/VBCW/KER/KER-Quiller-Couch.dds"
 	expire = "1965.1.1"
 	ideology = civic_nationalist_subtype
 	traits = {
@@ -103,7 +102,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Clive Burn"
-	portrait_path = "gfx/leaders/VBCW/KER-Burn.dds"
+	portrait_path = "gfx/leaders/VBCW/KER/KER-Burn.dds"
 	traits = { war_hero }
 	skill = 2
     attack_skill = 2
