@@ -67,10 +67,11 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				motorized_equipment = 0.10
+				armoured_car_tech = 0.10
 			}
 			
-			traits = { medium_tank_manufacturer }
+			traits = { motorised_manufacturer_1 }
 		}
 	}
 
@@ -88,10 +89,7 @@ ideas = {
 				industry = 0.10
 			}
 			
-			traits = { industrial_concern }
-			
-			modifier = { local_resources_factor = 0.10
-			}
+			traits = { industrial_concern_2 }
 		}		
 
 		ker_redruth_wireless_co = {
@@ -106,7 +104,7 @@ ideas = {
 				electronics = 0.10
 			}
 			
-			traits = { electronics_concern }
+			traits = { electronics_concern_1 }
 		}
 	}
 
@@ -126,7 +124,7 @@ ideas = {
 				artillery = 0.10
 			}
 			
-			traits = { artillery_manufacturer }			
+			traits = { artillery_manufacturer_1 }			
 			
 		}	
 
@@ -142,7 +140,7 @@ ideas = {
 				infantry_weapons = 0.10
 			}
 			
-			traits = { infantry_equipment_manufacturer }
+			traits = { infantry_equipment_manufacturer_1 }
 			
 		}
 		
@@ -168,7 +166,7 @@ ideas = {
 				
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { large_vessel_manufacturer_2 }
 		}
 
 		ker_falmouth_boat_co = {
@@ -186,7 +184,7 @@ ideas = {
 			equipment_bonus = {
 			}
 			
-			traits = { coastal_defence_naval_manufacturer }
+			traits = { small_vessel_manufacturer_1 }
 		}
 	}
 	
@@ -206,7 +204,7 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = { light_aircraft_manufacturer }
+			traits = { fighter_manufacturer_2 }
 						
 			ai_will_do = {
 				factor = 1

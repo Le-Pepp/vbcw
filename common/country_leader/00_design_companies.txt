@@ -1,0 +1,452 @@
+leader_traits = {
+
+###AIRCRAFT###
+	
+	fighter_manufacturer_1 = {
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				air_agility = 0.1 
+				maximum_speed = 0.1
+				instant = yes
+			}
+			cv_fighter_equipment = {
+				air_agility = 0.1 
+				maximum_speed = 0.1
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				air_agility = 0.1 
+				maximum_speed = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fighter_manufacturer_2 = {
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			cv_fighter_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	bomber_manufacturer_1 = {
+		random = no
+		equipment_bonus = {
+			CAS_equipment = {
+				air_ground_attack = 0.1 
+				air_agility = 0.1 
+				instant = yes
+			}
+			cv_CAS_equipment = {
+				air_ground_attack = 0.1 
+				air_agility = 0.1 
+				instant = yes
+			}	
+			nav_bomber_equipment = {
+				naval_strike_attack = 0.1
+				air_agility = 0.1
+				instant = yes 
+			}
+			cv_nav_bomber_equipment = {
+				naval_strike_attack = 0.1
+				air_agility = 0.1 
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				air_bombing = 0.1
+				air_ground_attack = 0.1
+				air_agility = 0.1 
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				air_bombing = 0.1
+				air_agility = 0.1 
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	bomber_manufacturer_2 = {
+		random = no
+		equipment_bonus = {
+			CAS_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			cv_CAS_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}	
+			nav_bomber_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			cv_nav_bomber_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###TANKS###
+	
+	motorised_manufacturer_1 = {
+		random = no
+		equipment_bonus = {
+			armoured_car_equipment = {
+				soft_attack = 0.1
+				maximum_speed = 0.05 
+				instant = yes
+			}
+			motorized_equipment = {
+				hardness = 0.1
+				maximum_speed = 0.05
+				instant = yes
+			}
+			mechanized_equipment = {
+				hardness = 0.1
+				maximum_speed = 0.05
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	motorised_manufacturer_2 = {
+		random = no
+		equipment_bonus = {
+			armoured_car_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			motorized_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+			mechanized_equipment = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tank_manufacturer_1 = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tank_manufacturer_2 = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.1
+				reliability = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	small_vessel_manufacturer_1 = { 
+		random = no
+		equipment_bonus = {
+			gunboat = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			torpedo_boat = {
+				torpedo_attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			trawler = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			corvette = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	small_vessel_manufacturer_2 = { 
+		random = no
+		equipment_bonus = {
+			gunboat = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			torpedo_boat = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			trawler = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			corvette = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	large_vessel_manufacturer_1 = { 
+		random = no
+		equipment_bonus = {
+			sloop = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			destroyer = {
+				torpedo_attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			light_cruiser = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+			heavy_cruiser = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	large_vessel_manufacturer_2 = { #armored carriers, slightly buffed cap ships
+		random = no
+		equipment_bonus = {
+			sloop = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			destroyer = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			light_cruiser = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			heavy_cruiser = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	artillery_manufacturer_1 = {
+		random = no
+		
+		equipment_bonus = {
+			artillery_equipment = {
+				soft_attack = 0.1
+				defense = 0.1
+				instant = yes
+			}
+			anti_tank_equipment = {
+				hard_attack = 0.1
+				defense = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	artillery_manufacturer_2 = {
+		random = no
+		
+		equipment_bonus = {
+			artillery_equipment = {
+				reliability = 0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			anti_tank_equipment = {
+				reliability = 0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_equipment_manufacturer_1 = {
+		random = no
+		
+		equipment_bonus = {
+			infantry_equipment = {
+				soft_attack = 0.1
+				defense = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_equipment_manufacturer_2 = {
+		random = no
+		
+		equipment_bonus = {
+			infantry_equipment = {
+				reliability = 0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	industrial_concern_1 = {
+		random = no
+			
+		production_speed_buildings_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	industrial_concern_2 = {
+		random = no
+		
+		local_resources_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	electronics_concern_1 = {
+		random = no
+			
+		production_speed_radar_station_factor = 0.10
+				
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	electronics_concern_2 = {
+		random = no
+			
+		decryption_factor = 0.10
+		encryption_factor = 0.10
+				
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
