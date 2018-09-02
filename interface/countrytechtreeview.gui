@@ -1346,7 +1346,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_cruiser"
-					position = { x = 30 y = 900 }
+					position = { x = 30 y = 1040 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1359,50 +1359,22 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "naval_subtitle_battlecruiser"
-					position = { x = 30 y = 1180 }
+					name = "naval_subtitle_monitor"
+					position = { x = 30 y = 900 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_BATTLECRUISERS"
+					text = "NAVAL_TITLE_MONITORS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "battle_cruiser_desc"
-				}	
-
-				instantTextBoxType = {
-					name = "naval_subtitle_battleship"
-					position = { x = 30 y = 1320 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_BATTLESHIPS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "battleship_desc"
-				}				
-
-				instantTextBoxType = {
-					name = "naval_subtitle_carrier"
-					position = { x = 30 y = 1600 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_CARRIERS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "carrier_desc"
-				}	
+					pdx_tooltip = "monitor_desc"
+				}
 
 				instantTextBoxType = {
 					name = "naval_subtitle_sub"
-					position = { x = 30 y = 1740 }
+					position = { x = 30 y = 1320 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1416,7 +1388,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_transport"
-					position = { x = 30 y = 1880 }
+					position = { x = 30 y = 1460 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1492,7 +1464,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_light_cruiser_tree"
-				position = { x = 150 y = 990 }
+				position = { x = 150 y = 1130 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1500,31 +1472,15 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_heavy_cruiser_tree"
-				position = { x = 150 y = 990 }
+				position = { x = 150 y = 1130 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "early_battlecruiser_tree"
-				position = { x = 150 y = 1270 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_battleship_tree"
-				position = { x = 150 y = 1270 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "early_carrier_tree"
-				position = { x = 150 y = 1620 }
+				name = "early_monitor_tree"
+				position = { x = 150 y = 920 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1532,16 +1488,15 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_submarine_tree"
-				position = { x = 150 y = 1760 }
+				position = { x = 150 y = 1340 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-			}
-			
+			}			
 			
 			gridboxtype = {
 				name = "transport_tree"
-				position = { x = 150 y = 1900 }
+				position = { x = 150 y = 1480 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2344,12 +2299,12 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass_assault_title"
+				name = "guerrilla_warfare_title"
 				position = { x = 1560 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_LABEL"
+				text = "GUERRILLA_WARFARE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2396,12 +2351,12 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass assault_desc"
+				name = "guerrilla_warfare_desc"
 				position = { x = 1606 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_DESC"
+				text = "GUERRILLA_WARFARE_DOCTRINE_DESC"
 				maxWidth = 300
 				maxHeight = 122
 				format = center
@@ -2620,7 +2575,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "mass_assault_tree"
+				name = "guerilla_warfare_tree"
 				position = { x=1520 y=172 }
 				size = { width = 480 height = 1350 }
 				slotsize = { width=60 height= 60 }

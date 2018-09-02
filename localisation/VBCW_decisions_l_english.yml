@@ -1,6 +1,14 @@
 ﻿l_english:
+
+###CATEGORIES###
  black_market:0 "Black Market Imports"
  black_market_desc:0 "Although the British Isles are bountiful, there are certain exotic resources that cannot be found domestically, and no shortage of unscrupulous characters willing to sell them."
+ emergency_construction:0 "Emergency Construction"
+ emergency_construction_desc:0 "In such desperate times as these, we must make use of every inch of land."
+ desperate_measures:0 "Desperate Measures"
+ desperate_measures_desc:0 "Circumstances such as these may force us to take drastic steps..."
+ 
+###BLACK MARKET### 
  sumatran_rubber:0 "Sumatran Rubber"
  sumatran_rubber_desc:0 "The Dutch East Indies have lots of rubber, and no shortage of corrupt civil servants. Why not take advantage while we can?."
  american_oil:0 "American Oil"
@@ -13,6 +21,8 @@
  cuban_chromium_desc:0 "If there's one thing the Cubans have learnt from their neighbours, it's how to make a profit."
  soviet_steel:0 "Soviet Steel"
  soviet_steel_desc:0 "Thanks to Stalin, the Soviet economy is so inefficient that we'd be doing them a favour."
- importing_resources_flag:0 "Currently trading on the black market."
- emergency_construction:0 "Emergency Construction"
- emergency_construction_desc:0 "In such desperate times as these, we must make use of every inch of land."
+ importing_resources_flag:0 "Currently trading on the black market." 
+ 
+ ###WALES###
+ blow_vyrnwy_damn:0 "Blow the Vyrnwy Dam"
+ blow_vyrnwy_damn_desc:0 "We can't allow the Liverpudlians to continue to drink our water. Cut them off, and they'll soon lose the will to fight."

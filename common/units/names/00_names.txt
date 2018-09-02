@@ -32,6 +32,11 @@ generic = {
 		generic = { "Sloop" }
 		unique = { "Actaeon" "Alacrity" "Amethyst" "Black" "Swan" "Chanticleer" "Crane" "Cygnet" "Erne" "Flamingo" "Hart" "Hind" "Ibis" "Kite" "Lapwing" "Lark" "Magpie" "Mermaid" "Modeste" "Nereide" "Nonsuch" "Nymphe" "Opossum" "Partridge" "Peacock" "Pheasant" "Redpole" "Snipe" "Sparrow" "Starling" "Waterhen" "Weyneck" "Whimbrel" "Woodcock" "Woodpecker" "Wren" "Kingfisher" "Lark" "Mallard" "Puffin" "Kittiwake" "Shelduck" "Widgeon" "Shearwater" "Guillemot" "Pintail" "Bideford" "Dundee" "Falmouth" "Fowey" "Milford" "Rochester" "Shoreham" "Weston" "Cicero" "Donovan" "Galtee" "Iroquois" "Isinglass" "Ladas" "Minoru" "Orby" "Ormonde" "Persimmon" "Rocksand" "Sanfoin" "Sefton" "Silvio" "Spearmint" "Sunstar" }
 	}
+	monitor = {
+		prefix = ""
+		generic = { "monitor" }
+		unique = { "Actaeon" "Alacrity" "Amethyst" "Black" "Swan" "Chanticleer" "Crane" "Cygnet" "Erne" "Flamingo" "Hart" "Hind" "Ibis" "Kite" "Lapwing" "Lark" "Magpie" "Mermaid" "Modeste" "Nereide" "Nonsuch" "Nymphe" "Opossum" "Partridge" "Peacock" "Pheasant" "Redpole" "Snipe" "Sparrow" "Starling" "Waterhen" "Weyneck" "Whimbrel" "Woodcock" "Woodpecker" "Wren" "Kingfisher" "Lark" "Mallard" "Puffin" "Kittiwake" "Shelduck" "Widgeon" "Shearwater" "Guillemot" "Pintail" "Bideford" "Dundee" "Falmouth" "Fowey" "Milford" "Rochester" "Shoreham" "Weston" "Cicero" "Donovan" "Galtee" "Iroquois" "Isinglass" "Ladas" "Minoru" "Orby" "Ormonde" "Persimmon" "Rocksand" "Sanfoin" "Sefton" "Silvio" "Spearmint" "Sunstar" }
+	}
 	destroyer = {
 		prefix = ""
 		generic = { "Destroyer" }

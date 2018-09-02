@@ -5,3 +5,7 @@ emergency_construction = {
 black_market = {
 	icon = generic_economy
 }
+
+desperate_measures = {
+	icon = generic_crisis
+}

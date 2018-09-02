@@ -53,4 +53,15 @@ spriteTypes = {
 	SpriteType = { name = "GFX_torpedo_boat_2_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_2.dds" }	
 	SpriteType = { name = "GFX_torpedo_boat_3_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }	
 	SpriteType = { name = "GFX_torpedo_boat_4_medium"			texturefile = "gfx/interface/technologies/torpedo_boat_3.dds" }
+	
+###MONITOR###
+	SpriteType = { name = "GFX_early_monitor_medium"		texturefile = "gfx/interface/technologies/monitor_1.dds" }	
+	SpriteType = { name = "GFX_basic_monitor_medium"		texturefile = "gfx/interface/technologies/monitor_2.dds" }	
+	SpriteType = { name = "GFX_improved_monitor_medium"		texturefile = "gfx/interface/technologies/monitor_3.dds" }	
+	SpriteType = { name = "GFX_advanced_monitor_medium"		texturefile = "gfx/interface/technologies/monitor_3.dds" }
+	
+	SpriteType = { name = "GFX_monitor_1_medium"			texturefile = "gfx/interface/technologies/monitor_1.dds" }
+	SpriteType = { name = "GFX_monitor_2_medium"			texturefile = "gfx/interface/technologies/monitor_2.dds" }	
+	SpriteType = { name = "GFX_monitor_3_medium"			texturefile = "gfx/interface/technologies/monitor_3.dds" }	
+	SpriteType = { name = "GFX_monitor_4_medium"			texturefile = "gfx/interface/technologies/monitor_3.dds" }
 }

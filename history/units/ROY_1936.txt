@@ -117,6 +117,7 @@ units = {
 		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }					
 		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ROY  } } }
 		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROY } } }
+		ship = { name = "HMS Erebus" definition = monitor equipment = { monitor_1 = { amount = 1 owner = ROY } } }
 		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }			
 		ship = { name = "HMS Shikari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
 		ship = { name = "HMS Venetia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
