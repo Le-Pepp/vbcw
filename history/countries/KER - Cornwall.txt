@@ -73,6 +73,7 @@ add_ideas = {
 	limited_conscription
 	KER_kernow_bys_vykken
 	no_man_an_island
+	fuel_shortages
 }
 
 set_convoys = 10

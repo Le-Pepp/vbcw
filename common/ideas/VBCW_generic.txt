@@ -20,6 +20,83 @@ ideas = {
 				conscription_factor = 0.25
 			}
 		}
+
+		fuel_shortages = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_air_bonus
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				jet_fighter_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				CAS_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				jet_tac_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				transport_plane_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+				guided_missile_equipment = {
+					air_range = -0.75
+					instant = yes
+				}
+			}	
+		}
 	}
 }
 
