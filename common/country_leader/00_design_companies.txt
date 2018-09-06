@@ -305,7 +305,7 @@ leader_traits = {
 		}
 	}
 	
-	large_vessel_manufacturer_2 = { #armored carriers, slightly buffed cap ships
+	large_vessel_manufacturer_2 = { 
 		random = no
 		equipment_bonus = {
 			sloop = {
