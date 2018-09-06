@@ -129,11 +129,15 @@ units = {
 	################
 	
 	navy = {				
-		name = "Cornish Navy"			
+		name = "Cornish Fleet"			
 		base = 68
 		location = 68
-		ship = { name = "Arthur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }			
-		ship = { name = "Gwynevere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }	
+		ship = { name = "KG Tintagel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KER } } }		
+		ship = { name = "Pride of Padstow" definition = trawler equipment = { trawler_1 = { amount = 1 owner = KER } } }
+		ship = { name = "Desdemona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = KER } } }	
+		ship = { name = "Skipjack" definition = trawler equipment = { trawler_1 = { amount = 1 owner = KER } } }	
+		ship = { name = "Laforey" definition = trawler equipment = { trawler_1 = { amount = 1 owner = KER } } }		
+		ship = { name = "Emma" definition = trawler equipment = { trawler_1 = { amount = 1 owner = KER } } }	
 	}
 }	
 
@@ -164,8 +168,8 @@ instant_effect = {
 			creator = "KER"
 		}
 		requested_factories = 1
-		progress = 0.1
-		efficiency = 50
+		progress = 0.2
+		efficiency = 65
 	}
 }
 	#####################
