@@ -1,4 +1,4 @@
-ï»¿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+?# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -10,7 +10,7 @@
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leSCO 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leGEN 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -151,6 +151,36 @@ SCO_INF_01 =
 		99 = { "%dth Infantry Regiment" }
 		100 = { "%dth Infantry Regiment" }
 		101 = { "%dst Infantry Regiment" }
+		102 = { "Scots Guards" }
+		103 = { "Royal Scots Fusiliers" }
+		104 = { "The Black Watch" }
+		105 = { "Gordon Highlanders" }
+		106 = { "Argyll and Sutherland Highlanders" }
+		107 = { "The Edinburgh Rifles" }
+		108 = { "Tay Light Infantry" }
+		109 = { "1ère Légion Écossaise" }
+		110 = { "2e Légion Écossaise" }
+		111 = { "Leinster Volunteers" }
+		112 = { "Munster Volunteers" }
+		113 = { "Connaught Volunteers" }
+		114 = { "Norsk Brigade" }
+		115 = { "Svenska Brigaden" }
+		116 = { "Danske Brigaden" }
+		117 = { "Íslenskir Sjálfboðaliðar" }
+		118 = { "1. Schottische Freiwillige" }
+		119 = { "2. Schottische Freiwillige" }
+		120 = { "SS-Division Schottland" }
+		121 = { "1-ya Narodnaya Shotlandskaya Brigada" }
+		122 = { "2-ya Narodnaya Shotlandskaya Brigada" }
+		123 = { "Atholl Highlanders" }
+		124 = { "Argyll Volunteer Highlanders" }
+		125 = { "Cairngorm Volunteer Highlanders" }
+		126 = { "Caithness Loyalist Highlanders" }
+		128 = { "Moray Loyalist Highlanders" }
+		129 = { "Inverness Loyalist Highlanders" }
+		130 = { "Sutherland Loyalist Highlanders" }
+
+
 	}
 }
 
@@ -226,6 +256,10 @@ SCO_CAV_01 =
 		51 = { "%dst Cavalry Regiment" }
 		52 = { "%dnd Cavalry Regiment" }
 		53 = { "%drd Cavalry Regiment" }
+		54 = { "The Scottish Horse" }
+		55 = { "Elgin Scouts" }
+		56 = { "Angus Mounted Infantry" }
+		57 = { "Argyll Dragoons" }
 	}
 }
 
@@ -301,6 +335,16 @@ SCO_YEO_01 =
 		51 = { "%dst County Yeomanry" }
 		52 = { "%dnd County Yeomanry" }
 		53 = { "%drd County Yeomanry" }
+		54 = { "Ayrshire (Earl of Carrick's Own) Yeomanry" }
+		55 = { "1st Borders Volunteer Yeomanry" }
+		56 = { "2nd Borders Volunteer Yeomanry" }
+		57 = { "Fife Volunteer Yeomanry" }
+		58 = { "Edinburgh Yeomanry" }
+		59 = { "Lothian Volunteer Yeomanry" }
+		60 = { "1st Aberdeenshire Yeomanry" }
+		61 = { "2nd Aberdeenshire Yeomanry" }
+		62 = { "Perthshire Volunteer Yeomanry" }
+		63 = { "Angus Volunteer Yeomanry" }
 	}
 }
 
@@ -315,7 +359,7 @@ SCO_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SCO_INF_01 }
+	# link_numbering_with = { SCO_INF_01 }
 
 	fallback_name = "%d Motor Battalion"
 
@@ -356,6 +400,9 @@ SCO_MOT_01 =
 		31 = { "%dst Motor Battalion" }
 		32 = { "%dnd Motor Battalion" }
 		33 = { "%drd Motor Battalion" }
+		34 = { "Fife Flying Column" }
+		35 = { "Edinburgh and Midlothian Rifles" }
+		36 = { "1-ya Shotlandskaya Strelkovaya Brigada" }
 	}
 }
 
@@ -370,7 +417,7 @@ SCO_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SCO_INF_01 }
+	# link_numbering_with = { SCO_INF_01 }
 
 	fallback_name = "%d Armoured Regiment"
 
@@ -425,7 +472,7 @@ SCO_MEC_01 =
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SCO_INF_01 }
+	# link_numbering_with = { SCO_INF_01 }
 
 	fallback_name = "%d Mechanised Battalion"
 
@@ -538,6 +585,44 @@ SCO_GAR_01 =
 		51 = { "%dst Local Defence Volunteers" }
 		52 = { "%dnd Local Defence Volunteers" }
 		53 = { "%drd Local Defence Volunteers" }
+		54 = { "Berwick Volunteers" }
+		55 = { "Roxburgh Volunteers" }
+		56 = { "Dumfries Volunteers" }
+		57 = { "Galloway Volunteers" }
+		58 = { "Ayrshire Volunteers" }
+		59 = { "South Lanark Volunteers" }
+		60 = { "Peebles Volunteers" }
+		61 = { "Selkirk Volunteers" }
+		62 = { "East Lothian Volunteers" }
+		63 = { "1st Edinburgh Volunteers" }
+		64 = { "2nd Edinburgh Volunteers" }
+		65 = { "3rd Edinburgh Volunteers" }
+		66 = { "4th Edinburgh Volunteers" }
+		67 = { "5th Edinburgh Volunteers" }
+		68 = { "Midlothian Volunteers" }
+		69 = { "Linlithgow Volunteers" }
+		70 = { "Kinross Volunteers" }
+		71 = { "1st Fife Volunteers" }
+		72 = { "2nd Fife Volunteers" }
+		73 = { "Forfar Volunteers" }
+		74 = { "Kincardine Volunteers" }
+		75 = { "Banff Volunteers" }
+		76 = { "1st Aberdeen Volunteers" }
+		77 = { "2nd Aberdeen Volunteers" }
+		78 = { "3rd Aberdeen Volunteers" }
+		79 = { "1st Dundee Volunteers" }
+		80 = { "2nd Dundee Volunteers" }
+		81 = { "Perth Volunteers" }
+		82 = { "Kintyre Volunteers" }
+		83 = { "Inner Hebrides Volunteers" }
+		84 = { "Argyll Volunteers" }
+		85 = { "Cairngorm Volunteers" }
+		86 = { "Lothian Irregulars" }
+		87 = { "Fife Irregulars" }
+		88 = { "Aberdeenshire Irregulars" }
+		89 = { "Dundee Irregulars" }
+		90 = { "Edinburgh Irregulars" }
+		91 = { "Angus Irregulars" }
 	}
 }
 
@@ -604,7 +689,7 @@ SCO_MTN_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SCO_INF_01 }
+	# link_numbering_with = { SCO_INF_01 }
 
 	fallback_name = "%d Mountaineers"
 
@@ -679,7 +764,7 @@ SCO_PAR_01 =
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SCO_INF_01 }
+	#link_numbering_with = { SCO_INF_01 }
 
 	fallback_name = "%d Airborne Battalion"
 
