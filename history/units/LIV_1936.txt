@@ -95,10 +95,10 @@ units = {
 		name = "Mersey Fleet"			
 		base = 953
 		location = 953
-		ship = { name = "John" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV } } }			
-		ship = { name = "Paul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV } } }	
-		ship = { name = "George" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV } } }	
-		ship = { name = "Ringo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV } } }		
+		ship = { name = "Bittern" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }			
+		ship = { name = "Egret" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }	
+		ship = { name = "Cormorant" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }	
+		ship = { name = "Redshank" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }		
 	}
 }	
 
@@ -130,7 +130,7 @@ instant_effect = {
 		}
 		requested_factories = 3
 		progress = 0.1
-		efficiency = 50
+		efficiency = 65
 	}
 }
 	#####################
