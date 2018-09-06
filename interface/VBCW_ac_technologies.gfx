@@ -2,26 +2,26 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_improvised_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/improvised_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/improvised_armored_car.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_early_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/early_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/early_armored_car.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_basic_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/basic_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/basic_armored_car.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_improved_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/improved_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/improved_armored_car.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_advanced_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/advanced_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/advanced_armored_car.dds"
 	}
 }
