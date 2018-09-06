@@ -8,17 +8,17 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_minister_autocratic_booster"
+		name = "GFX_minister_autocratic_booster" ###Paul Smith###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_autocratic.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_conservative_booster"
+		name = "GFX_minister_conservative_booster" ###Peter Mannion###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_conservative.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_liberal_booster"
+		name = "GFX_minister_liberal_booster" ###Fergus Willams###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_liberal.dds"
 	}
 
@@ -33,12 +33,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_minister_radsoc_booster"
+		name = "GFX_minister_radsoc_booster" ###Piss Woman###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_radsoc.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_civnat_booster"
+		name = "GFX_minister_civnat_booster" ###Stewart Pearson###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_civnat.dds"
 	}
 
@@ -48,7 +48,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_minister_captain_of_industry"
+		name = "GFX_minister_captain_of_industry" ###Steve Fleming###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_captain_of_industry.dds"
 	}
 
@@ -58,12 +58,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_minister_smooth_talking_charmer" ###Peter Mannion###
+		name = "GFX_minister_smooth_talking_charmer" ###Sir Humphrey Appleby###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_smooth_talker.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_war_industrialist" 
+		name = "GFX_minister_war_industrialist" ###Sir Desmond Glazebrook###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_war_industrialist.dds"
 	}
 
@@ -103,12 +103,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_minister_armaments_organizer"
+		name = "GFX_minister_armaments_organizer" ###Sir Arnold Robinson###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_armaments_organizer.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_quartermaster_general"
+		name = "GFX_minister_quartermaster_general" 
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_quartermaster_general.dds"
 	}
 	
