@@ -293,14 +293,14 @@ ideas = {
 
 	political_advisor = {
 
-		generic_fascist_firebrand = {
+		generic_fascist_booster = {
 			
-			picture = generic_political_advisor_south_america_1
+			picture = minister_fascism_booster
 
 			allowed = {
 			}
 			
-			traits = { fascist_firebrand }
+			traits = { fascist_booster }
 	
 			do_effect = {
 				NOT = {
@@ -313,14 +313,14 @@ ideas = {
 			}
 		}
 
-		generic_staunch_monarchist = {
+		generic_autocratic_booster = {
 			
-			picture = generic_political_advisor_south_america_3
+			picture = minister_autocratic_booster
 
 			allowed = {
 			}
 			
-			traits = { staunch_monarchist }
+			traits = { autocratic_booster }
 	
 			do_effect = {
 				NOT = {
@@ -333,14 +333,14 @@ ideas = {
 			}
 		}
 
-		generic_traditionalist = {
+		generic_conservative_booster = {
 			
-			picture = generic_political_advisor_europe_1
+			picture = minister_conservative_booster
 
 			allowed = {
 			}
 			
-			traits = { traditionalist }
+			traits = { conservative_booster }
 	
 			do_effect = {
 				NOT = {
@@ -353,14 +353,14 @@ ideas = {
 			}
 		}
 
-		generic_liberal_reformer = {
+		generic_liberal_booster = {
 			
-			picture = generic_political_advisor_europe_2
+			picture = minister_liberal_booster
 			
 			allowed = {
 			}
 			
-			traits = { liberal_reformer }
+			traits = { liberal_booster }
 	
 			do_effect = {
 				NOT = {
@@ -373,14 +373,14 @@ ideas = {
 			}
 		}
 
-		generic_shop_steward = {
+		generic_demsoc_booster = {
 			
-			picture = generic_political_advisor_europe_5
+			picture = minister_demsoc_booster
 
 			allowed = {
 			}
 			
-			traits = { shop_steward }
+			traits = { demsoc_booster }
 	
 			do_effect = {
 				NOT = {
@@ -393,14 +393,14 @@ ideas = {
 			}
 		}
 
-		generic_communist_subversive = {
+		generic_communist_booster = {
 			
-			picture = generic_political_advisor_arab_1
+			picture = minister_communist_booster
 
 			allowed = {
 			}
 			
-			traits = { communist_subversive }
+			traits = { communist_booster }
 	
 			do_effect = {
 				NOT = {
@@ -413,14 +413,14 @@ ideas = {
 			}
 		}
 
-		generic_free_radical = {
+		generic_radsoc_booster = {
 			
-			picture = generic_political_advisor_europe_6
+			picture = minister_radsoc_booster
 
 			allowed = {
 			}
 			
-			traits = { free_radical }
+			traits = { radsoc_booster }
 	
 			do_effect = {
 				NOT = {
@@ -433,14 +433,14 @@ ideas = {
 			}
 		}
 
-		generic_cultural_champion = {
+		generic_civnat_booster = {
 			
-			picture = generic_political_advisor_south_america_2
+			picture = minister_civnat_booster
 
 			allowed = {
 			}
 			
-			traits = { cultural_champion }
+			traits = { civnat_booster }
 	
 			do_effect = {
 				NOT = {
@@ -455,7 +455,7 @@ ideas = {
 
 		generic_captain_of_industry = {
 			
-			picture = generic_political_advisor_arab_3
+			picture = minister_captain_of_industry
 
 			allowed = {
 			}

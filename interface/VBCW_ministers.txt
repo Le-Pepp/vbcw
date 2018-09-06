@@ -1,0 +1,115 @@
+spriteTypes = {	
+
+###GENERIC###
+
+	spriteType = {
+		name = "GFX_minister_fascism_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_fascist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_autocratic_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_autocratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_conservative_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_conservative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_liberal_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_liberal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_demsoc_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_demsoc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_communist_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_communist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_radsoc_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_radsoc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_civnat_booster"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_civnat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_prince_of_terror"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_prince_of_terror.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_captain_of_industry"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_captain_of_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_silent_workhorse"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_silent_workhorse.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_smooth_talking_charmer"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_smooth_talker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_war_industrialist"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_war_industrialist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_popular_figurehead"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_popular_figurehead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_propaganda_expert"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_propaganda_expert.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_compassionate_gentleman"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_compassionate_gentleman.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_backroom_backstabber"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_backroom_backstabber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_ideological_crusader"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_ideological_crusader.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_fortification_engineer"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_fortification_engineer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_financial_expert"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_financial_expert.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_armaments_organizer"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_armaments_organizer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minister_quartermaster_general"
+		texturefile = "gfx/interface/ideas/ministers/generic/minister_quartermaster_general.dds"
+	}
+	
+}

@@ -1,8 +1,7 @@
 leader_traits = {
 	
-	fascist_firebrand = {
+	fascist_booster = {
 		random = no
-		# Boosts Fascism
 		sprite = 13
 		fascist_drift = 0.1
 		
@@ -11,9 +10,8 @@ leader_traits = {
 		}
 	}
 	
-	staunch_monarchist = {
+	autocratic_booster = {
 		random = no
-		# Boosts Autocratic
 		sprite = 13
 		autocratic_drift = 0.1
 		
@@ -22,9 +20,8 @@ leader_traits = {
 		}
 	}
 	
-	traditionalist = {
+	conservative_booster = {
 		random = no
-		# Boosts Conservatism
 		sprite = 13
 		conservative_drift = 0.1
 		
@@ -33,9 +30,8 @@ leader_traits = {
 		}
 	}
 	
-	liberal_reformer = {
+	liberal_booster = {
 		random = no
-		# Boosts Liberalism
 		sprite = 13
 		liberal_drift = 0.1
 		
@@ -44,9 +40,8 @@ leader_traits = {
 		}
 	}
 	
-	shop_steward = {
+	demsoc_booster = {
 		random = no
-		# Boosts Socialism
 		sprite = 13
 		democratic_socialist_drift = 0.1
 		
@@ -55,9 +50,8 @@ leader_traits = {
 		}
 	}
 	
-	communist_subversive = {
+	communist_booster = {
 		random = no
-		# Boosts Communism
 		sprite = 13
 		communist_drift = 0.1
 		
@@ -66,9 +60,8 @@ leader_traits = {
 		}
 	}
 	
-	free_radical = {
+	radsoc_booster = {
 		random = no
-		# Boosts Radical Socialism
 		sprite = 13
 		anarcho_syndicalist_drift = 0.1
 		
@@ -77,9 +70,8 @@ leader_traits = {
 		}
 	}
 	
-	cultural_champion = {
+	civnat_booster = {
 		random = no
-		# Boosts Civic Nationalism
 		sprite = 13
 		civic_nationalist_drift = 0.1
 		
