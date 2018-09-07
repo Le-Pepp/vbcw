@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Regiment"			
+	name = "General Workers' Regiment"			
 	division_names_group = SOD_INF_01
 
 	regiments = {
@@ -18,7 +18,7 @@
 	}
 }
 division_template = {
-	name = "Cavalry Regiment"
+	name = "Workers' Mounted Regiment"
 	division_names_group = SOD_CAV_01
 
 	regiments = {
@@ -34,7 +34,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Yeomanry Regiment"
+	name = "Mounted People's Militia"
 	division_names_group = SOD_YEO_01
 
 	regiments = {
@@ -57,7 +57,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Local Defence Volunteers"
+	name = "Reserve Workers' Regiment"
 	division_names_group = SOD_GAR_01
 	
 	regiments = {

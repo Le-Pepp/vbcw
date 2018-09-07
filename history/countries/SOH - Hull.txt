@@ -17,11 +17,12 @@ set_technology = {
 	naval_bomber1 = 1
 	early_submarine = 1
 	early_destroyer = 1
-	basic_destroyer = 1
 	early_light_cruiser = 1
 	transport = 1
 	early_trawler = 1
+	basic_trawler = 1
 	early_corvette = 1
+	basic_corvette = 1
 	early_sloop = 1
 	guerilla_warfare = 1
 }

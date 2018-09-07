@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Regiment"			
+	name = "General Workers' Regiment"			
 	division_names_group = SOH_INF_01
 
 	regiments = {
@@ -18,7 +18,7 @@
 	}
 }
 division_template = {
-	name = "Cavalry Regiment"
+	name = "Workers' Mounted Regiment"
 	division_names_group = SOH_CAV_01
 
 	regiments = {
@@ -34,7 +34,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Yeomanry Regiment"
+	name = "Mounted People's Militia"
 	division_names_group = SOH_YEO_01
 
 	regiments = {
@@ -57,7 +57,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Local Defence Volunteers"
+	name = "Reserve Workers' Regiment"
 	division_names_group = SOH_GAR_01
 	
 	regiments = {
@@ -92,13 +92,30 @@ units = {
 	################
 	
 	navy = {				
-		name = "Humber Fleet"			
+		name = "Hull Fleet"			
 		base = 1148
 		location = 1148
-		ship = { name = "Davy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOH } } }			
-		ship = { name = "Rhymney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Taff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Ebbw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOH } } }		
+		ship = { name = "Spurn" definition = sloop equipment = { sloop_1 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Iris" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Rose" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Eleanor" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Dragonfly III" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }
+		ship = { name = "Paragon" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }
+		ship = { name = "Mona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }	
+	}
+	
+	navy = {				
+		name = "Grimsby Fleet"			
+		base = 1089
+		location = 1089	
+		ship = { name = "Clee" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Rosemary" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Heron" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Humber Maid" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Dorothea" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Elouise" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Honey" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
+		ship = { name = "Sweet Sue" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }	
 	}
 }	
 
@@ -120,17 +137,16 @@ air_wings = {
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
-instant_effect = {
-	
+instant_effect = {	
 
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "SOH"
 		}
-		requested_factories = 3
-		progress = 0.1
-		efficiency = 50
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 60
 	}
 }
 	#####################

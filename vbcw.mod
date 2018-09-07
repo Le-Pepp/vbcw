@@ -1,4 +1,4 @@
-﻿name="VBCW"
+﻿name="1938 - A Very British Civil War"
 path="mod/vbcw/"
 tags={
 	"Map"
