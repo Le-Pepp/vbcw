@@ -22,4 +22,22 @@ technologies = {
 			}
 		}
 	}
+	
+	big_tanks_tech = { #TOGII
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		enable_equipments = {
+			big_tank_equipment
+		}
+
+		on_research_complete = {
+			load_oob = "unlock_big_tanks"
+		}
+
+		research_cost = 1
+	}
 }

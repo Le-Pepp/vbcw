@@ -70,6 +70,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tanks/advanced_medium_spaa.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_big_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/big_tank.dds"
+	}
+	
 	###ROYALISTS###
 
 	SpriteType = {
