@@ -82,7 +82,7 @@ units = {
 			name_order = 1
 		}
 		location = 1149
-		division_template = "Infantry Regiment"
+		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.2
 	}
 
