@@ -3,112 +3,112 @@ spriteTypes = {
 ###GENERIC###
 
 	spriteType = {
-		name = "GFX_minister_fascism_booster"
+		name = "GFX_idea_fascist_booster"
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_fascist.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_autocratic_booster" ###Paul Smith###
+		name = "GFX_idea_autocratic_booster" ###Paul Smith###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_autocratic.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_conservative_booster" ###Peter Mannion###
+		name = "GFX_idea_conservative_booster" ###Peter Mannion###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_conservative.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_liberal_booster" ###Fergus Willams###
+		name = "GFX_idea_liberal_booster" ###Fergus Willams###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_liberal.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_demsoc_booster" ###Fred Dibnah###
+		name = "GFX_idea_demsoc_booster" ###Fred Dibnah###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_demsoc.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_communist_booster"
+		name = "GFX_idea_communist_booster"
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_communist.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_radsoc_booster" ###Piss Woman###
+		name = "GFX_idea_radsoc_booster" ###Piss Woman###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_radsoc.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_civnat_booster" ###Stewart Pearson###
+		name = "GFX_idea_civnat_booster" ###Stewart Pearson###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_civnat.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_prince_of_terror" ###Malcolm Tucker###
+		name = "GFX_idea_prince_of_terror" ###Malcolm Tucker###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_prince_of_terror.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_captain_of_industry" ###Steve Fleming###
+		name = "GFX_idea_captain_of_industry" ###Steve Fleming###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_captain_of_industry.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_silent_workhorse" ###Glenn Cullen###
+		name = "GFX_idea_silent_workhorse" ###Glenn Cullen###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_silent_workhorse.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_smooth_talking_charmer" ###Sir Humphrey Appleby###
+		name = "GFX_idea_smooth_talking_charmer" ###Sir Humphrey Appleby###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_smooth_talker.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_war_industrialist" ###Sir Desmond Glazebrook###
+		name = "GFX_idea_war_industrialist" ###Sir Desmond Glazebrook###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_war_industrialist.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_popular_figurehead" ###Jim Hacker###
+		name = "GFX_idea_popular_figurehead" ###Jim Hacker###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_popular_figurehead.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_propaganda_expert" ###Jamie McDonald###
+		name = "GFX_idea_propaganda_expert" ###Jamie McDonald###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_propaganda_expert.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_compassionate_gentleman" ###Julius Nicholson###
+		name = "GFX_idea_compassionate_gentleman" ###Julius Nicholson###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_compassionate_gentleman.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_backroom_backstabber" ###Bernard Woolley###
+		name = "GFX_idea_backroom_backstabber" ###Bernard Woolley###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_backroom_backstabber.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_ideological_crusader" 
+		name = "GFX_idea_ideological_crusader" 
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_ideological_crusader.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_fortification_engineer" 
+		name = "GFX_idea_fortification_engineer" 
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_fortification_engineer.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_financial_expert" ###Hugh Abbott###
+		name = "GFX_idea_financial_expert" ###Hugh Abbott###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_financial_expert.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_armaments_organizer" ###Sir Arnold Robinson###
+		name = "GFX_idea_armaments_organizer" ###Sir Arnold Robinson###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_armaments_organizer.dds"
 	}
 
 	spriteType = {
-		name = "GFX_minister_quartermaster_general" 
+		name = "GFX_idea_quartermaster_general" 
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_quartermaster_general.dds"
 	}
 	

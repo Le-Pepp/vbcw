@@ -295,7 +295,7 @@ ideas = {
 
 		generic_fascist_booster = {
 			
-			picture = minister_fascism_booster
+			picture = fascist_booster
 
 			allowed = {
 			}
@@ -315,7 +315,7 @@ ideas = {
 
 		generic_autocratic_booster = {
 			
-			picture = minister_autocratic_booster
+			picture = autocratic_booster
 
 			allowed = {
 			}
@@ -335,7 +335,7 @@ ideas = {
 
 		generic_conservative_booster = {
 			
-			picture = minister_conservative_booster
+			picture = conservative_booster
 
 			allowed = {
 			}
@@ -355,7 +355,7 @@ ideas = {
 
 		generic_liberal_booster = {
 			
-			picture = minister_liberal_booster
+			picture = liberal_booster
 			
 			allowed = {
 			}
@@ -375,7 +375,7 @@ ideas = {
 
 		generic_demsoc_booster = {
 			
-			picture = minister_demsoc_booster
+			picture = demsoc_booster
 
 			allowed = {
 			}
@@ -395,7 +395,7 @@ ideas = {
 
 		generic_communist_booster = {
 			
-			picture = minister_communist_booster
+			picture = communist_booster
 
 			allowed = {
 			}
@@ -415,7 +415,7 @@ ideas = {
 
 		generic_radsoc_booster = {
 			
-			picture = minister_radsoc_booster
+			picture = radsoc_booster
 
 			allowed = {
 			}
@@ -435,7 +435,7 @@ ideas = {
 
 		generic_civnat_booster = {
 			
-			picture = minister_civnat_booster
+			picture = civnat_booster
 
 			allowed = {
 			}
@@ -455,7 +455,7 @@ ideas = {
 
 		generic_captain_of_industry = {
 			
-			picture = minister_captain_of_industry
+			picture = captain_of_industry
 
 			allowed = {
 			}
@@ -465,7 +465,7 @@ ideas = {
 		
 		generic_fortification_engineer = {
 			
-			picture = minister_fortification_engineer
+			picture = fortification_engineer
 
 			allowed = {
 			}
@@ -475,7 +475,7 @@ ideas = {
 
 		generic_war_industrialist = {
 			
-			picture = minister_war_industrialist
+			picture = war_industrialist
 
 			allowed = {
 			}
