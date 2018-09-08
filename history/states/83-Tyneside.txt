@@ -1,39 +1,41 @@
+
 state={
 	id=83
 	name="STATE_83"
-	provinces={
-		1504 1510 1511 1516 1517 1522 1529 1533 1534 1535 1543 1545 1548 
+	resources={
+		oil=16.000
+		steel=32.000
 	}
-	manpower=900000
-	
-	resources = {
-		oil = 16
-		steel = 32
-	}
-	
-	state_category = metropolis
-	
+
 	history={
 		owner = SON
 		add_core_of = SON
 		add_claim_by = ROY
 		add_claim_by = YRK
 		add_claim_by = ANG
-		victory_points { 1510 10 }
-		victory_points { 1533 10 }
-		victory_points { 1534 25 }
+		victory_points {
+			1510 10 
+		}
+		victory_points {
+			1533 10 
+		}
+		victory_points {
+			1534 25 
+		}
 		buildings = {
 			infrastructure = 8
 			air_base = 1
 			industrial_complex = 2
 			arms_factory = 3
-			dockyard = 4
-			1510 = {
-				naval_base = 3
-			}
-			1533 = {
-				naval_base = 4
-			}
+			dockyard = 2
 		}
+
 	}
+
+	provinces={
+		1534 1535 1543 1545 1548 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

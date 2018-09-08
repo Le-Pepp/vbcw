@@ -106,13 +106,13 @@
  heavy_tank_equipment_5_short:0 "I. Tank V"
  heavy_tank_equipment_5_desc:0 "Infantry tanks are slow, heavily armoured tanks intended to support infantry assault and attack enemy fortifications."
   
- big_tank:0 "Bloody Big Tank"
- big_tank_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
- big_tank_equipment:0 "Bloody Big Tank"
- big_tank_equipment_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
- big_tank_equipment_1:0 "Bloody Big Tank"
- big_tank_equipment_1_short:0 "B.B. Tank"
- big_tank_equipment_1_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
+ super_heavy_tank:0 "Bloody Big Tank"
+ super_heavy_tank_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
+ super_heavy_tank_equipment:0 "Bloody Big Tank"
+ super_heavy_tank_equipment_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
+ super_heavy_tank_equipment_1:0 "Bloody Big Tank"
+ super_heavy_tank_equipment_1_short:0 "B.B. Tank"
+ super_heavy_tank_equipment_1_desc:0 "The Bloody Big Tank is a true monstrosity. Huge, heavily armoured and slow, it is intended to support infantry assaults and demolish enemy positions."
  
  #SP Weapons
  

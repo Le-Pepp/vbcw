@@ -31,7 +31,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			big_tank_equipment
+			super_heavy_tank_equipment_1
 		}
 
 		on_research_complete = {
@@ -39,5 +39,6 @@ technologies = {
 		}
 
 		research_cost = 1
+		start_year = 1936
 	}
 }

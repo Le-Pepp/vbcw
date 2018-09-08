@@ -119,10 +119,10 @@ spriteTypes = {
 		name = "GFX_advanced_medium_spaa_medium"
 		texturefile = "gfx/interface/technologies/tanks/advanced_medium_spaa.dds"
 	}
-	
+
 	SpriteType = {
-		name = "GFX_big_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/big_tank.dds"
+		name = "GFX_big_tanks_tech_medium"
+		texturefile = "gfx/interface/technologies/tanks/super_heavy_tank.dds"
 	}
 	
 	###ROYALISTS###

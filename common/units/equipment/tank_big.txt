@@ -1,7 +1,7 @@
 equipments = {
 
 	big_tank_equipment = {
-		year = 1934
+		year = 1936
 
 		is_archetype = yes
 		is_convertable = yes
@@ -51,7 +51,7 @@ equipments = {
 
 	# 1934
 	big_tank_equipment_1 = {
-		year = 1934
+		year = 1936
 
 		archetype = big_tank_equipment		
 		priority = 90

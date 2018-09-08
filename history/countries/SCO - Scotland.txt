@@ -44,7 +44,7 @@ set_politics = {
 
 	parties = {
 		fascist = { 
-			popularity = 0
+			popularity = 1
 		}
 
 		autocratic = {
@@ -52,19 +52,19 @@ set_politics = {
 		}
 		
 		conservative = {
-			popularity = 10
+			popularity = 30
 		}
 		
 		liberal = { 
-			popularity = 15
+			popularity = 4
 		}
 		
 		democratic_socialist = { 
-			popularity = 15
+			popularity = 9
 		}
 				
 		communist = { 
-			popularity = 0
+			popularity = 4
 		}
 				
 		anarcho_syndicalist = { 
@@ -72,7 +72,7 @@ set_politics = {
 		}
 				
 		civic_nationalist = { 
-			popularity = 60
+			popularity = 52
 		}
 	}
 	

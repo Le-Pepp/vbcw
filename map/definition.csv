@@ -2132,3 +2132,7 @@
 2131;250;91;15;land;false;plains;1
 2132;250;121;145;land;false;plains;1
 2133;235;140;140;land;true;urban;1
+2134;83;99;99;sea;true;ocean;0
+2135;63;9;9;sea;true;ocean;0
+2136;63;199;199;sea;true;ocean;0
+2137;63;99;99;sea;true;ocean;0
