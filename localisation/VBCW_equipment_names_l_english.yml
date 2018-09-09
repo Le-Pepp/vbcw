@@ -1,6 +1,10 @@
 ﻿l_english:
 
- #Tank Fluff Names 
+ ###CIVILIANS###
+
+ CIV_motorized_equipment_1:0 "Civilian Lorries"
+
+ ###ROYALISTS### 
   
  ROY_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  ROY_early_armoured_car_equipment_short:0 "Rolls-Royce"
