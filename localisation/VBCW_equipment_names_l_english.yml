@@ -3,6 +3,8 @@
  ###CIVILIANS###
 
  CIV_motorized_equipment_1:0 "Civilian Lorries"
+ CIV_infantry_equipment_0:0 "Commandeered Arms"
+ CIV_fighter_equipment_0:0 "Civilian Aircraft"
 
  ###ROYALISTS### 
   

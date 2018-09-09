@@ -124,6 +124,74 @@ emergency_construction = {
     }
 }
 
+commandeer_civilian_equipment = {
+
+	civilian_vehicles = {
+	
+		icon = rubber
+		
+		available = {
+			has_war = yes
+		}
+		
+		visible = {
+			has_war = yes
+		}
+
+        cost = 100
+        fire_only_once = no
+		
+		days_remove = 30
+        days_re_enable = 60
+
+		modifier = {
+			stability_weekly = -0.01
+			war_support_weekly = -0.01
+		}
+		
+		remove_effect = {			
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 100
+				producer = CIV
+			}
+		}
+	}
+
+	civilian_weapons = {
+	
+		icon = generic_prepare_civil_war
+		
+		available = {
+			has_war = yes
+		}
+		
+		visible = {
+			has_war = yes
+		}
+
+        cost = 100
+        fire_only_once = no
+		
+		days_remove = 30
+        days_re_enable = 60
+
+		modifier = {
+			stability_weekly = -0.01
+			war_support_weekly = -0.01
+		}
+		
+		remove_effect = {			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 1000
+				producer = CIV
+			}
+		}
+	}
+}
+			
+
 black_market = {
 
 	sumatran_rubber = { 
@@ -390,7 +458,7 @@ black_market = {
 		}
 	}
 	
-	cuban_chromium = { 
+	german_coal = { 
 		
 		icon = chromium
 

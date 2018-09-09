@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	###CIVILIANS###	
+	
+	SpriteType = {
+		name = "GFX_CIV_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/CIV_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CIV_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/CIV_infantry_equipment_0.dds"
+	}
+}

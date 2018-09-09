@@ -6,6 +6,10 @@ black_market = {
 	icon = generic_economy
 }
 
+commandeer_civilian_equipment = {
+	icon = ger_military_buildup
+}
+
 desperate_measures = {
 	icon = generic_crisis
 }

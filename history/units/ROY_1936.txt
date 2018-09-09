@@ -33,6 +33,25 @@ division_template = {
         recon = { x = 0 y = 0 }
 	}
 }
+
+division_template = {
+	name = "Motor Regiment"			
+	division_names_group = ROY_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+	}
+}
+
 division_template = {
 	name = "Yeomanry Regiment"
 	division_names_group = ROY_YEO_01
@@ -145,8 +164,7 @@ air_wings = {
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
-instant_effect = {
-	
+instant_effect = {	
 
 	add_equipment_production = {
 		equipment = {
@@ -156,6 +174,24 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 3660
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = gw_tank_equipment
+		amount = 80
+		producer = ROY
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment
+		amount = 120
+		producer = CIV
 	}
 }
 	#####################

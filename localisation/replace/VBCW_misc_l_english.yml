@@ -1,0 +1,7 @@
+﻿l_english:
+ bicycle_battalion:0 "Bicycle Infantry"
+ bicycle_battalion_desc:0 "Meat for the meat grinder, but with extra bits of metal."
+ PRODUCTION_MATERIALS_CHROMIUM:0 "Coal"
+ PRODUCTION_MATERIALS_TUNGSTEN:0 "Rare Metals"
+ chromium_desc:0 "Coal is used in a wide variety of applications, both domestic and industrial."
+ tungsten_desc:0 "Rare metals have many specialised applications."
