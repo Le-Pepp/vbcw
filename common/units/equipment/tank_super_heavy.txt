@@ -43,7 +43,7 @@ equipments = {
 		resources = {
 			oil = 2
 			steel = 3
-			chromium = 4
+			tungsten = 4
 		}
 	}
 

@@ -30,8 +30,13 @@
 ##COMMANDEERING##
  civilian_vehicles:0 "Civilian Vehicles"
  civilian_vehicles_desc:0 "The roads are packed with lorries, buses and taxis. It's time we put them to use."
+ civilian_vehicles_flag:0 "Has not already been scoured for vehicles."
  civilian_weapons:0 "Civilian Weapons"
  civilian_weapons_desc:0 "Everyone from farmers to farmers' mums seem to be going around armed to the teeth. Our need is greater than theirs."
+ civilian_weapons_flag:0 "Has not already been scoured for weapons."
+ civilian_aircraft:0 "Civilian Aircraft"
+ civilian_aircraft_desc:0 "It's time the local flying clubs played their part in the war effort."
+ civilian_aircraft_flag:0 "Has not already been scoured for aircraft." 
  
 ##CONSTRUCTION##
  war_building_slot_desc:0 "That village green looks like a lovely spot for a munitions factory..."

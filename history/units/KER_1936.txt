@@ -160,8 +160,12 @@ air_wings = {
 
 	1 = { 
 		fighter_equipment_0 = {
-			owner = "KER" 
+			owner = "CIV" 
 			amount = 12
+		}
+		tac_bomber_equipment_0 = {
+			owner = "CIV" 
+			amount = 6
 		}
 	}
 }
@@ -189,14 +193,8 @@ instant_effect = {
 	
 	add_equipment_to_stockpile = {
 		type = artillery_equipment_1
-		amount = 12
+		amount = 18
 		producer = ENG
-	}
-	
-	add_equipment_to_stockpile = {
-		type = motorized_equipment
-		amount = 45
-		producer = CIV
 	}
 }
 	#####################

@@ -10,5 +10,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CIV_infantry_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/CIV_infantry_equipment_0.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_CIV_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/planes/CIV_early_bomber.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_CIV_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/planes/CIV_early_fighter.dds"
 	}
 }

@@ -131,11 +131,19 @@ commandeer_civilian_equipment = {
 		icon = rubber
 		
 		available = {
-			has_war = yes
+            any_state = {
+            	NOT = { has_state_flag = civilian_vehicles_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
 		}
 		
 		visible = {
-			has_war = yes
+            any_state = {
+            	NOT = { has_state_flag = civilian_vehicles_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
 		}
 
         cost = 100
@@ -145,11 +153,18 @@ commandeer_civilian_equipment = {
         days_re_enable = 60
 
 		modifier = {
-			stability_weekly = -0.01
-			war_support_weekly = -0.01
+			war_support_weekly = -0.005
 		}
 		
-		remove_effect = {			
+		remove_effect = {	
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					NOT = { has_state_flag = civilian_vehicles_flag }
+				}
+				set_state_flag = civilian_vehicles_flag
+			}		
 			add_equipment_to_stockpile = {
 				type = motorized_equipment_1
 				amount = 100
@@ -163,11 +178,19 @@ commandeer_civilian_equipment = {
 		icon = generic_prepare_civil_war
 		
 		available = {
-			has_war = yes
+            any_state = {
+            	NOT = { has_state_flag = civilian_weapons_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
 		}
 		
 		visible = {
-			has_war = yes
+            any_state = {
+            	NOT = { has_state_flag = civilian_weapons_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
 		}
 
         cost = 100
@@ -177,14 +200,73 @@ commandeer_civilian_equipment = {
         days_re_enable = 60
 
 		modifier = {
-			stability_weekly = -0.01
-			war_support_weekly = -0.01
+			war_support_weekly = -0.005
 		}
 		
-		remove_effect = {			
+		remove_effect = {		
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					NOT = { has_state_flag = civilian_weapons_flag }
+				}
+				set_state_flag = civilian_weapons_flag
+			}		
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_0
 				amount = 1000
+				producer = CIV
+			}
+		}
+	}
+
+	civilian_aircraft = {
+	
+		icon = generic_air
+		
+		available = {
+            any_state = {
+            	NOT = { has_state_flag = civilian_aircraft_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
+		}
+		
+		visible = {
+            any_state = {
+            	NOT = { has_state_flag = civilian_aircraft_flag }
+            	is_fully_controlled_by = ROOT
+            	is_owned_by = ROOT
+            }
+		}
+
+        cost = 100
+        fire_only_once = no
+		
+		days_remove = 30
+        days_re_enable = 60
+
+		modifier = {
+			war_support_weekly = -0.005
+		}
+		
+		remove_effect = {			
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_owned_by = ROOT
+					NOT = { has_state_flag = civilian_aircraft_flag }
+				}
+				set_state_flag = civilian_aircraft_flag
+			}			
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 12
+				producer = CIV
+			}			
+			add_equipment_to_stockpile = {
+				type = tac_bomber_equipment_0
+				amount = 6
 				producer = CIV
 			}
 		}

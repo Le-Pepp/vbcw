@@ -175,23 +175,5 @@ instant_effect = {
 		progress = 0.1
 		efficiency = 50
 	}
-	
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-		amount = 3660
-		producer = ENG
-	}
-	
-	add_equipment_to_stockpile = {
-		type = gw_tank_equipment
-		amount = 80
-		producer = ROY
-	}
-	
-	add_equipment_to_stockpile = {
-		type = motorized_equipment
-		amount = 120
-		producer = CIV
-	}
 }
 	#####################
