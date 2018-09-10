@@ -24,6 +24,13 @@ set_technology = {
 	radio = 1
 	radio_detection = 1
 	superior_firepower = 1
+	construction1 = 1
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = socialist_research
 }
 
 set_politics = {

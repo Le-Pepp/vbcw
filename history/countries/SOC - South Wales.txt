@@ -22,6 +22,12 @@ set_technology = {
 	guerilla_warfare = 1
 }
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = socialist_research
+}
+
 set_politics = {
 
 	parties = {
