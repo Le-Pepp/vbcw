@@ -8,6 +8,9 @@ state={
 	
 	resources = {
 		oil = 16
+		chromium = 8
+		tungsten = 4
+		steel = 4
 	}
 
 	

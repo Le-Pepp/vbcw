@@ -9,6 +9,7 @@ state={
 	resources = {
 		rubber = 8
 		steel = 16
+		chromium = 16
 	}
 	
 	state_category = large_town

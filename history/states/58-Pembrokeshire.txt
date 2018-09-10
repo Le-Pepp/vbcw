@@ -9,6 +9,8 @@ state={
 	resources = {
 		oil = 16
 		steel = 16
+		chromium = 24
+		tungsten = 16
 	}
 	
 	state_category = rural

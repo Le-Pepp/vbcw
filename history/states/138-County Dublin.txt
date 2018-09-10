@@ -8,9 +8,10 @@ state={
 	
 	Id = 138
 	resources = {
-		oil = 16
-		aluminium = 8
+		oil = 8
+		aluminium = 4
 		steel = 16
+		tungsten = 4
 	}
 	
 	state_category = city

@@ -6,6 +6,12 @@ state={
 	}
 	manpower=400000
 	
+	resources = {
+		tungsten = 16
+		chromium = 16
+		steel = 8
+	}
+	
 	state_category = town
 	
 	history={

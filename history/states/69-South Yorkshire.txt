@@ -7,8 +7,9 @@ state={
 	manpower=1250000
 	
 	resources = {
-		oil = 16
-		steel = 32
+		steel = 48
+		chromium = 32
+		tungsten = 16
 	}
 	
 	state_category = metropolis

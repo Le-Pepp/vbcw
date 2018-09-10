@@ -6,6 +6,11 @@ state={
 	}
 	manpower=250000
 	
+	resources = {
+		tungsten = 4
+		chromium = 4
+	}
+	
 	state_category = pastoral
 	
 	history={

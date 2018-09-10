@@ -8,7 +8,9 @@ state={
 	
 	resources = {
 		oil = 16
-		steel = 16
+		steel = 24
+		tungsten = 16
+		chromium = 48
 	}
 	
 	state_category = large_city

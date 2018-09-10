@@ -6,6 +6,11 @@ state={
 	}
 	manpower=100000
 	
+	resources = {
+		chromium = 4
+		tungsten = 4
+	}
+	
 	state_category = rural
 	
 	history={

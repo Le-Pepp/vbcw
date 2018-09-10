@@ -9,6 +9,7 @@ state={
 	resources = {
 		oil = 16
 		steel = 32
+		chromium = 8
 	}
 	
 	state_category = metropolis
