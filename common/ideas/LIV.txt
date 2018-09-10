@@ -21,4 +21,104 @@ ideas = {
 			}
 		}
 	}
+	
+	political_advisor = {
+	
+		LIV_errington = {
+			
+			picture = silent_workhorse
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		LIV_samuel = {
+			
+			picture = popular_figurehead
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			traits = { popular_figurehead }
+		}
+		
+		LIV_rankin = {
+			
+			picture = war_industrialist
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			traits = { war_industrialist }
+		}
+		
+		LIV_rowse = {
+			
+			picture = quartermaster_general
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			traits = { quartermaster_general }
+		}
+		
+		LIV_hubback = {
+			
+			picture = captain_of_industry
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		LIV_cammell_laird = {
+			picture = cammell_laird
+
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { large_vessel_manufacturer_1 }
+		}
+
+		LIV_rj_evans = {
+			picture = generic_naval_manufacturer_3
+
+			
+			allowed = {
+				original_tag = LIV
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+			}
+			
+			traits = { small_vessel_manufacturer_2 }
+		}
+	}
 }

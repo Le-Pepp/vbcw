@@ -77,13 +77,28 @@ division_template = {
 
 units = {
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
+		name = "King's Regiment (Liverpool)"
 		location = 953
 		division_template = "Infantry Regiment"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+	}
+	
+	division= {
+		name = "Mersey Division Submarine Miners"
+		location = 963
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+	}
+	
+	division= {	
+		name = "Mersey Division Electrical Engineers"
+		location = 991
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 	}
 
 	
@@ -120,15 +135,14 @@ air_wings = {
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
-instant_effect = {
-	
+instant_effect = {	
 
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "LIV"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.1
 		efficiency = 65
 	}

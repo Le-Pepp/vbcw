@@ -1,4 +1,9 @@
 ﻿l_english:
+###LIVERPOOL###
+ LIV_cammell_laird:0 "Cammell Laird"
+ LIV_rj_evans:0 "R & J Evans"
+
+###KERNOW###
  ker_arvwisk_vehicles:0 "Arvwisk Vehicles"
  ker_camborne_school_of_mines:0 "Camborne School of Mines"
  ker_lanhydrock:0 "Lanhydrock Arms"

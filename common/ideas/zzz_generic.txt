@@ -106,6 +106,12 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = tank_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = tank_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -123,6 +129,12 @@ ideas = {
 			picture = generic_tank_manufacturer_2
 			
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = motorised_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = motorised_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -146,6 +158,12 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = small_vessel_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = small_vessel_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -163,6 +181,12 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = large_vessel_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = large_vessel_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -185,6 +209,12 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = fighter_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = fighter_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -202,6 +232,12 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = bomber_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = bomber_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -222,6 +258,12 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = industrial_concern_1 limit = 1 }
+						has_available_idea_with_traits = { idea = industrial_concern_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -239,6 +281,12 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = electronics_concern_1 limit = 1 }
+						has_available_idea_with_traits = { idea = electronics_concern_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -261,6 +309,12 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -278,6 +332,12 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
+				NOT ={
+					OR = {
+						has_available_idea_with_traits = { idea = artillery_manufacturer_1 limit = 1 }
+						has_available_idea_with_traits = { idea = artillery_manufacturer_2 limit = 1 }
+					}
+				}
 			}
 			
 			cost = 150
@@ -298,6 +358,9 @@ ideas = {
 			picture = fascist_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = fascist_booster limit = 1 }
+				}
 			}
 			
 			traits = { fascist_booster }
@@ -318,6 +381,9 @@ ideas = {
 			picture = autocratic_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = autocratic_booster limit = 1 }
+				}
 			}
 			
 			traits = { autocratic_booster }
@@ -338,6 +404,9 @@ ideas = {
 			picture = conservative_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = conservative_booster limit = 1 }
+				}
 			}
 			
 			traits = { conservative_booster }
@@ -358,6 +427,9 @@ ideas = {
 			picture = liberal_booster
 			
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = liberal_booster limit = 1 }
+				}
 			}
 			
 			traits = { liberal_booster }
@@ -378,6 +450,9 @@ ideas = {
 			picture = demsoc_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = demsoc_booster limit = 1 }
+				}
 			}
 			
 			traits = { demsoc_booster }
@@ -398,6 +473,9 @@ ideas = {
 			picture = communist_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = communist_booster limit = 1 }
+				}
 			}
 			
 			traits = { communist_booster }
@@ -418,6 +496,9 @@ ideas = {
 			picture = radsoc_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = radsoc_booster limit = 1 }
+				}
 			}
 			
 			traits = { radsoc_booster }
@@ -438,6 +519,9 @@ ideas = {
 			picture = civnat_booster
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = civnat_booster limit = 1 }
+				}
 			}
 			
 			traits = { civnat_booster }
@@ -458,6 +542,9 @@ ideas = {
 			picture = captain_of_industry
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = captain_of_industry limit = 1 }
+				}
 			}
 			
 			traits = { captain_of_industry }
@@ -468,6 +555,9 @@ ideas = {
 			picture = fortification_engineer
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = fortification_engineer limit = 1 }
+				}
 			}
 			
 			traits = { fortification_engineer }
@@ -478,6 +568,9 @@ ideas = {
 			picture = war_industrialist
 
 			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = war_industrialist limit = 1 }
+				}
 			}
 			
 			traits = { war_industrialist }

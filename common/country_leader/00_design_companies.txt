@@ -293,6 +293,11 @@ leader_traits = {
 				naval_speed = 0.1
 				instant = yes
 			}
+			monitor = {
+				attack = 0.1
+				naval_speed = 0.1
+				instant = yes
+			}
 			heavy_cruiser = {
 				attack = 0.1
 				naval_speed = 0.1
@@ -319,6 +324,11 @@ leader_traits = {
 				instant = yes
 			}
 			light_cruiser = {
+				surface_visibility = -0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			monitor = {
 				surface_visibility = -0.1
 				build_cost_ic = -0.1
 				instant = yes
