@@ -15,6 +15,7 @@
  radsoc_booster_desc:0 "A \"true\" socialist, at least in his eyes, this politician believes in a radical change in society and the redistrubition of wealth."
  civnat_booster:0 "Cultural Champion"
  civnat_booster_desc:0 "Less a politcian, and more a poet, this person extols the virtues of their native language and culture above all else."
+ 
  fascist_drift:0 "Daily Fascism Support"
  autocratic_drift:0 "Daily Autocracy Support"
  conservative_drift:0 "Daily Conservatism Support"

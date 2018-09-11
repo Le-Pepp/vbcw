@@ -1,4 +1,10 @@
 ﻿l_english:
+
+###GENERIC###
+ no_man_an_island:0 "No Man an Island"
+ no_man_an_island_desc:0 "With the conflict on their very doorstep, more and more men come forward to fight for our cause."
+ 
+ ###FACTIONAL###
  ROY_cavalry_elan:0 "Cavalry Élan"
  ROY_cavalry_elan_desc:0 "The British Army has a long cavalry tradition, with several heroic charges to its name throughout history. \n\nThe modern armoured car regiments maintain this tradition, along with the cavalryman’s reckless attitude towards his personal safety..."
  BUF_auxiliary_constabularies:0 "Auxiliary Constabularies"
@@ -34,7 +40,5 @@
  WAL_code_talkers_desc:0 "The Welsh language, once on the brink of extinction, has enjoyed a renaissance in this conflict.\n\nSo indecipherable is it to English ears, it has proven a highly effective means of encryption."
  LIV_city_under_siege:0 "A City Under Siege"
  LIV_city_under_siege_desc:0 "Liverpool is surrounded by potential enemies on all sides - except one. \n\nWith their legacy of shipbuilding, they may yet control the straits and get supplies through. However, their current supply situation is having a noticeable effect on troops in the field."
- no_man_an_island:0 "No Man an Island"
- no_man_an_island_desc:0 "With the conflict on their very doorstep, more and more men come forward to fight for our cause."
  JAC_highlanders:0 "Highland Laddie"
  JAC_highlanders_desc:0 "§WAll Infantry:\nHill and Mountain:\nMovement §G+10%\n§WAttack §G+10%\n§WDefence §G+10%\n\n§gThe ranks of the Jacobite Army are drawn from hardy folk, accustomed to the harsh environment of the Scottish Highlands and Islands. \n\nFarmers, poachers, ghillies, they all know how to use the Highland terrain to their advantage."
