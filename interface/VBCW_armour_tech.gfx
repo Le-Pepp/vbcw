@@ -156,7 +156,22 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ROY_early_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/tanks/ROY_early_armored_car.dds"
+		texturefile = "gfx/interface/technologies/tanks/ROY2_early_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROY_basic_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/ROY2_basic_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROY_improved_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/ROY2_improved_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROY_advanced_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/ROY2_advanced_armored_car.dds"
 	}
 
 	SpriteType = {
@@ -234,6 +249,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BUF_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/BUF_early_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BUF_basic_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_basic_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BUF_improved_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_improved_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BUF_advanced_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_advanced_armored_car.dds"
 	}
 
 	SpriteType = {
