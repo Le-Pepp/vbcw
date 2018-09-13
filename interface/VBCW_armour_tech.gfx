@@ -153,6 +153,11 @@ spriteTypes = {
 	}
 	
 	###ROYALISTS###
+	
+	SpriteType = {
+		name = "GFX_ROY_early_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/ROY_early_armored_car.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_ROY_basic_light_tank_medium"
@@ -222,5 +227,82 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ROY_ultimate_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/ROY2_ultimate_heavy_tank.dds"
+	}
+	
+	###FASCISTS###
+	
+	SpriteType = {
+		name = "GFX_BUF_early_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_early_armored_car.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_improved_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_advanced_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_ultimate_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_ultimate_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_basic_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_improved_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_intermediate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_intermediate_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_advanced_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_ultimate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_ultimate_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_basic_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_improved_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_intermediate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_intermediate_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_advanced_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BUF_ultimate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/BUF_ultimate_heavy_tank.dds"
 	}
 }
