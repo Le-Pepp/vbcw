@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {			
+			every_country = {
+				limit = { is_ai = no }
+				country_event = vbcw.politics.1 ###Intro Lore etc###
+			}
+			every_country = { 
+				country_event = vbcw.politics.2 ###Opinion Modifiers### 
+			}
+		}
+	}
+}

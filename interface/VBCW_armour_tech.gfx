@@ -33,48 +33,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_ultimate_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/ultimate_medium_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ultimate_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/ultimate_heavy_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ultimate_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/ultimate_light_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_advanced_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/advanced_medium_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_advanced_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/advanced_heavy_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_advanced_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/advanced_light_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_improved_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/improved_medium_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_improved_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/improved_heavy_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_improved_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/improved_light_tank.dds"
+		name = "GFX_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/basic_light_tank.dds"
 	}
 	
 	SpriteType = {
@@ -88,11 +48,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_basic_light_tank_medium"
-		texturefile = "gfx/interface/technologies/tanks/basic_light_tank.dds"
-	}
-	
-	SpriteType = {
 		name = "GFX_intermediate_medium_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/intermediate_medium_tank.dds"
 	}
@@ -100,6 +55,51 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_intermediate_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/intermediate_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/improved_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/improved_medium_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/improved_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/advanced_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/advanced_medium_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/advanced_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ultimate_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/ultimate_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ultimate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/ultimate_medium_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ultimate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/ultimate_heavy_tank.dds"
 	}
 	
 	SpriteType = {
@@ -538,5 +538,20 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ANG_ultimate_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_ultimate_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_basic_medium_td.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_improved_medium_td.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_advanced_medium_td.dds"
 	}
 }

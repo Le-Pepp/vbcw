@@ -1,0 +1,25 @@
+﻿###Intro###
+
+add_namespace = vbcw.politics
+
+country_event = {
+	id = vbcw.politics.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.2"}
+	title = vbcw.politics.1.t
+	desc = vbcw.politics.1.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.1.a #Honour the Truce
+		add_political_power = 10
+		add_threat = 15
+	}
+
+	option = {
+		name = vbcw.politics.1.b #There Will be War!
+		add_political_power = 10
+		add_threat = 35
+	}
+}

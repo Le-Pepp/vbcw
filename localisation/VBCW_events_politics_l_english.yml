@@ -1,0 +1,14 @@
+﻿l_english:
+
+### Starting Events ###
+vbcw.politics.1.t:0 "1938 - A Very British Civil War"
+vbcw.politics.1.d:0 "A Crisis has Befallen the British Isles. King Edward VIII, despite pressure from the Government and widespread public opposition, refused to choose between ruling the Empire and marrying Wallis Simpson.\n\n<MORE LORE TO COME>\n\nFor now, a Christmas Truce has been called and as so far been honoured by all combatants. What comes next, however, remains to be seen..."
+vbcw.politics.1.a:0 "Honour the Truce!"
+vbcw.politics.1.b:0 "Defy the Truce!"
+
+VBCW_opposed_ideology:0 "Opposed Ideology"
+VBCW_different_ideology:0 "Different Ideology"
+VBCW_similar_ideology:0 "Similar Ideology"
+VBCW_same_ideology:0 "Same Ideology"
+same_ruling_party:0 "Base"
+different_party_types:0 "Base"
