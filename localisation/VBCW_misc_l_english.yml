@@ -1,2 +1,8 @@
 ﻿l_english:
- armoured_car_tech_research:0 "Armoured Car Research"
+ VBCW_opposed_ideology:0 "Opposed Ideology"
+ VBCW_different_ideology:0 "Different Ideology"
+ VBCW_similar_ideology:0 "Similar Ideology"
+ VBCW_same_ideology:0 "Same Ideology"
+ same_ruling_party:0 "Base"
+ different_party_types:0 "Base"
+ big_tanks_tech:0 "Bloody Big Tanks"

@@ -16,6 +16,7 @@
  #Tech Categories
  
  armor:0 "Armour technology"
+ cat_armoured_car:0 "Armoured Car models"
  cat_light_armor:0 "Light Tank models"
  cat_medium_armor:0 "Cruiser Tank models"
  cat_heavy_armor:0 "Infantry Tank models"

@@ -1,0 +1,14 @@
+﻿l_english:
+
+ ### Startup Events ###
+ vbcw.politics.1.t:0 "1938 - A Very British Civil War"
+ vbcw.politics.1.d:0 "A Crisis has Befallen the British Isles. King Edward VIII, despite pressure from the Government and widespread public opposition, refused to choose between ruling the Empire and marrying Wallis Simpson.\n\n<MORE LORE TO COME>\n\nFor now, a Christmas Truce has been called and as so far been honoured by all combatants. What comes next, however, remains to be seen..."
+ vbcw.politics.1.a:0 "Honour the Truce!"
+ vbcw.politics.1.b:0 "Defy the Truce!"
+
+ ### Fluff Events ###
+ vbcw.fluff.1.t:0 "The Old Gang"
+ vbcw.fluff.1.d:0 "A group of boffins who've spent the last ten years in a Nissen hut, tinkering away on tank designs, have finally emerged blinking into the daylight and noticed there's a war on.\n\nRealising they ought to make some contribution to the war effort, they now offer their services, bringing their new prototype heavy tank with them..."
+ vbcw.fluff.1.a:0 "Set them to work on our Cruiser tanks"
+ vbcw.fluff.1.b:0 "Set them to work on our Infantry tanks"
+ vbcw.fluff.1.c:0 "Let them develop their prototype for production"

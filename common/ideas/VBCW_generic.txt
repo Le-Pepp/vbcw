@@ -20,6 +20,50 @@ ideas = {
 				conscription_factor = 0.25
 			}
 		}
+	
+###TOG###		
+
+		TOG_cruiser_tanks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+			
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}		
+
+		TOG_infantry_tanks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+			
+			equipment_bonus = {
+				heavy_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
 	}
 }
 

@@ -1,0 +1,32 @@
+﻿###Intro###
+
+add_namespace = vbcw.fluff
+
+country_event = {
+	id = vbcw.fluff.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.fluff.2"}
+	title = vbcw.fluff.1.t
+	desc = vbcw.fluff.1.d
+	picture = INTRO_main
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+
+	option = {
+		name = vbcw.fluff.1.a #Cruiser tanks
+		add_ideas = TOG_cruiser_tanks
+	}
+
+	option = {
+		name = vbcw.fluff.1.b #Infantry tanks
+		add_ideas = TOG_infantry_tanks
+	}
+
+	option = {
+		name = vbcw.fluff.1.c #TOG TOG TOG
+		set_technology = {
+			big_tanks_tech = 1
+		}
+	}
+}

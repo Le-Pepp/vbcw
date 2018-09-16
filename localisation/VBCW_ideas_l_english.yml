@@ -3,6 +3,10 @@
 ###GENERIC###
  no_man_an_island:0 "No Man an Island"
  no_man_an_island_desc:0 "With the conflict on their very doorstep, more and more men come forward to fight for our cause."
+ TOG_cruiser_tanks:0 "The Old Gang"
+ TOG_cruiser_tanks:0 "The group of tank designers known as The Old Gang have found useful work improving our Cruiser Tank designs."
+ TOG_infantry_tanks:0 "The Old Gang"
+ TOG_infantry_tanks:0 "The group of tank designers known as The Old Gang have found useful work improving our Infantry Tank designs."
  
  ###FACTIONAL###
  ROY_cavalry_elan:0 "Cavalry Élan"

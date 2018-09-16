@@ -76,6 +76,9 @@
  ROY_medium_tank_aa_equipment_2_short:0 "HA III"
  ROY_medium_tank_aa_equipment_3:0 "High-Angle Autocannon Carrier Mk. IV"
  ROY_medium_tank_aa_equipment_3_short:0 "HAAC IV"
+ 
+ ROY_modern_tank_equipment_1:0 "Monarch"
+ ROY_modern_tank_equipment_1_short:0 "Monarch"
 
  ###FASCISTS### 
   
@@ -143,6 +146,9 @@
  BUF_medium_tank_aa_equipment_3:0 "High-Angle Autocannon Carrier Mk. IV"
  BUF_medium_tank_aa_equipment_3_short:0 "HAAC IV"
  
+ BUF_modern_tank_equipment_1:0 "Emperor"
+ BUF_modern_tank_equipment_1_short:0 "Emperor"
+ 
  ###YORKISTS### 
   
  YRK_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
@@ -181,10 +187,10 @@
  YRK_heavy_tank_equipment_1_short:0 "Walpole"
  YRK_heavy_tank_equipment_2:0 "Palmerston"
  YRK_heavy_tank_equipment_2_short:0 "Palmerston"
- YRK_heavy_tank_equipment_3:0 "Wellington"
- YRK_heavy_tank_equipment_3_short:0 "Wellington"
- YRK_heavy_tank_equipment_4:0 "Gladstone"
- YRK_heavy_tank_equipment_4_short:0 "Gladstone"
+ YRK_heavy_tank_equipment_3:0 "Gladstone"
+ YRK_heavy_tank_equipment_3_short:0 "Gladstone"
+ YRK_heavy_tank_equipment_4:0 "Disraeli"
+ YRK_heavy_tank_equipment_4_short:0 "Disraeli"
  YRK_heavy_tank_equipment_5:0 "Asquith"
  YRK_heavy_tank_equipment_5_short:0 "Asquith"
  
@@ -208,6 +214,9 @@
  YRK_medium_tank_aa_equipment_2_short:0 "Ack-Ack Mk. IV"
  YRK_medium_tank_aa_equipment_3:0 "Mobile Ack-Ack Mk. VI"
  YRK_medium_tank_aa_equipment_3_short:0 "Ack-Ack Mk. VI"
+ 
+ YRK_modern_tank_equipment_1:0 "Wellington"
+ YRK_modern_tank_equipment_1_short:0 "Wellington"
  
  ###ANGLICANS### 
   
@@ -274,4 +283,7 @@
  ANG_medium_tank_aa_equipment_2_short:0 "Protector"
  ANG_medium_tank_aa_equipment_3:0 "Guardian"
  ANG_medium_tank_aa_equipment_3_short:0 "Guardian"
+ 
+ ANG_modern_tank_equipment_1:0 "Saviour"
+ ANG_modern_tank_equipment_1_short:0 "Saviour"
 
