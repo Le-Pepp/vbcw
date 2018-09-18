@@ -16,13 +16,15 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.2 }
 	}
 
 	option = {
 		name = vbcw.politics.1.b #Shut up already
 		hidden_effect = {
-			add_threat = 25
+			add_threat = 30
 		}
+		country_event = { id = vbcw.politics.7 }
 	}
 }
 
@@ -40,13 +42,15 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.3 }
 	}
 
 	option = {
 		name = vbcw.politics.2.b #Shut up already
 		hidden_effect = {
-			add_threat = 20
+			add_threat = 25
 		}
+		country_event = { id = vbcw.politics.7 }
 	}
 }
 
@@ -64,13 +68,15 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.4 }
 	}
 
 	option = {
 		name = vbcw.politics.3.b #Shut up already
 		hidden_effect = {
-			add_threat = 15
+			add_threat = 20
 		}
+		country_event = { id = vbcw.politics.7 }
 	}
 }
 
@@ -88,13 +94,15 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.5 }
 	}
 
 	option = {
 		name = vbcw.politics.4.b #Shut up already
 		hidden_effect = {
-			add_threat = 10
+			add_threat = 15
 		}
+		country_event = { id = vbcw.politics.7 }
 	}
 }
 
@@ -112,10 +120,62 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.6 }
 	}
 
 	option = {
 		name = vbcw.politics.5.b #Shut up already
+		hidden_effect = {
+			add_threat = 10
+		}
+		country_event = { id = vbcw.politics.7 }
+	}
+}
+
+country_event = {
+	id = vbcw.politics.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.6"}
+	title = vbcw.politics.6.t
+	desc = vbcw.politics.6.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.6.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
+		country_event = { id = vbcw.politics.7 }
+	}
+
+	option = {
+		name = vbcw.politics.6.b #Shut up already
+		hidden_effect = {
+			add_threat = 5
+		}
+		country_event = { id = vbcw.politics.7 }
+	}
+}
+
+country_event = {
+	id = vbcw.politics.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.6"}
+	title = vbcw.politics.7.t
+	desc = vbcw.politics.7.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.7.a #Honour the truce!
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+
+	option = {
+		name = vbcw.politics.7.b #Defy the truce!
 		hidden_effect = {
 			add_threat = 5
 		}
@@ -168,7 +228,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					has_authoritarian_government = yes					}
+					has_authoritarian_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
