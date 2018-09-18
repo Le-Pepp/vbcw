@@ -24,3 +24,7 @@
  communist_drift:0 "Daily Communism Support"
  anarcho_syndicalist_drift:0 "Daily Radical Socialism Support"
  civic_nationalist_drift:0 "Daily Civic Nationalism Support"
+ 
+ ### Leader Traits ###
+ royal_connections:0 "Royal Connections"
+ royal_connections_desc:0 "Edward VII uses his long standing connections both on the Continent and Abroad to secure cheaper imports, exports and magnify his influence over the territoru the Royalists directly control."
