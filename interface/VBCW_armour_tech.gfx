@@ -549,13 +549,43 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_YRK_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_improved_medium_art.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YRK_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_advanced_medium_art.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_YRK_basic_medium_td_medium"
 		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_basic_medium_td.dds"
 	}
 
 	SpriteType = {
+		name = "GFX_YRK_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_improved_medium_td.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YRK_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_advanced_medium_td.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_YRK_basic_medium_spaa_medium"
 		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_basic_medium_spaa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YRK_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_improved_medium_spaa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YRK_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/YRK/YRK_advanced_medium_spaa.dds"
 	}
 
 	SpriteType = {
@@ -658,6 +688,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ANG_ultimate_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_ultimate_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_basic_medium_art.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_improved_medium_art.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_advanced_medium_art.dds"
 	}
 	
 	SpriteType = {
