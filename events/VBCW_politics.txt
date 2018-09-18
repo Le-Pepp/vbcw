@@ -4,7 +4,7 @@ add_namespace = vbcw.politics
 
 country_event = {
 	id = vbcw.politics.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.2"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.1"}
 	title = vbcw.politics.1.t
 	desc = vbcw.politics.1.d
 	picture = INTRO_main
@@ -12,21 +12,119 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = vbcw.politics.1.a #Honour the Truce
-		add_political_power = 10
-		add_threat = 15
+		name = vbcw.politics.1.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
 	}
 
 	option = {
-		name = vbcw.politics.1.b #There Will be War!
-		add_political_power = 10
-		add_threat = 35
+		name = vbcw.politics.1.b #Shut up already
+		hidden_effect = {
+			add_threat = 25
+		}
 	}
 }
 
 country_event = {
 	id = vbcw.politics.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.2"}
+	title = vbcw.politics.2.t
+	desc = vbcw.politics.2.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.2.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+
+	option = {
+		name = vbcw.politics.2.b #Shut up already
+		hidden_effect = {
+			add_threat = 20
+		}
+	}
+}
+
+country_event = {
+	id = vbcw.politics.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.3"}
+	title = vbcw.politics.3.t
+	desc = vbcw.politics.3.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.3.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+
+	option = {
+		name = vbcw.politics.3.b #Shut up already
+		hidden_effect = {
+			add_threat = 15
+		}
+	}
+}
+
+country_event = {
+	id = vbcw.politics.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.4"}
+	title = vbcw.politics.4.t
+	desc = vbcw.politics.4.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.4.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+
+	option = {
+		name = vbcw.politics.4.b #Shut up already
+		hidden_effect = {
+			add_threat = 10
+		}
+	}
+}
+
+country_event = {
+	id = vbcw.politics.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.5"}
+	title = vbcw.politics.5.t
+	desc = vbcw.politics.5.d
+	picture = INTRO_main
+
+	is_triggered_only = yes
+
+	option = {
+		name = vbcw.politics.5.a #And then what happened?
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+
+	option = {
+		name = vbcw.politics.5.b #Shut up already
+		hidden_effect = {
+			add_threat = 5
+		}
+	}
+}
+
+country_event = {
+	id = vbcw.politics.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.25"}
 
 	hidden = yes
 
@@ -49,9 +147,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_moderate_left_government = yes
-					}
+					has_moderate_left_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -72,9 +168,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_authoritarian_government = yes
-					}
+					has_authoritarian_government = yes					}
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -110,9 +204,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_right_wing_government = yes
-					}
+					has_right_wing_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -121,9 +213,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_authoritarian_government = yes
-					}
+					has_authoritarian_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -198,9 +288,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_moderate_left_government = yes
-					}
+					has_moderate_left_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -209,9 +297,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_far_left_government = yes
-					}
+					has_far_left_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -235,9 +321,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_right_wing_government = yes
-					}
+					has_right_wing_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
@@ -246,9 +330,7 @@ country_event = {
 			}
 			every_country = {
 				limit = {
-					OR = {
-						has_democratic_government = yes
-					}
+					has_democratic_government = yes
 				}
 				add_opinion_modifier = {
 					target = ROOT
