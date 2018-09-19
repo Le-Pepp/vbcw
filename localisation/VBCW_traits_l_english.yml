@@ -28,3 +28,9 @@
  ### Leader Traits ###
  royal_connections:0 "Royal Connections"
  royal_connections_desc:0 "Edward VII uses his long standing connections both on the Continent and Abroad to secure cheaper imports, exports and magnify his influence over the territoru the Royalists directly control."
+ 
+ ### Unit Traits ###
+ gambling_addict:0 "Gambling Addict"
+ gambling_addict_desc:0 "This officer has a crippling addiction to gambling, and is seldom seen on the battlefield, preferring the roulette table."
+ SCO_unionist_sympathies:0 "Unionist Sympathies"
+ SCO_unionist_sympathies_desc:0 "Although willing to fight for Scotland as the best hope for democracy in the region, this officer’s heart is still with the United Kingdom; a clean break with the English is likely to result in an unfavourable reaction."
