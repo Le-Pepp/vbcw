@@ -64,5 +64,8 @@ sub_units = {
 		amphibious = { 
 			attack = -0.3
 		}
+		plains = {
+			attack = 0.2
+		}
 	}
 }
