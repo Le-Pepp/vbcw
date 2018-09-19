@@ -720,6 +720,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_advanced_medium_td.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_ANG_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_basic_medium_spaa.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_improved_medium_spaa.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_advanced_medium_spaa.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/ANG/ANG_main_battle_tank.dds"
+	}
+	
 	###SOCIALISTS###
 	
 	##CARDIFF##
