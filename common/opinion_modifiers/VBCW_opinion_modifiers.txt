@@ -14,5 +14,6 @@ opinion_modifiers = {
 	VBCW_different_ideology = { value = -20 }
 	VBCW_similar_ideology = { value = 20 }
 	VBCW_same_ideology = { value = 50 }	
+	cultural_ties = { value = 20 }
 	
 }	

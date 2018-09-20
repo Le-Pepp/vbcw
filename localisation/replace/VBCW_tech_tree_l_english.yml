@@ -21,6 +21,7 @@
  cat_medium_armor:0 "Cruiser Tank models"
  cat_heavy_armor:0 "Infantry Tank models"
  cat_self_propelled:0 "Self-Propelled Gun models"
+ big_tanks_tech:0 "Bloody Big Tanks"
  
  #Armoured Cars
  
