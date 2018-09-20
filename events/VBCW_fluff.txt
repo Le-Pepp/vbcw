@@ -7,10 +7,12 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.fluff.2"}
 	title = vbcw.fluff.1.t
 	desc = vbcw.fluff.1.d
-	picture = INTRO_main
+	picture = GFX_report_event_TOG
+	
+	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		days = 20
+		days = 250
 	}
 
 	option = {
