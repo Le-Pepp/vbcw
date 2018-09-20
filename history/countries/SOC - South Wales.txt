@@ -70,6 +70,16 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_opinion_modifier = {
+	target = KER
+	modifier = cultural_ties
+}
+
+add_opinion_modifier = {
+	target = WAL
+	modifier = cultural_ties
+}
+
 add_ideas = {
 	SOC_victory_in_the_valleys
 	SOM_strike_up_the_band

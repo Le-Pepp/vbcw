@@ -70,6 +70,16 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_opinion_modifier = {
+	target = WAL
+	modifier = cultural_ties
+}
+
+add_opinion_modifier = {
+	target = SOC
+	modifier = cultural_ties
+}
+
 add_ideas = {
 	limited_conscription
 	KER_kernow_bys_vykken
