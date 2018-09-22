@@ -1,5 +1,67 @@
 spriteTypes = {	
 
+###YORKIST###
+
+	spriteType = {
+		name = "GFX_idea_YRK_chamberlain"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_chamberlain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_attlee"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_attlee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_lloyd_george"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_lloyd_george.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_sinclair"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_sinclair.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_eden"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_eden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_churchill"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_churchill.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_aitken"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_aitken.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_margesson"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_margesson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_simon"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_simon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_appleby"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_appleby.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_anderson"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_anderson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_wood"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_wood.dds"
+	}
+
 ###GENERIC###
 
 	spriteType = {

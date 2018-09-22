@@ -13,11 +13,478 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = stiff_upper_lip
+			picture = george_vi
 			
 			modifier = {
 				non_core_manpower = 0.5
 			}
 		}
+	}
+	
+	###ADVISORS###
+	political_advisor = {
+		YRK_chamberlain = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+		YRK_attlee = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { silent_workhorse }
+		}
+		YRK_lloyd_george = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+		YRK_sinclair = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { ideological_crusader }
+		}
+		YRK_eden = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { popular_figurehead }
+		}
+		YRK_churchill = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { armaments_organizer }
+		}
+		YRK_aitken = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { war_industrialist }
+		}
+		YRK_margesson = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { prince_of_terror }
+		}
+		YRK_simon = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { captain_of_industry }
+		}
+		YRK_appleby = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { backroom_backstabber }
+		}
+		YRK_anderson = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { fortification_engineer }
+		}
+		YRK_wood = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { quartermaster_general }
+		}
+		YRK_demsoc = {
+			
+			picture = demsoc_booster
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { demsoc_booster }
+		}
+		YRK_liberal = {
+			
+			picture = liberal_booster
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { liberal_booster }
+		}
+		YRK_conservative = {
+			
+			picture = conservative_booster
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { conservative_booster }
+		}
+		YRK_autocrat = {
+			
+			picture = autocratic_booster
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { autocratic_booster }
+		}
+	}
+		
+	###MILITARY###
+	army_chief = {
+		YRK_vereker = {
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		YRK_alanbrooke = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_chief_maneuver_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}		
+	}
+	navy_chief = {
+		
+		YRK_tovey = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		
+		YRK_portal = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { air_chief_night_operations_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	high_command = {
+
+		YRK_wavell = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		YRK_auchinleck = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		YRK_horrocks = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	
+		YRK_giffard = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_chief_maneuver_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		YRK_dempsey = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		YRK_macready = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+		YRK_oconnor = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { army_commando_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	theorist = {
+
+		YRK_auchinleck_theorist = {
+			
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			research_bonus = {
+				cat_grand_battle_plan = 0.07
+			}
+			
+			traits = { grand_battle_plan_expert }
+		}
+	
+		YRK_tovey_theorist = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			research_bonus = {
+				cat_fleet_in_being = 0.07
+			}
+			
+			traits = { grand_fleet_proponent }
+		}
+
+		YRK_dowding = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			research_bonus = {
+				air_warfare_doctrine = 0.07
+			}
+			
+			traits = { victory_through_airpower }
+		}
+	}	
+	
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		YRK_thornycroft = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { small_vessel_manufacturer_1 }
+
+		}
+		
+		YRK_vickers_armstrongs = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { large_vessel_manufacturer_2 }
+		}
+	}
+	
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		YRK_blackburn = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { fighter_manufacturer_2 }
+			
+			modifier = {
+			}
+		}
+		
+		YRK_armstrong_whitworth = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { bomber_manufacturer_1 }
+			
+			modifier = {
+			}
+		}			
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		YRK_holland_and_holland = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer_1 }
+			
+			modifier = {
+			}
+		}
+	}	
+	
+	tank_manufacturer = {
+		YRK_vauxhall = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorised_manufacturer_1 }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	industrial_concern = {
+		
+		YRK_dynatron = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern_2 }
+			
+			modifier = {
+			}
+		}		
 	}
 }

@@ -1,4 +1,13 @@
 ﻿l_english:
+###YORKISTS##
+ YRK_holland_and_holland:0 "Holland and Holland"
+ YRK_vauxhall:0 "Vauxhall Motors"
+ YRK_vickers_armstrongs:0 "Vickers-Armstrongs"
+ YRK_thornycroft:0 "Thornycroft & Co."
+ YRK_blackburn:0 "Blackburn Aircraft"
+ YRK_armstrong_whitworth:0 "Armstrong Whitworth"
+ YRK_dynatron:0 "Dynatron Radio"
+
 ###LIVERPOOL###
  LIV_cammell_laird:0 "Cammell Laird"
  LIV_rj_evans:0 "R & J Evans"

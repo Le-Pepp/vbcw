@@ -26,9 +26,6 @@ set_technology = {
 	basic_destroyer = 1
 	early_light_cruiser = 1
 	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
 	superior_firepower = 1
 	transport = 1
 	fleet_in_being = 1
@@ -53,7 +50,7 @@ set_politics = {
 		}
 		
 		conservative = {
-			popularity = 65
+			popularity = 60
 		}
 		
 		liberal = { 
@@ -61,7 +58,7 @@ set_politics = {
 		}
 		
 		democratic_socialist = { 
-			popularity = 0
+			popularity = 5
 		}
 				
 		communist = { 
@@ -90,9 +87,9 @@ add_ideas = {
 set_convoys = 50
 
 create_country_leader = {
-	name = "Prince Albert"
+	name = "Winston Churchill"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/Leaders/ENG/Portrait_Britain_George_VI.dds"
+	picture = "gfx/Leaders/VBCW/YRK/YRK-Churchill.dds"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
@@ -100,14 +97,69 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Clement Attlee"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/Leaders/VBCW/YRK/YRK-Attlee.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Archibald Sinclair"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/Leaders/VBCW/YRK/YRK-Sinclair.dds"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Albert"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/Leaders/VBCW/YRK/YRK-Albert.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
-	name = "Yorky McYorkface"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Prince Albert"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-AlbertCommand.dds"
 	traits = { }
 	skill = 2
-	attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
     logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Nevil MacReady"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-MacReady.dds"
+	traits = { war_hero trickster guerilla_fighter }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Alan Brooke"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Alanbrooke.dds"
+	traits = { defensive_doctrine trait_cautious career_officer }
+	skill = 5
+	attack_skill = 3
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 3
 }
 

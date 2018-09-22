@@ -23,6 +23,10 @@
  cat_self_propelled:0 "Self-Propelled Gun models"
  big_tanks_tech:0 "Bloody Big Tanks"
  
+ #Research Bonuses
+ 
+ armoured_car_tech_research:0 "Armoured Car Research Time"
+ 
  #Armoured Cars
  
  armoured_car:0 "Armoured Car"

@@ -95,16 +95,7 @@ units = {
 	navy = {				
 		name = "Dover Fleet"			
 		base = 201
-		location = 201 # Dover
-		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ANG } } 
-			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "ANG" amount = 9 }
-				cv_nav_bomber_equipment_1 =  { owner = "ANG" amount = 12 }
-			}
-		}			
-		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANG } } }				
-		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANG } } }			
-		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ANG } } }					
+		location = 201 # Dover				
 		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ANG  } } }
 		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ANG } } }
 		ship = { name = "HMS Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ANG } } }			

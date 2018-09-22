@@ -1,0 +1,45 @@
+﻿l_english:
+###YORKISTS###
+ ##MINISTERS##
+ YRK_chamberlain:0 "Neville Chamberlain"
+ YRK_attlee:0 "Clement Attlee"
+ YRK_lloyd_george:0 "David Lloyd-George"
+ YRK_sinclair:0 "Archibald Sinclair"
+ YRK_eden:0 "Anthony Eden"
+ YRK_churchill:0 "Winston Churchill"
+ YRK_aitken:0 "Maxwell Aitken"
+ YRK_margesson:0 "David Margesson"
+ YRK_simon:0 "John Simon"
+ YRK_appleby:0 "Humphrey Appleby"
+ YRK_anderson:0 "John Anderson"
+ YRK_wood:0 "Kingsley Wood"
+ YRK_demsoc:0 "William Leach"
+ YRK_liberal:0 "John Barnes"
+ YRK_conservative:0 "Harold Simm"
+ YRK_autocrat:0 "Cecil Cholmondley"
+ ##HIGH COMMAND##
+ YRK_vereker:0 "John Vereker"
+ YRK_alanbrooke:0 "Alan Brooke"
+ YRK_tovey:0 "John Tovey"
+ YRK_portal:0 "Charles Portal"
+ YRK_wavell:0 "Archibald Wavell"
+ YRK_auchinleck:0 "Claude Auchinlek"
+ YRK_horrocks:0 "Brian Horrocks"
+ YRK_giffard:0 "George Giffard"
+ YRK_dempsey:0 "Miles Dempsey"
+ YRK_macready:0 "Nevil MacReady"
+ YRK_oconnor:0 "Richard O'Connor"
+ YRK_dowding:0 "Hugh Dowding"
+ YRK_auchinleck_theorist:0 "Claude Auchinlek"
+ YRK_tovey_theorist:0 "John Tovey"
+
+###LIVERPOOL###
+ LIV_errington:0 "Eric Errington"
+ LIV_samuel:0 "Herbert Samuel"
+ LIV_rankin:0 "Robert Rankin"
+ LIV_rowse:0 "Herbert James Rowse"
+ LIV_hubback:0 "A.B. Hubback"
+
+###KERNOW###
+ KER_vance:0 "Robert Morton Vance"
+ KER_bolitho:0 "Simon Edward Bolitho"

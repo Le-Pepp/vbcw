@@ -125,15 +125,15 @@ units = {
 		name = "Devon Fleet"			
 		base = 100
 		location = 100 # Dover
-		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ROY } } 
+		ship = { name = "HMS Furious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "ROY" amount = 9 }
 				cv_nav_bomber_equipment_1 =  { owner = "ROY" amount = 12 }
 			}
 		}			
-		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }				
-		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }			
-		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROY } } }					
+		ship = { name = "HMS Royal Oak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "HMS Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
 		ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ROY  } } }
 		ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROY } } }
 		ship = { name = "HMS Erebus" definition = monitor equipment = { monitor_1 = { amount = 1 owner = ROY } } }

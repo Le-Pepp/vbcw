@@ -353,190 +353,6 @@ ideas = {
 
 	political_advisor = {
 
-		generic_fascist_booster = {
-			
-			picture = fascist_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = fascist_booster limit = 1 }
-				}
-			}
-			
-			traits = { fascist_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = fascist
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_autocratic_booster = {
-			
-			picture = autocratic_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = autocratic_booster limit = 1 }
-				}
-			}
-			
-			traits = { autocratic_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = autocratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_conservative_booster = {
-			
-			picture = conservative_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = conservative_booster limit = 1 }
-				}
-			}
-			
-			traits = { conservative_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = conservative
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_liberal_booster = {
-			
-			picture = liberal_booster
-			
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = liberal_booster limit = 1 }
-				}
-			}
-			
-			traits = { liberal_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = liberal
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_demsoc_booster = {
-			
-			picture = demsoc_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = demsoc_booster limit = 1 }
-				}
-			}
-			
-			traits = { demsoc_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic_socialist
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_communist_booster = {
-			
-			picture = communist_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = communist_booster limit = 1 }
-				}
-			}
-			
-			traits = { communist_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = communist
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_radsoc_booster = {
-			
-			picture = radsoc_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = radsoc_booster limit = 1 }
-				}
-			}
-			
-			traits = { radsoc_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = anarcho_syndicalist
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		generic_civnat_booster = {
-			
-			picture = civnat_booster
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = civnat_booster limit = 1 }
-				}
-			}
-			
-			traits = { civnat_booster }
-	
-			do_effect = {
-				NOT = {
-					has_government = civic_nationalist
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		generic_captain_of_industry = {
 			
 			picture = captain_of_industry
@@ -584,6 +400,7 @@ ideas = {
 			picture = generic_army_europe_3
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -594,6 +411,7 @@ ideas = {
 			picture = generic_army_europe_1
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -607,6 +425,7 @@ ideas = {
 			picture = generic_navy_europe_3
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -617,6 +436,7 @@ ideas = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -630,6 +450,7 @@ ideas = {
 			picture = generic_air_europe_3
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -640,6 +461,7 @@ ideas = {
 			picture = generic_air_europe_1
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -653,6 +475,7 @@ ideas = {
 			picture = generic_army_europe_3
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { army_artillery_1 }			
@@ -663,6 +486,7 @@ ideas = {
 			picture = generic_army_europe_2
 
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { army_logistics_2 }			
@@ -673,6 +497,7 @@ ideas = {
 			picture = generic_navy_europe_2
 
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
@@ -683,6 +508,7 @@ ideas = {
 			picture = generic_air_europe_2
 
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -695,7 +521,8 @@ ideas = {
 			
 			picture = generic_army_europe_2
 			
-			allowed = {
+			allowed = { 
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			research_bonus = {
@@ -710,6 +537,7 @@ ideas = {
 			picture = generic_navy_europe_2
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			research_bonus = {
@@ -724,6 +552,7 @@ ideas = {
 			picture = generic_air_europe_2
 			
 			allowed = {
+				NOT = { OR = { tag = YRK tag = KER } }
 			}
 			
 			research_bonus = {
@@ -732,7 +561,5 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-
 	}
-
-
+}

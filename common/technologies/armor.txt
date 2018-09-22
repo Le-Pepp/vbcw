@@ -130,6 +130,7 @@ technologies = {
 		categories = {
 			armor
 			cat_armoured_car
+			motorized_equipment
 		}
 	}
 
@@ -159,6 +160,7 @@ technologies = {
 		categories = {
 			armor
 			cat_armoured_car
+			motorized_equipment
 		}
 	}
 	
@@ -188,6 +190,7 @@ technologies = {
 		categories = {
 			armor
 			cat_armoured_car
+			motorized_equipment
 		}
 	}
 	
@@ -212,6 +215,7 @@ technologies = {
 		categories = {
 			armor
 			cat_armoured_car
+			motorized_equipment
 		}
 	}
 	
