@@ -286,4 +286,73 @@
  
  ANG_modern_tank_equipment_1:0 "Saviour"
  ANG_modern_tank_equipment_1_short:0 "Saviour"
+ 
+ ###SOCIALISTS### 
+  
+ SOC_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
+ SOC_early_armoured_car_equipment_short:0 "Rolls-Royce"
+ SOC_armoured_car_equipment_1:0 "Lanchester"
+ SOC_armoured_car_equipment_1_short:0 "Lanchester"
+ SOC_armoured_car_equipment_2:0 "Lance"
+ SOC_armoured_car_equipment_2_short:0 "Lance"
+ SOC_armoured_car_equipment_3:0 "Arrow"
+ SOC_armoured_car_equipment_3_short:0 "Arrow" 
+ 
+ SOC_gw_tank_equipment:0 "Medium Mk. II"
+ SOC_gw_tank_equipment_short:0 "Medium Mk. II"
+ 
+ SOC_light_tank_equipment_1:0 "Light Tank Mark IV"
+ SOC_light_tank_equipment_1_short:0 "Mk. IV"
+ SOC_light_tank_equipment_2:0 "Light Tank Mark VI"
+ SOC_light_tank_equipment_2_short:0 "Mk. VI"
+ SOC_light_tank_equipment_3:0 "Digger"
+ SOC_light_tank_equipment_3_short:0 "Digger"
+ SOC_light_tank_equipment_4:0 "Leveller"
+ SOC_light_tank_equipment_4_short:0 "Leveller"
+ 
+ SOC_medium_tank_equipment_1:0 "A9 Cruiser"
+ SOC_medium_tank_equipment_1_short:0 "A9 Cruiser"
+ SOC_medium_tank_equipment_2:0 "A13 Cruiser"
+ SOC_medium_tank_equipment_2_short:0 "A13 Cruiser"
+ SOC_medium_tank_equipment_3:0 "Peterloo"
+ SOC_medium_tank_equipment_3_short:0 "Peterloo"
+ SOC_medium_tank_equipment_4:0 "Newport"
+ SOC_medium_tank_equipment_4_short:0 "Newport"
+ SOC_medium_tank_equipment_5:0 "Merthyr"
+ SOC_medium_tank_equipment_5_short:0 "Merthyr"
+ 
+ SOC_heavy_tank_equipment_1:0 "Matilda I"
+ SOC_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOC_heavy_tank_equipment_2:0 "Matilda II"
+ SOC_heavy_tank_equipment_2_short:0 "Matilda II"
+ SOC_heavy_tank_equipment_3:0 "Owen"
+ SOC_heavy_tank_equipment_3_short:0 "Owen"
+ SOC_heavy_tank_equipment_4:0 "Hardie"
+ SOC_heavy_tank_equipment_4_short:0 "Hardie"
+ SOC_heavy_tank_equipment_5:0 "Bevan"
+ SOC_heavy_tank_equipment_5_short:0 "Bevan"
+ 
+ SOC_medium_tank_destroyer_equipment_1:0 "Tyler"
+ SOC_medium_tank_destroyer_equipment_1_short:0 "Tyler"
+ SOC_medium_tank_destroyer_equipment_2:0 "Winstanley"
+ SOC_medium_tank_destroyer_equipment_2_short:0 "Winstanley"
+ SOC_medium_tank_destroyer_equipment_3:0 "Lovett"
+ SOC_medium_tank_destroyer_equipment_3_short:0 "Lovett"
+ 
+ SOC_medium_tank_artillery_equipment_1:0 "Hammer"
+ SOC_medium_tank_artillery_equipment_1_short:0 "Hammer"
+ SOC_medium_tank_artillery_equipment_2:0 "Anvil"
+ SOC_medium_tank_artillery_equipment_2_short:0 "Anvil"
+ SOC_medium_tank_artillery_equipment_3:0 "Awl"
+ SOC_medium_tank_artillery_equipment_3_short:0 "Awl"
+ 
+ SOC_medium_tank_aa_equipment_1:0 "Sickle"
+ SOC_medium_tank_aa_equipment_1_short:0 "Sickle"
+ SOC_medium_tank_aa_equipment_2:0 "Scythe"
+ SOC_medium_tank_aa_equipment_2_short:0 "Scythe"
+ SOC_medium_tank_aa_equipment_3:0 "Reaper"
+ SOC_medium_tank_aa_equipment_3_short:0 "Reaper"
+ 
+ SOC_modern_tank_equipment_1:0 "Marx"
+ SOC_modern_tank_equipment_1_short:0 "Marx"
 

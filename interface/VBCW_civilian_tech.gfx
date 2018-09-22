@@ -20,5 +20,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CIV_early_fighter_medium"
 		texturefile = "gfx/interface/technologies/planes/CIV_early_fighter.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_CIV_early_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/planes/CIV_early_armored_car.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_CIV_gwtank_medium"
+		texturefile = "gfx/interface/technologies/planes/CIV_gwtank.dds"
 	}
 }
