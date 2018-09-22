@@ -119,7 +119,7 @@ ideas = {
 			
 			traits = { quartermaster_general }
 		}
-		YRK_demsoc = {
+		YRK_demsoc_booster = {
 			
 			picture = demsoc_booster
 			
@@ -129,7 +129,7 @@ ideas = {
 			
 			traits = { demsoc_booster }
 		}
-		YRK_liberal = {
+		YRK_liberal_booster = {
 			
 			picture = liberal_booster
 			
@@ -139,7 +139,7 @@ ideas = {
 			
 			traits = { liberal_booster }
 		}
-		YRK_conservative = {
+		YRK_conservative_booster = {
 			
 			picture = conservative_booster
 			
@@ -149,7 +149,7 @@ ideas = {
 			
 			traits = { conservative_booster }
 		}
-		YRK_autocrat = {
+		YRK_autocratic_booster = {
 			
 			picture = autocratic_booster
 			
