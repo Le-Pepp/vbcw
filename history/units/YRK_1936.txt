@@ -48,12 +48,29 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Tank Battlion"
+	name = "Light Tank Battlion"
 	division_names_group = YRK_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Cruiser Tank Battlion"
+	division_names_group = YRK_ARM_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Infantry Tank Battlion"
+	division_names_group = YRK_ARM_01
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
 	}
 }
 division_template = {
