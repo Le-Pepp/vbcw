@@ -7,7 +7,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.1"}
 	title = vbcw.politics.1.t
 	desc = vbcw.politics.1.d
-	picture = INTRO_main
+	picture = GFX_report_event_palace
 
 	is_triggered_only = yes
 
@@ -33,7 +33,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.2"}
 	title = vbcw.politics.2.t
 	desc = vbcw.politics.2.d
-	picture = INTRO_main
+	picture = GFX_report_event_auxiliaries
 
 	is_triggered_only = yes
 
@@ -59,7 +59,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.3"}
 	title = vbcw.politics.3.t
 	desc = vbcw.politics.3.d
-	picture = INTRO_main
+	picture = GFX_report_event_coronation
 
 	is_triggered_only = yes
 
@@ -85,7 +85,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.4"}
 	title = vbcw.politics.4.t
 	desc = vbcw.politics.4.d
-	picture = INTRO_main
+	picture = GFX_report_event_deployment
 
 	is_triggered_only = yes
 
@@ -111,7 +111,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.5"}
 	title = vbcw.politics.5.t
 	desc = vbcw.politics.5.d
-	picture = INTRO_main
+	picture = GFX_report_event_rally
 
 	is_triggered_only = yes
 
