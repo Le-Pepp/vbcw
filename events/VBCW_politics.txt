@@ -137,7 +137,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.6"}
 	title = vbcw.politics.6.t
 	desc = vbcw.politics.6.d
-	picture = INTRO_main
+	picture = GFX_report_event_tamar
 
 	is_triggered_only = yes
 
@@ -163,7 +163,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.6"}
 	title = vbcw.politics.7.t
 	desc = vbcw.politics.7.d
-	picture = INTRO_main
+	picture = GFX_report_event_truce
 
 	is_triggered_only = yes
 

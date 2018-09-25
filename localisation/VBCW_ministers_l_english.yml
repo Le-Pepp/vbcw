@@ -34,6 +34,20 @@
  YRK_auchinleck_theorist:0 "Claude Auchinlek"
  YRK_tovey_theorist:0 "John Tovey"
 
+###SCOTLAND###
+ SCO_macewen:0 "Alexander MacEwen"
+ SCO_gibb:0 "Andrew Dewar Gibb"
+ SCO_power:0 "William Power"
+ SCO_young:0 "Douglas Young"
+ SCO_muirhead:0 "Roland Muirhead"
+ SCO_hamilton:0 "Douglas Douglas-Hamilton"
+ SCO_mcdowell:0 "John Kevan McDowell"
+ SCO_bannerman:0 "John Bannerman"
+ SCO_kerr:0 "Philip Kerr"
+ SCO_grimond:0 "Jo Grimond"
+ SCO_mason:0 "David Marshall Mason"
+ SCO_brooksbank:0 "Mary Brooksbank"
+
 ###GLASGOW###
  SOG_buchanan:0 "George Buchanan"
  SOG_johnston:0 "Tom Johnston"

@@ -67,6 +67,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_elizabeth.dds"
 	}
 	
+###SCOOATLAN###	
+
+	spriteType = {
+		name = "GFX_idea_SCO_muirhead"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_muirhead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_gibb"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_gibb.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_mason"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_mason.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_hamilton"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_hamilton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_young"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_young.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_grimond"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_grimond.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_bannerman"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_bannerman.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_brooksbank"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_brooksbank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SCO_kerr"
+		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_kerr.dds"
+	}
+	
 ###GLESGAE###	
 
 	spriteType = {

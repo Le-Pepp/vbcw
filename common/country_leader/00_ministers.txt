@@ -80,6 +80,28 @@ leader_traits = {
 		}
 	}
 	
+	fascist_booster_govt = {
+		random = no
+		sprite = 13
+		stability_factor = 0.05
+		political_power_factor = 0.15	
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	communist_booster_govt = {
+		random = no
+		sprite = 13
+		stability_factor = 0.05 
+		political_power_factor = 0.15	
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	popular_figurehead = {
 		sprite = 13
 		stability_factor = 0.15 

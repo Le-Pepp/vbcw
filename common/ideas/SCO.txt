@@ -42,4 +42,131 @@ ideas = {
 			}
 		}
 	}
+	
+	political_advisor = {
+	
+		SCO_macewen = {
+			
+			picture = popular_figurehead
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { popular_figurehead }
+		}
+		
+		SCO_gibb = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+		
+		SCO_power = {
+			
+			picture = ideological_crusader
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { ideological_crusader }
+		}
+		
+		SCO_young = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		SCO_muirhead = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+		
+		SCO_hamilton = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCO_mcdowell = {
+			
+			picture = quartermaster_general
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { quartermaster_general }
+		}
+		
+		SCO_bannerman = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { captain_of_industry }
+		}
+		
+		SCO_kerr = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { war_industrialist }
+		}
+		
+		SCO_grimond = {
+			
+			allowed = {
+				original_tag = SCO
+			}
+			
+			traits = { backroom_backstabber }
+		}
+		
+		SCO_mason = {
+			
+			visible = {
+				has_government = fascist
+			}
+			
+			allowed = {
+				original_tag = SCO
+				has_government = fascist
+			}
+			
+			traits = { fascist_booster_govt }
+		}
+		
+		SCO_brooksbank = {
+			
+			visible = {
+				has_government = communist
+			}
+			
+			allowed = {
+				original_tag = SCO
+				has_government = communist
+			}
+			
+			traits = { communist_booster_govt }
+		}
+	}
 }

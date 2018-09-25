@@ -97,6 +97,61 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "James Graham, Duke of Montrose"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SCO/SCO-Montrose.dds"
+	expire = "1965.1.1"
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Cambridge, Earl of Athlone"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SCO/SCO-Cambridge.dds"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "David Kirkwood"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SCO/SCO-Kirkwood.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hugh McDiarmid"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SCO/SCO-MacDiarmid.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Weir Gilmour"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SCO/SCO-WGilmour.dds"
+	expire = "1965.1.1"
+	ideology = fascist_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Jocky McJockface"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
