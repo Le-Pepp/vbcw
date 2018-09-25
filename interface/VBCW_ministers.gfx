@@ -171,7 +171,7 @@ spriteTypes = {
 ###GENERIC###
 
 	spriteType = {
-		name = "GFX_idea_fascist_booster"
+		name = "GFX_idea_fascist_booster" ###Spode###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_fascist.dds"
 	}
 
@@ -196,12 +196,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_communist_booster"
+		name = "GFX_idea_communist_booster" ###Peaky Blinders bloke###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_communist.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_radsoc_booster" ###Piss Woman###
+		name = "GFX_idea_radsoc_booster" ###Alastair Sim###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_radsoc.dds"
 	}
 
@@ -261,7 +261,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_fortification_engineer" 
+		name = "GFX_idea_fortification_engineer" ###Terry Thomas###
 		texturefile = "gfx/interface/ideas/ministers/generic/minister_fortification_engineer.dds"
 	}
 
