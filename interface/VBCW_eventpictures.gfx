@@ -30,6 +30,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_rally.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_tamar"
+		texturefile = "gfx/event_pictures/event_tamar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_truce"
+		texturefile = "gfx/event_pictures/event_truce.dds"
+	}
+	
 }
 	
 	
