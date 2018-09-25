@@ -26,8 +26,6 @@ ideas = {
 	
 		LIV_errington = {
 			
-			picture = silent_workhorse
-			
 			allowed = {
 				original_tag = LIV
 			}
@@ -36,8 +34,6 @@ ideas = {
 		}
 		
 		LIV_samuel = {
-			
-			picture = popular_figurehead
 			
 			allowed = {
 				original_tag = LIV
@@ -59,8 +55,6 @@ ideas = {
 		
 		LIV_rowse = {
 			
-			picture = quartermaster_general
-			
 			allowed = {
 				original_tag = LIV
 			}
@@ -69,8 +63,6 @@ ideas = {
 		}
 		
 		LIV_hubback = {
-			
-			picture = captain_of_industry
 			
 			allowed = {
 				original_tag = LIV

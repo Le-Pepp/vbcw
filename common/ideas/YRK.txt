@@ -119,6 +119,14 @@ ideas = {
 			
 			traits = { quartermaster_general }
 		}
+		YRK_elizabeth = {
+			
+			allowed = {
+				original_tag = YRK
+			}
+			
+			traits = { duchess_of_york }
+		}
 		YRK_demsoc_booster = {
 			
 			picture = demsoc_booster

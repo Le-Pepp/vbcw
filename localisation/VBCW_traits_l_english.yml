@@ -1,4 +1,5 @@
 ﻿l_english:
+ ### Minister Traits ###
  fascist_booster:0 "Fascist Demagogue"
  fascist_booster_desc:0 "Driven by a will to unite the people under a strong state, this politician emphasizes nationalist and militarist rhetoric."
  autocratic_booster:0 "Staunch Monarchist"
@@ -24,6 +25,9 @@
  communist_drift:0 "Daily Communism Support"
  anarcho_syndicalist_drift:0 "Daily Radical Socialism Support"
  civic_nationalist_drift:0 "Daily Civic Nationalism Support"
+ 
+ duchess_of_york:0 "Duchess of York"
+ duchess_of_york_desc:0 "Loyal wife of Prince Albert"
  
  ### Leader Traits ###
  royal_connections:0 "Royal Connections"

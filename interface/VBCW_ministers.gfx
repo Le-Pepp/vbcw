@@ -62,6 +62,65 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_wood.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_YRK_elizabeth"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_elizabeth.dds"
+	}
+	
+###GLESGAE###	
+
+	spriteType = {
+		name = "GFX_idea_SOG_buchanan"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_buchanan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOG_johnston"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_johnston.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOG_macdonald"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_macdonald.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOG_maxton"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_maxton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOG_mcgovern"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_mcgovern.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOG_moffat"
+		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_moffat.dds"
+	}
+	
+###LIVERPOOL###	
+
+	spriteType = {
+		name = "GFX_idea_LIV_errington"
+		texturefile = "gfx/interface/ideas/ministers/LIV/LIV_minister_errington.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_LIV_rowse"
+		texturefile = "gfx/interface/ideas/ministers/LIV/LIV_minister_rowse.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_LIV_samuel"
+		texturefile = "gfx/interface/ideas/ministers/LIV/LIV_minister_samuel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_LIV_hubback"
+		texturefile = "gfx/interface/ideas/ministers/LIV/LIV_minister_hubback.dds"
+	}
+
 ###GENERIC###
 
 	spriteType = {

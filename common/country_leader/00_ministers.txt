@@ -228,4 +228,16 @@ leader_traits = {
 			factor = 0.2
 		}
 	}
+
+	duchess_of_york = {
+		random = no
+		sprite = 12
+
+		war_support_factor = 0.05
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

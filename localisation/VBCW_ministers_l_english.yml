@@ -13,6 +13,7 @@
  YRK_appleby:0 "Humphrey Appleby"
  YRK_anderson:0 "John Anderson"
  YRK_wood:0 "Kingsley Wood"
+ YRK_elizabeth:0 "Elizabeth Boyes-Lyon"
  YRK_demsoc_booster:0 "William Leach"
  YRK_liberal_booster:0 "John Barnes"
  YRK_conservative_booster:0 "Harold Simm"
@@ -32,6 +33,14 @@
  YRK_dowding:0 "Hugh Dowding"
  YRK_auchinleck_theorist:0 "Claude Auchinlek"
  YRK_tovey_theorist:0 "John Tovey"
+
+###GLASGOW###
+ SOG_buchanan:0 "George Buchanan"
+ SOG_johnston:0 "Tom Johnston"
+ SOG_macdonald:0 "Ethel MacDonald"
+ SOG_maxton:0 "James Maxton"
+ SOG_mcgovern:0 "John McGovern"
+ SOG_moffat:0 "Abe Moffat"
 
 ###LIVERPOOL###
  LIV_errington:0 "Eric Errington"

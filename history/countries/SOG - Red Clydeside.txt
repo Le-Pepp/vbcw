@@ -93,6 +93,28 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "James Maxton"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SOG/SOG-Maxton.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ethel MacDonald"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/VBCW/SOG/SOG-MacDonald.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Clydey McClydeface"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

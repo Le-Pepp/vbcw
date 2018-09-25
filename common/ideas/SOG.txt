@@ -21,4 +21,61 @@ ideas = {
 			}
 		}
 	}
+	
+	political_advisor = {
+	
+		SOG_buchanan = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { financial_expert }
+		}
+		
+		SOG_johnston = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { fortification_engineer }
+		}
+		
+		SOG_macdonald = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { ideological_crusader }
+		}
+		
+		SOG_maxton = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		SOG_mcgovern = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { war_industrialist }
+		}
+		
+		SOG_moffat = {
+			
+			allowed = {
+				original_tag = SOG
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
 }
