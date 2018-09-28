@@ -1,6 +1,7 @@
 spriteTypes = {	
 
 ###YORKIST###
+##MINISTERS##
 
 	spriteType = {
 		name = "GFX_idea_YRK_chamberlain"
@@ -65,6 +66,43 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_YRK_elizabeth"
 		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_elizabeth.dds"
+	}
+	
+##HIGH COMMAND##
+
+	spriteType = {
+		name = "GFX_idea_YRK_alanbrooke"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_alanbrooke.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_wavell"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_wavell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_horrocks"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_horrocks.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_portal"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_portal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_tedder"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_tedder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_auchinleck"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_auchinleck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YRK_power"
+		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_power.dds"
 	}
 	
 ###SCOOATLAN###	

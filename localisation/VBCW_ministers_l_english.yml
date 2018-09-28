@@ -30,9 +30,10 @@
  YRK_dempsey:0 "Miles Dempsey"
  YRK_macready:0 "Nevil MacReady"
  YRK_oconnor:0 "Richard O'Connor"
- YRK_dowding:0 "Hugh Dowding"
- YRK_auchinleck_theorist:0 "Claude Auchinlek"
- YRK_tovey_theorist:0 "John Tovey"
+ ##THEORISTS##
+ YRK_tedder_theorist:0 "Arthur Tedder"
+ YRK_auchinleck_theorist:0 "Claude Auchinleck"
+ YRK_power_theorist:0 "Arthur Power"
 
 ###SCOTLAND###
  SCO_macewen:0 "Alexander MacEwen"

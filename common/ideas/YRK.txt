@@ -325,7 +325,7 @@ ideas = {
 
 		YRK_auchinleck_theorist = {
 			
-			picture = generic_army_europe_2
+			picture = YRK_auchinleck
 			
 			allowed = {
 				original_tag = YRK
@@ -338,9 +338,9 @@ ideas = {
 			traits = { grand_battle_plan_expert }
 		}
 	
-		YRK_tovey_theorist = {
+		YRK_power_theorist = {
 			
-			picture = generic_navy_europe_2
+			picture = YRK_power
 			
 			allowed = {
 				original_tag = YRK
@@ -353,9 +353,9 @@ ideas = {
 			traits = { grand_fleet_proponent }
 		}
 
-		YRK_dowding = {
+		YRK_tedder_theorist = {
 			
-			picture = generic_air_europe_2
+			picture = YRK_tedder
 			
 			allowed = {
 				original_tag = YRK
