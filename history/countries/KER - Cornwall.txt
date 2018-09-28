@@ -145,7 +145,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Frederick Edward-Collins"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	portrait_path = "gfx/leaders/VBCW/KER/KER-Phillips.dds"
 	traits = { spotter }
 	skill = 3
 }
