@@ -126,7 +126,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Fred Copeman"
 	portrait_path = "gfx/leaders/VBCW/SOM/SOM-Copeman.dds"
-	traits = { invader naval_liaison }
+	traits = { naval_invader naval_liason }
 	skill = 3
 	attack_skill = 4
     defense_skill = 3
@@ -169,7 +169,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Harold Wilson"
-	portrait_path = "gfx/leaders/VBCW/SOM/SOM-Levy.dds"
+	portrait_path = "gfx/leaders/VBCW/SOM/SOM-Wilson.dds"
 	traits = { trait_cautious }
 	skill = 2
 	attack_skill = 2
