@@ -457,9 +457,28 @@ ideas = {
 			modifier = {
 			}
 		}
+		
+		YRK_ROF = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer_1 }
+			
+			modifier = {
+			}
+		}
 	}	
 	
 	tank_manufacturer = {
+			
+		designer = yes
+		
 		YRK_vauxhall = {
 			
 			allowed = {
@@ -475,9 +494,41 @@ ideas = {
 			modifier = {
 			}
 		}
+		
+		YRK_alvis = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer_2 }
+			
+			modifier = {
+			}
+		}
 	}
 	
 	industrial_concern = {
+		
+		YRK_lind = {
+			
+			allowed = {
+				original_TAG = YRK
+			}
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern_1 }
+			
+			modifier = {
+			}
+		}
 		
 		YRK_dynatron = {
 			

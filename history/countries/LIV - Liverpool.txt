@@ -74,9 +74,10 @@ set_war_support = 0.40
 
 add_ideas = {
 	LIV_city_under_siege
+	no_man_an_island
 }
 
-set_convoys = 50
+set_convoys = 12
 
 create_country_leader = {
 	name = "Sydney Jones"
@@ -136,7 +137,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "A.B. Hubback"
 	portrait_path = "gfx/leaders/VBCW/LIV/LIV-Hubback.dds"
-	traits = {  }
+	traits = { ranger cavalry_leader cavalry_expert }
 	skill = 2
 	attack_skill = 2
     defense_skill = 1
@@ -147,7 +148,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Edward Russell"
 	portrait_path = "gfx/leaders/VBCW/LIV/LIV-Russell.dds"
-	traits = {  }
+	traits = { engineer }
 	skill = 3
 	attack_skill = 1
     defense_skill = 4

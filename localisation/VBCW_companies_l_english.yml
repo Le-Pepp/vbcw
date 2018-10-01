@@ -1,11 +1,14 @@
 ﻿l_english:
 ###YORKISTS##
  YRK_holland_and_holland:0 "Holland and Holland"
+ YRK_ROF:0 "Royal Ordnance Factory"
  YRK_vauxhall:0 "Vauxhall Motors"
+ YRK_alvis:0 "Alvis"
  YRK_vickers_armstrongs:0 "Vickers-Armstrongs"
  YRK_thornycroft:0 "Thornycroft & Co."
  YRK_blackburn:0 "Blackburn Aircraft"
  YRK_armstrong_whitworth:0 "Armstrong Whitworth"
+ YRK_lind:0 "Lind & Co."
  YRK_dynatron:0 "Dynatron Radio"
 
 ###LIVERPOOL###

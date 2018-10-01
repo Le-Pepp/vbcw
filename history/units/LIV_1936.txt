@@ -48,7 +48,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Tank Battlion"
+	name = "Tank Battalion"
 	division_names_group = LIV_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
@@ -77,8 +77,16 @@ division_template = {
 
 units = {
 	division= {	
-		name = "King's Regiment (Liverpool)"
+		name = "1st Battalion King's Regiment (Liverpool)"
 		location = 953
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+	}
+	division= {	
+		name = "2nd Battalion King's Regiment (Liverpool)"
+		location = 951
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
@@ -89,16 +97,24 @@ units = {
 		name = "Mersey Division Submarine Miners"
 		location = 963
 		division_template = "Local Defence Volunteers"
-		start_experience_factor = 0.1
-		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	
 	division= {	
 		name = "Mersey Division Electrical Engineers"
 		location = 991
 		division_template = "Local Defence Volunteers"
-		start_experience_factor = 0.1
-		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	
+	division= {	
+		name = "Birkenhead Dockers' Militia"
+		location = 923
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 
 	
