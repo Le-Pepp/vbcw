@@ -14,7 +14,7 @@ state={
 		chromium = 8
 	}
 	
-	state_category = town
+	state_category = large_town
 	
 	history={
 		owner = KER
