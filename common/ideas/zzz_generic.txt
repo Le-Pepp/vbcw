@@ -110,6 +110,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = tank_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = tank_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = tank_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -262,6 +263,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = industrial_concern_1 limit = 1 }
 						has_available_idea_with_traits = { idea = industrial_concern_2 limit = 1 }
+						has_available_idea_with_traits = { idea = industrial_concern_3 limit = 1 }
 					}
 				}
 			}

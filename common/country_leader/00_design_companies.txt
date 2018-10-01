@@ -190,7 +190,7 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				soft_attack = 0.1
-				hard_attack = 0.1
+				breakthrough = 0.1
 				instant = yes
 			}
 		}
@@ -215,26 +215,41 @@ leader_traits = {
 		}
 	}
 	
+	tank_manufacturer_3 = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				hard_attack = 0.1
+				ap_attack = 0.1
+				instant = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	small_vessel_manufacturer_1 = { 
 		random = no
 		equipment_bonus = {
 			gunboat = {
-				attack = 0.1
+				evasion = 0.1
 				naval_speed = 0.1
 				instant = yes
 			}
 			torpedo_boat = {
-				torpedo_attack = 0.1
+				evasion = 0.1
 				naval_speed = 0.1
 				instant = yes
 			}
 			trawler = {
-				attack = 0.1
+				evasion = 0.1
 				naval_speed = 0.1
 				instant = yes
 			}
 			corvette = {
-				attack = 0.1
+				evasion = 0.1
 				naval_speed = 0.1
 				instant = yes
 			}
@@ -284,7 +299,7 @@ leader_traits = {
 				instant = yes
 			}
 			destroyer = {
-				torpedo_attack = 0.1
+				attack = 0.1
 				naval_speed = 0.1
 				instant = yes
 			}
@@ -433,6 +448,16 @@ leader_traits = {
 		random = no
 		
 		local_resources_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	industrial_concern_3 = {
+		random = no
+		
+		production_speed_synthetic_refinery_factor = 0.10
 		
 		ai_will_do = {
 			factor = 1

@@ -10,6 +10,18 @@
  YRK_armstrong_whitworth:0 "Armstrong Whitworth"
  YRK_lind:0 "Lind & Co."
  YRK_dynatron:0 "Dynatron Radio"
+ 
+###MIDLANDS###
+ SOM_fellows_and_morton: "Fellows and Morton"
+ SOM_goole_shipbuilding: "Goole Shipbuilding and Repair"
+ SOM_boulton_paul: "Boulton Paul Aircraft"
+ SOM_avro: "Avro"
+ SOM_BSA: "Birmingham Small Arms"
+ SOM_raleigh: "Raleigh Bicycle Company"
+ SOM_austin: "Austin Motors"
+ SOM_nuffield: "Nuffield Mechanizations Ltd" 
+ SOM_dunlop: "Dunlop Rubber"
+ SOM_telsen: "Telsen Electric Company"
 
 ###LIVERPOOL###
  LIV_cammell_laird:0 "Cammell Laird"

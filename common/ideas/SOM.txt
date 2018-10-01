@@ -309,5 +309,183 @@ ideas = {
 				factor = 1
 			}
 		}
+	}	
+	
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		SOM_fellows_and_morton = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { small_vessel_manufacturer_2 }
+
+		}
+		
+		SOM_goole_shipbuilding = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { large_vessel_manufacturer_1 }
+		}
+	}
+	
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		SOM_boulton_paul = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { fighter_manufacturer_2 }
+			
+			modifier = {
+			}
+		}
+		
+		SOM_avro = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { bomber_manufacturer_1 }
+			
+			modifier = {
+			}
+		}			
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		SOM_BSA = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer_1 }
+			
+			modifier = {
+			}
+		}
+		
+		SOM_raleigh = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				support_tech = 0.10
+			}
+			
+			traits = { artillery_manufacturer_2 }
+			
+			modifier = {
+			}
+		}
+	}	
+	
+	tank_manufacturer = {
+			
+		designer = yes
+		
+		SOM_austin = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorised_manufacturer_2 }
+			
+			modifier = {
+			}
+		}
+		
+		SOM_nuffield = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer_3 }
+			
+			modifier = {
+			}
+		}
+	}
+	
+	industrial_concern = {
+		
+		SOM_dunlop = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				synth_resources = 0.10
+			}
+			
+			traits = { industrial_concern_3 }
+			
+			modifier = {
+			}
+		}
+		
+		SOM_telsen = {
+			
+			allowed = {
+				original_TAG = SOM
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern_1 }
+			
+			modifier = {
+			}
+		}		
 	}
 }
