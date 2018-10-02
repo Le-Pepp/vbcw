@@ -387,6 +387,8 @@ ideas = {
 		designer = yes
 		
 		SOM_BSA = {
+		
+			picture = designer_bsa
 			
 			allowed = {
 				original_TAG = SOM
@@ -403,6 +405,8 @@ ideas = {
 		}
 		
 		SOM_raleigh = {
+		
+			picture = designer_raleigh
 			
 			allowed = {
 				original_TAG = SOM
@@ -424,6 +428,8 @@ ideas = {
 		designer = yes
 		
 		SOM_austin = {
+		
+			picture = designer_austin
 			
 			allowed = {
 				original_TAG = SOM
@@ -459,6 +465,8 @@ ideas = {
 	industrial_concern = {
 		
 		SOM_dunlop = {
+		
+			picture = designer_dunlop
 			
 			allowed = {
 				original_TAG = SOM

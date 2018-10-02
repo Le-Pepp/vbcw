@@ -3,4 +3,20 @@ spriteTypes = {
 		name = "GFX_idea_designer_alvis"
 		texturefile = "gfx/interface/ideas/companies/idea_alvis.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_designer_raleigh"
+		texturefile = "gfx/interface/ideas/companies/idea_raleigh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_bsa"
+		texturefile = "gfx/interface/ideas/companies/idea_bsa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_austin"
+		texturefile = "gfx/interface/ideas/companies/idea_austin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_dunlop"
+		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
+	}
 }
