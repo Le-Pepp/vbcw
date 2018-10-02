@@ -16,7 +16,7 @@ state={
 			industrial_complex = 2
 			arms_factory = 2
 			1236 = {
-				land_fort = 4
+				bunker = 4
 			}
 		}
 		add_core_of = YRK

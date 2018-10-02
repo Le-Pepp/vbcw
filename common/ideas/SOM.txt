@@ -364,6 +364,8 @@ ideas = {
 		}
 		
 		SOM_avro = {
+		
+			picture = avro
 			
 			allowed = {
 				original_TAG = SOM

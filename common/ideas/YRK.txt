@@ -388,6 +388,8 @@ ideas = {
 		}
 		
 		YRK_vickers_armstrongs = {
+		
+			picture = vickers_armstrong_eng
 			
 			allowed = {
 				original_TAG = YRK
@@ -496,6 +498,8 @@ ideas = {
 		}
 		
 		YRK_alvis = {
+		
+			picture = designer_alvis
 			
 			allowed = {
 				original_TAG = YRK

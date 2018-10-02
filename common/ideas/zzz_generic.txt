@@ -355,6 +355,28 @@ ideas = {
 
 	political_advisor = {
 
+		generic_fascist_booster = {
+			
+			picture = fascist_booster
+
+			allowed = {
+				fascist > 0.01
+			}
+			
+			traits = { fascist_booster }
+		}
+
+		generic_autocratic_booster = {
+			
+			picture = autocratic_booster
+
+			allowed = {
+				autocratic > 0.01
+			}
+			
+			traits = { autocratic_booster }
+		}
+
 		generic_captain_of_industry = {
 			
 			picture = captain_of_industry
