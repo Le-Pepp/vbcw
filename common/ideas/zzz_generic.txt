@@ -134,6 +134,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = motorised_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = motorised_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = motorised_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -163,6 +164,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = small_vessel_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = small_vessel_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = small_vessel_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -186,6 +188,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = large_vessel_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = large_vessel_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = large_vessel_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -214,6 +217,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = fighter_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = fighter_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = fighter_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -237,6 +241,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = bomber_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = bomber_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = bomber_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -315,6 +320,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_3 limit = 1 }
 					}
 				}
 			}
@@ -338,6 +344,7 @@ ideas = {
 					OR = {
 						has_available_idea_with_traits = { idea = artillery_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = artillery_manufacturer_2 limit = 1 }
+						has_available_idea_with_traits = { idea = artillery_manufacturer_3 limit = 1 }
 					}
 				}
 			}
