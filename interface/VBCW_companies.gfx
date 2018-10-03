@@ -19,4 +19,16 @@ spriteTypes = {
 		name = "GFX_idea_designer_dunlop"
 		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_designer_vauxhall"
+		texturefile = "gfx/interface/ideas/companies/idea_vauxhall.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_armstrong_whitworth"
+		texturefile = "gfx/interface/ideas/companies/idea_armstrong_whitworth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_blackburn"
+		texturefile = "gfx/interface/ideas/companies/idea_blackburn.dds"
+	}
 }
