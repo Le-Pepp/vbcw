@@ -177,8 +177,9 @@ country_event = {
 	option = {
 		name = vbcw.politics.7.b #Defy the truce!
 		hidden_effect = {
-			add_threat = 5
+			add_threat = 50
 		}
+		country_event = { id = vbcw.politics.35 }
 	}
 }
 
@@ -424,4 +425,115 @@ country_event = {
 	option = {
 	}
 
+}
+
+country_event = {
+	id = vbcw.politics.35
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.35"}
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		ROY = {
+			declare_war_on = {
+				target = ANG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YRK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SOM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KER
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SCO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = JAC
+				type = annex_everything
+			}
+		}
+		BUF = {
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = ANG
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = YRK
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = SOM
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = KER
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = SCO
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = WAL
+				hostility_reason = asked_to_join
+			}
+			add_to_war = {
+				targeted_alliance = ROY
+				enemy = JAC
+				hostility_reason = asked_to_join
+			}
+		}
+		JAC = {
+			declare_war_on = {
+				target = SCO
+				type = annex_everything
+			}
+		}
+		ANG = {
+			diplomatic_relation = {
+				country = YRK
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		SCO = {
+			diplomatic_relation = {
+				country = KER
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = WAL
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		WAL = {
+			diplomatic_relation = {
+				country = KER
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
 }
