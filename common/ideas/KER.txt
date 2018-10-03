@@ -67,11 +67,25 @@ ideas = {
 			}
 			
 			research_bonus = {
-				motorized_equipment = 0.10
-				armoured_car_tech = 0.10
+				armor = 0.10
 			}
 			
-			traits = { motorised_manufacturer_1 }
+			traits = { tank_manufacturer_1 }
+		}
+		
+		ker_truro_motors = {
+
+			picture = generic_tank_manufacturer_1
+			
+			allowed = {
+				original_tag = KER
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorised_manufacturer_2 }
 		}
 	}
 
@@ -140,7 +154,7 @@ ideas = {
 				infantry_weapons = 0.10
 			}
 			
-			traits = { infantry_equipment_manufacturer_1 }
+			traits = { infantry_equipment_manufacturer_2 }
 			
 		}
 		
@@ -184,7 +198,7 @@ ideas = {
 			equipment_bonus = {
 			}
 			
-			traits = { small_vessel_manufacturer_1 }
+			traits = { small_vessel_manufacturer_3 }
 		}
 	}
 	

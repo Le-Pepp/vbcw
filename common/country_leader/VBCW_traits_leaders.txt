@@ -56,21 +56,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
-	spirit_of_genghis = {
-		random = no
-		cavalry_attack_factor = 0.05
-		equipment_bonus = {
-			nav_bomber_equipment = {
-				air_range = 0.1 naval_strike_attack = 0.1
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	
 	indomitable_perseverance = { # Ground units get 4 more Morale 
 		random = no
@@ -86,16 +71,6 @@ leader_traits = {
 		random = no
 		defensive_war_stability_factor = 0.4
 	}
-	
-	
-#ai_focus_defense_factor
-#ai_focus_aggressive_factor
-#ai_focus_production_factor
-#ai_focus_military_advancements_factor
-#ai_focus_peaceful_factor
-#ai_focus_naval_factor
-#ai_focus_naval_air_factor
-#ai_focus_aviation_factor 
 	
 	tenacious_defender = {
 		random = no
@@ -238,22 +213,6 @@ leader_traits = {
 		}
 	}
 
-	camarilla_leader = {
-		random = no
-		political_advisor_cost_factor = -0.25
-		trade_laws_cost_factor = -0.25
-		mobilization_laws_cost_factor = -0.25
-		economy_cost_factor = -0.25
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	hedonist = {
 		random = no
 		stability_factor = -0.05
@@ -299,34 +258,6 @@ leader_traits = {
 		stability_factor = 0.05
 		army_core_attack_factor = 0.2
 		army_core_defence_factor = 0.2
-	}
-
-	imperial_connections = {
-		random = no
-		political_advisor_cost_factor = -0.25
-		trade_laws_cost_factor = -0.25
-		mobilization_laws_cost_factor = -0.25
-		economy_cost_factor = -0.25
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	kaiserin_of_the_people = {
-		stability_weekly = 0.001
-		stability_factor = 0.05
-		war_support_factor = 0.05
-		army_core_defence_factor = 0.1
-		political_power_factor = 0.15
-	}
-
-	victoria_iii = {
-		stability_factor = 0.05
 	}
 
 	nationalist_symbol = {
