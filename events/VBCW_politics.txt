@@ -437,10 +437,44 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		every_country = {
+		ROY = {
 			set_truce = {
-				target = every_country
+				target = ANG
 				days = 30
+			}
+			set_truce = {
+				target = YRK
+				days = 30
+			}
+			set_truce = {
+				target = WAL
+				days = 30
+			}
+		}
+		ANG = {
+			diplomatic_relation = {
+				country = YRK
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		SCO = {
+			diplomatic_relation = {
+				country = KER
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = WAL
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		WAL = {
+			diplomatic_relation = {
+				country = KER
+				relation = non_aggression_pact
+				active = yes
 			}
 		}
 	}
@@ -458,31 +492,31 @@ country_event = {
 		ROY = {
 			declare_war_on = {
 				target = ANG
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = YRK
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = SOM
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = KER
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = SCO
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = WAL
-				type = annex_everything
+				type = take_core_state
 			}
 			declare_war_on = {
 				target = JAC
-				type = annex_everything
+				type = take_core_state
 			}
 		}
 		BUF = {

@@ -95,6 +95,26 @@ ideas = {
 		}
 	}
 	
+	country = {	
+
+		special_forces = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				special_forces_cap = 0.02
+			}
+		}
+	}
 
 	# TECHNOLOGY
 	tank_manufacturer = { 
