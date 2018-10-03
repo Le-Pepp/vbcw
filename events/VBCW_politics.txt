@@ -172,6 +172,7 @@ country_event = {
 		hidden_effect = {
 			add_threat = 5
 		}
+		country_event = { id = vbcw.politics.35 }
 	}
 
 	option = {
@@ -179,7 +180,7 @@ country_event = {
 		hidden_effect = {
 			add_threat = 50
 		}
-		country_event = { id = vbcw.politics.35 }
+		country_event = { id = vbcw.politics.45 }
 	}
 }
 
@@ -430,6 +431,24 @@ country_event = {
 country_event = {
 	id = vbcw.politics.35
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.35"}
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			set_truce = {
+				target = every_country
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vbcw.politics.45
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.45"}
 
 	hidden = yes
 
