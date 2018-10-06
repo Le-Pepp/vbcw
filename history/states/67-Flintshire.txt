@@ -1,19 +1,13 @@
+
 state={
 	id=67
 	name="STATE_67"
-	provinces={
-		824 857 884 895 914 922 
+	resources={
+		steel=16.000
+		chromium=24.000
+		tungsten=16.000
 	}
-	manpower=200000
-	
-	resources = {
-		steel = 16
-		chromium = 24
-		tungsten = 16
-	}
-	
-	state_category = town
-	
+
 	history={
 		owner = WAL
 		add_core_of = WAL
@@ -27,7 +21,17 @@ state={
 			dockyard = 1
 			914 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
+
+	provinces={
+		795 824 857 884 895 914 922 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
 }
