@@ -42,6 +42,10 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
+			
+			research_bonus = {
+				cat_medium_armor = 0.10
+			}
 		}		
 
 		TOG_infantry_tanks = {
@@ -62,6 +66,10 @@ ideas = {
 				heavy_tank_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
+			}
+			
+			research_bonus = {
+				cat_heavy_armor = 0.10
 			}
 		}
 	}
