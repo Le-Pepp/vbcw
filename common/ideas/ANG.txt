@@ -170,6 +170,8 @@ ideas = {
 	industrial_concern = {
 		
 		ANG_english_electric = {
+		
+			picture = english_electric
 			
 			allowed = {
 				original_TAG = ANG

@@ -59,6 +59,8 @@ ideas = {
 		designer = yes
 		
 		ROY_supermarine = {
+		
+			picture = supermarine
 			
 			allowed = {
 				original_TAG = ROY
@@ -76,6 +78,8 @@ ideas = {
 		}
 		
 		ROY_de_haviland = {
+		
+			picture = de_havilland
 			
 			allowed = {
 				original_TAG = ROY
@@ -97,6 +101,8 @@ ideas = {
 		designer = yes
 		
 		ROY_RSAF = {
+		
+			picture = rsaf_enfield
 			
 			allowed = {
 				original_TAG = ROY
@@ -112,7 +118,9 @@ ideas = {
 			}
 		}
 		
-		ROY_arsenal = {
+		ROY_ROF = {
+		
+			picture = royal_arsenal
 			
 			allowed = {
 				original_TAG = ROY
@@ -169,6 +177,8 @@ ideas = {
 	industrial_concern = {
 		
 		ROY_aioc = {
+		
+			picture = aioc
 			
 			allowed = {
 				original_TAG = ROY

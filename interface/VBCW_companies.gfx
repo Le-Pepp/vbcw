@@ -20,10 +20,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_designer_vauxhall"
-		texturefile = "gfx/interface/ideas/companies/idea_vauxhall.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_designer_armstrong_whitworth"
 		texturefile = "gfx/interface/ideas/companies/idea_armstrong_whitworth.dds"
 	}

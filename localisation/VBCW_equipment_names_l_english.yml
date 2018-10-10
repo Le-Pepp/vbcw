@@ -652,7 +652,7 @@
  SOC_medium_tank_equipment_5_short:0 "Merthyr"
  
  SOC_heavy_tank_equipment_1:0 "Matilda I"
- SOC_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOC_heavy_tank_equipment_1_short:0 "Matilda I"
  SOC_heavy_tank_equipment_2:0 "Matilda II"
  SOC_heavy_tank_equipment_2_short:0 "Matilda II"
  SOC_heavy_tank_equipment_3:0 "Owen"
@@ -801,7 +801,7 @@
  SOD_medium_tank_equipment_5_short:0 "Merthyr"
  
  SOD_heavy_tank_equipment_1:0 "Matilda I"
- SOD_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOD_heavy_tank_equipment_1_short:0 "Matilda I"
  SOD_heavy_tank_equipment_2:0 "Matilda II"
  SOD_heavy_tank_equipment_2_short:0 "Matilda II"
  SOD_heavy_tank_equipment_3:0 "Owen"
@@ -950,7 +950,7 @@
  SOG_medium_tank_equipment_5_short:0 "Merthyr"
  
  SOG_heavy_tank_equipment_1:0 "Matilda I"
- SOG_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOG_heavy_tank_equipment_1_short:0 "Matilda I"
  SOG_heavy_tank_equipment_2:0 "Matilda II"
  SOG_heavy_tank_equipment_2_short:0 "Matilda II"
  SOG_heavy_tank_equipment_3:0 "Owen"
@@ -1099,7 +1099,7 @@
  SOH_medium_tank_equipment_5_short:0 "Merthyr"
  
  SOH_heavy_tank_equipment_1:0 "Matilda I"
- SOH_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOH_heavy_tank_equipment_1_short:0 "Matilda I"
  SOH_heavy_tank_equipment_2:0 "Matilda II"
  SOH_heavy_tank_equipment_2_short:0 "Matilda II"
  SOH_heavy_tank_equipment_3:0 "Owen"
@@ -1248,7 +1248,7 @@
  SOM_medium_tank_equipment_5_short:0 "Merthyr"
  
  SOM_heavy_tank_equipment_1:0 "Matilda I"
- SOM_heavy_tank_equipment_1_short:0 "Matilda II"
+ SOM_heavy_tank_equipment_1_short:0 "Matilda I"
  SOM_heavy_tank_equipment_2:0 "Matilda II"
  SOM_heavy_tank_equipment_2_short:0 "Matilda II"
  SOM_heavy_tank_equipment_3:0 "Owen"
@@ -1397,7 +1397,7 @@
  SON_medium_tank_equipment_5_short:0 "Merthyr"
  
  SON_heavy_tank_equipment_1:0 "Matilda I"
- SON_heavy_tank_equipment_1_short:0 "Matilda II"
+ SON_heavy_tank_equipment_1_short:0 "Matilda I"
  SON_heavy_tank_equipment_2:0 "Matilda II"
  SON_heavy_tank_equipment_2_short:0 "Matilda II"
  SON_heavy_tank_equipment_3:0 "Owen"

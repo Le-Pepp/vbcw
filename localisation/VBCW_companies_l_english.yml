@@ -1,7 +1,7 @@
 ﻿l_english:
 ###ROYALISTS##
  ROY_RSAF:0 "Royal Small Arms Factory"
- ROY_arsenal:0 "Royal Arsenal"
+ ROY_ROF:0 "Royal Ordnance"
  ROY_morris:0 "Morris Motors"
  ROY_metropolitan:0 "Metropolitan Carriage Works"
  ROY_appledore:0 "Appledore Shipbuilders"
@@ -10,6 +10,18 @@
  ROY_de_haviland:0 "de Haviland"
  ROY_ecko:0 "ECKO"
  ROY_aioc:0 "Anglo-Iranian Oil"
+ 
+###FASCISTS##
+ BUF_london_small_arms:0 "London Small Arms Co."
+ BUF_woolwich:0 "Woolwich Arsenal"
+ BUF_AEC:0 "AEC"
+ BUF_bedford:0 "Bedford Vehicles"
+ BUF_thames_ironworks:0 "Thames Ironworks"
+ BUF_dudgeon:0 "J.W. Dudgeon"
+ BUF_hawker:0 "Hawker"
+ BUF_handley_page:0 "Handley Page"
+ BUF_decca:0 "Decca Electrics"
+ BUF_btr:0 "British Tyre and Rubber Co."
  
 ###ANGLICANS##
  ANG_greener:0 "W.W. Greener"

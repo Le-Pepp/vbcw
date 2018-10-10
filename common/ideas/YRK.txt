@@ -488,7 +488,7 @@ ideas = {
 		
 		YRK_vauxhall = {
 		
-			picture = designer_vauxhall
+			picture = vauxhall
 			
 			allowed = {
 				original_TAG = YRK
