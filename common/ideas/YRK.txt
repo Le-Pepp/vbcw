@@ -422,6 +422,7 @@ ideas = {
 			traits = { fighter_manufacturer_2 }
 			
 			modifier = {
+				air_weather_penalty = -0.10
 			}
 		}
 		

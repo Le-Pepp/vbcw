@@ -378,6 +378,7 @@ ideas = {
 			traits = { bomber_manufacturer_1 }
 			
 			modifier = {
+				air_night_penalty = -0.10
 			}
 		}			
 	}
