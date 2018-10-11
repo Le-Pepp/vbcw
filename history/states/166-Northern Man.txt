@@ -1,10 +1,10 @@
 
 state={
-	id=86
-	name="STATE_86"
+	id=166
+	name="STATE_166"
 	resources={
-		steel=8.000
-		tungsten=12.000
+		steel=4.000
+		chromium=8.000
 	}
 
 	history={
@@ -13,27 +13,24 @@ state={
 		add_claim_by = ROY
 		add_claim_by = YRK
 		victory_points {
-			1277 25 
+			2147 10 
 		}
 		buildings = {
 			infrastructure = 4
-			air_base = 2
 			industrial_complex = 1
-			arms_factory = 1
 			dockyard = 1
-			1277 = {
-				naval_base = 2
+			2147 = {
+				naval_base = 1
 
 			}
 
 		}
 
 	}
-
 	provinces={
-		1254 1277 1292 1296 2142 2143
+		1318 1324 1342 2145 2147 
 	}
-	manpower=65000
+	manpower=35000
 	buildings_max_level_factor=1.000
 	state_category=town
 }
