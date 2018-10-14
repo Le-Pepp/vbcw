@@ -1,6 +1,6 @@
 From,To,Type,Through,start_x,start_y,stop_x,stop_y,adjacency_rule_name,Comment
 879;901;sea;2149;-1;-1;-1;-1;;Menai,,,,,,,,,
-318;333;sea;2134;-1;-1;-1;-1;;Severn,,,,,,,,,
+318;333;sea;2191;-1;-1;-1;-1;;Severn,,,,,,,,,
 1743;1724;sea;1702;-1;-1;-1;-1;;Forth,,,,,,,,,
 1814;1796;sea;1790;-1;-1;-1;-1;;Tay,,,,,,,,,
 979;963;sea;2154;-1;-1;-1;-1;;Mersey,,,,,,,,,
