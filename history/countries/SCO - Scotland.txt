@@ -176,10 +176,54 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Alexander Cambridge"
 	picture = "SCO-CambridgeA.dds"
-	traits = { media_personality war_hero unionist_sympathies ranger infantry_leader }
+	traits = { media_personality war_hero SCO_unionist_sympathies ranger infantry_leader }
 	skill = 5
 	attack_skill = 5
     defense_skill = 4
     planning_skill = 4
     logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Colin Muir Barber"
+	picture = "SCO-Barber.dds"
+	traits = { war_hero infantry_officer engineer }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Philip 	Christison"
+	picture = "SCO-Christison
+	traits = { media_personality war_hero SCO_unionist_sympathies ranger infantry_leader }
+	skill = 5
+	attack_skill = 5
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Edmund Hakewell-Smith"
+	picture = "SCO-Hakewell-Smith.dds"
+	traits = { media_personality war_hero SCO_unionist_sympathies ranger infantry_leader }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tom Rennie"
+	picture = "SCO-Rennie.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 2
 }
