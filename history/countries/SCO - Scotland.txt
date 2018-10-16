@@ -197,7 +197,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Philip 	Christison"
-	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Christison"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Christison.dds"
 	traits = { media_personality politically_connected trickster }
 	skill = 5
 	attack_skill = 5
@@ -208,7 +208,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Edmund Hakewell-Smith"
-	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Hakewell-Smith.dds"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Hakewill-Smith.dds"
 	traits = { war_hero mountaineer }
 	skill = 3
 	attack_skill = 4
