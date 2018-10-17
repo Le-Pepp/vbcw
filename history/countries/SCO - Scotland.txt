@@ -166,7 +166,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Harold Carrington"
 	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Carrington.dds"
-	traits = { bearer_of_artillery }
+	traits = { old_guard bearer_of_artillery }
 	skill = 3
 	attack_skill = 2
     defense_skill = 2
@@ -226,4 +226,59 @@ create_corps_commander = {
     defense_skill = 1
     planning_skill = 3
     logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Colin Gubbins"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Gubbins.dds"
+	traits = { trickster commando camouflage_expert }
+	skill = 5
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fitzroy MacLean"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-MacLean.dds"
+	traits = { politically_connected trickster reckless commando unionist_sympathies }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Douglas Douglas-Hamilton"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Douglas-Hamilton.dds"
+	traits = { politically_connected reckless unionist_sympathies }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aylmer Haldane"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Haldane.dds"
+	traits = { old_guard infantry_officer organiser }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "James MacAndrew"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-MacAndrew.dds"
+	traits = { old_guard cautious unionist_sympathies }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
 }
