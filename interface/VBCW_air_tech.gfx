@@ -1,4 +1,104 @@
 spriteTypes = {		
+	
+	SpriteType = {
+		name = "GFX_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_early_bomber.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_early_fighter.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_fighter1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_fighter1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_fighter2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_fighter2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_fighter3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_heavy_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_heavy_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_heavy_fighter3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CAS1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_CAS1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CAS2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_CAS2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CAS3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_CAS3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_strategic_bomber1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_strategic_bomber2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_strategic_bomber3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_naval_bomber1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_naval_bomber2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_naval_bomber3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_tactical_bomber3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_tactical_bomber2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/planes/generic/generic_tactical_bomber1.dds"
+	}	
 
 ###ROYALISTS###
 
