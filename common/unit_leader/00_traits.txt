@@ -202,17 +202,14 @@ leader_traits = {
 			factor = 0
 		}
 	}
-	SCO_unionist_sympathies = { 
+	
+	unionist_sympathies = { 
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
 			always = no # not gainable
 		}
-		allowed = {
-			FROM = {
-				tag = SCO
-			}
-		}
+		
 		modifier = {
 			
 		}
