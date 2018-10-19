@@ -83,7 +83,8 @@ units = {
 		}
 		location = 1968
 		division_template = "Highland Militia"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 
 	
@@ -110,7 +111,7 @@ air_wings = {
 
 	120 = { 
 		fighter_equipment_0 = {
-			owner = "JAC" 
+			owner = "ENG" 
 			amount = 32
 		}
 	}
@@ -127,9 +128,21 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "JAC"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 1200
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 18
+		producer = ENG
 	}
 }
 	#####################
