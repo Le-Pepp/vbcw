@@ -1,0 +1,138 @@
+focus_tree = {
+	id = KER_Coolstuff
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KER
+		}
+	}
+	default = no
+	focus = {
+		id = KER_a_nation_reborn
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 5
+		x = 15
+		y = 0
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.03
+		}
+
+	}
+	focus = {
+		id = KER_cornish_army
+		icon = GFX_goal_cornish_army
+		cost = 5
+		x = 2
+		y = 1
+		prerequisite = {focus = KER_a_nation_reborn}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 5
+		}
+
+	}
+	focus = {
+		id = KER_fortify_tamar
+		icon = GFX_goal_generic_fortify_city
+		cost = 5
+		x = 0
+		y = 2
+		prerequisite = {focus = KER_cornish_army}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		custom_effect_tooltip = fortify_tamar_tt
+			hidden_effect = {1 = {
+				add_building_construction = {
+					type = bunker
+					province = 112
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 97
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 78
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 56
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	
+	}
+	focus = {
+		id = KER_means
+		icon = GFX_focus_generic_combined_arms
+		cost = 5
+		x = 5
+		y = 2
+		prerequisite = {focus = KER_cornish_army}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+
+	}
+	focus = {
+		id = KER_small_arms
+		icon = GFX_goal_generic_build_tank
+		cost = 5
+		x = 5
+		y = 3
+		prerequisite = {focus = KER_means}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+
+	}
+	focus = {
+		id = KER_motor_works
+		icon = GFX_goal_generic_army_motorized
+		cost = 5
+		x = 5
+		y = 4
+		prerequisite = {focus = KER_small_arms}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+
+	}
+	focus = {
+		id = KER_armored_tram_project
+		icon = GFX_goal_armored_tram
+		cost = 5
+		x = 5
+		y = 5
+		prerequisite = {focus = KER_motor_works}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+
+	}
+	
+}

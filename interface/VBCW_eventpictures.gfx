@@ -39,7 +39,22 @@ spriteTypes = {
 		name = "GFX_report_event_truce"
 		texturefile = "gfx/event_pictures/event_truce.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_news_event_portsmouth"
+		texturefile = "gfx/event_pictures/news_event_portsmouth.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_people_fucking_about_in_city"
+		texturefile = "gfx/event_pictures/news_event_people_fucking_about_in_city.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_troops_entering_coastal_city"
+		texturefile = "gfx/event_pictures/news_event_troops_entering_coastal_city.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_definetely_not_berlin_parade"
+		texturefile = "gfx/event_pictures/news_event_definetely_not_berlin_parade.dds"
+	}
 }
 	
 	

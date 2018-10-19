@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_goal_cornish_army"
+		texturefile = "gfx/interface/goals/goal_cornish_army.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_armored_tram"
+		texturefile = "gfx/interface/goals/goal_armored_tram.tga"
+	}
+}

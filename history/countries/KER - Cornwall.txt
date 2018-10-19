@@ -101,7 +101,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Simon Bolitho"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/VBCW/KER/KER-NotSeanConnery.dds"
 	traits = { defensive_doctrine }
 	skill = 3
 	attack_skill = 1
@@ -123,7 +123,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "John Carew Pole"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/VBCW/GEN/GEN-Colonel.dds"
 	traits = { infantry_officer }
 	skill = 3
     attack_skill = 3
@@ -133,8 +133,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Charles Hanson"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "John Carew Pole"
+	portrait_path = "gfx/leaders/KER/KER-Wimberley.dds"
 	traits = {  }
 	skill = 1
     attack_skill = 2

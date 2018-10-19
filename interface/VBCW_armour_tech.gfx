@@ -2356,4 +2356,142 @@ spriteTypes = {
 		name = "GFX_ULS_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/IRL/IRL_main_battle_tank.dds"
 	}
+	######CORNWALL####
+	SpriteType = {
+		name = "GFX_KER_gwtank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_gwtank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_ultimate_light_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_ultimate_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_early_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_early_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KER_basic_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KER_improved_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_armored_car.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_KER_advanced_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_armored_car.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_intermediate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_intermediate_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_ultimate_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_ultimate_medium_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_intermediate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_intermediate_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_ultimate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_ultimate_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_basic_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_medium_art.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_improved_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_medium_art.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_advanced_medium_art_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_medium_art.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_basic_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_medium_td.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_improved_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_medium_td.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_advanced_medium_td_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_medium_td.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_basic_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_basic_medium_spaa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_improved_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_improved_medium_spaa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_advanced_medium_spaa_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_advanced_medium_spaa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_KER_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_main_battle_tank.dds"
+	}
 }

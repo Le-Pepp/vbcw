@@ -1,0 +1,47 @@
+###########################
+# News Events
+###########################
+
+add_namespace = vbcw_news
+
+news_event = {
+	id = vbcw_news.1
+	title = vbcw_news.1.t
+	desc = vbcw_news.1.d
+	picture = GFX_news_event_definetely_not_berlin_parade
+	
+	major = yes
+	
+	trigger = {
+		1 = { is_controlled_by = ROY }
+		1 = { is_owned_by = KER }
+		KER = { has_war_with = ROY }
+		NOT = { has_global_flag = fall_of_plymouth_ker }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_plymouth_ker
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = vbcw_news.1.a
+		trigger = {
+			NOT = {
+				TAG = KER
+				TAG = ROY
+			}
+		}
+	}
+	option = {
+		name = vbcw_news.1.b
+		trigger = { TAG = KER }
+	}
+	option = {
+		name = vbcw_news.1.c
+		trigger = { TAG = ROY }
+	}
+}

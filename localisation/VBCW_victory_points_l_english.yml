@@ -1,8 +1,11 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ VICTORY_POINTS_39:0 "Penzance"
  VICTORY_POINTS_55:0 "Truro"
  VICTORY_POINTS_70:0 "Plymouth"
+ VICTORY_POINTS_78:0 "Launceston"
  VICTORY_POINTS_100:0 "Exeter"
+ VICTORY_POINTS_102:0 "Newport"
  VICTORY_POINTS_107:0 "Bournemouth"
  VICTORY_POINTS_121:0 "Portsmouth"
  VICTORY_POINTS_140:0 "Southampton"

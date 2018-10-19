@@ -19,6 +19,8 @@ state={
 	history={
 		owner = KER
 		victory_points { 55 25 }
+		victory_points { 78 10 }
+		victory_points { 39 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
