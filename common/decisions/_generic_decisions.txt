@@ -190,6 +190,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 		
 		visible = {
@@ -198,6 +199,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 
         cost = 100
@@ -237,6 +239,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 		
 		visible = {
@@ -245,6 +248,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 
         cost = 100
@@ -284,6 +288,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 		
 		visible = {
@@ -292,6 +297,7 @@ commandeer_civilian_equipment = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
+            has_war = yes
 		}
 
         cost = 100

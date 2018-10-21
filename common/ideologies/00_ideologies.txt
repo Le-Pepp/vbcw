@@ -63,7 +63,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -86,7 +86,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -109,7 +109,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -132,7 +132,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.50
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -155,7 +155,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.50
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -178,7 +178,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			generate_wargoal_tension = 0.50
 		}
 		ai_neutral = yes
 		can_be_boosted = no
