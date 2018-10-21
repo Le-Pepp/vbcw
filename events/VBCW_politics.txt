@@ -184,6 +184,7 @@ country_event = {
 	}
 }
 
+###Starting Ideological Opinion Modifiers###
 country_event = {
 	id = vbcw.politics.25
 	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.25"}
@@ -420,6 +421,526 @@ country_event = {
 				target = ROOT
 				modifier = VBCW_same_ideology
 			}
+		}
+		if = {
+			limit = {
+				has_government = fascist
+			}
+			set_country_flag = fascist_opinion
+		}
+		if = {
+			limit = {
+				has_government = autocratic
+			}
+			set_country_flag = autocratic_opinion
+		}
+		if = {
+			limit = {
+				has_government = conservative
+			}
+			set_country_flag = conservative_opinion
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			set_country_flag = liberal_opinion
+		}
+		if = {
+			limit = {
+				has_government = democratic_socialist
+			}
+			set_country_flag = democratic_socialist_opinion
+		}
+		if = {
+			limit = {
+				has_government = communist
+			}
+			set_country_flag = communist_opinion
+		}
+		if = {
+			limit = {
+				has_government = anarcho_syndicalist
+			}
+			set_country_flag = anarcho_syndicalist_opinion
+		}
+		if = {
+			limit = {
+				has_government = civic_nationalist
+			}
+			set_country_flag = civic_nationalist_opinion
+		}
+	}
+
+	option = {
+	}
+
+}
+
+###Government Change Ideological Opinion Modifiers###
+country_event = {
+	id = vbcw.politics.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.politics.26"}
+
+	hidden = yes
+
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { has_government = fascist }
+				has_country_flag = fascist_opinion
+			}
+			AND = {
+				NOT = { has_government = autocratic }
+				has_country_flag = autocratic_opinion
+			}
+			AND = {
+				NOT = { has_government = conservative }
+				has_country_flag = conservative_opinion
+			}
+			AND = {
+				NOT = { has_government = liberal }
+				has_country_flag = liberal_opinion
+			}
+			AND = {
+				NOT = { has_government = democratic_socialist }
+				has_country_flag = democratic_socialist_opinion
+			}
+			AND = {
+				NOT = { has_government = communist }
+				has_country_flag = communist_opinion
+			}
+			AND = {
+				NOT = { has_government = anarcho_syndicalist }
+				has_country_flag = anarcho_syndicalist_opinion
+			}
+			AND = {
+				NOT = { has_government = civic_nationalist }
+				has_country_flag = civic_nationalist_opinion
+			}
+			AND = {
+				NOT = { has_country_flag = fascist_opinion }
+				NOT = { has_country_flag = autocratic_opinion }
+				NOT = { has_country_flag = conservative_opinion }
+				NOT = { has_country_flag = liberal_opinion }
+				NOT = { has_country_flag = democratic_socialist_opinion }
+				NOT = { has_country_flag = communist_opinion }
+				NOT = { has_country_flag = anarcho_syndicalist_opinion }
+				NOT = { has_country_flag = civic_nationalist_opinion }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		clr_country_flag = fascist_opinion
+		clr_country_flag = autocratic_opinion
+		clr_country_flag = conservative_opinion
+		clr_country_flag = liberal_opinion
+		clr_country_flag = democratic_socialist_opinion
+		clr_country_flag = communist_opinion
+		clr_country_flag = anarcho_syndicalist_opinion
+		clr_country_flag = civic_nationalist_opinion
+		every_country = {
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_opposed_ideology
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = VBCW_opposed_ideology
+				}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_different_ideology
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = VBCW_different_ideology
+				}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_similar_ideology
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = VBCW_similar_ideology
+				}
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_same_ideology
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = VBCW_same_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_far_left_government = yes
+			}
+			every_country = {
+				limit = {
+					has_far_left_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_moderate_left_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_right_wing_government = yes
+						has_democratic_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_authoritarian_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_moderate_left_government = yes
+			}
+			every_country = {
+				limit = {
+					has_moderate_left_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_far_left_government = yes
+						has_democratic_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_right_wing_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_authoritarian_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_democratic_government = yes
+			}
+			every_country = {
+				limit = {
+					has_democratic_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_moderate_left_government = yes
+						has_right_wing_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_far_left_government = yes
+						has_authoritarian_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_right_wing_government = yes
+			}
+			every_country = {
+				limit = {
+					has_right_wing_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_democratic_government = yes
+						has_authoritarian_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_moderate_left_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_far_left_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_authoritarian_government = yes
+			}
+			every_country = {
+				limit = {
+					has_authoritarian_government = yes
+					NOT = { has_same_government_as_ROOT = yes }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_right_wing_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_similar_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					has_democratic_government = yes
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_different_ideology
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_moderate_left_government = yes
+						has_far_left_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = VBCW_opposed_ideology
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_same_government_as_ROOT = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_same_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = VBCW_same_ideology
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascist
+			}
+			set_country_flag = fascist_opinion
+		}
+		if = {
+			limit = {
+				has_government = autocratic
+			}
+			set_country_flag = autocratic_opinion
+		}
+		if = {
+			limit = {
+				has_government = conservative
+			}
+			set_country_flag = conservative_opinion
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			set_country_flag = liberal_opinion
+		}
+		if = {
+			limit = {
+				has_government = democratic_socialist
+			}
+			set_country_flag = democratic_socialist_opinion
+		}
+		if = {
+			limit = {
+				has_government = communist
+			}
+			set_country_flag = communist_opinion
+		}
+		if = {
+			limit = {
+				has_government = anarcho_syndicalist
+			}
+			set_country_flag = anarcho_syndicalist_opinion
+		}
+		if = {
+			limit = {
+				has_government = civic_nationalist
+			}
+			set_country_flag = civic_nationalist_opinion
 		}
 	}
 
