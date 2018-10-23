@@ -46,6 +46,7 @@ technology_categories = {
 	cl_tech
 	ca_tech
 	cv_tech
+	cvl_tech
 	bc_tech
 	bb_tech
 	shbb_tech
@@ -86,7 +87,6 @@ technology_categories = {
 	logistics_tech
 	signal_company_tech
 	maintenance_company_tech
-
 }
 
 technology_folders = {

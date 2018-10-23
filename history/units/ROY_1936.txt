@@ -161,6 +161,18 @@ units = {
 		ship = { name = "HMS Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }	
 		ship = { name = "HMS Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROY } } }
 	}
+	
+	navy = {				
+		name = "Northern Patrol"			
+		base = 2091
+		location = 2091 # Scapa Flow
+		ship = { name = "HMS Diomede" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Dragon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Calypso" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Effingham" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Cardiff" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "HMS Dunedin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+	}
 }	
 
 

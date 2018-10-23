@@ -72,6 +72,11 @@ generic = {
 		generic = { "Carrier" }
 		unique = {}
 	}
+	light_carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {}
+	}
 	
 	# Land units
 	infantry = {

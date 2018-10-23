@@ -64,4 +64,13 @@ spriteTypes = {
 	SpriteType = { name = "GFX_monitor_2_medium"			texturefile = "gfx/interface/technologies/ships/monitor_2.dds" }	
 	SpriteType = { name = "GFX_monitor_3_medium"			texturefile = "gfx/interface/technologies/ships/monitor_3.dds" }	
 	SpriteType = { name = "GFX_monitor_4_medium"			texturefile = "gfx/interface/technologies/ships/monitor_3.dds" }
+	
+###LIGHT CARRIER###
+	SpriteType = { name = "GFX_early_light_carrier_medium"		texturefile = "gfx/interface/technologies/escort_carrier.dds" }	
+	SpriteType = { name = "GFX_basic_light_carrier_medium"		texturefile = "gfx/interface/technologies/light_carrier1.dds" }	
+	SpriteType = { name = "GFX_improved_light_carrier_medium"	texturefile = "gfx/interface/technologies/light_carrier2.dds" }
+	
+	SpriteType = { name = "GFX_light_carrier_1_medium"			texturefile = "gfx/interface/technologies/escort_carrier.dds" }	
+	SpriteType = { name = "GFX_light_carrier_2_medium"			texturefile = "gfx/interface/technologies/light_carrier1.dds" }	
+	SpriteType = { name = "GFX_light_carrier_3_medium"			texturefile = "gfx/interface/technologies/light_carrier2.dds" }
 }

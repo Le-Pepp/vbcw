@@ -66,6 +66,15 @@
  monitor_3_desc:0 "A major improvement in weaponry and top speed means this latest design is far more capable than previous models."
  monitor_4_desc:0 "The final evolution of the monitor, with devastating firepower for supporting amphibious invasions." 
  
+ light_carrier:0 "Light Carrier"
+ light_carrier_1:0 "Light Carrier I"
+ light_carrier_2:0 "Light Carrier II"
+ light_carrier_3:0 "Light Carrier III"
+ light_carrier_desc:0 "A less capable but more affordable version of the Aircraft Carrier, designed primarily for convoy protection and escorting more valuable warships."
+ light_carrier_1_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
+ light_carrier_2_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
+ light_carrier_3_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
+ 
  corvette_tech:0 "Corvette models"
  sloop_tech:0 "Sloop models"
  trawler_tech:0 "Trawler models"
