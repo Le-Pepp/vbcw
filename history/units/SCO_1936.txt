@@ -93,12 +93,28 @@ units = {
 	
 	navy = {				
 		name = "Forth Fleet"			
-		base = 1711
-		location = 1711
-		ship = { name = "McNiece" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCO } } }			
-		ship = { name = "McTavish" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCO } } }	
-		ship = { name = "McKinnon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCO } } }	
-		ship = { name = "McDonald" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCO } } }		
+		base = 1743
+		location = 1743
+		ship = { name = "Ramillies" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "Broke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Wanderer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Whitehall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Wolverine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Witherington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Wallace" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "Pelican" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Bittern" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+	}
+	
+	navy = {				
+		name = "Escort Fleet"			
+		base = 1832
+		location = 1832		
+		ship = { name = "Valorous" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Amethyst" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Agate" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Flanders" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Gunner" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
 	}
 }	
 

@@ -95,10 +95,14 @@ units = {
 		name = "Tees Fleet"			
 		base = 1452
 		location = 1452
-		ship = { name = "Davy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOD } } }			
-		ship = { name = "Stockton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOD } } }	
-		ship = { name = "Stephenson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOD } } }	
-		ship = { name = "Darlington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOD } } }		
+		ship = { name = "Fame" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "Firedrake" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Halo" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Horizon" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "Mist" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Moontide" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Bramble" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Hazard" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 	}
 }	
 

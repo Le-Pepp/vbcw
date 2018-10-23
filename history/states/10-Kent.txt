@@ -31,6 +31,9 @@ state={
 			255 = {
 				naval_base = 2
 			}
+			266 = {
+				naval_base = 4
+			}
 		}
 	}	
 }

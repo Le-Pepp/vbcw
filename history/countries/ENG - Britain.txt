@@ -37,6 +37,8 @@
 	basic_corvette = 1
 	early_monitor = 1
 	basic_monitor = 1
+	early_trawler = 1
+	basic_trawler = 1
 	trench_warfare = 1
 
 	transport = 1

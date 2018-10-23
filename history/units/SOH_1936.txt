@@ -95,27 +95,23 @@ units = {
 		name = "Hull Fleet"			
 		base = 1148
 		location = 1148
-		ship = { name = "Spurn" definition = sloop equipment = { sloop_1 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Iris" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Rose" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Eleanor" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Dragonfly III" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }
-		ship = { name = "Paragon" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }
-		ship = { name = "Mona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Southampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Echo" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Garry" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Liffey" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Buckingham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Glen Kidson" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 	}
 	
 	navy = {				
 		name = "Grimsby Fleet"			
 		base = 1089
 		location = 1089	
-		ship = { name = "Clee" definition = corvette equipment = { corvette_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Rosemary" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Heron" definition = trawler equipment = { trawler_2 = { amount = 1 owner = SOH } } }	
-		ship = { name = "Humber Maid" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Dorothea" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Elouise" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Honey" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }
-		ship = { name = "Sweet Sue" definition = trawler equipment = { trawler_1 = { amount = 1 owner = SOH } } }	
+		ship = { name = "Glasgow" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Sandringham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Malayan" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Lune" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Fane" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 	}
 }	
 
