@@ -126,10 +126,10 @@ units = {
 		name = "Mersey Fleet"			
 		base = 953
 		location = 953
-		ship = { name = "Bittern" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }			
-		ship = { name = "Egret" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }	
-		ship = { name = "Cormorant" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }	
-		ship = { name = "Redshank" definition = sloop equipment = { sloop_1 = { amount = 1 owner = LIV } } }		
+		ship = { name = "Hardy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Inglefield" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+		ship = { name = "Valentine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Cornelian" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }		
 	}
 }	
 

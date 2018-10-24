@@ -93,12 +93,16 @@ units = {
 	################
 	
 	navy = {				
-		name = "Inverness Fleet"			
-		base = 1968
-		location = 1968
-		ship = { name = "MacNeill" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JAC } } }			
-		ship = { name = "MacPherson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JAC } } }	
-		ship = { name = "MacDonell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JAC } } }	
+		name = "Invergordon Fleet"			
+		base = 2003
+		location = 2003
+		ship = { name = "Cameron" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Delhi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+		ship = { name = "Volunteer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Verity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Hastings" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Enchantress" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
 	}
 }	
 

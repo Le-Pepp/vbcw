@@ -95,9 +95,7 @@ units = {
 		name = "Dublin Fleet"			
 		base = 950
 		location = 950
-		ship = { name = "Murphy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRL } } }			
-		ship = { name = "Kelly" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRL } } }	
-		ship = { name = "O'Toole" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRL } } }	
+		ship = { name = "Belfast" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG version_name = "Edinburgh Class" } } }
 	}
 }	
 

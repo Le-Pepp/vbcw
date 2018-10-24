@@ -95,10 +95,7 @@ units = {
 		name = "Clyde Fleet"			
 		base = 1719
 		location = 1719
-		ship = { name = "Liverpool" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Phoebe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "Hermione" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "Bonaventure" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Liverpool" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
 		ship = { name = "Sturdy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "Vega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "Westminster" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
@@ -109,8 +106,8 @@ units = {
 		name = "Clyde Escort Fleet"			
 		base = 1740
 		location = 1740
-		ship = { name = "Kingfisher" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Sheldrake" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Kittiwake" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Puffin" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
 		ship = { name = "Pearl" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 		ship = { name = "Ruby" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }		
 		ship = { name = "Magnolia" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	

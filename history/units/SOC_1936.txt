@@ -95,10 +95,18 @@ units = {
 		name = "Cardiff Fleet"			
 		base = 253
 		location = 253
-		ship = { name = "Rhondda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }			
-		ship = { name = "Rhymney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }	
-		ship = { name = "Taff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }	
-		ship = { name = "Ebbw" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOC } } }		
+		ship = { name = "Cardiff" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Dunedin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+		ship = { name = "Escort" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
+		ship = { name = "Escapade" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
+		ship = { name = "Encounter" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }
+		ship = { name = "Kingfisher" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }		
+		ship = { name = "Widgeon" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Sheldrake" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Radnor Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Brecon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Blackwater" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "Kennet" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }			
 	}
 }	
 

@@ -74,7 +74,7 @@ equipments = {
 		attack = 1
 		fire_range = 14
 		torpedo_attack = 0
-		carrier_size = 32
+		carrier_size = 24
 		
 		anti_air_attack = 6
 		
