@@ -17,6 +17,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_trawler_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_trawler.dds" }
 	spriteType = { name = "GFX_unit_gunboat_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_gunboat.dds" }
 	spriteType = { name = "GFX_unit_torpedo_boat_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat.dds" }
+	spriteType = { name = "GFX_unit_monitor_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_monitor.dds" }
 	spriteType = { name = "GFX_unit_light_carrier_icon_medium_white"		texturefile = "gfx/interface/counters/ships_small/onmap_light_carrier.dds" }
 
 	
@@ -27,16 +28,18 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_trawler_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_trawler_inverted.dds" }
 	spriteType = { name = "GFX_unit_gunboat_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_gunboat_inverted.dds" }
 	spriteType = { name = "GFX_unit_torpedo_boat_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat_inverted.dds" }
+	spriteType = { name = "GFX_unit_monitor_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_monitor_inverted.dds" }
+	spriteType = { name = "GFX_unit_light_carrier_icon_medium_black"		texturefile = "gfx/interface/counters/ships_small/onmap_light_carrier_inverted.dds" }
 	
 	###Text Icons###
 	
-	spriteType = { name = "GFX_ship_sloop_icon_small"						texturefile = "gfx/texticons/ship_sloop_icon_small.dds"				legacy_lazy_load = no }	
-	spriteType = { name = "GFX_ship_corvette_icon_small"					texturefile = "gfx/texticons/ship_corvette_icon_small.dds"			legacy_lazy_load = no }	
-	spriteType = { name = "GFX_ship_trawler_icon_small"						texturefile = "gfx/texticons/ship_trawler_icon_small.dds"			legacy_lazy_load = no }	
-	spriteType = { name = "GFX_ship_gunboat_icon_small"						texturefile = "gfx/texticons/ship_gunboat_icon_small.dds"			legacy_lazy_load = no }	
-	spriteType = { name = "GFX_ship_torpedo_boat_icon_small"				texturefile = "gfx/texticons/ship_torpedo_boat_icon_small.dds"		legacy_lazy_load = no }
-	spriteType = { name = "GFX_ship_monitor_icon_small"						texturefile = "gfx/texticons/ship_monitor_icon_small.dds"			legacy_lazy_load = no }
-	spriteType = { name = "GFX_ship_light_carrier_icon_small"				texturefile = "gfx/texticons/ship_light_carrier_icon_small.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_sloop_icon_small"						texturefile = "gfx/interface/counters/ships_small/onmap_sloop.dds"				legacy_lazy_load = no }	
+	spriteType = { name = "GFX_ship_corvette_icon_small"					texturefile = "gfx/interface/counters/ships_small/onmap_corvette.dds"			legacy_lazy_load = no }	
+	spriteType = { name = "GFX_ship_trawler_icon_small"						texturefile = "gfx/interface/counters/ships_small/onmap_trawler.dds"			legacy_lazy_load = no }	
+	spriteType = { name = "GFX_ship_gunboat_icon_small"						texturefile = "gfx/interface/counters/ships_small/onmap_gunboat.dds"			legacy_lazy_load = no }	
+	spriteType = { name = "GFX_ship_torpedo_boat_icon_small"				texturefile = "gfx/interface/counters/ships_small/onmap_torpedo_boat.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_monitor_icon_small"						texturefile = "gfx/interface/counters/ships_small/onmap_monitor.dds"			legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_light_carrier_icon_small"				texturefile = "gfx/interface/counters/ships_small/onmap_light_carrier.dds"		legacy_lazy_load = no }
 		
 	###Unit GFX###
 	
