@@ -20,6 +20,86 @@ ideas = {
 				army_core_defence_factor = 0.25
 			}
 		}
+	
+	
+		KER_trade_with_the_world = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_can_wartime_prices_and_trade_board
+			
+			modifier = {
+				trade_laws_cost_factor = -0.1
+				trade_opinion_factor = 0.10
+			}
+		}
+		KER_trade_cooperation = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_sent_attache
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		KER_cornish_militiaman = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				army_morale_factor = 0.1
+				attrition = -0.2
+				
+				land_reinforce_rate = 0.05
+			}
+		}
+		KER_mills = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
 	}
 	
 	###ADVISORS###
@@ -36,23 +116,43 @@ ideas = {
 		}
 	}
 	
+	army_chief = {
 
-	army_chief = {	
-		KER_bolitho = {	
-		
-			picture = generic_army_europe_1
-		
+		simon_bolitho = {
+
+			
 			allowed = {
 				original_tag = KER
-			}			
-			traits = { army_chief_morale_2 }
+			}
+			
+			traits = { army_chief_organizational_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
-		}
-	}	
 	
+	}
+	}
+
+	high_command = {
+
+		simon_bolitho = {
+
+			
+			allowed = {
+				original_tag = KER
+			}
+			available = {
+				has_completed_focus = KER_cornish_special_forces
+			}
+			traits = { air_airborne_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+	
+	}
+	}
 	# TECHNOLOGY
 	tank_manufacturer = {
 		
@@ -95,8 +195,8 @@ ideas = {
 
 			picture = generic_industrial_concern_1
 			
-			allowed = {
-				original_TAG = KER
+			available = {
+				has_completed_focus = KER_resource_exploitation
 			}
 			
 			research_bonus = {
@@ -152,6 +252,21 @@ ideas = {
 			
 			research_bonus = {
 				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer_2 }
+			
+		}
+		ker_opel = {
+
+			picture = opel
+			
+			allowed = {
+				has_completed_focus = KER_opel_investments
+			}
+			
+			research_bonus = {
+				motorised = 0.10
 			}
 			
 			traits = { infantry_equipment_manufacturer_2 }

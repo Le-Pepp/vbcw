@@ -22,6 +22,24 @@ technologies = {
 			}
 		}
 	}
+	armoured_tram_tech = { #Armoured Tram#
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		enable_equipments = {
+			super_heavy_tank_equipment_1
+		}
+
+		on_research_complete = {
+			load_oob = "unlock_big_tanks"
+		}
+
+		research_cost = 1
+		start_year = 1936
+	}
 	
 	big_tanks_tech = { #TOGII
 

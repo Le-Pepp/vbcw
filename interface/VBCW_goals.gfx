@@ -7,4 +7,93 @@ spriteTypes = {
 		name = "GFX_goal_armored_tram"
 		texturefile = "gfx/interface/goals/goal_armored_tram.tga"
 	}
+	spriteType = {
+		name = "GFX_goal_york_generals"
+		texturefile = "gfx/interface/goals/goal_york_generals.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_ulster_pride"
+		texturefile = "gfx/interface/goals/goal_ulster_pride.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_yorkist_advisors"
+		texturefile = "gfx/interface/goals/goal_yorkist_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_york_troops"
+		texturefile = "gfx/interface/goals/goal_york_troops.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_york_socialism"
+		texturefile = "gfx/interface/goals/goal_york_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornish_priesthood"
+		texturefile = "gfx/interface/goals/goal_cornish_priesthood.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_mass_army"
+		texturefile = "gfx/interface/goals/goal_mass_army.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_academy"
+		texturefile = "gfx/interface/goals/goal_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_highland_levies"
+		texturefile = "gfx/interface/goals/goal_highland_levies.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_legends_of_old"
+		texturefile = "gfx/interface/goals/goal_legends_of_old.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_naval_research"
+		texturefile = "gfx/interface/goals/goal_naval_research.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornwall_anglican"
+		texturefile = "gfx/interface/goals/goal_cornwall_anglican.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornish_militiaman"
+		texturefile = "gfx/interface/goals/goal_cornish_militiaman.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornish_airforce"
+		texturefile = "gfx/interface/goals/goal_cornish_airforce.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornish_navy"
+		texturefile = "gfx/interface/goals/goal_cornish_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_cornish_big_brother"
+		texturefile = "gfx/interface/goals/goal_cornish_big_brother.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_irish_relations"
+		texturefile = "gfx/interface/goals/goal_irish_relations.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_norwegian_relations"
+		texturefile = "gfx/interface/goals/goal_norwegian_relations.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_french_industry"
+		texturefile = "gfx/interface/goals/goal_french_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_german_industry"
+		texturefile = "gfx/interface/goals/goal_german_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_opel_investments"
+		texturefile = "gfx/interface/goals/goal_opel_investments.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_renault_car"
+		texturefile = "gfx/interface/goals/goal_renault_car.dds"
+	}
+
 }

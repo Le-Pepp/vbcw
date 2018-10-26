@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_idea_code_talkers"
 		texturefile = "gfx/interface/ideas/idea_code_talkers.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_simon_bolitho"
+		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_simon_bolitho_paratrooper"
+		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
+	}
 }

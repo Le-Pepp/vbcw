@@ -151,6 +151,8 @@ KER_INF_01 =
 		99 = { "%dth Kernow Infantry Regiment" }
 		100 = { "1st Battalion Duke of Cornwall's Light Infantry" }
 		101 = { "2nd Battalion Duke of Cornwall's Light Infantry" }
+		102 = { "3rd Battalion Duke of Cornwall's Light Infantry" }
+		103 = { "4th Battalion Duke of Cornwall's Light Infantry" }
 	}
 }
 

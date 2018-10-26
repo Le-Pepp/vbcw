@@ -9,16 +9,18 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = KER_a_nation_reborn
-		icon = GFX_focus_generic_support_the_left_right
+		id = KER_status_of_the_military
+		icon = GFX_focus_generic_military_mission
 		cost = 5
-		x = 15
+		x = 9
 		y = 0
 		
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_stability = 0.03
+			army_experience = 5
+			air_experience = 25
+			navy_experience = 25
 		}
 
 	}
@@ -26,13 +28,13 @@ focus_tree = {
 		id = KER_cornish_army
 		icon = GFX_goal_cornish_army
 		cost = 5
-		x = 2
+		x = 3
 		y = 1
-		prerequisite = {focus = KER_a_nation_reborn}
+		prerequisite = {focus = KER_status_of_the_military}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			army_experience = 5
+			army_experience = 25
 		}
 
 	}
@@ -79,6 +81,119 @@ focus_tree = {
 	
 	}
 	focus = {
+		id = KER_methods
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 5
+		x = 2
+		y = 2
+		prerequisite = {focus = KER_cornish_army}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = KER_guerilla_warfare
+		icon = GFX_focus_prc_infiltration
+		cost = 5
+		x = 1
+		y = 3
+		prerequisite = {focus = KER_methods}
+		mutually_exclusive = {focus = KER_superior_firepower}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			uses = 2
+			bonus = 0.5
+			category = cat_guerilla_warfare
+		}
+	}
+	}
+	focus = {
+		id = KER_superior_firepower
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5
+		x = 3
+		y = 3
+		prerequisite = {focus = KER_methods}
+		mutually_exclusive = {focus = KER_guerilla_warfare}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		add_tech_bonus = {
+			name = land_doc_bonus
+			uses = 2
+			bonus = 0.5
+			category = cat_superior_firepower
+		}
+	}
+	}
+	focus = {
+		id = KER_installations
+		icon = GFX_focus_generic_coastal_fort
+		cost = 5
+		x = 3
+		y = 4
+		prerequisite = {focus = KER_superior_firepower focus = KER_guerilla_warfare}
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		custom_effect_tooltip = installations_tt
+		hidden_effect = {1 = {add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 2
+					instant_build = yes
+				} } }
+	}
+
+	}
+	focus = {
+		id = KER_expand_DLCI
+		icon = GFX_goal_mass_army
+		cost = 5
+		x = 1
+		y = 4
+		prerequisite = {focus = KER_superior_firepower focus = KER_guerilla_warfare}
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		custom_effect_tooltip = expand_dlci_tt
+		hidden_effect = {load_oob = KER_DLCI add_manpower =5000 }
+	}
+
+	}
+	focus = {
+		id = KER_the_cornish_militiaman
+		icon = GFX_goal_cornish_militiaman	
+		cost = 15
+		x = 2
+		y = 5
+		prerequisite = {focus = KER_expand_DLCI} prerequisite = { focus = KER_installations}
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		add_ideas = KER_cornish_militiaman
+	}
+
+	}
+	focus = {
 		id = KER_means
 		icon = GFX_focus_generic_combined_arms
 		cost = 5
@@ -88,7 +203,12 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			
+		add_tech_bonus = {
+				name = KER_means_tech_boost
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}	
 		}
 
 	}
@@ -102,7 +222,13 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_weapons
+				
+			}
 		}
 
 	}
@@ -116,7 +242,11 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.75
+				technology = motorised_infantry
+			}
 		}
 
 	}
@@ -130,9 +260,804 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
+			hidden_effect = {
+			set_technology = {
+			armoured_tram_tech = 1
+		}
+		}
+ 		custom_effect_tooltip = armoured_tram_tt
+		}
+
+	}
+	####Airforce Section####
+	focus = {
+		id = KER_cornish_airforce
+		icon = GFX_goal_cornish_airforce
+		cost = 5
+		x = 9
+		y = 1
+		prerequisite = {focus = KER_status_of_the_military}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			air_experience = 25
+		}
+
+	}
+	focus = {
+		id = KER_fighters
+		icon = GFX_goal_generic_air_fighter2
+		cost = 5
+		x = 8
+		y = 2
+		prerequisite = {focus = KER_cornish_airforce}
+		continue_if_invalid = yes
+		mutually_exclusive = {focus = KER_bomber}	
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_fighter	
+				
+							
+			}
+		}
+
+	}
+	focus = {
+		id = KER_light_aircraft
+		icon = GFX_goal_generic_air_fighter
+		cost = 5
+		x = 8
+		y = 3
+		prerequisite = {focus = KER_fighters}
+		continue_if_invalid = yes
+			
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_air
+				
+							
+			}
+		}
+
+	}
+	focus = {
+		id = KER_heavy_fighters
+		icon = GFX_goal_generic_CAS
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = {focus = KER_light_aircraft}
+		continue_if_invalid = yes
+			
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_heavy_fighter
+				
+							
+			}
+		}
+
+	}
+	focus = {
+		id = KER_bomber
+		icon = GFX_goal_generic_air_bomber
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = {focus = KER_cornish_airforce}
+		continue_if_invalid = yes
+		mutually_exclusive = {focus = KER_fighters}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = medium_air
+				category = heavy_air
+				
+			}
+		}
+
+	}
+	focus = {
+		id = KER_tactical_bomber
+		icon = GFX_goal_poland_goal
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = {focus = KER_bomber}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = KER_strategic_bomber
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = {focus = KER_tactical_bomber}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+
+	}
+	focus = {
+		id = KER_build_bases_on_the_moor
+		icon = GFX_goal_generic_build_airforce
+		cost = 5
+		x = 9
+		y = 5
+		prerequisite = {focus = KER_strategic_bomber focus = KER_heavy_fighters}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+		air_experience = 25
 			
 		}
 
 	}
-	
+	focus = {
+		id = KER_cornish_special_forces
+		icon = GFX_focus_generic_paratrooper
+		cost = 5
+		x = 11
+		y = 5
+		prerequisite = {focus = KER_strategic_bomber focus = KER_heavy_fighters}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = paratrooper_focus
+				bonus = 0.5
+				uses = 1
+				category = para_tech
+			}
+			custom_effect_tooltip = simon_bolitho_tt
+			
+		}
+
+	}
+	focus = {
+		id = KER_take_in_foreign_pilots
+		icon = GFX_focus_chi_flying_tigers
+		cost = 5
+		x = 7
+		y = 5
+		prerequisite = {focus = KER_strategic_bomber focus = KER_heavy_fighters}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = foreign_pilots_tt
+   			hidden_effect = {load_oob = KER_foreign_pilots}
+		}
+
+	}
+	#####navy Section####
+	focus = {
+		id = KER_cornish_navy
+		icon = GFX_goal_cornish_navy
+		cost = 5
+		x = 15
+		y = 1
+		prerequisite = {focus = KER_status_of_the_military}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			navy_experience = 25
+		}
+
+	}
+	focus = {
+		id = KER_nationalise_the_shipyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5
+		x = 15
+		y = 2
+		prerequisite = {focus = KER_cornish_navy}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			1= {
+				
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+	}
+
+	}
+	focus = {
+		id = KER_historical_legacy
+		icon = GFX_goal_cornish_big_brother
+		cost = 5
+		x = 15
+		y = 3
+		prerequisite = {focus = KER_nationalise_the_shipyards}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_focus
+				bonus = 0.5
+				uses = 3
+				category = naval_doctrine
+			}
+		}
+		}
+	focus = {
+		id = KER_penzance_naval_base
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 5
+		x = 15
+		y = 4
+		prerequisite = {focus = KER_historical_legacy}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			1 = {
+				add_building_construction = {
+					type = naval_base
+					province = 39
+					level = 4
+					instant_build = yes
+				}
+		}
+		}
+		}
+	focus = {
+		id = KER_cruisers
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = {focus = KER_nationalise_the_shipyards}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_focus
+				bonus = 0.5
+				uses = 2
+				category = ca_tech
+			}
+		}
+		}
+	focus = {
+		id = KER_trawler_battlefleet
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 5
+		x = 13
+		y = 4
+		prerequisite = {focus = KER_cruisers}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_focus
+				bonus = 0.5
+				uses = 2
+				category = trawler_tech
+			}
+		}
+		}
+	focus = {
+		id = KER_destroyers
+		icon = GFX_focus_generic_destroyer
+		cost = 5
+		x = 17
+		y = 3
+		prerequisite = {focus = KER_nationalise_the_shipyards}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_focus
+				bonus = 0.5
+				uses = 2
+				category = dd_tech
+			}
+		}
+		}		
+	focus = {
+		id = KER_subversive_campaign
+		icon = GFX_goal_generic_wolf_pack
+		cost = 5
+		x = 17
+		y = 4
+		prerequisite = {focus = KER_destroyers}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_focus
+				bonus = 0.5
+				uses = 2
+				category = ss_tech
+			}
+		}
 }
+	focus = {
+		id = KER_cornish_marines
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 5
+		x = 16
+		y = 5
+		prerequisite = {focus = KER_subversive_campaign focus = KER_trawler_battlefleet focus = KER_penzance_naval_base}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = marine_focus
+				bonus = 0.5
+				uses = 1
+				category = marine_tech
+			}
+			add_tech_bonus = {
+				name = marine_focus
+				bonus = 0.75
+				uses = 1
+				category = tp_tech
+			}
+		}
+}
+	focus = {
+		id = KER_naval_aviation
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 5
+		x = 14
+		y = 5
+		prerequisite = {focus = KER_subversive_campaign focus = KER_trawler_battlefleet focus = KER_penzance_naval_base}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_aviation_focus
+				bonus = 0.5
+				uses = 1
+				category = naval_air
+			}
+			
+		}
+}
+
+	##########Industry Section#######
+focus = {
+		id = KER_mining_legacy
+		icon = GFX_goal_generic_construction2
+		cost = 8
+		x = 25
+		y = 0
+		prerequisite = {}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = KER_mining_legacy }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry_focus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			1 = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KER_mining_legacy
+			}
+			
+		}
+}
+	focus = {
+		id = KER_trade_legacy
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 8
+		x = 25
+		y = 1
+		prerequisite = {focus = KER_mining_legacy}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = KER_trade_with_the_world
+			add_offsite_building = { type = industrial_complex level = 1 } 
+			}
+		}
+	focus = {
+		id = KER_irish_trade
+		icon = GFX_goal_irish_relations
+		cost = 8
+		x = 24
+		y = 2
+		prerequisite = {focus = KER_trade_legacy}
+		continue_if_invalid = yes
+		available = { IRL = {exists = yes}}
+		bypass = { IRL = {exists = no}}
+		available_if_capitulated = yes
+		completion_reward = {
+			IRL = {country_event = KER_events.1}
+			}
+		}
+	focus = {
+		id = KER_invite_german_manufacturers
+		icon = GFX_goal_german_industry
+		cost = 8
+		x = 24
+		y = 3
+		prerequisite = {focus = KER_irish_trade focus = KER_norwegian_trade}
+		continue_if_invalid = yes
+		mutually_exclusive = {focus = KER_invite_french_manufacturers}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			}
+		}
+		
+	focus = {
+		id = KER_opel_investments
+		icon = GFX_goal_opel_investments
+		cost = 8
+		x = 24
+		y = 4
+		prerequisite = {focus = KER_invite_german_manufacturers}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			}
+		}
+	focus = {
+		id = KER_invite_french_manufacturers
+		icon = GFX_goal_french_industry
+		cost = 8
+		x = 26
+		y = 3
+		prerequisite = {focus = KER_trade_legacy}
+		continue_if_invalid = yes
+		mutually_exclusive = {focus = KER_invite_german_manufacturers}
+  		
+		prerequisite = {focus = KER_irish_trade focus = KER_norwegian_trade}
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			}
+		}
+	focus = {
+		id = KER_renault_investments
+		icon = GFX_goal_renault_car
+		cost = 8
+		x = 26
+		y = 4
+		prerequisite = {focus = KER_invite_french_manufacturers}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			}
+		}
+	focus = {
+		id = KER_norwegian_trade
+		icon = GFX_goal_norwegian_relations
+		cost = 8
+		x = 26
+		y = 2
+		prerequisite = {focus = KER_trade_legacy}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			}
+		}
+	focus = {
+		id = KER_encourage_investors
+		icon = GFX_goal_generic_consumer_goods
+		cost = 8
+		x = 21
+		y = 1
+		prerequisite = {focus = KER_mining_legacy}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = KER_investors }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			
+			1 = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = KER_investors
+			}
+			
+		}
+		}
+		
+		focus = {
+		id = KER_rural_roads
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8
+		x = 20
+		y = 2
+		prerequisite = {focus =  KER_encourage_investors}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward ={ 1 = {add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		}
+		focus = {
+		id = KER_local_mills
+		icon = GFX_focus_generic_industry_2
+		cost = 8
+		x = 20
+		y = 3
+		prerequisite = {focus =   KER_rural_roads}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {	
+		add_ideas = KER_mills
+		 random_owned_state = {add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+		focus = {
+		id = KER_resource_exploitation
+		icon = GFX_goal_generic_construct_civilian
+		cost = 8
+		x = 22
+		y = 2
+		prerequisite = {focus =  KER_encourage_investors}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			add_tech_bonus = {
+				name = industry_focus
+				bonus = 0.5
+				uses = 2
+				category = excavation_tech
+			}
+		}
+	
+	}
+		focus = {
+		id = KER_steel_mines
+		icon = GFX_focus_generic_steel
+		cost = 8
+		x = 22
+		y = 3
+		prerequisite = {focus =  KER_resource_exploitation}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			
+			add_resource = {
+				type = steel
+				amount = 8
+				state = 1
+			}
+		}
+	
+	}
+	focus = {
+		id = KER_new_industrial_towns
+		icon = GFX_goal_generic_production
+		cost = 15
+		x = 21
+		y = 4
+		prerequisite = {focus =  KER_steel_mines} prerequisite = { focus = KER_local_mills}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = KER_industrial_towns
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = KER_industrial_towns
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KER_industrial_towns
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = KER_industrial_towns
+			}
+		}
+	}

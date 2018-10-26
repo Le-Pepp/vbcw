@@ -2494,4 +2494,20 @@ spriteTypes = {
 		name = "GFX_KER_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/tanks/KER/KER_main_battle_tank.dds"
 	}
+	SpriteType = {
+		name = "GFX_KER_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_super_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_super_heavy_tank_equipment_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_super_heavy_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_KER_super_heavy_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/tanks/KER/KER_super_heavy_tank.dds"
+	}
+	 SpriteType = {
+        name = "GFX_armoured_tram_tech_medium"
+        texturefile = "gfx/interface/technologies/tanks/KER/KER_super_heavy_tank.dds"
+    }
 }
