@@ -123,9 +123,15 @@ units = {
 air_wings = {
 
 	102 = { 
+		CAS_equipment_1 = {
+			owner = "SOG" 
+			amount = 8
+		}
+	}	
+	102 = { 
 		fighter_equipment_0 = {
 			owner = "SOG" 
-			amount = 32
+			amount = 8
 		}
 	}
 }

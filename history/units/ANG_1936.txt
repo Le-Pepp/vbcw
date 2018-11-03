@@ -148,10 +148,40 @@ units = {
 	
 air_wings = {
 
+	5 = { 
+		fighter_equipment_0 = {
+			owner = "ANG" 
+			amount = 12
+		}
+	}	
+	5 = { 
+		nav_bomber_equipment_1 = {
+			owner = "ANG" 
+			amount = 8
+		}
+	}
 	10 = { 
 		fighter_equipment_0 = {
 			owner = "ANG" 
-			amount = 32
+			amount = 12
+		}
+	}
+	29 = { 
+		fighter_equipment_0 = {
+			owner = "ANG" 
+			amount = 12
+		}
+	}
+	29 = { 
+		tac_bomber_equipment_0 = {
+			owner = "ANG" 
+			amount = 8
+		}
+	}
+	35 = { 
+		tac_bomber_equipment_0 = {
+			owner = "ANG" 
+			amount = 8
 		}
 	}
 }
