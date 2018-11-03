@@ -118,7 +118,7 @@ ideas = {
 	
 	army_chief = {
 
-		simon_bolitho = {
+		simon_bolitho_1 = {
 
 			
 			allowed = {
@@ -131,12 +131,12 @@ ideas = {
 				factor = 1
 			}
 	
-	}
+		}
 	}
 
 	high_command = {
 
-		simon_bolitho = {
+		simon_bolitho_2 = {
 
 			
 			allowed = {
@@ -151,7 +151,7 @@ ideas = {
 				factor = 1
 			}
 	
-	}
+		}
 	}
 	# TECHNOLOGY
 	tank_manufacturer = {

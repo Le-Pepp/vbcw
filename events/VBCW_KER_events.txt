@@ -1,4 +1,4 @@
-add_namespace = KER_events
+﻿add_namespace = KER_events
 
 ################################
 ## Cornish Events
