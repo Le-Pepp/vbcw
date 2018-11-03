@@ -52,7 +52,7 @@ country_event = {
 				state = 1
 			}
 		add_resource = {
-				type = coal
+				type = chromium
 				amount = 8
 				state = 1
 			}
