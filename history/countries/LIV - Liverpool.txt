@@ -91,7 +91,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bessie Braddock
+	name = "Bessie Braddock"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "gfx/leaders/VBCW/LIV/LIV-Braddock.dds"
 	expire = "1965.1.1"
@@ -102,7 +102,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Edwad Stanley
+	name = "Edwad Stanley"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "gfx/leaders/VBCW/LIV/LIV-Stanley"
 	expire = "1965.1.1"
