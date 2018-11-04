@@ -10,6 +10,7 @@ state={
 	history={
 		owner = ROY
 		victory_points { 102 10 }
+		victory_points { 103 10 }
 		add_core_of = ROY
 		add_claim_by = YRK
 		add_claim_by = ANG

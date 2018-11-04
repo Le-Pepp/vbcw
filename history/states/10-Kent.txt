@@ -13,8 +13,12 @@ state={
 	state_category=city
 	
 	history={
+		victory_points = { 196 10 }
 		victory_points = { 201 10 }
+		victory_points = { 220 10 }
 		victory_points = { 229 25 }
+		victory_points = { 250 10 }
+		victory_points = { 252 10 }
 		owner = ANG
 		add_core_of = ANG
 		add_claim_by = YRK
@@ -31,7 +35,7 @@ state={
 			255 = {
 				naval_base = 2
 			}
-			266 = {
+			250 = {
 				naval_base = 4
 			}
 		}
