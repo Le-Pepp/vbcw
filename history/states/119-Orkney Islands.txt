@@ -13,6 +13,7 @@ state={
 	state_category = pastoral
 	
 	history={
+		victory_points = { 2091 10 }
 		owner = ROY
 		add_core_of = ROY
 		add_claim_by = JAC

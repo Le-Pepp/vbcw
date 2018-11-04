@@ -2,7 +2,7 @@ state={
 	id=5
 	name="STATE_5"
 	provinces={
-		109 113 121 122 125 128 129 140 157 163 164 186 192 198 214 215 222 2123 
+		109 113 121 122 125 128 129 140 157 163 164 186 192 198 214 215 222 2123 2375
 	}
 	manpower=1050000
 	
@@ -17,6 +17,7 @@ state={
 		victory_points = { 121 10 }
 		victory_points = { 140 10 }
 		victory_points = { 2123 10 }
+		victory_points = { 2375 10 }
 		owner = ANG
 		add_core_of = ANG
 		add_claim_by = ROY
