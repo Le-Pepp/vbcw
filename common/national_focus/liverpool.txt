@@ -22,7 +22,8 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
-
+		}
+	}
 
 ###INDUSTRY###
 	
@@ -41,7 +42,7 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = industry
-
+			}
 		}
 	}
 ###DOCKYARDS###
@@ -62,6 +63,7 @@ focus_tree = {
 					type = dockyard
 					level = 1
 					instant_build = yes
+				}
 			}
 		}	
 	}
@@ -81,7 +83,8 @@ focus_tree = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
-					instant_build = yes			
+					instant_build = yes	
+				}
 			}
 		}
 	}
@@ -97,10 +100,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = LIV_super_construction
-			}
 		}
 	}
+	
 ###MILFACS###
+
 	focus = {
 		id = LIV_develop_military_sector
 		icon = GFX_goal_generic_army_artillery2
@@ -117,10 +121,11 @@ focus_tree = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
-					
+				}	
 			}
 		}
 	}
+	
 	focus = {
 		id = LIV_wirral_heavy_industry
 		icon = GFX_focus_generic_coastal_fort
@@ -137,16 +142,18 @@ focus_tree = {
 					type = arms_factory
 					level = 2
 					instant_build = yes
+				}
 			}
 		}
-	}	
+	}
+	
 	focus = {
 		id = LIV_arm_our_men
 		icon = GFX_goal_mass_army
 		cost = 10
 		x = 1
 		y = 4
-		prerequisite = {focus = LIV_wirral_heavy_industry
+		prerequisite = {focus = LIV_wirral_heavy_industry}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -173,7 +180,8 @@ focus_tree = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
-
+				}
+			}
 		}
 	}
 	
@@ -193,10 +201,10 @@ focus_tree = {
 					type = industrial_complex
 					level = 2
 					instant_build = yes
-
 				}	
 			}
 		}
+	}
 		
 	focus = {
 		id = LIV_pave_the_roads
@@ -213,6 +221,7 @@ focus_tree = {
 					type = infastructure
 					level = 3
 					instant_build = yes
+				}
 			}		
 		}
 	}
@@ -235,6 +244,7 @@ focus_tree = {
 					type = synthetic_refinery
 					level = 1
 					instant_build = yes
+				}
 			}
 		}
 	}
@@ -251,9 +261,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_political_power = 150
-				
-			}
+			add_political_power = 150				
 		}
 	}
 ###AUTOCRATIC###
@@ -273,14 +281,13 @@ focus_tree = {
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
+			}
 			add_popularity = {
 				popularity = 0.35
 				ideology = autocratic
-				}
+			}
 			add_political_power = 50
-			}	
 		}
-
 	}
 	
 	focus = {
@@ -294,13 +301,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_opinion_modifier = { target = ROY modifier = LIV_loyalty_to_the_king }
-			ROY = { add_opinion_modifier = { target = ROOT modifier = LIV_loyalty_to_the_king } }				
-			
+			ROY = { add_opinion_modifier = { target = ROOT modifier = LIV_loyalty_to_the_king } }
 			add_war_support = 0.15			
-			}
 		}
-
 	}
+	
 	focus = {
 		id = LIV_increase_military_presence
 		icon = GFX_goal_generic_air_fighter
@@ -313,10 +318,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 							
-			}
 		}
-
 	}
+	
 	focus = {
 		id = LIV_royalist_alliance
 		icon = GFX_goal_generic_CAS
@@ -330,12 +334,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			ROY = {
-					country_event = liverpool.1			
-							
+					country_event = liverpool.1								
 			}
 		}
 
 	}
+	
 ###LIBERAL###
 
 	focus = {
@@ -347,18 +351,17 @@ focus_tree = {
 		prerequisite = {focus = LIV_open_political_debate}
 		continue_if_invalid = yes
 		mutually_exclusive = {focus = LIV_invite_stanley}
-		mutually_exclusive = {focus = LIV_the_socialists}					available_if_capitulated = yes
+		mutually_exclusive = {focus = LIV_the_socialists}					
+		available_if_capitulated = yes
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.20
 				ideology = liberal
-				
+			}				
 			add_political_power = 150
-
-			}
 		}
-
 	}
+	
 	focus = {
 		id = LIV_work_for_all
 		icon = GFX_goal_poland_goal
@@ -370,10 +373,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = liv_work_for_all
-			}
 		}
-
 	}
+	
 	focus = {
 		id = LIV_welfare
 		icon = GFX_goal_generic_occupy_start_war
@@ -385,11 +387,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			 add_ideas = liv_welfare_state
-
-			}
 		}
-
 	}
+	
 	focus = {
 		id = LIV_splendid_isolation
 		icon = GFX_goal_generic_build_airforce
@@ -397,14 +397,13 @@ focus_tree = {
 		x = 9
 		y = 5
 		prerequisite = {focus = LIV_welfare}
-		continue_if_invalid = yes
-		
+		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
-			 add_ideas = isolation	
-			}	
+			 add_ideas = isolation
 		}
 	}
+	
 ###DEMSOCS###
 
 	focus = {
@@ -422,17 +421,15 @@ focus_tree = {
 			set_politics = {
 				ruling_party = democratic_socialism
 				elections_allowed = yes
+			}
 			add_popularity = {
 				popularity = 0.35
 				ideology = democratic_socialism
-				}
-			add_political_power = 100
-
 			}
-			
+			add_political_power = 100			
 		}
-
 	}
+	
 	focus = {
 		id = LIV_branch_out
 		icon = GFX_focus_chi_flying_tigers
@@ -445,11 +442,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_opinion_modifier = { target = SOM modifier = LIV_branching_out }
-			SOM = { add_opinion_modifier = { target = ROOT modifier = LIV_branching_out } }				
-			
+			SOM = { add_opinion_modifier = { target = ROOT modifier = LIV_branching_out } }	
 			add_stability = 0.15	
 		}
-
 	}
 
 	focus = {
@@ -459,14 +454,13 @@ focus_tree = {
 		x = 10
 		y = 4
 		prerequisite = {focus = LIV_branch_out}
-		continue_if_invalid = yes
-		
+		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
 			add_idea = socialist_haven
 		}
-
 	}
+	
 	focus = {
 		id = LIV_join_the_frey
 		icon = GFX_goal_generic_construct_naval_dockyard
@@ -481,13 +475,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			SOM = {
-					country_event = liverpool.1	
-				
-				
+				country_event = liverpool.1	
 			}
 		}
-
 	}
+	
 ###MILITARY###
 	focus = {
 		id = LIV_our_armed_forces
@@ -503,9 +495,9 @@ focus_tree = {
 			army_experience = 15
 			air_experience = 15
 			navy_experience = 15
-			}
 		}
 	}
+	
 ###NAVY###
 	
 	focus = {
@@ -519,10 +511,10 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			navy_experience = 30		
-			}
+			navy_experience = 30
 		}
 	}
+	
 	focus = {
 		id = LIV_sea_wolfs
 		icon = GFX_focus_generic_navy_battleship2
@@ -542,6 +534,7 @@ focus_tree = {
 			}
 		}
 	}
+	
 	focus = {
 		id = LIV_develop_small_ships
 		icon = GFX_goal_generic_navy_cruiser
@@ -561,6 +554,7 @@ focus_tree = {
 			}
 		}
 	}
+	
 	focus = {
 		id = LIV_develop_large_ships
 		icon = GFX_focus_generic_destroyer
@@ -586,6 +580,7 @@ focus_tree = {
 			}
 		}
 	}
+	
 ###ARMY###
 		
 	focus = {
@@ -600,9 +595,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = organised_militias
-			}
 		}
-}
+	}
+	
 	focus = {
 		id = LIV_professional_units
 		icon = GFX_goal_generic_amphibious_assault
@@ -614,15 +609,16 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-		add_tech_bonus = {
+			add_tech_bonus = {
 				name = land_doc_bonus
 				uses = 2
 				bonus = 0.5
 				catagory = land_doctrine
 			}
-		army_experience = 15
+			army_experience = 15
 		}
-}
+	}
+	
 	focus = {
 		id = LIV_intergrate_artillery
 		icon = GFX_goal_generic_air_naval_bomber
@@ -639,10 +635,10 @@ focus_tree = {
 				bonus = 0.5
 				uses = 2
 				category = artillery	
-		}
+			}
 			#add artillery#	
+		}	
 	}
-}
 
 
 	focus = {
@@ -656,14 +652,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_tech_bonus = {
-					name = armor_bonus
-					bonus = 0.5
-					uses = 2
-					category = armor
-		
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
 		}	
 	}
-}
+
 ###AIR###
 	focus = {
 		id = LIV_control_the_skies
@@ -701,7 +697,9 @@ focus_tree = {
 					}
 				}
 			}
-
+		}
+	}
+	
 	focus = {
 		id = LIV_support_from_the_air
 		icon = GFX_goal_irish_relations
@@ -719,6 +717,8 @@ focus_tree = {
 				category = light_air
 			}
 		}
+	}
+	
 	focus = {
 		id = LIV_bomb_the_enemy
 		icon = GFX_goal_german_industry
@@ -740,8 +740,10 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = tactical_bomber
+			}
 		}
 	}
+	
 	focus = {
 		id = LIV_bomb_ships
 		icon = GFX_goal_opel_investments
@@ -760,3 +762,4 @@ focus_tree = {
 				category = naval_bomber
 			}
 		}
+	}

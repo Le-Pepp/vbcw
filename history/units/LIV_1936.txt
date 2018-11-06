@@ -142,7 +142,7 @@ air_wings = {
 
 	50 = { 
 		fighter_equipment_0 = {
-			owner = "LIV" 
+			owner = "ENG" 
 			amount = 8
 		}
 	}
