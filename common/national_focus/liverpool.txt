@@ -31,7 +31,7 @@ focus_tree = {
 		id = LIV_liverpudlian_industry
 		icon = GFX_focus_generic_military_mission
 		cost = 10
-		x = 1
+		x = 2
 		y = 1
 		prerequisite = {focus = LIV_the_free_city}
 		continue_if_invalid = yes
@@ -109,7 +109,7 @@ focus_tree = {
 		id = LIV_develop_military_sector
 		icon = GFX_goal_generic_army_artillery2
 		cost = 10
-		x = 1
+		x = 2
 		y = 2
 		prerequisite = {focus = LIV_liverpudlian_industry}
 		continue_if_invalid = yes
@@ -130,7 +130,7 @@ focus_tree = {
 		id = LIV_wirral_heavy_industry
 		icon = GFX_focus_generic_coastal_fort
 		cost = 10
-		x = 1
+		x = 2
 		y = 3
 		prerequisite = {focus = LIV_develop_military_sector}
 		continue_if_invalid = yes
@@ -151,7 +151,7 @@ focus_tree = {
 		id = LIV_arm_our_men
 		icon = GFX_goal_mass_army
 		cost = 10
-		x = 1
+		x = 2
 		y = 4
 		prerequisite = {focus = LIV_wirral_heavy_industry}
 		continue_if_invalid = yes
@@ -167,7 +167,7 @@ focus_tree = {
 		id = LIV_people's_factories
 		icon = GFX_goal_cornish_militiaman	
 		cost = 10
-		x = 2
+		x = 4
 		y = 2
 		prerequisite = {focus = LIV_liverpudlian_industry}
 		mutually_exclusive = {}
@@ -189,7 +189,7 @@ focus_tree = {
 		id = LIV_new_industries
 		icon = GFX_focus_generic_combined_arms
 		cost = 10
-		x = 2
+		x = 4
 		y = 3
 		prerequisite = {focus = LIV_people's_factories}
 		continue_if_invalid = yes
@@ -210,7 +210,7 @@ focus_tree = {
 		id = LIV_pave_the_roads
 		icon = GFX_goal_generic_build_tank
 		cost = 10
-		x = 2
+		x = 4
 		y = 4
 		prerequisite = {focus = LIV_new_industries}
 		continue_if_invalid = yes
@@ -230,7 +230,7 @@ focus_tree = {
 		id = LIV_artificial_oil
 		icon = GFX_goal_generic_army_motorized
 		cost = 10
-		x = 1
+		x = 2
 		y = 5
 		prerequisite = {focus = LIV_build_the_ships}
 		prerequisite = {focus = LIV_arm_our_men}
@@ -270,7 +270,7 @@ focus_tree = {
 		id = LIV_invite_stanley
 		icon = GFX_goal_cornish_airforce
 		cost = 10
-		x = 8
+		x = 7
 		y = 2
 		prerequisite = {focus = LIV_open_political_debate}
 		mutually_exclusive = {focus = LIV_par_the_course}
@@ -294,7 +294,7 @@ focus_tree = {
 		id = LIV_loyalty_to_the_king
 		icon = GFX_goal_generic_air_fighter2
 		cost = 10
-		x = 8
+		x = 7
 		y = 3
 		prerequisite = {focus = LIV_invite_stanley}
 		continue_if_invalid = yes	
@@ -310,7 +310,7 @@ focus_tree = {
 		id = LIV_increase_military_presence
 		icon = GFX_goal_generic_air_fighter
 		cost = 10
-		x = 8
+		x = 7
 		y = 4
 		prerequisite = {focus = LIV_loyalty_to_the_king}
 		continue_if_invalid = yes
@@ -325,7 +325,7 @@ focus_tree = {
 		id = LIV_royalist_alliance
 		icon = GFX_goal_generic_CAS
 		cost = 10
-		x = 8
+		x = 7
 		y = 5
 		prerequisite = {focus = LIV_increase_military_presence}
 		available = { ROY = {exists = yes}}
@@ -410,7 +410,7 @@ focus_tree = {
 		id = LIV_the_socialists
 		icon = GFX_focus_generic_paratrooper
 		cost = 10
-		x = 10
+		x = 11
 		y = 2
 		prerequisite = {focus = LIV_open_political_debate}
 		continue_if_invalid = yes
@@ -434,7 +434,7 @@ focus_tree = {
 		id = LIV_branch_out
 		icon = GFX_focus_chi_flying_tigers
 		cost = 10
-		x = 10
+		x = 11
 		y = 3
 		prerequisite = {focus = LIV_the_socialists}
 		continue_if_invalid = yes
@@ -451,7 +451,7 @@ focus_tree = {
 		id = LIV_socialist_dream
 		icon = GFX_goal_cornish_navy
 		cost = 10
-		x = 10
+		x = 11
 		y = 4
 		prerequisite = {focus = LIV_branch_out}
 		continue_if_invalid = yes		
@@ -465,7 +465,7 @@ focus_tree = {
 		id = LIV_join_the_frey
 		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10
-		x = 10
+		x = 11
 		y = 5
 		prerequisite = {focus = LIV_socialist_dream}
 		available = { SOM = {exists = yes}}
@@ -485,7 +485,7 @@ focus_tree = {
 		id = LIV_our_armed_forces
 		icon = GFX_goal_cornish_big_brother
 		cost = 10
-		x = 14
+		x = 15
 		y = 1
 		prerequisite = {focus = LIV_the_free_city}
 		continue_if_invalid = yes
@@ -587,7 +587,7 @@ focus_tree = {
 		id = LIV_organise_militias
 		icon = GFX_goal_generic_wolf_pack
 		cost = 10
-		x = 14
+		x = 15
 		y = 2
 		prerequisite = {focus = LIV_our_armed_forces}
 		continue_if_invalid = yes
@@ -602,7 +602,7 @@ focus_tree = {
 		id = LIV_professional_units
 		icon = GFX_goal_generic_amphibious_assault
 		cost = 10
-		x = 14
+		x = 15
 		y = 3
 		prerequisite = {focus = LIV_organise_militias}
 		continue_if_invalid = yes
@@ -623,7 +623,7 @@ focus_tree = {
 		id = LIV_intergrate_artillery
 		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10
-		x = 14
+		x = 15
 		y = 4
 		prerequisite = {focus = LIV_profesional_units}
 		continue_if_invalid = yes
@@ -645,7 +645,7 @@ focus_tree = {
 		id = LIV_experiments_with_armour
 		icon = GFX_goal_generic_construction2
 		cost = 10
-		x = 14
+		x = 15
 		y = 5
 		prerequisite = {focus = LIV_intergrate_artillery}
 		continue_if_invalid = yes
@@ -665,7 +665,7 @@ focus_tree = {
 		id = LIV_control_the_skies
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 10
-		x = 15
+		x = 17
 		y = 2
 		prerequisite = {focus = LIV_our_armed_forces}
 		continue_if_invalid = yes
@@ -704,7 +704,7 @@ focus_tree = {
 		id = LIV_support_from_the_air
 		icon = GFX_goal_irish_relations
 		cost = 10
-		x = 15
+		x = 17
 		y = 3
 		prerequisite = {focus = LIV_control_the__skies}
 		continue_if_invalid = yes
@@ -723,7 +723,7 @@ focus_tree = {
 		id = LIV_bomb_the_enemy
 		icon = GFX_goal_german_industry
 		cost = 10
-		x = 15
+		x = 17
 		y = 4
 		prerequisite = {focus = LIV_support_from_the_air}
 		continue_if_invalid = yes
@@ -748,7 +748,7 @@ focus_tree = {
 		id = LIV_bomb_ships
 		icon = GFX_goal_opel_investments
 		cost = 10
-		x = 15
+		x = 17
 		y = 5
 		prerequisite = {focus = LIV_bomb_the_enemy }
 		continue_if_invalid = yes
