@@ -24,9 +24,32 @@ LIV_new_industries_desc:0 "Industrial buildup in prior undeveloped areas of Mers
 LIV_pave_the_roads:0 "Pave the Roads"
 LIV_pave_the_roads_desc:0 "Current infastructure in and around Mersyside has been ravaged by the war and is simpily unacceptable for our current needs. We must expand."
 LIV_artificial_oil:0 "Artificial Oil"
-LIV__desc:0 "One of the only resources Liverpool lacks is oil. Oil is needed for mechanical uses, and to upkeep shipbuilding. It is essential we become self-reliant to sustain our nation."
-
-
+LIV_artificial_oil_desc:0 "One of the only resources Liverpool lacks is oil. Oil is needed for mechanical uses, and to upkeep shipbuilding. It is essential we become self-reliant to sustain our nation."LIV_open_political_debate:0 "Open Political Debate"
+LIV_open_political_debate_desc:0 "Liverpool is in a very procarious position politically. With instability rampant in the city, sorting out our political situation by calling a parliment meeting and deciding on a leader is essential."
+LIV_invite_stanley:0 "Invite Stanley"
+LIV_invite_stanley_desc:0 "Edward George Villers Stanley, 17th Earl of Derby, is a strong, patriotic man who pledges allegance to the king, but currently is residing in Liverpool. By his victory in the parliment, we will have a strong leader who loves Liverpool as much as he does the King."
+LIV_loyalty_to_the_king:0 "Loyalty to the King"
+LIV_loyalty_to_the_king_desc:0 "Our pledge to ally with the King and the Reactionaries must not fall on deaf ears. An envoy shall be sent to London and Worcester to improve our relations with the Legitimists." 
+LIV_increase_military_presence:0 "Increase Military Presence"
+LIV_increase_military_presence_desc:0 "Our armed forces is in a dire way. Calling on all able bodied men, we will re-create 1914 when Edward Stanley recruited 4 battalions of 'Liverpool Pals'."
+LIV_royalist_alliance:0 "Royalist Alliance"
+LIV_royalist_alliance_desc:0 "Formalising an alliance with King Edward shall ensure Liverpool's place in the future. Long Live the King, Long Live Liverpool!"
+LIV_par_the_course:0 "Par the Course"
+LIV_par_the_course_desc:0 "The Liberals have done a fine job of running the city so far. Why change anything? What? What do you mean we did an awful job? Fine, we'll make some reform."
+LIV_work_for_all:0 "Work for All"
+LIV_work_for_all_desc:0 "Assuring all able-bodied citizens of Liverpool a job will assure the state runs smoothly and the people are happy. Plus, we don't have any shortages of jobs in any area."
+LIV_welfare:0 "Welfare"
+LIV_welfare_desc:0 "Assuring a proper living for all our citizens, we are able to achieve more stability and trust in the government."
+LIV_splendid_isolation:0 "Splendid Isolation"
+LIV_splendid_isolation_desc:0 "Why must we fight in this conflict? We must not get involved, and perhaps by this policy we can protect our independence.
+LIV_the_socialists:0 "The Socialists"
+LIV_the_socialists_desc:0 "Liverpool has always been a working class city and thus Labour has always had a large appeal around Mersyside. Bessie Braddock, also known as 'Battling Bessie' will serve as an excellent leader, and with this development, perhaps tighter bonds with the Poeple's Armies shall come."
+LIV_branch_out:0 "Branch Out"
+LIV_branch_out_desc:0 "Contact with factions outside of our small sphere is critical if we want to survive in this landscape. Especially with Bevin's People's Armies and the Labour Party do our intrests lie."
+LIV_socialist_dream:0 "Socialist Dream"
+LIV_socialist_dream_desc:0 "Liverpool can become a haven for worker's rights, progressive policies democratic, fair ideals. This will come at a cost, however. But the ends justiies the means, and in this instance, the ends is a democratic-socialist paradise!"
+LIV_join_the_frey:0 "Join the Frey"
+LIV_join_the_frey_desc:0 "The Liverpudlian Commune is in such a state as to join the conflict with the People's Armies. To Birmingham, and with haste, to formalise an alliance between Liverpool and the masses! Come comrades, and let us cast of the fascists from this land!
 
 ###EVENTS###
 #KER_events.1.t:0 "The Cornish Propose a Trade Deal"
