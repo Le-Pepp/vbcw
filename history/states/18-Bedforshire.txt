@@ -17,6 +17,7 @@ state={
 		add_core_of = ROY
 		add_claim_by = ANG
 		add_claim_by = YRK
+		victory_points = { 416 10 }
 		victory_points = { 508 10 }
 		buildings = {
 			infrastructure = 6
