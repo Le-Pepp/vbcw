@@ -586,6 +586,7 @@ focus_tree = {
 	focus = {
 		id = LIV_organise_militias
 		icon = GFX_goal_liverpool_militias
+		cost = 10
 		x = 15
 		y = 2
 		prerequisite = {focus = LIV_our_armed_forces}
