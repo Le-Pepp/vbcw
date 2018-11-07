@@ -2,7 +2,7 @@ state={
 	id=27
 	name="STATE_27"
 	provinces={
-		464 465 477 489 513 515 555 
+		464 465 477 489 513 515 555 594
 	}
 	manpower=350000
 	
@@ -13,11 +13,12 @@ state={
 	state_category = town
 	
 	history={
+		victory_points { 489 10 }
+		victory_points { 594 10 }
 		owner = YRK
 		add_core_of = YRK
 		add_claim_by = ANG
 		add_claim_by = ROY
-		victory_points { 489 10 }
 		buildings = {
 			infrastructure = 4
 			air_base = 2

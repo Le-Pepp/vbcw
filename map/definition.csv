@@ -2376,3 +2376,6 @@
 2375;60;195;195;land;true;urban;1
 2376;140;225;225;land;true;plains;1
 2377;141;5;5;land;true;plains;1
+2378;250;61;45;land;false;plains;1
+2379;250;61;25;land;false;plains;1
+2380;250;60;255;land;false;urban;1

@@ -23,6 +23,8 @@ state={
 		add_claim_by = YRK
 		victory_points { 584 10 }
 		victory_points { 573 10 }
+		victory_points { 572 10 }
+		victory_points { 624 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 1
