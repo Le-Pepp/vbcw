@@ -1984,8 +1984,6 @@ technologies = {
 			peoples_army
 		}
 
-
-
 		supply_consumption_factor = -0.10
 
 		enable_tactic = tactic_relentless_assault
