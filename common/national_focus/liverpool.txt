@@ -12,7 +12,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_the_free_city
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_free_city
 		cost = 5
 		x = 9
 		y = 0
@@ -29,7 +29,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_liverpudlian_industry
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		x = 2
 		y = 1
@@ -49,7 +49,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_naval_heartland
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_naval_heartland
 		cost = 10
 		x = 0
 		y = 2
@@ -70,7 +70,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_mersyside_docks
-		icon = GFX_focus_generic_commonwealth_build_infantry
+		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10
 		x = 0
 		y = 3
@@ -91,7 +91,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_build_the_ships
-		icon = GFX_focus_prc_infiltration
+		icon = GFX_goal_generic_build_navy_ships
 		cost = 10
 		x = 0
 		y = 4
@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_develop_military_sector
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10
 		x = 2
 		y = 2
@@ -128,7 +128,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_wirral_heavy_industry
-		icon = GFX_focus_generic_coastal_fort
+		icon = GFX_goal_generic_production2
 		cost = 10
 		x = 2
 		y = 3
@@ -149,7 +149,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_arm_our_men
-		icon = GFX_goal_mass_army
+		icon = GFX_goal_generic_military_sphere
 		cost = 10
 		x = 2
 		y = 4
@@ -165,7 +165,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_people's_factories
-		icon = GFX_goal_cornish_militiaman	
+		icon = GFX_goal_generic_production	
 		cost = 10
 		x = 4
 		y = 2
@@ -187,7 +187,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_new_industries
-		icon = GFX_focus_generic_combined_arms
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		x = 4
 		y = 3
@@ -208,7 +208,7 @@ focus_tree = {
 		
 	focus = {
 		id = LIV_pave_the_roads
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_goal_generic_construct_infastructure
 		cost = 10
 		x = 4
 		y = 4
@@ -228,7 +228,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_artificial_oil
-		icon = GFX_goal_generic_army_motorized
+		icon = GFX_goal_generic_oil_refinery_shine
 		cost = 10
 		x = 2
 		y = 5
@@ -268,7 +268,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_invite_stanley
-		icon = GFX_goal_cornish_airforce
+		icon = GFX_goal_autocratic_shake_liverpool
 		cost = 10
 		x = 7
 		y = 2
@@ -292,7 +292,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_loyalty_to_the_king
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_goal_crown_shake
 		cost = 10
 		x = 7
 		y = 3
@@ -300,23 +300,15 @@ focus_tree = {
 		continue_if_invalid = yes	
 		available_if_capitulated = yes
 		completion_reward = {
-			add_opinion_modifier = { 
-				target = ROY 
-				modifier = LIV_loyalty_to_the_king 
-			}
-			ROY = { 
-				add_opinion_modifier = { 
-					target = ROOT 
-					modifier = LIV_loyalty_to_the_king 
-				}
-			}
+			add_opinion_modifier = { target = ROY modifier = LIV_loyalty_to_the_king }
+			ROY = { add_opinion_modifier = { target = ROOT modifier = LIV_loyalty_to_the_king } }
 			add_war_support = 0.15			
 		}
 	}
 	
 	focus = {
 		id = LIV_increase_military_presence
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_goal_chi_army_reform
 		cost = 10
 		x = 7
 		y = 4
@@ -331,7 +323,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_royalist_alliance
-		icon = GFX_goal_generic_CAS
+		icon = GFX_focus_chi_british_cooperation
 		cost = 10
 		x = 7
 		y = 5
@@ -352,7 +344,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_par_the_course
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_goal_liberal
 		cost = 10
 		x = 9
 		y = 2
@@ -372,7 +364,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_work_for_all
-		icon = GFX_goal_poland_goal
+		icon = GFX_goal_generic_consumer_goods
 		cost = 10
 		x = 9
 		y = 3
@@ -386,7 +378,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_welfare
-		icon = GFX_goal_generic_occupy_start_war
+		icon = GFX_goal_welfare
 		cost = 10
 		x = 9
 		y = 4
@@ -400,7 +392,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_splendid_isolation
-		icon = GFX_goal_generic_build_airforce
+		icon = GFX_goal_generic_defence
 		cost = 10
 		x = 9
 		y = 5
@@ -416,7 +408,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_the_socialists
-		icon = GFX_focus_generic_paratrooper
+		icon = GFX_goal_liverpool_labour
 		cost = 10
 		x = 11
 		y = 2
@@ -427,12 +419,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			set_politics = {
-				ruling_party = democratic_socialist
+				ruling_party = democratic_socialism
 				elections_allowed = yes
 			}
 			add_popularity = {
 				popularity = 0.35
-				ideology = democratic_socialist
+				ideology = democratic_socialism
 			}
 			add_political_power = 100			
 		}
@@ -440,7 +432,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_branch_out
-		icon = GFX_focus_chi_flying_tigers
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 10
 		x = 11
 		y = 3
@@ -457,7 +449,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_socialist_dream
-		icon = GFX_goal_cornish_navy
+		icon = GFX_goal_support_communism
 		cost = 10
 		x = 11
 		y = 4
@@ -465,13 +457,13 @@ focus_tree = {
 		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = socialist_haven
+			add_idea = socialist_haven
 		}
 	}
 	
 	focus = {
 		id = LIV_join_the_frey
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
 		x = 11
 		y = 5
@@ -491,7 +483,7 @@ focus_tree = {
 ###MILITARY###
 	focus = {
 		id = LIV_our_armed_forces
-		icon = GFX_goal_cornish_big_brother
+		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10
 		x = 15
 		y = 1
@@ -510,7 +502,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_naval_tradition
-		icon = GFX_goal_generic_occupy_states_coastal
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10
 		x = 13
 		y = 2
@@ -525,7 +517,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_sea_wolfs
-		icon = GFX_focus_generic_navy_battleship2
+		icon = GFX_focus_generic_navy_submarine
 		cost = 10
 		x = 13
 		y = 3
@@ -593,8 +585,7 @@ focus_tree = {
 		
 	focus = {
 		id = LIV_organise_militias
-		icon = GFX_goal_generic_wolf_pack
-		cost = 10
+		icon = GFX_goal_liverpool_militias
 		x = 15
 		y = 2
 		prerequisite = {focus = LIV_our_armed_forces}
@@ -608,7 +599,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_professional_units
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_goal_large_army
 		cost = 10
 		x = 15
 		y = 3
@@ -621,7 +612,7 @@ focus_tree = {
 				name = land_doc_bonus
 				uses = 2
 				bonus = 0.5
-				category = land_doctrine
+				catagory = land_doctrine
 			}
 			army_experience = 15
 		}
@@ -629,11 +620,11 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_intergrate_artillery
-		icon = GFX_goal_generic_air_naval_bomber
+		icon = GFX_goal_generic_army_artillery2
 		cost = 10
 		x = 15
 		y = 4
-		prerequisite = {focus = LIV_professional_units}
+		prerequisite = {focus = LIV_profesional_units}
 		continue_if_invalid = yes
 		
 		available_if_capitulated = yes
@@ -651,7 +642,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_experiments_with_armour
-		icon = GFX_goal_generic_construction2
+		icon = GFX_goal_generic_army_army_tanks
 		cost = 10
 		x = 15
 		y = 5
@@ -671,7 +662,7 @@ focus_tree = {
 ###AIR###
 	focus = {
 		id = LIV_control_the_skies
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = GFX_goal_generic_build_airforce
 		cost = 10
 		x = 17
 		y = 2
@@ -710,11 +701,11 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_support_from_the_air
-		icon = GFX_goal_irish_relations
+		icon = GFX_goal_generic_CAS
 		cost = 10
 		x = 17
 		y = 3
-		prerequisite = {focus = LIV_control_the_skies}
+		prerequisite = {focus = LIV_control_the__skies}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -729,7 +720,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_bomb_the_enemy
-		icon = GFX_goal_german_industry
+		icon = GFX_goal_generic_air_bomber
 		cost = 10
 		x = 17
 		y = 4
@@ -754,7 +745,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_bomb_ships
-		icon = GFX_goal_opel_investments
+		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10
 		x = 17
 		y = 5
