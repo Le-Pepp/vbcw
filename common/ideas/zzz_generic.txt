@@ -340,6 +340,7 @@ ideas = {
 						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_2 limit = 1 }
 						has_available_idea_with_traits = { idea = infantry_equipment_manufacturer_3 limit = 1 }
+						tag = KER
 					}
 				}
 			}
@@ -364,6 +365,7 @@ ideas = {
 						has_available_idea_with_traits = { idea = artillery_manufacturer_1 limit = 1 }
 						has_available_idea_with_traits = { idea = artillery_manufacturer_2 limit = 1 }
 						has_available_idea_with_traits = { idea = artillery_manufacturer_3 limit = 1 }
+						tag = KER
 					}
 				}
 			}

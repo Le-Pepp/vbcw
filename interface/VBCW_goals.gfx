@@ -93,9 +93,45 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_opel_investments.dds"
 	}
 	spriteType = {
+		name = "GFX_goal_generic_investments"
+		texturefile = "gfx/interface/goals/goal_generic_investments.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_renault_car"
 		texturefile = "gfx/interface/goals/goal_renault_car.dds"
 	}
+<<<<<<< HEAD
+	spriteType = {
+		name = "GFX_goal_generic_military_factories"
+		texturefile = "gfx/interface/goals/goal_generic_military_factories.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_tank_factory"
+		texturefile = "gfx/interface/goals/goal_generic_tank_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_aircraft_factory"
+		texturefile = "gfx/interface/goals/goal_generic_aircraft_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_underground_facilities"
+		texturefile = "gfx/interface/goals/goal_generic_underground_facilities.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_arsenal_of_freedom"
+		texturefile = "gfx/interface/goals/goal_generic_arsenal_of_freedom.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_royal_factories"
+		texturefile = "gfx/interface/goals/goal_generic_royal_factories.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_construction"
+		texturefile = "gfx/interface/goals/goal_generic_construction.dds"
+	}
+
+}
+=======
 	
 ###LIVERPOOL###
 	spriteType = {
@@ -136,3 +172,4 @@ spriteTypes = {
 	}
 	
 }
+>>>>>>> 2847b400693a8b3960cef20d6d26e019cedbed5e

@@ -79,3 +79,91 @@ country_event = {
 	}
 	
 }
+####Norwegian Trade Deal####
+country_event = {
+	id = KER_events.4
+	title = KER_events.4.t
+	desc = KER_events.4.d
+	picture = GFX_report_event_convoy_ship
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ####Accept####
+		name = KER_events.4.a
+	 	ai_chance = { factor = 100 }
+		hidden_effect = {random_list = {
+				75 = {	#Norwegians Accept#
+					country_event = { id = KER_events.5 days = 7 }
+				}
+				15  = {	#Norwegians Deny#
+					country_event = { id = KER_events.6 days = 7 }
+				}
+				10  = { #Ship Sunk#
+					country_event = { id = KER_events.7 days = 7 }
+				}
+			}}
+ 		
+	}
+	
+}
+####Norwegians Accept####
+country_event = {
+	id = KER_events.5
+	title = KER_events.5.t
+	desc = KER_events.5.d
+	picture = GFX_report_event_destroyers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = KER_events.5.a
+	 	add_political_power = 5
+		add_resource = {
+				type = tungsten
+				amount = 16
+				state = 1
+			}
+ 		
+	}
+	
+}
+####Norwegians Deny###
+country_event = {
+	id = KER_events.6
+	title = KER_events.6.t
+	desc = KER_events.6.d
+	picture = GFX_report_event_destroyers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = KER_events.6.a
+	 	add_political_power = -10
+		add_stability = -0.03
+		
+ 		
+	}
+	
+}
+####Ships Sunk###
+country_event = {
+	id = KER_events.7
+	title = KER_events.7.t
+	desc = KER_events.7.d
+	picture = GFX_report_event_convoy_blowing
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = KER_events.7.a
+	 	add_manpower = -250
+		add_war_support = -0.05
+		
+ 		
+	}
+	
+}

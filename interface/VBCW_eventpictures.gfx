@@ -38,6 +38,26 @@ spriteTypes = {
 		name = "GFX_report_event_tamar"
 		texturefile = "gfx/event_pictures/event_tamar.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_convoy_ship"
+		texturefile = "gfx/event_pictures/event_convoy_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_standing_watch"
+		texturefile = "gfx/event_pictures/event_standing_watch.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_convoy_blowing"
+		texturefile = "gfx/event_pictures/event_convoy_blowing.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_scout_carriers"
+		texturefile = "gfx/event_pictures/event_scout_carriers.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_bumpy_ride"
+		texturefile = "gfx/event_pictures/event_bumpy_ride.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_report_event_truce"
@@ -46,6 +66,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_portsmouth"
 		texturefile = "gfx/event_pictures/news_event_portsmouth.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bombed_tram"
+		texturefile = "gfx/event_pictures/news_event_bombed_tram.dds"
 	}
 	spriteType = {
 		name = "GFX_news_event_people_fucking_about_in_city"
