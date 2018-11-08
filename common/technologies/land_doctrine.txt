@@ -1872,12 +1872,14 @@ technologies = {
 		xor = { mobile_warfare superior_firepower trench_warfare } 
 
 		path = {
-			leads_to_tech = pocket_defence 
+			leads_to_tech = local_knowledge 
 			research_cost_coeff = 1
 		}
 		
 		land_reinforce_rate = 0.02
-		minimum_training_level = -0.1		
+		partisan_effect = 0.2
+		
+		enable_tactic = tactic_guerrilla_tactics	
 
 		doctrine = yes	
 		research_cost = 1.5
@@ -1886,7 +1888,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -1902,15 +1903,14 @@ technologies = {
 		}
 	}
 	
-	pocket_defence = {
+	local_knowledge = {
 
-
-		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
-		no_supply_grace = 48 # more hours before supply penalty changes
-		out_of_supply_factor = -0.10
+		army_core_attack_factor = 0.10
+		army_core_defence_factor = 0.10
+		terrain_penalty_reduction = 0.10
 				
 		path = {
-			leads_to_tech = defence_in_depth
+			leads_to_tech = homeland_defence
 			research_cost_coeff = 1
 		}
 
@@ -1921,7 +1921,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -1937,17 +1936,15 @@ technologies = {
 		}
 	}
 	
-	defence_in_depth = {
+	homeland_defence = {
 
 		max_dig_in = 5
+		army_morale_factor = 0.10
 
-		category_light_infantry = {
-			max_organisation = 5
-		}
-		
+		enable_tactic = tactic_elastic_defense
 		
 		path = {
-			leads_to_tech = large_front_operations
+			leads_to_tech = special_forces_focus
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1962,7 +1959,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -1978,18 +1974,22 @@ technologies = {
 		}
 	}
 	
-	large_front_operations = {
+	special_forces_focus = {
 	
 		xor = {
-			peoples_army
+			militia_focus
 		}
 
-		supply_consumption_factor = -0.10
-
-		enable_tactic = tactic_relentless_assault
+		special_forces_cap = 0.10
+		special_forces_min = 100
+		
+		category_special_forces = {
+			max_organisation = 2
+			training_time = -20
+		}			
 		
 		path = {
-			leads_to_tech = deep_operations
+			leads_to_tech = infiltration
 			research_cost_coeff = 1
 		}
 
@@ -2000,7 +2000,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2009,20 +2008,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
-
-			modifier = {
-				factor = 0.4
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
 		}
 		
 		ai_research_weights = {
@@ -2030,16 +2015,17 @@ technologies = {
 		}
 	}
 	
-	deep_operations = {
-		category_tanks = {
-			max_organisation = 2
+	special_forces_infiltration = {
+		
+		category_special_forces = {
+			breakthrough = 0.10
 		}
 
-		enable_tactic = tactic_blitz
+		enable_tactic = tactic_infantry_charge
 		
 		
 		path = {
-			leads_to_tech = operational_concentration
+			leads_to_tech = special_forces_harrassment
 			research_cost_coeff = 1
 		}
 
@@ -2066,15 +2052,14 @@ technologies = {
 		}
 	}
 	
-	operational_concentration = {
+	special_forces_harrassment = {
 
-		max_planning = 0.10
-		land_reinforce_rate = 0.05
+		land_night_attack = 0.25
 
-		enable_tactic = tactic_elastic_defense
+		enable_tactic = tactic_delay
 		
 		path = {
-			leads_to_tech = vast_offensives
+			leads_to_tech = special_forces_sabotage
 			research_cost_coeff = 1
 		}
 
@@ -2101,19 +2086,15 @@ technologies = {
 		}
 	}
 	
-	vast_offensives = {
-
-		supply_consumption_factor = -0.10
+	special_forces_sabotage = {
 		
-		infantry = {
-			combat_width = -0.4
-		}
-
-		
-		enable_tactic = tactic_overwhelming_fire
+		category_special_forces = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+		}		
 		
 		path = {
-			leads_to_tech = breakthrough_priority
+			leads_to_tech = eyes_everywhere
 			research_cost_coeff = 1
 		}
 
@@ -2140,142 +2121,21 @@ technologies = {
 		}
 	}
 	
-	breakthrough_priority = {
-
-		category_tanks = {
-			max_organisation = 1
-			breakthrough = 0.10
-		}
-		category_all_infantry = {
-			max_organisation = 5
-			breakthrough = 0.10
-		}
-		
-		enable_tactic = tactic_breakthrough
-		
-		path = {
-			leads_to_tech = mechanized_wave
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
-	}
+	militia_focus = {
 	
-	mechanized_wave = {
-		category_tanks = {
-			max_organisation = 2
-		}
-
-		category_all_armor = {
-			default_morale = 0.1
-		}
+		xor = {
+			special_forces_focus
+		}		
 		
-		mechanized = {
-			max_organisation = 10
-			default_morale = 0.1
-		}
-		motorized = {
-			max_organisation = 10
-			default_morale = 0.1
+		min_training_level = -0.1
+		conscription_factor = 0.10
+		
+		category_irregular = {
+			max_organisation = 5
 		}		
 		
 		path = {
-			leads_to_tech = continuous_offensive
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 16 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-			cat_mechanized_equipment = 3.0
-		}
-	}
-	
-	continuous_offensive = {
-
-		org_loss_when_moving = -0.25
-		land_reinforce_rate = 0.05
-		
-		enable_tactic = tactic_backhand_blow
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
-	}
-	
-	peoples_army = {
-	
-		xor = {
-			large_front_operations
-		}
-
-		
-		
-		#Increased Partisan effect on your land occupied by others
-		partisan_effect = 0.1 #10% more partisan effects
-		#Land Units take less attrition
-		attrition = -0.1 #take 10% less attrition losses
-		
-		enable_tactic = tactic_human_wave_tactics
-		
-		
-		path = {
-			leads_to_tech = human_infantry_offensive
+			leads_to_tech = militia_harrassment
 			research_cost_coeff = 1
 		}
 
@@ -2295,21 +2155,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
-
-			modifier = {
-				factor = 0.6
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-
 		}
 		
 		ai_research_weights = {
@@ -2317,15 +2162,16 @@ technologies = {
 		}
 	}
 	
-	human_infantry_offensive = {
+	militia_harrassment = {
+	
+		land_reinforce_rate = 0.05	
+		mobilization_speed = 0.1
+		partisan_effect = 0.1 		
 
-		infantry = {
-			default_morale = 0.30
-		}
-		land_reinforce_rate = 0.05		
+		enable_tactic = tactic_delay
 		
 		path = {
-			leads_to_tech = large_front_offensive
+			leads_to_tech = militia_mass_assault
 			research_cost_coeff = 1
 		}
 
@@ -2352,18 +2198,17 @@ technologies = {
 		}
 	}
 	
-	large_front_offensive = {
+	militia_mass_assault = {
 
-		category_all_infantry = {
-			max_organisation = 10
-		}
-		category_tanks = {
-			max_organisation = 2
-		}
-		
+		enable_tactic = tactic_mass_charge
+		conscription_factor = 0.10
+
+		category_irregular = {
+			default_morale = 0.10
+		}		
 		
 		path = {
-			leads_to_tech = human_wave_offensive
+			leads_to_tech = militia_surround_and_destroy
 			research_cost_coeff = 1
 		}
 
@@ -2374,7 +2219,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2390,18 +2234,17 @@ technologies = {
 		}
 	}
 	
-	human_wave_offensive = {
+	militia_surround_and_destroy = {
 
-		conscription = 0.05
-				
-		infantry = {
-			combat_width = -0.4
-		}
+		enable_tactic = tactic_unexpected_thrust
 
-		land_reinforce_rate = 0.15		
+		category_irregular = {
+			maximum_speed = 0.10
+			breakthrough = 0.10
+		}			
 		
 		path = {
-			leads_to_tech = guerilla_tactics
+			leads_to_tech = eyes_everywhere
 			research_cost_coeff = 1
 		}
 
@@ -2429,16 +2272,15 @@ technologies = {
 		}
 	}
 	
-	guerilla_tactics = {
+	eyes_everywhere = {
 
-		out_of_supply_factor = -0.30
-		category_army = {
-			default_morale = 0.2
-		}
+		recon_factor = 0.25
+		decryption_factor = 0.10	
 		
-		partisan_effect = 0.2
-		
-		enable_tactic = tactic_guerrilla_tactics
+		path = {
+			leads_to_tech = live_off_the_land
+			research_cost_coeff = 1
+		}	
 		
 		doctrine = yes	
 		research_cost = 3
@@ -2450,7 +2292,105 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	live_off_the_land = {
+
+		supply_consumption_factor = -0.10
+		attrition = -0.10
+		
+		path = {
+			leads_to_tech = resistance_pockets
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	resistance_pockets = {	
+	
+		out_of_supply_factor = -0.25
+		supply_grace = 48
+		max_dig_in = 5
+		
+		path = {
+			leads_to_tech = one_with_the_land
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+			cat_mechanized_equipment = 3.0
+		}
+	}
+	
+	one_with_the_land = {
+
+		org_loss_when_moving = -0.25
+		terrain_penalty_reduction = -0.10
+		
+		enable_tactic = tactic_backhand_blow
+
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 18 }
 		}
 		
 		ai_will_do = {
