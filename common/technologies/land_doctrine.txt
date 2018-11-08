@@ -1948,7 +1948,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = peoples_army
+			leads_to_tech = militia_focus
 			research_cost_coeff = 1
 		}
 
@@ -1989,7 +1989,7 @@ technologies = {
 		}			
 		
 		path = {
-			leads_to_tech = infiltration
+			leads_to_tech = special_forces_infiltration
 			research_cost_coeff = 1
 		}
 
@@ -2127,7 +2127,7 @@ technologies = {
 			special_forces_focus
 		}		
 		
-		min_training_level = -0.1
+		minimum_training_level = -0.1
 		conscription_factor = 0.10
 		
 		category_irregular = {
@@ -2340,7 +2340,7 @@ technologies = {
 	resistance_pockets = {	
 	
 		out_of_supply_factor = -0.25
-		supply_grace = 48
+		no_supply_grace = 48
 		max_dig_in = 5
 		
 		path = {
