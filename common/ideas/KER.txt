@@ -37,7 +37,7 @@ ideas = {
 			picture = idea_can_wartime_prices_and_trade_board
 			
 			modifier = {
-				trade_laws_cost_factor = -0.1
+				
 				trade_opinion_factor = 0.10
 			}
 		}
@@ -100,6 +100,73 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 			}
 		}
+		KER_war_effort_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_generic_reserve_divisions
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.2
+				   }
+			modifier = {
+				lend_lease_tension = -0.2
+		}
+		modifier = {
+				production_speed_arms_factory_factor = 0.1
+				
+		}
+		}
+		KER_german_investments = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.15
+				consumer_goods_factor = -0.03
+				
+			}
+		}
+		KER_french_investments = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			
+			modifier = {
+				industrial_capacity_factory =  0.10
+				consumer_goods_factor = -0.03
+				production_factory_efficiency_gain_factor = 0.05
+				
+				
+			}
+		}
 	}
 	
 	###ADVISORS###
@@ -136,7 +203,7 @@ ideas = {
 
 	high_command = {
 
-		simon_bolitho = {
+		edward_bolitho_airborne = {
 
 			
 			allowed = {
@@ -228,50 +295,54 @@ ideas = {
 		
 		ker_lanhydrock = {
 			
-			picture = generic_artillery_manufacturer_2
-
+			picture = renault
+	
+			available = {
+				has_completed_focus = KER_renault_investments
+			}
 			allowed = {
 				original_TAG = KER
 			}
+			cost = 50
 			
-			research_bonus = {
-				artillery = 0.10
+			equipment_bonus = {
+				motorized_equipment = {
+					reliability = 0.1
+				}
+				mechanized_equipment = {
+					reliability = 0.1
+				}
 			}
 			
-			traits = { artillery_manufacturer_1 }			
+			traits = { motorised_manufacturer_1 }			
 			
 		}	
 
 		ker_menheniot = {
 
-			picture = generic_infantry_equipment_manufacturer_2
-			
+			picture = opel
+			cost = 50
 			allowed = {
 				original_TAG = KER
+				
 			}
-			
-			research_bonus = {
-				infantry_weapons = 0.10
-			}
-			
-			traits = { infantry_equipment_manufacturer_2 }
-			
-		}
-		ker_opel = {
-
-			picture = opel
-			
-			allowed = {
+			available = {
 				has_completed_focus = KER_opel_investments
 			}
-			
-			research_bonus = {
-				motorised = 0.10
+			traits = {  motorised_manufacturer_2   }
+			equipment_bonus = {
+				motorized_equipment = {
+					maximum_speed = 0.05
+				}
+				mechanized_equipment = {
+					maximum_speed = 0.05
+				}
 			}
 			
-			traits = { infantry_equipment_manufacturer_2 }
+			
 			
 		}
+		
 		
 	}
 	

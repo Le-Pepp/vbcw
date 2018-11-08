@@ -745,14 +745,7 @@ focus = {
 				category = industry
 			}
 			1 = {
-				limit = {
-					industrial_complex > 0
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
+				
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -787,11 +780,12 @@ focus = {
 		y = 2
 		prerequisite = {focus = KER_trade_legacy}
 		continue_if_invalid = yes
-		available = { IRL = {exists = yes}}
-		bypass = { IRL = {exists = no}}
+		available = { IRL = {exists = yes} NOT = { has_war_with = IRL }}
+		bypass = {OR = { IRL = {exists = no}  has_war_with = IRL} }
 		available_if_capitulated = yes
 		completion_reward = {
 			IRL = {country_event = KER_events.1}
+			
 			}
 		}
 	focus = {
@@ -805,7 +799,14 @@ focus = {
 		mutually_exclusive = {focus = KER_invite_french_manufacturers}
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			add_ideas = KER_german_investments
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 0.5
+				uses = 2
+				category = synth_resources
+			}
+			add_offsite_building = { type = synthetic_refinery level = 1 } 
 			}
 		}
 		
@@ -820,7 +821,12 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			custom_effect_tooltip = KER_opel_tt
+			add_resource = {
+				type = rubber
+				amount = 4
+				state = 1
+			}
 			}
 		}
 	focus = {
@@ -836,7 +842,13 @@ focus = {
 		prerequisite = {focus = KER_irish_trade focus = KER_norwegian_trade}
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			add_ideas = KER_french_investments
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.25
+				uses = 2
+				category = industry
+			}
 			}
 		}
 	focus = {
@@ -852,7 +864,8 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			custom_effect_tooltip = KER_renault_tt
+			add_offsite_building = { type = industrial_complex level = 2 } 
 			}
 		}
 	focus = {
@@ -866,7 +879,7 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			
+				country_event = KER_events.4
 			}
 		}
 	focus = {
@@ -893,14 +906,7 @@ focus = {
 		completion_reward = {
 			
 			1 = {
-				limit = {
-					industrial_complex > 0
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
+				
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -962,7 +968,7 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			
+			custom_effect_tooltip = KER_resource_exploitation_tt
 			add_tech_bonus = {
 				name = industry_focus
 				bonus = 0.5
@@ -1060,4 +1066,94 @@ focus = {
 				set_state_flag = KER_industrial_towns
 			}
 		}
+}
+	focus = {
+		id = KER_war_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8
+		x = 29
+		y = 1
+		prerequisite = {focus = KER_mining_legacy}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = KER_war_effort_idea
+			}
+		}
+	focus = {
+		id = KER_convert_bodmin_gaol
+		icon = GFX_focus_secret_rearmament
+		cost = 8
+		x = 28
+		y = 2
+		prerequisite = {focus = KER_war_effort}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			1 = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = KER_bodmin_gaol
+			}
+			}
+		}
+	focus = {
+		id = KER_arsenal_of_freedom
+		icon = GFX_goal_generic_arsenal_of_freedom
+		cost = 15
+		x = 28
+		y = 3
+		prerequisite = {focus = KER_convert_bodmin_gaol}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			1 = {
+				
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = KER_arsenal_freedom
+			}
+			}
+		}
+	focus = {
+		id = KER_import_foreign_arms
+		icon = GFX_focus_generic_tank_production
+		cost = 8
+		x = 30
+		y = 2
+		prerequisite = {focus = KER_war_effort}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 25 producer = FRA }
+			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 25 producer = GER }
+		}
+	
 	}
