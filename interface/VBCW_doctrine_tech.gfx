@@ -83,4 +83,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/pocket_defence.dds"
 		alwaystransparent = yes
 	}
+
+	spriteType = {
+		name = "GFX_guerilla_warfare_bg"
+		textureFile = "gfx//interface//guerilla_warfare_bg.dds"
+		allwaystransparent = yes		
+	}
 }

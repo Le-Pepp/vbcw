@@ -2254,8 +2254,8 @@ guiTypes = {
 			}
 	
 			iconType = {
-				name ="mass_assault_bg"
-				spriteType = "GFX_mass_assault_bg"
+				name ="guerilla_warfare_bg"
+				spriteType = "GFX_guerilla_warfare_bg"
 				position = { x=1535 y=33 }
 			}		
 			
