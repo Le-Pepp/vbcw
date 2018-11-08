@@ -18,3 +18,6 @@
  custom_diff_strong_jac:0 "Strengthen Jacobites"
  custom_diff_strong_cel:0 "Strengthen Celts"
  custom_diff_strong_irl:0 "Strengthen Ireland"
+ 
+ ###MISC###
+ category_irregular:0 "Militia & Yeomanry"

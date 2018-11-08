@@ -1948,7 +1948,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = peoples_army
+			leads_to_tech = militia_focus
 			research_cost_coeff = 1
 		}
 
@@ -1989,7 +1989,7 @@ technologies = {
 		}			
 		
 		path = {
-			leads_to_tech = infiltration
+			leads_to_tech = special_forces_infiltration
 			research_cost_coeff = 1
 		}
 
@@ -2127,7 +2127,7 @@ technologies = {
 			special_forces_focus
 		}		
 		
-		min_training_level = -0.1
+		minimum_training_level = -0.1
 		conscription_factor = 0.10
 		
 		category_irregular = {
@@ -2200,7 +2200,7 @@ technologies = {
 	
 	militia_mass_assault = {
 
-		enable_tactic = tactic_mass_charge
+		enable_tactic = tactic_human_wave_tactics
 		conscription_factor = 0.10
 
 		category_irregular = {
@@ -2278,7 +2278,7 @@ technologies = {
 		decryption_factor = 0.10	
 		
 		path = {
-			leads_to_tech = live_off_the_land
+			leads_to_tech = resistance_pockets
 			research_cost_coeff = 1
 		}	
 		
@@ -2304,13 +2304,14 @@ technologies = {
 		}
 	}
 	
-	live_off_the_land = {
-
-		supply_consumption_factor = -0.10
-		attrition = -0.10
+	resistance_pockets = {	
+	
+		out_of_supply_factor = -0.25
+		no_supply_grace = 48
+		max_dig_in = 5
 		
 		path = {
-			leads_to_tech = resistance_pockets
+			leads_to_tech = one_with_the_land
 			research_cost_coeff = 1
 		}
 
@@ -2335,47 +2336,13 @@ technologies = {
 		ai_research_weights = {
 			industry = 2.0
 		}
-	}
-	
-	resistance_pockets = {	
-	
-		out_of_supply_factor = -0.25
-		supply_grace = 48
-		max_dig_in = 5
-		
-		path = {
-			leads_to_tech = one_with_the_land
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-			cat_mechanized_equipment = 3.0
-		}
-	}
+	}	
 	
 	one_with_the_land = {
 
-		org_loss_when_moving = -0.25
-		terrain_penalty_reduction = -0.10
+		supply_consumption_factor = -0.10
+		attrition = -0.10
+		enemy_army_bonus_air_superiority_factor = -0.10
 		
 		enable_tactic = tactic_backhand_blow
 
@@ -2386,6 +2353,7 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
+
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2400,5 +2368,4 @@ technologies = {
 			industry = 2.0
 		}
 	}
-	
 }
