@@ -3,7 +3,7 @@
 ###FOCUSES&IDEAS###
 LIV_the_free_city:0 "The Free City"
 LIV_the_free_city_desc:0 "After chaos gripped the British isles, our city proclaimed independence from the mob. Now, with the conflict in full swing, we must sustain our city and protect it at all costs."
-LIV_liverpudlian_indusry:0 "Liverpudlian Industry"
+LIV_liverpudlian_industry:0 "Liverpudlian Industry"
 LIV_liverpudlian_industry_desc:0 "Liverpool has long been an industrial hub for the British isles. It will continue to do so, and with cultivation and hard work, we may have it it a better state than at the start of this crisis."
 LIV_naval_heartland:0 "Naval Heartland"
 LIV_naval_heartland_desc:0 "Liverpool is the epicentre of British shipbuilding. For our cause, we must work the docks as they have never been worked." 
@@ -24,7 +24,8 @@ LIV_new_industries_desc:0 "Industrial buildup in prior undeveloped areas of Mers
 LIV_pave_the_roads:0 "Pave the Roads"
 LIV_pave_the_roads_desc:0 "Current infastructure in and around Mersyside has been ravaged by the war and is simpily unacceptable for our current needs. We must expand."
 LIV_artificial_oil:0 "Artificial Oil"
-LIV_artificial_oil_desc:0 "One of the only resources Liverpool lacks is oil. Oil is needed for mechanical uses, and to upkeep shipbuilding. It is essential we become self-reliant to sustain our nation."LIV_open_political_debate:0 "Open Political Debate"
+LIV_artificial_oil_desc:0 "One of the only resources Liverpool lacks is oil. Oil is needed for mechanical uses, and to upkeep shipbuilding. It is essential we become self-reliant to sustain our nation."
+LIV_open_political_debate:0 "Open Political Debate"
 LIV_open_political_debate_desc:0 "Liverpool is in a very procarious position politically. With instability rampant in the city, sorting out our political situation by calling a parliment meeting and deciding on a leader is essential."
 LIV_invite_stanley:0 "Invite Stanley"
 LIV_invite_stanley_desc:0 "Edward George Villers Stanley, 17th Earl of Derby, is a strong, patriotic man who pledges allegance to the king, but currently is residing in Liverpool. By his victory in the parliment, we will have a strong leader who loves Liverpool as much as he does the King."
