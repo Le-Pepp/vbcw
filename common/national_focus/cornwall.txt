@@ -7,7 +7,9 @@ focus_tree = {
 			tag = KER
 		}
 	}
+	
 	default = no
+	
 	focus = {
 		id = KER_status_of_the_military
 		icon = GFX_focus_generic_military_mission
@@ -22,8 +24,8 @@ focus_tree = {
 			air_experience = 25
 			navy_experience = 25
 		}
-
 	}
+	
 	focus = {
 		id = KER_cornish_army
 		icon = GFX_goal_cornish_army
@@ -36,8 +38,8 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 		}
-
 	}
+	
 	focus = {
 		id = KER_fortify_tamar
 		icon = GFX_goal_generic_fortify_city
@@ -48,38 +50,37 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		custom_effect_tooltip = fortify_tamar_tt
-			hidden_effect = {1 = {
-				add_building_construction = {
-					type = bunker
-					province = 112
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					province = 97
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					province = 78
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					province = 56
-					level = 2
-					instant_build = yes
+			custom_effect_tooltip = fortify_tamar_tt
+				hidden_effect = {1 = {
+					add_building_construction = {
+						type = bunker
+						province = 112
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						province = 97
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						province = 78
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						province = 56
+						level = 2
+						instant_build = yes
+					}
 				}
 			}
-		}
-
+		}	
 	}
 	
-	}
 	focus = {
 		id = KER_methods
 		icon = GFX_focus_generic_commonwealth_build_infantry
@@ -98,8 +99,8 @@ focus_tree = {
 				category = land_doctrine
 			}
 		}
-
 	}
+	
 	focus = {
 		id = KER_guerilla_warfare
 		icon = GFX_focus_prc_infiltration
@@ -111,13 +112,13 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		add_tech_bonus = {
-			name = land_doc_bonus
-			uses = 2
-			bonus = 0.5
-			category = cat_guerilla_warfare
+			add_tech_bonus = {
+				name = land_doc_bonus
+				uses = 2
+				bonus = 0.5
+				category = cat_guerilla_warfare
+			}
 		}
-	}
 	}
 	focus = {
 		id = KER_superior_firepower
@@ -130,13 +131,13 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		add_tech_bonus = {
-			name = land_doc_bonus
-			uses = 2
-			bonus = 0.5
-			category = cat_superior_firepower
+			add_tech_bonus = {
+				name = land_doc_bonus
+				uses = 2
+				bonus = 0.5
+				category = cat_superior_firepower
+			}
 		}
-	}
 	}
 	focus = {
 		id = KER_installations
@@ -149,19 +150,23 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		custom_effect_tooltip = installations_tt
-		hidden_effect = {1 = {add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
+			custom_effect_tooltip = installations_tt
+			hidden_effect = {
+				1 = {
+					add_building_construction = {
+						type = coastal_bunker
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+						level = 2
+						instant_build = yes
 					}
-					level = 2
-					instant_build = yes
-				} } }
+				} 
+			}
+		}
 	}
-
-	}
+	
 	focus = {
 		id = KER_expand_DLCI
 		icon = GFX_goal_mass_army
@@ -173,11 +178,11 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		custom_effect_tooltip = expand_dlci_tt
-		hidden_effect = {load_oob = KER_DLCI add_manpower =5000 }
+			custom_effect_tooltip = expand_dlci_tt
+			hidden_effect = {load_oob = KER_DLCI add_manpower =5000 }
+		}
 	}
-
-	}
+	
 	focus = {
 		id = KER_the_cornish_militiaman
 		icon = GFX_goal_cornish_militiaman	
@@ -189,10 +194,10 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		add_ideas = KER_cornish_militiaman
+			add_ideas = KER_cornish_militiaman
+		}
 	}
-
-	}
+	
 	focus = {
 		id = KER_means
 		icon = GFX_focus_generic_combined_arms
@@ -203,15 +208,15 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-		add_tech_bonus = {
-				name = KER_means_tech_boost
-				bonus = 0.5
-				uses = 1
-				category = support_tech
-			}	
+			add_tech_bonus = {
+					name = KER_means_tech_boost
+					bonus = 0.5
+					uses = 1
+					category = support_tech
+				}	
+			}
 		}
-
-	}
+		
 	focus = {
 		id = KER_small_arms
 		icon = GFX_goal_generic_build_tank
@@ -227,11 +232,10 @@ focus_tree = {
 				ahead_reduction = 1
 				uses = 1
 				category = infantry_weapons
-				
 			}
 		}
-
 	}
+	
 	focus = {
 		id = KER_motor_works
 		icon = GFX_goal_generic_army_motorized
@@ -248,8 +252,8 @@ focus_tree = {
 				technology = motorised_infantry
 			}
 		}
-
 	}
+	
 	focus = {
 		id = KER_armored_tram_project
 		icon = GFX_goal_armored_tram
@@ -261,13 +265,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			hidden_effect = {
-			set_technology = {
-			armoured_tram_tech = 1
+				set_technology = {
+					armoured_tram_tech = 1
+				}
+			}
+			custom_effect_tooltip = armoured_tram_tt
 		}
-		}
- 		custom_effect_tooltip = armoured_tram_tt
-		}
-
 	}
 	####Airforce Section####
 	focus = {

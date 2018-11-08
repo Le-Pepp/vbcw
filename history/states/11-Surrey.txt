@@ -15,6 +15,9 @@ state={
 	state_category = city
 	
 	history={
+		victory_points = { 193 10 }
+		victory_points = { 217 10 }
+		victory_points = { 230 10 }
 		owner = ANG
 		add_core_of = ANG
 		add_claim_by = ROY

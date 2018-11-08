@@ -2373,3 +2373,9 @@
 2372;22;239;69;sea;true;ocean;1
 2373;22;129;99;sea;true;ocean;1
 2374;52;79;159;sea;true;ocean;1
+2375;60;195;195;land;true;urban;1
+2376;140;225;225;land;true;plains;1
+2377;141;5;5;land;true;plains;1
+2378;250;61;45;land;false;plains;1
+2379;250;61;25;land;false;plains;1
+2380;250;60;255;land;false;urban;1

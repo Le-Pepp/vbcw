@@ -2504,31 +2504,31 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass_assault_subtitle1"
+				name = "guerrilla_warfare_subtitle1"
 				position = { x = 1560 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DEEP_BATTLE_LABEL"
+				text = "ELITE_FORCES_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DEEP_BATTLE_LABEL_TT"
+				pdx_tooltip = "ELITE_FORCES_LABEL_TT"
 			}				
 
 			instantTextBoxType = {
-				name = "mass_assault_subtitle2"
+				name = "guerrilla_warfare_subtitle2"
 				position = { x = 1816 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_MOBILIZATION_LABEL"
+				text = "POPULAR_RESISTANCE_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
+				pdx_tooltip = "POPULAR_RESISTANCE_LABEL_TT"
 			}
 				
 			gridboxtype = {

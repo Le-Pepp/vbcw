@@ -94,11 +94,17 @@ bookmarks = {
 			minor = yes
 			history = "KER_VBCW_DESC"
 			ideology = civic_nationalist
+			ideas = {
+				KER_kernow_bys_vykken
+			}
 		}
 		"LIV"={
 			minor = yes
 			history = "LIV_VBCW_DESC"
 			ideology = democratic_socialist
+			ideas = {
+				LIV_city_under_siege
+			}
 		}
 		"WAL"={
 			minor = yes

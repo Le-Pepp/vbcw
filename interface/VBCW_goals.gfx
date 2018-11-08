@@ -1,4 +1,5 @@
 spriteTypes = {	
+###CORNWALL###
 	spriteType = {
 		name = "GFX_goal_cornish_army"
 		texturefile = "gfx/interface/goals/goal_cornish_army.tga"
@@ -99,6 +100,7 @@ spriteTypes = {
 		name = "GFX_goal_renault_car"
 		texturefile = "gfx/interface/goals/goal_renault_car.dds"
 	}
+<<<<<<< HEAD
 	spriteType = {
 		name = "GFX_goal_generic_military_factories"
 		texturefile = "gfx/interface/goals/goal_generic_military_factories.dds"
@@ -129,3 +131,45 @@ spriteTypes = {
 	}
 
 }
+=======
+	
+###LIVERPOOL###
+	spriteType = {
+		name = "GFX_goal_autocratic_shake_liverpool"
+		texturefile = "gfx/interface/goals/goal_autocratic_shake_liverpool.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_crown_shake"
+		texturefile = "gfx/interface/goals/goal_crown_shake.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_free_city"
+		texturefile = "gfx/interface/goals/goal_free_city.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_large_army"
+		texturefile = "gfx/interface/goals/goal_large_army.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_liberal"
+		texturefile = "gfx/interface/goals/goal_liberal.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_liverpool_labour"
+		texturefile = "gfx/interface/goals/goal_liverpool_labour.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_liverpool_militias"
+		texturefile = "gfx/interface/goals/goal_liverpool_militias.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_naval_heartland"
+		texturefile = "gfx/interface/goals/goal_naval_heartland.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_welfare"
+		texturefile = "gfx/interface/goals/goal_welfare.dds"
+	}
+	
+}
+>>>>>>> 2847b400693a8b3960cef20d6d26e019cedbed5e

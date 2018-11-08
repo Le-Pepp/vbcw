@@ -97,7 +97,19 @@ air_wings = {
 	41 = { 
 		fighter_equipment_0 = {
 			owner = "SOM" 
-			amount = 32
+			amount = 12
+		}
+	}
+	41 = { 
+		tac_bomber_equipment_0 = {
+			owner = "SOM" 
+			amount = 12
+		}
+	}
+	51 = { 
+		fighter_equipment_1 = {
+			owner = "SOM" 
+			amount = 8
 		}
 	}
 }
