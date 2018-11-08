@@ -30,7 +30,7 @@ ROY = {
 
 IRL = {
 	male = {
-		names = { Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
+		names = { Albert Alfred Bernard John James William Robert Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
 	}
 	female = {
 		names = { }
@@ -41,7 +41,7 @@ IRL = {
 
 IRA = {
 	male = {
-		names = { Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
+		names = { Albert Alfred Bernard John James William Robert Brian Cathal Connor Éamon Eoghan Edward Finnbar Fionán Frank Kevin Liam Michael Patrick Peter Séan William Tadhg Derry Pierce Mick Séamus }
 	}
 	female = {
 		names = { }
@@ -52,12 +52,12 @@ IRA = {
 
 ULS = {
 	male = {
-		names = { Ian }
+		names = { Albert Alfred Bernard Charles Edmund John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh Ian }
 	}
 	female = {
 		names = { }
 	}
-	surnames = { Paisley }
+	surnames = { Campbell Stewart Scott Murray MacDonald Reid Reith Ross Abercrombie Abernathy Balfour Angus Arbuthnot Buchanan Cruickshank Dalziel Donaldson Dougal Duff Fairbairn Fraser Ferguson Innis Lawrie MacAulay MacAdam MacDougal MacLean MacLeod MacPherson McAllister McAndrew McCaskill McDougal McDuff McIntosh Fraser }
 	callsigns = { }
 }
 
@@ -88,7 +88,7 @@ SOC = {
 
 SCO = {
 	male = {
-		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
+		names = { Albert Alfred Bernard Charles Edmund John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
 	}
 	female = {
 		names = { }
@@ -100,7 +100,7 @@ SCO = {
 
 SOG = {
 	male = {
-		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
+		names = { Albert Alfred Bernard Charles Edmund John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
 	}
 	female = {
 		names = { }
@@ -112,7 +112,7 @@ SOG = {
 
 JAC = {
 	male = {
-		names = { John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
+		names = { Albert Alfred Bernard Charles Edmund John James William Robert Alexander Thomas David Andrew Charles Duncan Donald Angus Malcolm Douglas Iain Finlay Arthur Edward Graham Hugh }
 	}
 	female = {
 		names = { }
