@@ -185,7 +185,7 @@ ideas = {
 	
 	army_chief = {
 
-		simon_bolitho_1 = {
+		simon_bolitho = {
 
 			
 			allowed = {
@@ -203,11 +203,10 @@ ideas = {
 
 	high_command = {
 
-<<<<<<< HEAD
+
 		edward_bolitho_airborne = {
-=======
-		simon_bolitho_2 = {
->>>>>>> 2847b400693a8b3960cef20d6d26e019cedbed5e
+
+
 
 			
 			allowed = {
