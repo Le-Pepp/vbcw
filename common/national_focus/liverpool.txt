@@ -625,7 +625,7 @@ focus_tree = {
 		cost = 10
 		x = 15
 		y = 4
-		prerequisite = {focus = LIV_profesional_units}
+		prerequisite = {focus = LIV_professional_units}
 		continue_if_invalid = yes
 		
 		available_if_capitulated = yes
@@ -706,7 +706,7 @@ focus_tree = {
 		cost = 10
 		x = 17
 		y = 3
-		prerequisite = {focus = LIV_control_the__skies}
+		prerequisite = {focus = LIV_control_the_skies}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
