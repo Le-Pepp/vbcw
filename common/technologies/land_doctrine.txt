@@ -2386,7 +2386,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
