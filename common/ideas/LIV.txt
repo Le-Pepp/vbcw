@@ -20,8 +20,116 @@ ideas = {
 				attrition = 0.25
 			}
 		}
-	}
+		LIV_super_construction = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				
+				industrial_capacity_dockyard = 0.25
+				
+			}
+		}
+		LIV_work_for_all = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				
+				conscription = 0.05
+				industrial_capacity_factory = 0.1
+				
+			}
+		}
+		
+			
+		LIV_welfare_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_foreign_capital
+			
+			modifier = {
+				stability_factor = 0.15	
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.1
+				conscription = 0.05				
+			}
+		}	
 	
+		LIV_socialist_haven = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = 
+			
+			modifier = {
+				stability_factor = 0.15	
+				consumer_goods_factor = 0.1
+				political_power_cost = -0.05
+				research_time_factor = -0.05
+				}
+		}
+		
+		LIV_organised_militias = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				army_morale_factor = 0.10
+				conscription = 0.05
+				army_org = 5
+				}		
+		}			
+
+	}
+		
 	political_advisor = {
 	
 		LIV_errington = {
