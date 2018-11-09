@@ -2,7 +2,7 @@ state={
 	id=12
 	name="STATE_12"
 	provinces={
-		233 242 247 248 249 262 275 276 278 314 319 339 
+		233 242 247 248 249 262 275 276 278 314 319 339 2394
 	}
 	manpower=400000
 	
@@ -14,7 +14,7 @@ state={
 	
 	history={
 		victory_points = { 249 5 }
-		victory_points = { 262 10 }
+		victory_points = { 2394 10 }
 		victory_points = { 275 20 }
 		victory_points = { 276 5 }
 		owner = ANG
