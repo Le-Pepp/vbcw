@@ -157,7 +157,9 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			#add guns 
+			add_equipment_to_stockpile = {
+			infantry_equipment_0 = 2500
+			}
 		}
 	}
 	
@@ -636,7 +638,9 @@ focus_tree = {
 				uses = 2
 				category = artillery	
 			}
-			#add artillery#	
+			add_equipment_to_stockpile = {
+			artillery_1 = 2500
+			}	
 		}	
 	}
 
