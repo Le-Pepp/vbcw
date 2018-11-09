@@ -457,7 +457,7 @@ focus_tree = {
 		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
-			add_idea = socialist_haven
+			add_idea = LIV_socialist_haven
 		}
 	}
 	
