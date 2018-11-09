@@ -1,1 +1,37 @@
-#
+add_namespace = LIV_events
+
+#####Turned down by royalists######
+country_event = {
+	id = LIV_event.1
+	title = LIV_event.1.t
+	desc = LIV_event.1.d
+	picture = GFX_report_irish_rainy_day
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = 
+		      name = liverpool.1.a
+	  stability_factor = -0.15	
+  }
+		}
+	}
+
+add_namespace = LIV_events
+
+#####Turned down by midlands######
+country_event = {
+	id = LIV_event.2
+	title = LIV_event.2.t
+	desc = LIV_event.2.d
+	picture = GFX_report_irish_rainy_day
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = 
+		      name = liverpool.2.a
+	  stability_factor = -0.15	
+  }
+		}
+	}
