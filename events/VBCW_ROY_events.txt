@@ -1,1 +1,32 @@
-#
+add_namespace = ROY_events
+
+#####Liverpool Joins Faction######
+country_event = {
+	id = liverpool.1
+	title = liverpool.1.t
+	desc = liverpool.1.d
+	picture = GFX_report_irish_rainy_day
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ####Accept####
+		      name = liverpool.1.a
+		add_to_faction = LIV
+		LIV = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ROY"
+				value = 200
+			}
+		}
+	}
+  
+  
+	option = { ####Deny####
+		name = liverpool.1.b
+	 	ai_chance = { factor = 1 }
+		LIV = {country_event = { id = LIV_event.1 days = 2 }
+	}
+}
+}
