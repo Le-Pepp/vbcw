@@ -16,4 +16,6 @@ opinion_modifiers = {
 	VBCW_same_ideology = { value = 50 }	
 	cultural_ties = { value = 20 }
 	VBCW_enemy_of_my_enemy = { value = 20 }
+	LIV_loyalty_to_the_king { value = 50 }
+	LIV_branching_out { value = 50 }
 }	
