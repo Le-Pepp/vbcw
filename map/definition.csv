@@ -2379,3 +2379,9 @@
 2378;250;61;45;land;false;plains;1
 2379;250;61;25;land;false;plains;1
 2380;250;60;255;land;false;urban;1
+2381;10;235;235;land;false;urban;1
+2382;20;245;245;land;true;urban;1
+2383;20;185;185;land;true;plains;1
+2384;20;215;215;land;true;plains;1
+2385;30;245;245;land;true;urban;1
+2386;250;80;255;land;false;urban;1

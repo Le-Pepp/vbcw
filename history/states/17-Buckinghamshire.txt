@@ -10,8 +10,8 @@ state={
 	
 	history={
 		victory_points = { 267 10 }
-		victory_points = { 320 10 }
-		victory_points = { 378 10 }
+		victory_points = { 320 5 }
+		victory_points = { 378 5 }
 		victory_points = { 435 10 }
 		owner = ROY
 		add_core_of = ROY

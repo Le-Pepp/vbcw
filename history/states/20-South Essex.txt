@@ -14,7 +14,7 @@ state={
 	
 	history={
 		victory_points = { 390 10 }
-		victory_points = { 327 10 }
+		victory_points = { 327 20 }
 		owner = BUF
 		add_core_of = BUF
 		add_claim_by = YRK

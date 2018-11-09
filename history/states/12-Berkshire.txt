@@ -13,10 +13,10 @@ state={
 	state_category = town
 	
 	history={
-		victory_points = { 249 10 }
+		victory_points = { 249 5 }
 		victory_points = { 262 10 }
-		victory_points = { 275 10 }
-		victory_points = { 276 10 }
+		victory_points = { 275 20 }
+		victory_points = { 276 5 }
 		owner = ANG
 		add_core_of = ANG
 		add_claim_by = ROY

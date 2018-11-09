@@ -14,11 +14,11 @@ state={
 	
 	history={
 		victory_points = { 196 10 }
-		victory_points = { 201 10 }
-		victory_points = { 220 10 }
+		victory_points = { 201 20 }
+		victory_points = { 220 5 }
 		victory_points = { 229 25 }
 		victory_points = { 250 10 }
-		victory_points = { 252 10 }
+		victory_points = { 252 5 }
 		owner = ANG
 		add_core_of = ANG
 		add_claim_by = YRK
