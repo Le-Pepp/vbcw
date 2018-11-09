@@ -19,6 +19,7 @@ country_event = {
 				id = "SOM"
 				value = 200
 			}
+			news_event = { id = news.12 days = 1 }
 		}
 	}
   
@@ -27,6 +28,7 @@ country_event = {
 		name = liverpool.2.b
 	 	ai_chance = { factor = 1 }
 		LIV = {country_event = { id = LIV_event.2 days = 2 }
-	}
-}
+		}
+		news_event = { id = news.13 days = 1 }
+		}
 }
