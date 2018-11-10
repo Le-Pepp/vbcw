@@ -9,6 +9,7 @@ state={
 	state_category = metropolis
 	
 	history={
+		victory_points = { 261 5 }
 		victory_points = { 265 10 }
 		owner = BUF
 		add_core_of = BUF

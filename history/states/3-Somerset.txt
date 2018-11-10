@@ -2,7 +2,7 @@ state={
 	id=3
 	name="STATE_3"
 	provinces={
-		142 166 167 175 181 184 188 190 191 203 225 226 227 232 260 
+		120 124 142 155 166 167 175 181 184 188 190 191 203 225 226 227 232 260 2385
 	}
 	manpower=550000
 	
@@ -15,10 +15,10 @@ state={
 	state_category = large_town
 	
 	history={
-		victory_points = { 166 10 }
-		victory_points = { 167 10 }
-		victory_points = { 188 10 }
-		victory_points = { 191 10 }
+		victory_points = { 166 5 }
+		victory_points = { 167 5 }
+		victory_points = { 188 5 }
+		victory_points = { 2385 10 }
 		victory_points = { 260 20 }
 		victory_points = { 226 10 }
 		owner = ANG

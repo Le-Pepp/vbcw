@@ -3,7 +3,7 @@ state={
 	name="STATE_1"
 	
 	provinces={
-		33 39 45 48 50 51 53 55 56 68 75 76 78 82 97 112 
+		33 39 45 48 50 51 53 55 56 68 75 76 78 82 97 112 2381
 	}
 	manpower=350000
 	
@@ -19,10 +19,10 @@ state={
 	history={
 		owner = KER
 		victory_points { 55 25 }
-		victory_points { 78 10 }
-		victory_points { 75 10 }
-		victory_points { 76 10 }
-		victory_points { 39 10 }
+		victory_points { 78 5 }
+		victory_points { 75 5 }
+		victory_points { 2381 10 }
+		victory_points { 39 5 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

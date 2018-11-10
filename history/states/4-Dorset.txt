@@ -2,7 +2,7 @@ state={
 	id=4
 	name="STATE_4"
 	provinces={
-		83 87 98 105 107 108 114 118 120 124 131 139 155 
+		83 87 98 105 107 108 114 118 131 139 2387 2399
 	}
 	manpower=350000
 	
@@ -13,11 +13,11 @@ state={
 	state_category = town
 	
 	history={
-		victory_points = { 83 10 }
-		victory_points = { 87 10 }
-		victory_points = { 98 10 }
+		victory_points = { 83 5 }
+		victory_points = { 87 5 }
+		victory_points = { 2387 10 }
 		victory_points = { 107 10 }
-		victory_points = { 118 10 }
+		victory_points = { 118 5 }
 		owner = ROY
 		add_core_of = ROY
 		add_claim_by = YRK

@@ -157,7 +157,11 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			#add guns 
+			add_equipment_to_stockpile = {
+				type = infantry_equipment 
+				amount = 2500
+				producer = LIV
+			}
 		}
 	}
 	
@@ -419,12 +423,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			set_politics = {
-				ruling_party = democratic_socialism
+				ruling_party = democratic_socialist
 				elections_allowed = yes
 			}
 			add_popularity = {
 				popularity = 0.35
-				ideology = democratic_socialism
+				ideology = democratic_socialist
 			}
 			add_political_power = 100			
 		}
@@ -457,7 +461,7 @@ focus_tree = {
 		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
-			add_idea = socialist_haven
+			add_ideas = LIV_socialist_haven
 		}
 	}
 	
@@ -594,7 +598,7 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = organised_militias
+			add_ideas = LIV_organised_militias
 		}
 	}
 	
@@ -613,7 +617,7 @@ focus_tree = {
 				name = land_doc_bonus
 				uses = 2
 				bonus = 0.5
-				catagory = land_doctrine
+				category = land_doctrine
 			}
 			army_experience = 15
 		}
@@ -636,7 +640,11 @@ focus_tree = {
 				uses = 2
 				category = artillery	
 			}
-			#add artillery#	
+			add_equipment_to_stockpile = {
+				type = artillery_equipment 
+				amount = 250
+				producer = LIV
+			}	
 		}	
 	}
 
