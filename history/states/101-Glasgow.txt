@@ -2,7 +2,7 @@ state={
 	id=101
 	name="STATE_101"
 	provinces={
-		1685 1700 1701 1704 1723 
+		1685 1700 1701 1704 1723 2423
 	}
 	manpower=1000000
 	
@@ -22,6 +22,7 @@ state={
 		add_claim_by = YRK
 		add_claim_by = JAC
 		victory_points { 1701 25 }
+		victory_points { 2423 10 }
 		buildings = {
 			infrastructure = 10
 			industrial_complex = 2

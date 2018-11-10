@@ -2,7 +2,7 @@ state={
 	id=58
 	name="STATE_58"
 	provinces={
-		317 342 358 393 402 426 
+		317 342 358 393 402 426 2413 2414
 	}
 	manpower=100000
 	
@@ -16,6 +16,8 @@ state={
 	state_category = rural
 	
 	history={
+		victory_points { 2413 5 }
+		victory_points { 2414 10 }
 		owner = YRK
 		add_core_of = YRK
 		add_claim_by = ROY

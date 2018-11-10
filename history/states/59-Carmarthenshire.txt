@@ -2,7 +2,7 @@ state={
 	id=59
 	name="STATE_59"
 	provinces={
-		340 359 375 380 383 386 427 428 433 
+		340 359 375 380 383 386 427 428 433 2415
 	}
 	manpower=200000
 	
@@ -15,6 +15,7 @@ state={
 	state_category = town
 	
 	history={
+		victory_points { 2415 10 }
 		owner = ROY
 		add_core_of = ROY
 		add_claim_by = WAL

@@ -18,8 +18,10 @@ state={
 		add_core_of = WAL
 		add_claim_by = ROY
 		add_claim_by = YRK
+		victory_points { 773 5 }
 		victory_points { 873 10 }
 		victory_points { 902 10 }
+		victory_points { 913 5 }
 		buildings = {
 			infrastructure = 6
 			air_base = 1

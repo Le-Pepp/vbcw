@@ -12,7 +12,6 @@ state={
 		add_claim_by = ANG
 		add_claim_by = YRK
 		victory_points { 475 10 }
-		victory_points { 2380 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		398 417 430 439 474 475 481 486 541 2378 2379 2380 
+		398 417 430 439 474 475 481 486 541 2378 2379 
 	}
 	manpower=150000
 	buildings_max_level_factor=1.000
