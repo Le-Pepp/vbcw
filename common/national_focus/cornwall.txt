@@ -1086,6 +1086,7 @@ focus = {
 			add_ideas = KER_war_effort_idea
 			}
 		}
+		
 	focus = {
 		id = KER_convert_bodmin_gaol
 		icon = GFX_focus_secret_rearmament
@@ -1093,9 +1094,7 @@ focus = {
 		x = 28
 		y = 2
 		prerequisite = {focus = KER_war_effort}
-		continue_if_invalid = yes
-		
-  		
+		continue_if_invalid = yes  		
 		
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1115,8 +1114,9 @@ focus = {
 				}
 				set_state_flag = KER_bodmin_gaol
 			}
-			}
 		}
+	}
+	
 	focus = {
 		id = KER_arsenal_of_freedom
 		icon = GFX_goal_generic_arsenal_of_freedom

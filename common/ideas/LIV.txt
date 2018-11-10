@@ -20,6 +20,7 @@ ideas = {
 				attrition = 0.25
 			}
 		}
+		
 		LIV_super_construction = {
 
 			allowed = {
@@ -96,15 +97,13 @@ ideas = {
 			}
 
 			removal_cost = -1
-
-			picture = 
 			
 			modifier = {
 				stability_factor = 0.15	
 				consumer_goods_factor = 0.1
 				political_power_cost = -0.05
 				research_time_factor = -0.05
-				}
+			}
 		}
 		
 		LIV_organised_militias = {
@@ -125,9 +124,8 @@ ideas = {
 				army_morale_factor = 0.10
 				conscription = 0.05
 				army_org = 5
-				}		
-		}			
-
+			}		
+		}
 	}
 		
 	political_advisor = {
