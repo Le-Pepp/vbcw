@@ -1088,7 +1088,7 @@ focus = {
 		}
 	focus = {
 		id = KER_convert_bodmin_gaol
-		icon = GFX_focus_secret_rearmament
+		icon = GFX_goal_generic_investments
 		cost = 8
 		x = 28
 		y = 2
@@ -1157,6 +1157,23 @@ focus = {
 		completion_reward = {
 			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 25 producer = FRA }
 			add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 25 producer = GER }
+		}
+	
+	}
+	focus = {
+		id = KER_arm_the_militia
+		icon = GFX_goal_liverpool_militias
+		cost = 8
+		x = 30
+		y = 3
+		prerequisite = {focus = KER_import_foreign_arms}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = KER_militia_armed
 		}
 	
 	}
