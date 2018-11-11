@@ -9,7 +9,7 @@ state={
 	state_category = pastoral
 	
 	history={
-		victory_points { 1493 5 }
+		victory_points { 1480 5 }
 		owner = SCO
 		add_core_of = SCO
 		add_claim_by = ROY
