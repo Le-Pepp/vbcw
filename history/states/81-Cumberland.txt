@@ -2,7 +2,7 @@ state={
 	id=81
 	name="STATE_81"
 	provinces={
-		1422 1451 1466 1481 1482 1497 1505 1512 1513 1531 
+		1422 1451 1466 1481 1482 1497 1505 1512 1513 1531 2421
 	}
 	manpower=150000
 	
@@ -18,6 +18,7 @@ state={
 		add_claim_by = ROY
 		add_claim_by = ANG
 		victory_points { 1505 10 }
+		victory_points { 2421 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

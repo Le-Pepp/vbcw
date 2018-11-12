@@ -2,7 +2,7 @@ state={
 	id=49
 	name="STATE_49"
 	provinces={
-		923 932 951 963 
+		923 932 951 963 2408
 	}
 	manpower=350000
 	
@@ -15,6 +15,7 @@ state={
 	state_category = large_town
 	
 	history={
+		victory_points { 2408 10 }
 		owner = LIV
 		add_core_of = LIV
 		add_claim_by = ROY

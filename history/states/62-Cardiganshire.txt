@@ -2,7 +2,7 @@ state={
 	id=62
 	name="STATE_62"
 	provinces={
-		454 459 476 497 529 556 565 2133
+		454 459 476 497 529 556 565 2133 2417 2418
 	}
 	manpower=750000
 	
@@ -19,6 +19,7 @@ state={
 		add_claim_by = ROY
 		add_claim_by = YRK
 		victory_points { 2133 10 }
+		victory_points { 2417 10 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

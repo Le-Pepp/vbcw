@@ -2,7 +2,7 @@ state={
 	id=74
 	name="STATE_74"
 	provinces={
-		1252 1268 1282 1286 1323 1327 1329 1330 1344 1363 1367 1369 1373 1381 1387 1414 
+		1252 1268 1282 1286 1323 1327 1329 1330 1344 1363 1367 1369 1373 1381 1387 1414 2420
 	}
 	manpower=300000
 	
@@ -14,6 +14,7 @@ state={
 	state_category = town
 	
 	history={
+		victory_points { 2420 10 }
 		owner = YRK
 		add_core_of = YRK
 		add_claim_by = ROY

@@ -9,6 +9,7 @@ state={
 	}
 
 	history={
+		victory_points { 2419 10 }
 		owner = WAL
 		add_core_of = WAL
 		add_claim_by = ROY
@@ -29,7 +30,7 @@ state={
 	}
 
 	provinces={
-		795 824 857 884 895 914 922 
+		795 824 857 884 895 914 922 2419
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000
