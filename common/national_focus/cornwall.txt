@@ -1177,3 +1177,58 @@ focus = {
 		}
 	
 	}
+	focus = {
+		id = KER_the_focus_of_the_factories
+		icon = GFX_goal_generic_ammunition_assembly
+		cost = 8
+		x = 29
+		y = 4
+		prerequisite = {focus = KER_arm_the_militia}
+		prerequisite = {focus = KER_arsenal_of_freedom}
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = KER_events.8
+		}
+	
+	}
+	focus = {
+		id = KER_national_library_of_kernow
+		icon = GFX_focus_research
+		cost = 10
+		x = 25
+		y =5
+		prerequisite = {focus = KER_the_focus_of_the_factories focus = KER_renault_investments focus = KER_opel_investments focus = KER_new_industrial_towns}
+		
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = KER_national_library
+		}
+	
+	}
+	focus = {
+		id = KER_pennskool
+		icon = GFX_goal_academy
+		cost = 10
+		x = 25
+		y = 6
+		prerequisite = {focus = KER_national_library_of_kernow}
+		
+		continue_if_invalid = yes
+		
+  		
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	
+	}
+}

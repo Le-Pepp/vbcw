@@ -167,3 +167,27 @@ country_event = {
 	}
 	
 }
+####Military Focus Event###
+country_event = {
+	id = KER_events.8
+	title = KER_events.8.t
+	desc = KER_events.8.d
+	picture = GFX_event_woman_production_line
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = KER_events.8.a
+	 	add_ideas = KER_artillery_focus
+		army_experience = 10
+ 		
+	}
+	option = { 
+		name = KER_events.8.b
+	 	add_ideas = KER_rifle_reliability
+		army_experience = 10
+ 		
+	}
+	
+}

@@ -58,6 +58,10 @@ spriteTypes = {
 		name = "GFX_report_event_bumpy_ride"
 		texturefile = "gfx/event_pictures/event_bumpy_ride.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_women_production_line"
+		texturefile = "gfx/event_pictures/event_women_production_line.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_report_event_truce"
