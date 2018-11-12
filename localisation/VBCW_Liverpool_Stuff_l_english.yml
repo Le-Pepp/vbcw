@@ -58,7 +58,7 @@ LIV_naval_tradition_desc:0 "Liverpool is probably best known for shipbuilding. N
 LIV_sea_wolfs:0 "Sea Wolfs"
 LIV_sea_wolfs_desc:0 "Mersyside is best known for capital ships, but perhaps we should look into other options, such as submarine warfare. By sinking our enemies ships silently, we will seriously increase our naval power."
 LIV_develop_small_ships:0 "Develop Small Ships"
-LIV_develop_small_ships_desc:0 ":0 "Submarines alone do not win wars alone. We must maks escorts for larger ships. It must not even be military-grade ships, any old trawler will do."
+LIV_develop_small_ships_desc:0 "Submarines alone do not win wars alone. We must maks escorts for larger ships. It must not even be military-grade ships, any old trawler will do."
 LIV_develop_large_ships:0 "Develop Large Ships"
 LIV_develop_large_ships_desc:0 "Military grade warships must be built in order to win wars. Thus, that is what we will do."
 LIV_organise_militias:0 "Organise Militias"
@@ -68,7 +68,7 @@ LIV_professional_units_desc:0 "We must do away with the concept of militias allt
 LIV_intergrate_artillery:0 "Intergrate Artillery"
 LIV_intergrate_artillery_desc:0 "Through the intergration of artillery units to our regiments, we can more effectivly conduct operations, and increase both our offensive and defensive capabilities."
 LIV_experiments_with_armour:0 "Experiments with Armour"
-LIV_experiments_with_armour_desc:0 "The relativley new design of the 'tank' is a concept we have been watching closely. By making prototypes of these metal monsters will surely give us an edge over simple infantry.'
+LIV_experiments_with_armour_desc:0 "The relativley new design of the 'tank' is a concept we have been watching closely. By making prototypes of these metal monsters will surely give us an edge over simple infantry."
 LIV_control_the_skies:0 "Control the Skies"
 LIV_control_the_skies_desc:0 "Mersyside has very little arial capabilities. Warfare nowadays requires arial superiority, and so our capacity to wage war in the skies are severely hindered. And so it only makes sense to construct more airfields."
 LIV_support_from_the_air:0 "Support from the Air"
