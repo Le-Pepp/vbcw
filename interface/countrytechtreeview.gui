@@ -2533,7 +2533,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "guerrilla_warfare_subtitle3"
-				position = { x = 1560 y = 919 }
+				position = { x = 1560 y = 1040 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2546,8 +2546,8 @@ guiTypes = {
 			}				
 
 			instantTextBoxType = {
-				name = "guerrilla_warfare_subtitle3"
-				position = { x = 1816 y = 919 }
+				name = "guerrilla_warfare_subtitle4"
+				position = { x = 1816 y = 1040 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}

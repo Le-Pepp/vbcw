@@ -2274,10 +2274,10 @@ technologies = {
 	hostile_country = {
 	
 		xor = {
-			resistance_pockets
+			our_streets
 		}	
 
-		category_all_infantry = {
+		category_light_infantry = {
 			mountain = {
 				attack = 0.10
 				defence = 0.10
@@ -2335,7 +2335,6 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
@@ -2357,7 +2356,7 @@ technologies = {
 			hostile_country
 		}
 
-		category_all_infantry = {
+		category_light_infantry = {
 			urban = {
 				attack = 0.20
 				defence = 0.20
@@ -2396,11 +2395,6 @@ technologies = {
 		out_of_supply_factor = -0.25
 		no_supply_grace = 48
 		max_dig_in = 5
-		
-		path = {
-			leads_to_tech = our_streets
-			research_cost_coeff = 1
-		}
 		
 		enable_tactic = tactic_backhand_blow
 
