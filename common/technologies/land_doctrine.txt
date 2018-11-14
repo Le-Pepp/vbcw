@@ -2276,8 +2276,12 @@ technologies = {
 		xor = {
 			our_streets
 		}	
+		
+		on_research_complete = {
+			custom_effect_tooltip = hostile_country_tt
+		}
 
-		category_light_infantry = {
+		infantry = {
 			mountain = {
 				attack = 0.10
 				defence = 0.10
@@ -2291,8 +2295,66 @@ technologies = {
 				defence = 0.10
 			}
 		}
-		
-		enable_tactic = tactic_backhand_blow
+
+		militia = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		marine = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		mountaineers = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		paratrooper = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
 		
 		path = {
 			leads_to_tech = one_with_the_land
@@ -2327,6 +2389,8 @@ technologies = {
 		supply_consumption_factor = -0.10
 		attrition = -0.10
 		enemy_army_bonus_air_superiority_factor = -0.10
+		
+		enable_tactic = tactic_backhand_blow
 
 		doctrine = yes	
 		research_cost = 3
@@ -2355,8 +2419,39 @@ technologies = {
 		xor = {
 			hostile_country
 		}
+		on_research_complete = {
+			custom_effect_tooltip = our_streets_tt
+		}
 
-		category_light_infantry = {
+		infantry = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		militia = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		marine = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		mountaineers = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		paratrooper = {
 			urban = {
 				attack = 0.20
 				defence = 0.20
