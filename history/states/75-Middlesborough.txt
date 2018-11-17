@@ -14,6 +14,7 @@ state={
 	state_category = city
 	
 	history={
+		add_extra_state_shared_building_slots = 2
 		owner = YRK
 		add_core_of = YRK
 		add_claim_by = ROY
@@ -21,8 +22,8 @@ state={
 		victory_points { 1420 20 }
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 2
-			arms_factory = 2
+			industrial_complex = 3
+			arms_factory = 3
 			dockyard = 2
 			1412 = {
 				naval_base = 5
