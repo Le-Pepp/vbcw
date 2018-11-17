@@ -108,7 +108,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Walter Douglas Scott"
-	portrait_path = "gfx/leaders/VBCW/JAC/JAC-Scott-.dds"
+	portrait_path = "gfx/leaders/VBCW/JAC/JAC-Scott.dds"
 	traits = { politically_connected }
 	skill = 4
 	attack_skill = 4
