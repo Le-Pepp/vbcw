@@ -338,7 +338,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			ROY = {
-					country_event = liverpool.1								
+					country_event = ROY_events.1								
 			}
 		}
 
@@ -479,7 +479,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			SOM = {
-				country_event = liverpool.1	
+				country_event = SOM_events.2	
 			}
 		}
 	}
