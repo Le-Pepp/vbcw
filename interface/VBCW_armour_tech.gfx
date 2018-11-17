@@ -155,6 +155,16 @@ spriteTypes = {
 	###ROYALISTS###
 	
 	SpriteType = {
+		name = "GFX_ROY_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/ROY_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROY_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/ROY_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_ROY_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/ROY/ROY_early_armored_car.dds"
 	}
@@ -745,6 +755,16 @@ spriteTypes = {
 	##CARDIFF##
 	
 	SpriteType = {
+		name = "GFX_SOC_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOC_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_SOC_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/SOC/SOC_early_armored_car.dds"
 	}
@@ -890,6 +910,16 @@ spriteTypes = {
 	}
 	
 	##DURHAM##
+	
+	SpriteType = {
+		name = "GFX_SOD_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOD_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_SOD_early_armoured_car_medium"
@@ -1039,6 +1069,16 @@ spriteTypes = {
 	##GLASGOW##
 	
 	SpriteType = {
+		name = "GFX_SOG_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOG_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_SOG_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/SOC/SOC_early_armored_car.dds"
 	}
@@ -1183,6 +1223,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tanks/SOC/SOC_main_battle_tank.dds"
 	}
 	##HULL##
+	
+	SpriteType = {
+		name = "GFX_SOH_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOH_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_SOH_early_armoured_car_medium"
@@ -1331,6 +1381,16 @@ spriteTypes = {
 	##MIDLANDS##
 	
 	SpriteType = {
+		name = "GFX_SOM_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOM_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_SOM_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/SOC/SOC_early_armored_car.dds"
 	}
@@ -1475,6 +1535,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tanks/SOC/SOC_main_battle_tank.dds"
 	}
 	##NEWCASTLE##
+	
+	SpriteType = {
+		name = "GFX_SON_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SON_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_SON_early_armoured_car_medium"
