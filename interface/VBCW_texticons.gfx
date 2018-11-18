@@ -10,6 +10,24 @@ spriteTypes = {
 		name = "GFX_nato_unit_yeomanry_icon_small"
 		texturefile = "gfx/texticons/nato_unit_yeomanry_icon_small.dds"
 		legacy_lazy_load = no
+	}			
+	
+	spriteType = {
+		name = "GFX_nato_unit_machinegun_icon_small"
+		texturefile = "gfx/texticons/nato_unit_MG_icon_small.dds"
+		legacy_lazy_load = no
+	}			
+	
+	spriteType = {
+		name = "GFX_nato_unit_mortar_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mortar_icon_small.dds"
+		legacy_lazy_load = no
+	}			
+	
+	spriteType = {
+		name = "GFX_nato_unit_armored_car_icon_small"
+		texturefile = "gfx/texticons/nato_unit_armored_car_icon_small.dds"
+		legacy_lazy_load = no
 	}		
 	
 	spriteType = {
@@ -24,5 +42,40 @@ spriteTypes = {
 		texturefile = "gfx/texticons/unit_yeomanry_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_machinegun_icon_small"
+		texturefile = "gfx/texticons/support_MG_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
 	}		
+	
+	spriteType = {
+		name = "GFX_unit_machinegun_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_MG_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_mortar_icon_small"
+		texturefile = "gfx/texticons/support_mortar_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_unit_mortar_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_mortar_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_armored_car_icon_small"
+		texturefile = "gfx/texticons/unit_armored_car_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
 }

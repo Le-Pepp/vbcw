@@ -3,7 +3,67 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_gw_artillery_medium"
 		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_support_weapons4_medium"
+		texturefile = "gfx/interface/technologies/support_weapons_1.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_support_weapons3_medium"
+		texturefile = "gfx/interface/technologies/support_weapons_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_support_weapons2_medium"
+		texturefile = "gfx/interface/technologies/support_weapons_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_support_weapons_medium"
+		texturefile = "gfx/interface/technologies/support_weapons_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_mortar_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/mortar_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_mortar_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/mortar_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_mortar_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/mortar_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_mortar_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/mortar_1.dds"
+	}				
+	
+	SpriteType = {
+		name = "GFX_MG_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MG_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_MG_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/MG_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_MG_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/MG_1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_MG_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/MG_1.dds"
+	}
 	
 	###YORKISTS###	
 

@@ -1085,33 +1085,16 @@ technologies = {
 	
 	support_weapons = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
+		enable_subunits = {
+			machinegun
+			mortar
+			machinegun_brigade
+			mortar_brigade
 		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
+
+		enable_equipments = {
+			MG_equipment_1
+			mortar_equipment_1
 		}
 		
 		path = {
@@ -1123,7 +1106,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1918 }
+			position = { x = 0 y = -1 }
 		}
 		
 		categories = {
@@ -1164,33 +1147,9 @@ technologies = {
 	
 	support_weapons2 = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
+		enable_equipments = {
+			MG_equipment_2
+			mortar_equipment_2
 		}
 		
 		path = {
@@ -1199,10 +1158,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1938 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		categories = {
@@ -1249,33 +1208,9 @@ technologies = {
 	
 	support_weapons3 = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
+		enable_equipments = {
+			MG_equipment_3
+			mortar_equipment_3
 		}
 		
 		path = {
@@ -1284,10 +1219,10 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -1321,33 +1256,9 @@ technologies = {
 	
 	support_weapons4 = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
+		enable_equipments = {
+			MG_equipment_4
+			mortar_equipment_4
 		}
 		
 		research_cost = 1.5
