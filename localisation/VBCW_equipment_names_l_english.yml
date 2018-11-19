@@ -19,6 +19,137 @@
  MG_equipment_2:0 "Basic MG"
  MG_equipment_3:0 "Improved MG"
  MG_equipment_4:0 "Advanced MG"
+ 
+ ###VANILLA MAJORS### 
+ 
+ ENG_mortar_equipment_1:0 "Stokes"
+ ENG_mortar_equipment_2:0 "SBML 2\""
+ ENG_mortar_equipment_3:0 "ML 3\""
+ ENG_mortar_equipment_4:0 "ML 4.2\""
+ 
+ ENG_MG_equipment_1:0 "Vickers"
+ ENG_MG_equipment_2:0 "Vickers Mk. II"
+ ENG_MG_equipment_3:0 "Vickers .5\" Mk. III"
+ ENG_MG_equipment_4:0 "Vickers .5\" Mk. IV"
+  
+ ENG_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
+ ENG_early_armoured_car_equipment_short:0 "Rolls-Royce"
+ ENG_armoured_car_equipment_1:0 "Morris CS9"
+ ENG_armoured_car_equipment_1_short:0 "Morris CS9"
+ 
+ CAN_mortar_equipment_1:0 "Stokes"
+ CAN_mortar_equipment_2:0 "SBML 2\""
+ CAN_mortar_equipment_3:0 "ML 3\""
+ CAN_mortar_equipment_4:0 "ML 4.2\""
+ 
+ CAN_MG_equipment_1:0 "Vickers"
+ CAN_MG_equipment_2:0 "Vickers Mk. II"
+ CAN_MG_equipment_3:0 "Vickers .5\" Mk. III"
+ CAN_MG_equipment_4:0 "Vickers .5\" Mk. IV"
+  
+ CAN_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
+ CAN_early_armoured_car_equipment_short:0 "Rolls-Royce"
+ CAN_armoured_car_equipment_1:0 "Morris CS9"
+ CAN_armoured_car_equipment_1_short:0 "Morris CS9"
+ CAN_armoured_car_equipment_2:0 "Otter LRC"
+ CAN_armoured_car_equipment_2_short:0 "Otter LRC"
+ CAN_armoured_car_equipment_3:0 "Fox"
+ CAN_armoured_car_equipment_3_short:0 "Fox" 
+ 
+ FRA_mortar_equipment_1:0 "58mm type 2"
+ FRA_mortar_equipment_2:0 "Brandt Mle 1935"
+ FRA_mortar_equipment_3:0 "Mle 27/31"
+ FRA_mortar_equipment_4:0 "Brandt Mle 1942"
+ 
+ FRA_MG_equipment_1:0 "Hotchkiss M1909"
+ FRA_MG_equipment_2:0 "Hotchkiss M1914"
+ FRA_MG_equipment_3:0 "Hotchkiss M1922"
+ FRA_MG_equipment_4:0 "Hotchkiss M1929"
+  
+ FRA_early_armoured_car_equipment:0 "Peugeot mle 1914"
+ FRA_early_armoured_car_equipment_short:0 "Peugeot"
+ FRA_armoured_car_equipment_1:0 "Panhard 165"
+ FRA_armoured_car_equipment_1_short:0 "Panhard 165"
+ FRA_armoured_car_equipment_2:0 "Schneider P16"
+ FRA_armoured_car_equipment_2_short:0 "Schneider P16"
+ FRA_armoured_car_equipment_3:0 "Panhard 178"
+ FRA_armoured_car_equipment_3_short:0 "Panhard 178" 
+ 
+ USA_mortar_equipment_1:0 "Stokes pattern"
+ USA_mortar_equipment_2:0 "M2 60mm"
+ USA_mortar_equipment_3:0 "M1 81mm"
+ USA_mortar_equipment_4:0 "M2 4.2 inch"
+ 
+ USA_MG_equipment_1:0 "M1917 Browning"
+ USA_MG_equipment_2:0 "M1919 Browning"
+ USA_MG_equipment_3:0 "M2 Browning .50"
+ USA_MG_equipment_4:0 "M1941 Johnson"
+  
+ USA_early_armoured_car_equipment:0 "Jeffrey"
+ USA_early_armoured_car_equipment_short:0 "Jeffrey"
+ USA_armoured_car_equipment_1:0 "M3 Scout Car"
+ USA_armoured_car_equipment_1_short:0 "M3"
+ USA_armoured_car_equipment_2:0 "M8 Greyhound"
+ USA_armoured_car_equipment_2_short:0 "Greyhound"
+ USA_armoured_car_equipment_3:0 "M38 Wolfhound"
+ USA_armoured_car_equipment_3_short:0 "Wolfhound" 
+ 
+ SOV_mortar_equipment_1:0 "9cm GR"
+ SOV_mortar_equipment_2:0 "RM-38"
+ SOV_mortar_equipment_3:0 "82-PM-41"
+ SOV_mortar_equipment_4:0 "120-PM-43"
+ 
+ SOV_MG_equipment_1:0 "Maxim M1910"
+ SOV_MG_equipment_2:0 "DP"
+ SOV_MG_equipment_3:0 "DS-39"
+ SOV_MG_equipment_4:0 "SG-43 Goryunov"
+  
+ SOV_early_armoured_car_equipment:0 "BA-27"
+ SOV_early_armoured_car_equipment_short:0 "BA-27"
+ SOV_armoured_car_equipment_1:0 "FAI"
+ SOV_armoured_car_equipment_1_short:0 "FAI"
+ SOV_armoured_car_equipment_2:0 "BA-20"
+ SOV_armoured_car_equipment_2_short:0 "BA-20"
+ SOV_armoured_car_equipment_3:0 "BA-64"
+ SOV_armoured_car_equipment_3_short:0 "BA-64" 
+ 
+ GER_mortar_equipment_1:0 "7.58cm Minenwerfer"
+ GER_mortar_equipment_2:0 "5cm Granatwerfer"
+ GER_mortar_equipment_3:0 "8cm Granatwerfer"
+ GER_mortar_equipment_4:0 "12cm Granatwerfer"
+ 
+ GER_MG_equipment_1:0 "MG 08"
+ GER_MG_equipment_2:0 "MG 34"
+ GER_MG_equipment_3:0 "MG 42"
+ GER_MG_equipment_4:0 "MG 45"
+  
+ GER_early_armoured_car_equipment:0 "Kfz 13"
+ GER_early_armoured_car_equipment_short:0 "Kfz 13"
+ GER_armoured_car_equipment_1:0 "SdKfz 221"
+ GER_armoured_car_equipment_1_short:0 "SdKfz 221"
+ GER_armoured_car_equipment_2:0 "SdKfz 231"
+ GER_armoured_car_equipment_2_short:0 "SdKfz 231"
+ GER_armoured_car_equipment_3:0 "SdKfz 234"
+ GER_armoured_car_equipment_3_short:0 "SdKfz 234" 
+ 
+ ITA_mortar_equipment_1:0 "9cm GR"
+ ITA_mortar_equipment_2:0 "RM-38"
+ ITA_mortar_equipment_3:0 "82-PM-41"
+ ITA_mortar_equipment_4:0 "120-PM-43"
+ 
+ ITA_MG_equipment_1:0 "Maxim M1910"
+ ITA_MG_equipment_2:0 "DP"
+ ITA_MG_equipment_3:0 "DS-39"
+ ITA_MG_equipment_4:0 "SG-43 Goryunov"
+  
+ ITA_early_armoured_car_equipment:0 "Lancia 1ZM"
+ ITA_early_armoured_car_equipment_short:0 "Lancia 1ZM"
+ ITA_armoured_car_equipment_1:0 "Autoblinda 36"
+ ITA_armoured_car_equipment_1_short:0 "Autoblinda 36"
+ ITA_armoured_car_equipment_2:0 "Autoblinda 40"
+ ITA_armoured_car_equipment_2_short:0 "Autoblinda 40"
+ ITA_armoured_car_equipment_3:0 "AS.42 Sahariana"
+ ITA_armoured_car_equipment_3_short:0 "Sahariana" 
 
  ###CIVILIANS###
 
