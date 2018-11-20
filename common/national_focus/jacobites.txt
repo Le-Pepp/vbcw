@@ -16,23 +16,23 @@ focus_tree = {
 		cost = 2
 		x = 5
 		y = 0
-		
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
+		
 	  create_country_leader = {
 				name = "King Robert VI and I"
 				desc = "POLITICS_WANG_MING_DESC"
-				portrait_path = "GFX/leaders/VBCW/JAC/JAC-Rupprecht"
+				portrait_path = "GFX/leaders/VBCW/JAC/JAC-Rupprecht.dds"
 				expire = "1965.1.1"
 				ideology = autocratic_subtype
 				traits = {
                 		 great_war_hero 	imperial_connections
 				        }
 			     
-     	create_field_marhsal = {
+     		create_field_marhsal = {
 				name = "King Robert VI and I"
-				portrait_path = "GFX/leaders/VBCW/JAC/JAC-Rupprecht"
+				portrait_path = "GFX/leaders/VBCW/JAC/JAC-Rupprecht.dds"
 				traits = { war_hero inflexible_stratagist cautious organiser defensive_doctrine thourough_planner }
 				skill = 6
 				attack_skill = 3
@@ -41,8 +41,8 @@ focus_tree = {
 				logistics_skill = 4
 				  }
 			  
-     country_event = JAC_events.1
-     }
+     			country_event = JAC_events.1
+     		}
 	}
 	
 	focus = {
@@ -59,14 +59,14 @@ focus_tree = {
 		    create_country_leader = {
 				    name = "Queen Annis I"
 				    desc = "POLITICS_WANG_MING_DESC"
-				    portrait_path = "GFX/leaders/VBCW/JAC/JAC-Antonia"
+				    portrait_path = "GFX/leaders/VBCW/JAC/JAC-Antonia.dds"
 				    expire = "1965.1.1"
 				    ideology = autocratic_subtype
-            traits = {
+            			    traits = {
 				        }
 			      }
         country_event = JAC_events.2
-        }
+        	}
 	}
 	
 	focus = {
