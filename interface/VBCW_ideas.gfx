@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_german_investments.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_KER_pasty_service"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_KER_trade_with_the_world"
 		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
 	}

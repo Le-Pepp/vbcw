@@ -7,7 +7,7 @@ focus_tree = {
 			tag = KER
 		}
 	}
-	
+	continuous_focus_position = { x = 20 y = 2000 }
 	default = no
 	
 	focus = {
@@ -716,7 +716,198 @@ focus_tree = {
 			
 		}
 }
-
+	#######Secret Service Section####
+focus = {
+		id = KER_form_the_css
+		icon = GFX_goal_secret_pasty_service
+		cost = 5
+		x = 4
+		y = 7
+		
+		continue_if_invalid = yes
+		available = {KER = {has_political_power > 75}
+						
+				}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = KER_pasty_service	
+			add_political_power = -50
+		}
+	}
+focus = {
+		id = KER_internal_matters
+		icon = GFX_goal_little_green_men
+		cost = 5
+		x = 2
+		y = 8
+		prerequisite = {focus = KER_form_the_css}
+		mutually_exclusive = {focus = KER_external_matters}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			swap_ideas = {remove_idea = KER_pasty_service
+					 add_idea = KER_pasty_service_internal
+		}	
+	}
+}
+focus = {
+		id = KER_external_matters
+		icon = GFX_goal_anti_commie_spy
+		cost = 5
+		x = 7
+		y = 8
+		prerequisite = {focus = KER_form_the_css}
+		mutually_exclusive = {focus = KER_internal_matters}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			swap_ideas = {remove_idea = KER_pasty_service
+					 add_idea = KER_pasty_service_external
+		}	
+	}
+}
+focus = {
+		id = KER_foreign_volunteers
+		icon = GFX_goal_conscription_act
+		cost = 5
+		x = 7
+		y = 9
+		prerequisite = {focus = KER_external_matters}
+		
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = KER_foreign_volunteers_tt	
+	}
+}
+focus = {
+		id = KER_black_cats
+		icon = GFX_goal_black_cats
+		cost = 5
+		x = 6
+		y = 10
+		prerequisite = {focus = KER_foreign_volunteers}
+		
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 75	
+	}
+}
+focus = {
+		id = KER_deep_sleep
+		icon = GFX_goal_operation_eulalie
+		cost = 5
+		x = 6
+		y = 11
+		prerequisite = {focus = KER_black_cats}
+		
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 15	
+	}
+}
+focus = {
+		id = KER_operation_pasty
+		icon = GFX_goal_big_ben
+		cost = 5
+		x = 8
+		y = 10
+		prerequisite = {focus = KER_foreign_volunteers}
+		
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = KER.1	
+	}
+}
+focus = {
+		id = KER_remember_remember
+		icon = GFX_goal_burning_parliament
+		cost = 5
+		x = 8
+		y = 11
+		prerequisite = {focus = KER_operation_pasty}
+		
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = KER.2	
+	}
+}
+focus = {
+		id = KER_special_research_division 
+		icon = GFX_goal_research_councils
+		cost = 8
+		x = 4
+		y = 9
+		prerequisite = {focus = KER_external_matters focus = KER_internal_matters}
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = reminder_tt_1
+				
+	}
+}
+focus = {
+		id = KER_predict_their_moves
+		icon = GFX_goal_upset_the_balance
+		cost = 8
+		x = 4
+		y = 10
+		prerequisite = {focus = KER_special_research_division }
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		available = {has_idea = KER_science_investments}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = KER_predict_their_moves
+				bonus = 0.5
+				uses = 2
+				
+				category = decryption_tech
+			}
+		}
+}
+focus = {
+		id = KER_final_checkmate
+		icon = GFX_goal_checkmate
+		cost = 20
+		x = 4
+		y = 11
+		prerequisite = {focus = KER_predict_their_moves }
+		mutually_exclusive = {}
+		continue_if_invalid = yes
+		available = {has_idea = KER_science_investments}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = KER_final_checkmate
+				bonus = 0.5
+				uses = 1
+				
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = KER_final_checkmate
+				bonus = 0.5
+				uses = 1
+				
+				category = rocketry
+			}
+		}
+}
 	##########Industry Section#######
 focus = {
 		id = KER_mining_legacy
