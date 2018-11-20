@@ -13,6 +13,12 @@ spriteTypes = {
 	}			
 	
 	spriteType = {
+		name = "GFX_nato_unit_marching_band_icon_small"
+		texturefile = "gfx/texticons/nato_unit_marching_band_icon_small.dds"
+		legacy_lazy_load = no
+	}		
+	
+	spriteType = {
 		name = "GFX_nato_unit_machinegun_icon_small"
 		texturefile = "gfx/texticons/nato_unit_MG_icon_small.dds"
 		legacy_lazy_load = no
