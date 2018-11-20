@@ -27,10 +27,10 @@ focus_tree = {
 				expire = "1965.1.1"
 				ideology = autocratic_subtype
 				traits = {
-                 great_war_hero imperial_connections
+                		 great_war_hero 	imperial_connections
 				        }
-			     }
-     create_field_marhsal = {
+			     
+     	create_field_marhsal = {
 				name = "King Robert VI and I"
 				portrait_path = "GFX/leaders/VBCW/JAC/JAC-Rupprecht"
 				traits = { war_hero inflexible_stratagist cautious organiser defensive_doctrine thourough_planner }
@@ -40,7 +40,7 @@ focus_tree = {
 				planning_skill = 5
 				logistics_skill = 4
 				  }
-			  }
+			  
      country_event = JAC_events.1
      }
 	}
