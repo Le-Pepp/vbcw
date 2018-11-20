@@ -257,7 +257,7 @@ focus_tree = {
 				}
 			}
 		}
-	}
+	
 	
 
 ###POLITICAL###
