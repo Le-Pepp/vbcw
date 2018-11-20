@@ -2530,6 +2530,34 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "POPULAR_RESISTANCE_LABEL_TT"
 			}
+			
+			instantTextBoxType = {
+				name = "guerrilla_warfare_subtitle3"
+				position = { x = 1560 y = 1040 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "URBAN_WARFARE_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "URBAN_WARFARE_LABEL_TT"
+			}				
+
+			instantTextBoxType = {
+				name = "guerrilla_warfare_subtitle4"
+				position = { x = 1816 y = 1040 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "RURAL_WARFAR_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "RURAL_WARFAR_LABEL_TT"
+			}
 				
 			gridboxtype = {
 				name = "mobile_warfare_tree"

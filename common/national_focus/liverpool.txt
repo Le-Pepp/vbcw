@@ -57,7 +57,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			50 = {
 			add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -78,7 +78,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			49 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -91,7 +91,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_build_the_ships
-		icon = GFX_goal_generic_build_navy_ships
+		icon = GFX_goal_generic_build_navy
 		cost = 10
 		x = 0
 		y = 4
@@ -115,7 +115,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			49 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -136,7 +136,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			50 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -178,7 +178,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			50 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -199,7 +199,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			49 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -212,7 +212,7 @@ focus_tree = {
 		
 	focus = {
 		id = LIV_pave_the_roads
-		icon = GFX_goal_generic_construct_infastructure
+		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10
 		x = 4
 		y = 4
@@ -220,9 +220,15 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {				
+			49 = {				
 				add_building_construction = {
-					type = infastructure
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			50 = {				
+				add_building_construction = {
+					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
@@ -242,7 +248,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			every_state = {
+			49 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = synthetic_refinery
@@ -251,13 +257,13 @@ focus_tree = {
 				}
 			}
 		}
-	}
+	
 	
 
 ###POLITICAL###
 	focus = {
 		id = LIV_open_political_debate
-		icon = GFX_goal_armored_tram
+		icon = GFX_goal_generic_national_unity
 		cost = 5
 		x = 9
 		y = 1
@@ -312,7 +318,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_increase_military_presence
-		icon = GFX_goal_chi_army_reform
+		icon = GFX_focus_chi_army_reform
 		cost = 10
 		x = 7
 		y = 4
@@ -338,7 +344,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			ROY = {
-					country_event = liverpool.1								
+					country_event = ROY_events.1								
 			}
 		}
 
@@ -479,7 +485,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			SOM = {
-				country_event = liverpool.1	
+				country_event = SOM_events.2	
 			}
 		}
 	}
@@ -521,7 +527,7 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_sea_wolfs
-		icon = GFX_focus_generic_navy_submarine
+		icon = GFX_goal_generic_wolf_pack
 		cost = 10
 		x = 13
 		y = 3
@@ -651,7 +657,7 @@ focus_tree = {
 
 	focus = {
 		id = LIV_experiments_with_armour
-		icon = GFX_goal_generic_army_army_tanks
+		icon = GFX_goal_generic_army_tanks
 		cost = 10
 		x = 15
 		y = 5

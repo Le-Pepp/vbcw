@@ -5,11 +5,14 @@ country_event = {
 	id = LIV_events.1
 	title = LIV_events.1.t
 	desc = LIV_events.1.d
-	picture = GFX_report_irish_rainy_day
+	picture = GFX_report_event_edward_viii_talking
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	mean_time_to_happen = {
+		days = 1
+	}	
+	
 	option = {
 		name = LIV_events.1.a
 		add_stability = -0.15	
@@ -23,13 +26,50 @@ country_event = {
 	id = LIV_events.2
 	title = LIV_events.2.t
 	desc = LIV_events.2.d
-	picture = GFX_report_irish_rainy_day
+	picture = GFX_report_event_bevin
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = {
 		name = LIV_events.2.a
 		add_stability = -0.15	
+	}
+}
+
+country_event = {
+	id = LIV_events.3
+	title = LIV_events.3.t
+	desc = LIV_events.3.d
+	picture = GFX_report_event_royal_visit
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = LIV_events.3.a
+	}
+}
+
+country_event = {
+	id = LIV_events.4
+	title = LIV_events.4.t
+	desc = LIV_events.4.d
+	picture = GFX_report_event_spain_civil_war_volunteers_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = LIV_events.4.a
 	}
 }

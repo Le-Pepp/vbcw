@@ -16,6 +16,7 @@ state={
 	state_category = large_city
 	
 	history={
+		add_extra_state_shared_building_slots = 2
 		owner = SOC
 		add_core_of = SOC
 		add_claim_by = ROY
@@ -30,7 +31,7 @@ state={
 			infrastructure = 6
 			air_base = 2
 			industrial_complex = 3
-			arms_factory = 2
+			arms_factory = 3
 			dockyard = 1
 			253 = {
 				naval_base = 4

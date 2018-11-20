@@ -2025,40 +2025,6 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = special_forces_harrassment
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
-	}
-	
-	special_forces_harrassment = {
-
-		land_night_attack = 0.25
-
-		enable_tactic = tactic_delay
-		
-		path = {
 			leads_to_tech = special_forces_sabotage
 			research_cost_coeff = 1
 		}
@@ -2074,7 +2040,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -2109,7 +2075,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -2135,42 +2101,6 @@ technologies = {
 		}		
 		
 		path = {
-			leads_to_tech = militia_harrassment
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-			cat_guerilla_warfare
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
-	}
-	
-	militia_harrassment = {
-	
-		land_reinforce_rate = 0.05	
-		mobilization_speed = 0.1
-		partisan_effect = 0.1 		
-
-		enable_tactic = tactic_delay
-		
-		path = {
 			leads_to_tech = militia_mass_assault
 			research_cost_coeff = 1
 		}
@@ -2182,11 +2112,10 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -2222,7 +2151,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -2259,7 +2188,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -2278,10 +2207,48 @@ technologies = {
 		decryption_factor = 0.10	
 		
 		path = {
-			leads_to_tech = resistance_pockets
+			leads_to_tech = round_the_clock_harrassment
 			research_cost_coeff = 1
 		}	
 		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	round_the_clock_harrassment = {
+
+		land_night_attack = 0.25
+
+		enable_tactic = tactic_delay
+		
+		path = {
+			leads_to_tech = hostile_country
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = our_streets
+			research_cost_coeff = 1
+		}
+
 		doctrine = yes	
 		research_cost = 3
 		
@@ -2304,11 +2271,90 @@ technologies = {
 		}
 	}
 	
-	resistance_pockets = {	
+	hostile_country = {
 	
-		out_of_supply_factor = -0.25
-		no_supply_grace = 48
-		max_dig_in = 5
+		xor = {
+			our_streets
+		}	
+		
+		on_research_complete = {
+			custom_effect_tooltip = hostile_country_tt
+		}
+
+		infantry = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		militia = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		marine = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		mountaineers = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		paratrooper = {
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
 		
 		path = {
 			leads_to_tech = one_with_the_land
@@ -2326,7 +2372,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 16 }
+			position = { x = 2 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -2353,11 +2399,111 @@ technologies = {
 			land_doctrine
 			cat_guerilla_warfare
 		}
-
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 18 }
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	our_streets = {	
+	
+		xor = {
+			hostile_country
+		}
+		on_research_complete = {
+			custom_effect_tooltip = our_streets_tt
+		}
+
+		infantry = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		militia = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		marine = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		mountaineers = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+
+		paratrooper = {
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+		}
+		
+		path = {
+			leads_to_tech = resistance_pockets
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	resistance_pockets = {	
+	
+		out_of_supply_factor = -0.25
+		no_supply_grace = 48
+		max_dig_in = 5
+		
+		enable_tactic = tactic_backhand_blow
+
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_guerilla_warfare
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 18 }
 		}
 		
 		ai_will_do = {

@@ -87,6 +87,7 @@ units = {
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}
 	division= {	
 		division_name = {
@@ -97,6 +98,7 @@ units = {
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}
 	division= {	
 		division_name = {
@@ -106,7 +108,7 @@ units = {
 		location = 56
 		division_template = "KLA Battalions"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.95
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	division= {	
@@ -117,7 +119,7 @@ units = {
 		location = 78
 		division_template = "KLA Battalions"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.75
+		start_equipment_factor = 0.85
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	division= {	
@@ -128,7 +130,7 @@ units = {
 		location = 97
 		division_template = "KLA Battalions"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.75
+		start_equipment_factor = 0.85
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	division= {	
@@ -139,7 +141,7 @@ units = {
 		location = 112
 		division_template = "KLA Battalions"
 		start_experience_factor = 0.0
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.75
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 

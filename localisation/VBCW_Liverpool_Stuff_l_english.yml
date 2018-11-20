@@ -1,6 +1,6 @@
 ﻿l_english:
 
-###FOCUSES&IDEAS###
+###FOCUSES###
 LIV_the_free_city:0 "The Free City"
 LIV_the_free_city_desc:0 "After chaos gripped the British isles, our city proclaimed independence from the mob. Now, with the conflict in full swing, we must sustain our city and protect it at all costs."
 LIV_liverpudlian_industry:0 "Liverpudlian Industry"
@@ -86,11 +86,20 @@ LIV_events.1.a:0 "How Rude of them."
 LIV_events.2.t:0 "We have been turned down by the People's Armies!"
 LIV_events.2.d:0 "Our delagation to Birmingham has been told that the Liverpudlian Commune will not join the People's Armies. Citing reasons like 'instability, weakness' and 'the falure of socialism'. We have been disgraced and we must look elsewhere."
 LIV_events.2.a:0 "Well, screw you too."
-liverpool.1.t:0 "Liverpool in the Legitimists?"
-liverpool.1.d:0 "A delagation has arrived in London to request joining the Legitimists. How should we respond?"
-liverpool.1.a:0 "Of course! New members are always welcome."
-liverpool.1.b:0 "What are they saying? I can't understand Scouse...."
-liverpool.2.t:0 "Liverpool in the People's Armies?"
-liverpool.2.d:0 "A delagation arrived in Birmingham today to discuss Liverpool's inclusion in the People's Armies. How should we respond?"
-liverpool.2.a:0 "We share so many similarities, it would be heresy not to."
-liverpool.2.b:0 "Go away, I have better to do."
+ROY_events.1.t:0 "Liverpool in the Legitimists?"
+ROY_events.1.d:0 "A delagation has arrived in London to request joining the Legitimists. How should we respond?"
+ROY_events.1.a:0 "Of course! New members are always welcome."
+ROY_events.1.b:0 "What are they saying? I can't understand Scouse...."
+SOM_events.2.t:0 "Liverpool in the People's Armies?"
+SOM_events.2.d:0 "A delagation arrived in Birmingham today to discuss Liverpool's inclusion in the People's Armies. How should we respond?"
+SOM_events.2.a:0 "We share so many similarities, it would be heresy not to."
+SOM_events.2.b:0 "Go away, I have better to do."
+
+
+###IDEAS###
+LIV_super_construction:0 "Extraordinary Production"
+LIV_work_for_all:0 "Work For All"
+LIV_welfare_state:0 "Welfare State"
+LIV_socialist_haven:0 "Socialist Haven"
+LIV_organised_militias:0 "Organised Militias"
+
