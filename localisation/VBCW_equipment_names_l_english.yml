@@ -206,12 +206,12 @@
  ROY_anti_tank_equipment_2:0 "QF 6-pounder"
  ROY_anti_tank_equipment_3:0 "QF 17-pounder"
  
- ROY_mechanized_equipment_1:0 "Bren Carrier"
- ROY_mechanized_equipment_1_short:0 "Bren Carrier"
+ ROY_mechanized_equipment_1:0 "Bren Gun Carrier"
+ ROY_mechanized_equipment_1_short:0 "Bren Gun Carrier"
  ROY_mechanized_equipment_2:0 "Universal Carrier"
  ROY_mechanized_equipment_2_short:0 "Universal Carrier"
- ROY_mechanized_equipment_3:0 "Kangaroo Carrier"
- ROY_mechanized_equipment_3_short:0 "Kangaroo Carrier"
+ ROY_mechanized_equipment_3:0 "Balmoral Carrier"
+ ROY_mechanized_equipment_3_short:0 "Balmoral Carrier"
  
  ROY_motorized_equipment_1:1 "C8 Quad"
   
@@ -406,12 +406,12 @@
  BUF_anti_tank_equipment_2:0 "QF 6-pounder"
  BUF_anti_tank_equipment_3:0 "QF 17-pounder"
  
- BUF_mechanized_equipment_1:0 "Bren Carrier"
- BUF_mechanized_equipment_1_short:0 "Bren Carrier"
+ BUF_mechanized_equipment_1:0 "Bren Gun Carrier"
+ BUF_mechanized_equipment_1_short:0 "Bren Gun Carrier"
  BUF_mechanized_equipment_2:0 "Universal Carrier"
  BUF_mechanized_equipment_2_short:0 "Universal Carrier"
- BUF_mechanized_equipment_3:0 "Kangaroo Carrier"
- BUF_mechanized_equipment_3_short:0 "Kangaroo Carrier"
+ BUF_mechanized_equipment_3:0 "Imperial Carrier"
+ BUF_mechanized_equipment_3_short:0 "Imperial Carrier"
  
  BUF_motorized_equipment_1:1 "Matador"
   
@@ -606,9 +606,9 @@
  YRK_anti_tank_equipment_2:0 "QF 6-pounder"
  YRK_anti_tank_equipment_3:0 "3-inch Gun M5"
  
- YRK_mechanized_equipment_1:0 "M2 Half Track Car"
- YRK_mechanized_equipment_1_short:0 "M2 Half Track Car"
- YRK_mechanized_equipment_2:0 "M33 Half Track"
+ YRK_mechanized_equipment_1:0 "Bren Gun Carrier"
+ YRK_mechanized_equipment_1_short:0 "Bren Gun Carrier"
+ YRK_mechanized_equipment_2:0 "M3 Half Track"
  YRK_mechanized_equipment_2_short:0 "M3 Half Track"
  YRK_mechanized_equipment_3:0 "M5 Half Track"
  YRK_mechanized_equipment_3_short:0 "M5 Half Track"

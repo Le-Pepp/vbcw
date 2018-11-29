@@ -28,6 +28,12 @@ spriteTypes = {
 		name = "GFX_nato_unit_mortar_icon_small"
 		texturefile = "gfx/texticons/nato_unit_mortar_icon_small.dds"
 		legacy_lazy_load = no
+	}		
+	
+	spriteType = {
+		name = "GFX_nato_unit_mechanised_recon_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mech_recce_icon_small.dds"
+		legacy_lazy_load = no
 	}			
 	
 	spriteType = {
@@ -74,6 +80,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_mortar_brigade_icon_small"
 		texturefile = "gfx/texticons/unit_mortar_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_mechanised_recon_icon_small"
+		texturefile = "gfx/texticons/unit_mech_recon_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}	

@@ -38,6 +38,11 @@ spriteTypes = {
 	}
 
 	spriteType = { 
+		name = "GFX_unit_mechanised_recon_icon_medium"							
+		textureFile = "gfx/interface/counters/divisions_large/unit_mech_recon_icon.dds" noOfFrames = 2 
+	}
+
+	spriteType = { 
 		name = "GFX_unit_armoured_car_icon_medium"							
 		textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" noOfFrames = 2 
 	}
@@ -72,6 +77,11 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_unit_machinegun_brigade_icon_medium_white"				
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_MG_icon.dds" noOfFrames = 2
+	}
+	
+	spriteType = { 
+		name = "GFX_unit_mechanised_recon_icon_medium_white"						
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_recon_icon.dds" noOfFrames = 2
 	}
 	
 	spriteType = { 
