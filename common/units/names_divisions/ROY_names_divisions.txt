@@ -173,59 +173,39 @@ ROY_CAV_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Cavalry Regiment" }
-		2 = { "%dnd Cavalry Regiment" }
-		3 = { "%drd Cavalry Regiment" }
-		4 = { "%dth Cavalry Regiment" }
-		5 = { "%dth Cavalry Regiment" }
-		6 = { "%dth Cavalry Regiment" }
-		7 = { "%dth Cavalry Regiment" }
-		8 = { "%dth Cavalry Regiment" }
-		9 = { "%dth Cavalry Regiment" }
-		10 = { "%dth Cavalry Regiment" }
-		11 = { "%dth Cavalry Regiment" }
-		12 = { "%dth Cavalry Regiment" }
-		13 = { "%dth Cavalry Regiment" }
-		14 = { "%dth Cavalry Regiment" }
-		15 = { "%dth Cavalry Regiment" }
-		16 = { "%dth Cavalry Regiment" }
-		17 = { "%dth Cavalry Regiment" }
-		18 = { "%dth Cavalry Regiment" }
-		19 = { "%dth Cavalry Regiment" }
-		20 = { "%dth Cavalry Regiment" }
-		21 = { "%dst Cavalry Regiment" }
-		22 = { "%dnd Cavalry Regiment" }
-		23 = { "%drd Cavalry Regiment" }
-		24 = { "%dth Cavalry Regiment" }
-		25 = { "%dth Cavalry Regiment" }
-		26 = { "%dth Cavalry Regiment" }
-		27 = { "%dth Cavalry Regiment" }
-		28 = { "%dth Cavalry Regiment" }
-		29 = { "%dth Cavalry Regiment" }
-		30 = { "%dth Cavalry Regiment" }
-		31 = { "%dst Cavalry Regiment" }
-		32 = { "%dnd Cavalry Regiment" }
-		33 = { "%drd Cavalry Regiment" }
-		34 = { "%dth Cavalry Regiment" }
-		35 = { "%dth Cavalry Regiment" }
-		36 = { "%dth Cavalry Regiment" }
-		37 = { "%dth Cavalry Regiment" }
-		38 = { "%dth Cavalry Regiment" }
-		39 = { "%dth Cavalry Regiment" }
-		40 = { "%dth Cavalry Regiment" }
-		41 = { "%dst Cavalry Regiment" }
-		42 = { "%dnd Cavalry Regiment" }
-		43 = { "%drd Cavalry Regiment" }
-		44 = { "%dth Cavalry Regiment" }
-		45 = { "%dth Cavalry Regiment" }
-		46 = { "%dth Cavalry Regiment" }
-		47 = { "%dth Cavalry Regiment" }
-		48 = { "%dth Cavalry Regiment" }
-		49 = { "%dth Cavalry Regiment" }
-		50 = { "%dth Cavalry Regiment" }
-		51 = { "%dst Cavalry Regiment" }
-		52 = { "%dnd Cavalry Regiment" }
-		53 = { "%drd Cavalry Regiment" }
+		1 = { "%dst Hussars" }
+		2 = { "%dnd Lancers" }
+		3 = { "%drd Dragoons" }
+		4 = { "%dth Hussars" }
+		5 = { "%dth Lancers" }
+		6 = { "%dth Dragoons" }
+		7 = { "%dth Hussars" }
+		8 = { "%dth Lancers" }
+		9 = { "%dth Dragoons" }
+		10 = { "%dth Hussars" }
+		11 = { "%dth Lancers" }
+		12 = { "%dth Dragoons" }
+		13 = { "%dth Hussars" }
+		14 = { "%dth Lancers" }
+		15 = { "%dth Dragoons" }
+		16 = { "%dth Hussars" }
+		17 = { "%dth Lancers" }
+		18 = { "%dth Dragoons" }
+		19 = { "%dth Hussars" }
+		20 = { "%dth Lancers" }
+		21 = { "%dst Dragoons" }
+		22 = { "%dnd Hussars" }
+		23 = { "%drd Lancers" }
+		24 = { "%dth Dragoons" }
+		25 = { "%dth Hussars" }
+		26 = { "%dth Lancers" }
+		27 = { "%dth Dragoons" }
+		28 = { "%dth Hussars" }
+		29 = { "%dth Lancers" }
+		30 = { "%dth Dragoons" }
+		31 = { "%dst Hussars" }
+		32 = { "%dnd Lancers" }
+		33 = { "%drd Dragoons" }
 	}
 }
 
@@ -312,7 +292,7 @@ ROY_MOT_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "motorized" }
+	division_types = { "motorized" "mechanized" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { ROY_INF_01 }
@@ -367,10 +347,10 @@ ROY_ARM_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	division_types = { "light_armor" "medium_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ROY_INF_01 }
+	link_numbering_with = { ROY_CAV_01 }
 
 	fallback_name = "%d Armoured Regiment"
 
@@ -378,94 +358,149 @@ ROY_ARM_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Armoured Regiment" }
-		2 = { "%dnd Armoured Regiment" }
-		3 = { "%drd Armoured Regiment" }
-		4 = { "%dth Armoured Regiment" }
-		5 = { "%dth Armoured Regiment" }
-		6 = { "%dth Armoured Regiment" }
-		7 = { "%dth Armoured Regiment" }
-		8 = { "%dth Armoured Regiment" }
-		9 = { "%dth Armoured Regiment" }
-		10 = { "%dth Armoured Regiment" }
-		11 = { "%dth Armoured Regiment" }
-		12 = { "%dth Armoured Regiment" }
-		13 = { "%dth Armoured Regiment" }
-		14 = { "%dth Armoured Regiment" }
-		15 = { "%dth Armoured Regiment" }
-		16 = { "%dth Armoured Regiment" }
-		17 = { "%dth Armoured Regiment" }
-		18 = { "%dth Armoured Regiment" }
-		19 = { "%dth Armoured Regiment" }
-		20 = { "%dth Armoured Regiment" }
-		21 = { "%dst Armoured Regiment" }
-		22 = { "%dnd Armoured Regiment" }
-		23 = { "%drd Armoured Regiment" }
-		24 = { "%dth Armoured Regiment" }
-		25 = { "%dth Armoured Regiment" }
-		26 = { "%dth Armoured Regiment" }
-		27 = { "%dth Armoured Regiment" }
-		28 = { "%dth Armoured Regiment" }
-		29 = { "%dth Armoured Regiment" }
-		30 = { "%dth Armoured Regiment" }
-		31 = { "%dst Armoured Regiment" }
-		32 = { "%dnd Armoured Regiment" }
-		33 = { "%drd Armoured Regiment" }
+		1 = { "%dst Hussars" }
+		2 = { "%dnd Lancers" }
+		3 = { "%drd Dragoons" }
+		4 = { "%dth Hussars" }
+		5 = { "%dth Lancers" }
+		6 = { "%dth Dragoons" }
+		7 = { "%dth Hussars" }
+		8 = { "%dth Lancers" }
+		9 = { "%dth Dragoons" }
+		10 = { "%dth Hussars" }
+		11 = { "%dth Lancers" }
+		12 = { "%dth Dragoons" }
+		13 = { "%dth Hussars" }
+		14 = { "%dth Lancers" }
+		15 = { "%dth Dragoons" }
+		16 = { "%dth Hussars" }
+		17 = { "%dth Lancers" }
+		18 = { "%dth Dragoons" }
+		19 = { "%dth Hussars" }
+		20 = { "%dth Lancers" }
+		21 = { "%dst Dragoons" }
+		22 = { "%dnd Hussars" }
+		23 = { "%drd Lancers" }
+		24 = { "%dth Dragoons" }
+		25 = { "%dth Hussars" }
+		26 = { "%dth Lancers" }
+		27 = { "%dth Dragoons" }
+		28 = { "%dth Hussars" }
+		29 = { "%dth Lancers" }
+		30 = { "%dth Dragoons" }
+		31 = { "%dst Hussars" }
+		32 = { "%dnd Lancers" }
+		33 = { "%drd Dragoons" }
 	}
 }
 
-ROY_MEC_01 = 
+ROY_ART_01 = 
 {
-	name = "Mechanised Battalions"
+	name = "Royal Artillery Regiments"
 
 	for_countries = { ROY }
 
 	can_use = { always = yes }
 
-	division_types = { "mechanized"  }
+	division_types = { "artillery" "anti_tank" "anti_air" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ROY_INF_01 }
+	#link_numbering_with = { ROY_INF_01 }
 
-	fallback_name = "%d Mechanised Battalion"
+	fallback_name = "%d Regiment Royal Artillery"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Mechanised Battalion" }
-		2 = { "%dnd Mechanised Battalion" }
-		3 = { "%drd Mechanised Battalion" }
-		4 = { "%dth Mechanised Battalion" }
-		5 = { "%dth Mechanised Battalion" }
-		6 = { "%dth Mechanised Battalion" }
-		7 = { "%dth Mechanised Battalion" }
-		8 = { "%dth Mechanised Battalion" }
-		9 = { "%dth Mechanised Battalion" }
-		10 = { "%dth Mechanised Battalion" }
-		11 = { "%dth Mechanised Battalion" }
-		12 = { "%dth Mechanised Battalion" }
-		13 = { "%dth Mechanised Battalion" }
-		14 = { "%dth Mechanised Battalion" }
-		15 = { "%dth Mechanised Battalion" }
-		16 = { "%dth Mechanised Battalion" }
-		17 = { "%dth Mechanised Battalion" }
-		18 = { "%dth Mechanised Battalion" }
-		19 = { "%dth Mechanised Battalion" }
-		20 = { "%dth Mechanised Battalion" }
-		21 = { "%dst Mechanised Battalion" }
-		22 = { "%dnd Mechanised Battalion" }
-		23 = { "%drd Mechanised Battalion" }
-		24 = { "%dth Mechanised Battalion" }
-		25 = { "%dth Mechanised Battalion" }
-		26 = { "%dth Mechanised Battalion" }
-		27 = { "%dth Mechanised Battalion" }
-		28 = { "%dth Mechanised Battalion" }
-		29 = { "%dth Mechanised Battalion" }
-		30 = { "%dth Mechanised Battalion" }
-		31 = { "%dst Mechanised Battalion" }
-		32 = { "%dnd Mechanised Battalion" }
-		33 = { "%drd Mechanised Battalion" }
+		1 = { "%dst Regiment Royal Artillery" }
+		2 = { "%dnd Regiment Royal Artillery" }
+		3 = { "%drd Regiment Royal Artillery" }
+		4 = { "%dth Regiment Royal Artillery" }
+		5 = { "%dth Regiment Royal Artillery" }
+		6 = { "%dth Regiment Royal Artillery" }
+		7 = { "%dth Regiment Royal Artillery" }
+		8 = { "%dth Regiment Royal Artillery" }
+		9 = { "%dth Regiment Royal Artillery" }
+		10 = { "%dth Regiment Royal Artillery" }
+		11 = { "%dth Regiment Royal Artillery" }
+		12 = { "%dth Regiment Royal Artillery" }
+		13 = { "%dth Regiment Royal Artillery" }
+		14 = { "%dth Regiment Royal Artillery" }
+		15 = { "%dth Regiment Royal Artillery" }
+		16 = { "%dth Regiment Royal Artillery" }
+		17 = { "%dth Regiment Royal Artillery" }
+		18 = { "%dth Regiment Royal Artillery" }
+		19 = { "%dth Regiment Royal Artillery" }
+		20 = { "%dth Regiment Royal Artillery" }
+		21 = { "%dst Regiment Royal Artillery" }
+		22 = { "%dnd Regiment Royal Artillery" }
+		23 = { "%drd Regiment Royal Artillery" }
+		24 = { "%dth Regiment Royal Artillery" }
+		25 = { "%dth Regiment Royal Artillery" }
+		26 = { "%dth Regiment Royal Artillery" }
+		27 = { "%dth Regiment Royal Artillery" }
+		28 = { "%dth Regiment Royal Artillery" }
+		29 = { "%dth Regiment Royal Artillery" }
+		30 = { "%dth Regiment Royal Artillery" }
+		31 = { "%dst Regiment Royal Artillery" }
+		32 = { "%dnd Regiment Royal Artillery" }
+		33 = { "%drd Regiment Royal Artillery" }
+	}
+}
+
+ROY_TAN_01 = 
+{
+	name = "Tank Regiments"
+
+	for_countries = { ROY }
+
+	can_use = { always = yes }
+
+	division_types = { "heavy_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ROY_INF_01 }
+
+	fallback_name = "%d Royal Tank Regiment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Royal Tank Regiment" }
+		2 = { "%dnd Royal Tank Regiment" }
+		3 = { "%drd Royal Tank Regiment" }
+		4 = { "%dth Royal Tank Regiment" }
+		5 = { "%dth Royal Tank Regiment" }
+		6 = { "%dth Royal Tank Regiment" }
+		7 = { "%dth Royal Tank Regiment" }
+		8 = { "%dth Royal Tank Regiment" }
+		9 = { "%dth Royal Tank Regiment" }
+		10 = { "%dth Royal Tank Regiment" }
+		11 = { "%dth Royal Tank Regiment" }
+		12 = { "%dth Royal Tank Regiment" }
+		13 = { "%dth Royal Tank Regiment" }
+		14 = { "%dth Royal Tank Regiment" }
+		15 = { "%dth Royal Tank Regiment" }
+		16 = { "%dth Royal Tank Regiment" }
+		17 = { "%dth Royal Tank Regiment" }
+		18 = { "%dth Royal Tank Regiment" }
+		19 = { "%dth Royal Tank Regiment" }
+		20 = { "%dth Royal Tank Regiment" }
+		21 = { "%dst Royal Tank Regiment" }
+		22 = { "%dnd Royal Tank Regiment" }
+		23 = { "%drd Royal Tank Regiment" }
+		24 = { "%dth Royal Tank Regiment" }
+		25 = { "%dth Royal Tank Regiment" }
+		26 = { "%dth Royal Tank Regiment" }
+		27 = { "%dth Royal Tank Regiment" }
+		28 = { "%dth Royal Tank Regiment" }
+		29 = { "%dth Royal Tank Regiment" }
+		30 = { "%dth Royal Tank Regiment" }
+		31 = { "%dst Royal Tank Regiment" }
+		32 = { "%dnd Royal Tank Regiment" }
+		33 = { "%drd Royal Tank Regiment" }
 	}
 }
 
@@ -554,7 +589,7 @@ ROY_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ROY_GAR_01 }
 
-	fallback_name = "%d Marines"
+	fallback_name = "%d Royal Marines"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
