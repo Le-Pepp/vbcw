@@ -312,6 +312,16 @@ spriteTypes = {
 	###FASCISTS###
 	
 	SpriteType = {
+		name = "GFX_BUF_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/BUF_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BUF_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/BUF_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_BUF_early_armoured_car_medium"
 		texturefile = "gfx/interface/technologies/tanks/BUF/BUF_early_armored_car.dds"
 	}
@@ -604,6 +614,16 @@ spriteTypes = {
 	}
 	
 	###ANGLICANS###
+	
+	SpriteType = {
+		name = "GFX_ANG_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/ANG_motorized_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ANG_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/ANG_motorized_equipment_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_ANG_early_armoured_car_medium"
