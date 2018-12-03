@@ -1,9 +1,24 @@
 ﻿l_english:
 
 ###FOCUSES###
-
-
-
+JAC_invite_rupprecht:0 "Invite Rupprecht"
+JAC_invite_rupprecht_desc:0 "The King of Bavaria, and the only traceable Stuart heir, King Rupprecht, has a tricky situation in Germany. With Nazi government stripping him of more and more power, he is desperate to get away from his homeland. Compton MacKenzie, the leader of the movement to reclaim the throne for the Stuarts, suggests we invite him to the Highlands to lead a cause against the Republicans, and to restore the House of Stuart to their rightful throne."
+JAC_royal_treachery:0 "Royal Treachery"
+JAC_royal_treachery_desc:0 "Rupprecht is old, and his lust for power may be too great. In order to prevent an unjust dictatorship he must be userped in favour of his wife, Queen Antonia."
+JAC_a_new_direction:0 "A New Direction"
+JAC_a_new_direction_desc:0 "Religous and monarchial wars are a thing of medieval past. To secure popular support from the people, we shall move towards progressive policies and democratic rule, and focus our efforts in destroying Fascist rule from the isles."
+JAC_end_religous_discrimination:0 "End Religous Discrimination"
+JAC_end_religous_discrimination_desc:0 "We shall be inclusive of all sects of christianty in our movement. Instead of bickering over small differences, our people should be focused on progressing our kingdom."
+JAC_reconcile_the_english:0 "Reconcile the English"
+JAC_reconcile_the_english_desc:0 "Scotland and England are more alike than different. We have practically the same heritidge, the same history, the same language and we are from the same peoples. The neanderthalic hate that surrounds the two ethnicities is centuries old and unjust today. Envoys shall be sent to the major factions in England in order to break the feud."
+JAC_york_treaty:0 "Treaty with the Roundheads"
+JAC_york_treaty_desc:0 "Prince Albert, and the 'Yorkists' who follow him share a common goal with us Jacobites; the removal of the Fascist plague from our lands. Perhaps they will be interested in a treaty of sorts, to solidify our two factions common goal. Surely this will last long, and shall prove fruitful. I mean, when was the last time a king misused power?"
+JAC_break_the_treaty:0 "Break the Treaty"
+JAC_break_the_treaty_desc:0 "Right, this isn't working. We like democracy and parliment and all that, but remember, remeber the Fifth of November? They tried to blow our king up, for heavens sake! And was it not the Roundheads and parlimentarians under Cromwell that overthrew our king, cut off his head and caused a civil war? Now is the time for action, in order to reclaim our throne. We must act quickly and ruthlessly to unify the isles under a Stuart once more. Onwards men, down with Albert and the Windsors!"
+JAC_unify_scotland:0 "Unify Scotland"
+JAC_unify_scotland_desc:0 "With all the land that constitutes as Scotland under our juristiction, the process of rebuilding and unification can begin. Erase the stain of Bolshevism from Glasgow, and scrub Edinburgh clean of the Fascist menace. Only by doing this do we stand a chance of striking southwards."
+JAC_create_a_constitution:0 "Create a Constitution"
+JAC_create_a_constitution_desc:0 "Scotland is ours. Internal dissent has been quashed. Finally, we can put our master plan into action. A democratic society, and a unified Kingdom of Scotland, England and Ireland. A new constitution guarantees all of these things. Let the writing begin!"
 ###EVENTS###
 
 
