@@ -69,7 +69,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_a_new_direction
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_generic_major_alliance
 		cost = 10
 		x = 0
 		y = 2
@@ -83,7 +83,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_end_religous_discrimination
-		icon = GFX_focus_generic_commonwealth_build_infantry
+		icon = GFX_focus_generic_self_management
 		cost = 10
 		x = 0
 		y = 3
@@ -97,7 +97,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_reconcile_the_english
-		icon = GFX_focus_prc_infiltration
+		icon = GFX_chi_birish_cooperation
 		cost = 10
 		x = 0
 		y = 4
@@ -120,7 +120,7 @@ focus_tree = {
   
 	focus = {
 		id = JAC_york_treaty
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_goal_generic_treaty
 		cost = 10
 		x = 0
 		y = 5
@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_break_the_treaty
-		icon = GFX_focus_generic_coastal_fort
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		x = 0
 		y = 6
@@ -156,7 +156,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_unify_scotland
-		icon = GFX_goal_mass_army
+		icon = GFX_goal_generic_national_unity
 		cost = 5
 		x = 2
 		y = 4
@@ -174,7 +174,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAC_create_a_constitution
-		icon = GFX_goal_cornish_militiaman	
+		icon = GFX_goal_generic_treaty
 		cost = 15
 		x = 2
 		y = 5
@@ -195,7 +195,7 @@ focus_tree = {
 				desc = "POLITICS_WANG_MING_DESC"
 				picture = "gfx/leaders/VBCW/JAC/JAC-Antonia"
 				expire = "1965.1.1"
-				ideology = autocratic_subtype
+				ideology = conservative_subtype
 				traits = { }
 			}
 			country_event = JAC_events.3
