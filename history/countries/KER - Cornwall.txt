@@ -26,6 +26,7 @@ set_technology = {
 	early_corvette = 1
 	early_sloop = 1
 	guerilla_warfare = 1
+	support_weapons = 1
 }
 
 set_politics = {
