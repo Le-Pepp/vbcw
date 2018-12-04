@@ -145,10 +145,7 @@ grand_battle_plan_ratios = {
 
 mass_assault_ratios = {
 	enable = {
-		has_tech = mass_assault
-	}
-	abort = {
-		has_tech = large_front_operations
+		has_tech = guerilla_warfare
 	}
 	
 	ai_strategy = {
@@ -159,33 +156,9 @@ mass_assault_ratios = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = anti_tank
-		value = 5
-	}
-
-}
-
-#Later in  mass_assault tree
-large_front_operations_ratios = {
-	enable = {
-		has_tech = large_front_operations
-	}
-	abort = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
+		id = armor
 		value = -10
 	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 10
-	}
-	
 }
 
 
