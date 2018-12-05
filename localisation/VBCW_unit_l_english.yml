@@ -1,4 +1,6 @@
 ﻿l_english:
+
+###Generic unit Types###
  militia:0 "Militia"
  militia_desc:0 "Hastily organised and equipped infantry units"
  yeomanry:0 "Yeomanry"
@@ -15,7 +17,13 @@
  marching_band_desc:0 "Musicians, to keep up our morale and erode the enemy's."
  mechanised_recon:0 "Armoured Recce"
  mechanised_recon_desc:0 "A mechanised reconnaisance platoon."
+ 
+###Faction-Specific Names###
  ROY_mechanised_recon:0 "Carrier Platoon"
+ BUF_mechanised_recon:0 "Carrier Platoon"
+ YRK_mechanised_recon:0 "Carrier Platoon"
+ ANG_mechanised_recon:0 "Carrier Platoon"
+ 
  SCO_marching_band:0 "Pipe Band"
  JAC_marching_band:0 "Pipe Band"
  WAL_marching_band:0 "Male Voice Choir"
