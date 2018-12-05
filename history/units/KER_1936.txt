@@ -110,7 +110,7 @@ units = {
 			name_order = 42
 		}
 		location = 56
-		division_template = "KLA Battalions"
+		division_template = "KLA Battalion"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.95
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
@@ -121,7 +121,7 @@ units = {
 			name_order = 41
 		}
 		location = 78
-		division_template = "KLA Battalions"
+		division_template = "KLA Battalion"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.85
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
@@ -132,7 +132,7 @@ units = {
 			name_order = 43
 		}
 		location = 97
-		division_template = "KLA Battalions"
+		division_template = "KLA Battalion"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.85
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
@@ -143,7 +143,7 @@ units = {
 			name_order = 45
 		}
 		location = 112
-		division_template = "KLA Battalions"
+		division_template = "KLA Battalion"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.75
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
