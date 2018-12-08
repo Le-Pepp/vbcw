@@ -78,9 +78,11 @@
  corvette_tech:0 "Corvette models"
  sloop_tech:0 "Sloop models"
  trawler_tech:0 "Trawler models"
+ motorboat_tech:0 "Motorboat models"
  gunboat_tech:0 "Gunboat models"
  torpedo_boat_tech:0 "Torpedo boat models"
  monitor_tech:0 "Monitor models"
+ cvl_tech:0 "Light Carrier models"
  
  NAVAL_TITLE_CORVETTES:0 "CORVETTES"
  NAVAL_TITLE_SLOOPS:0 "SLOOPS"
