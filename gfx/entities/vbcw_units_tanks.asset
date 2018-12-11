@@ -377,9 +377,6 @@ entity = {
 	}
 }
 
-
-
-
 entity = {
 	name = "ANG_medium_armor_entity"
 	pdxmesh = "FRA_tank_light_mesh"
@@ -635,11 +632,6 @@ entity = {
 	}
 }
 
-
-
-
-
-
 entity = {
 	name = "YRK_light_armor_entity"
 	pdxmesh = "USA_tank_light_mesh"
@@ -765,5 +757,3 @@ entity = {
 		texture_anim_speed = 0.5
 	}
 }
-
-
