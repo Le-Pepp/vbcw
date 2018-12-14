@@ -20,6 +20,26 @@
 }
 
 division_template = {
+	name = "Guards Regiment"			
+	division_names_group = ROY_INF_01
+
+	regiments = {
+		guards = { x = 0 y = 0 }
+		guards = { x = 0 y = 1 }
+		guards = { x = 0 y = 2 }
+        guards = { x = 0 y = 3 }
+		guards = { x = 1 y = 0 }
+		guards = { x = 1 y = 1 }
+		guards = { x = 1 y = 2 }
+        guards = { x = 1 y = 3 }
+	}
+	support = {
+       	signal_company = { x = 0 y = 0 }
+       	marching_band = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
 	name = "Motor Regiment"			
 	division_names_group = ROY_MOT_01
 
