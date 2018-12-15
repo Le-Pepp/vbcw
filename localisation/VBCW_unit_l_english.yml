@@ -1,6 +1,8 @@
 ﻿l_english:
 
 ###Generic unit Types###
+ guards:0 "Guards"
+ guards_desc:0 "Well trained and highly disciplined infantry"
  militia:0 "Militia"
  militia_desc:0 "Hastily organised and equipped infantry units"
  yeomanry:0 "Yeomanry"
