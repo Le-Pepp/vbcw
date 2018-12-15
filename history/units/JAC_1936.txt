@@ -73,20 +73,54 @@ division_template = {
 	}
 	priority = 0
 }
+division_template = {
+	name = "Mountaineers"		
+	division_names_group = JAC_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	   	mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
 
 
 units = {
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1968
-		division_template = "Highland Militia"
-		start_experience_factor = 0.0
+		division= {	
+		name = "King's Guard"
+		location = 2003
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
-
+	division= {	
+		division= {	
+		name = "42nd Regiment of the Foot"
+		location = 1966
+		division_template = "Mountaineers"
+		start_experience_factor = 0.1
+	}	
+	division= {	
+		division= {	
+		name = "92nd Highlanders"
+		location = 1910
+		division_template = "Mountaineers"
+		start_experience_factor = 0.1
+	}	
+	division= {	
+		division= {	
+		name = "1st Inverness Levy"
+		location = 1969
+		division_template = "Mountaineers"
+		start_experience_factor = 0.1
+	}		
+	
+	
 	
 	################
 	##### NAVY #####
