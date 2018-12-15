@@ -1,6 +1,6 @@
-###FASCISTS###
-
 objectTypes = {
+
+###FASCISTS###
 	pdxmesh = {
 		name = "BUF_infantry_rifle_mesh"
 		file = "gfx/models/units/BUF_infantry.mesh"
@@ -54,11 +54,8 @@ objectTypes = {
 		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
 	}
-}
 
 ###YORKISTS###
-
-objectTypes = {
 	pdxmesh = {
 		name = "YRK_infantry_rifle_mesh"
 		file = "gfx/models/units/YRK_infantry.mesh"
@@ -112,11 +109,8 @@ objectTypes = {
 		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
 	}
-}
 
 ###ANGLICANS###
-
-objectTypes = {
 	pdxmesh = {
 		name = "ANG_infantry_rifle_mesh"
 		file = "gfx/models/units/ANG_infantry.mesh"
@@ -170,4 +164,6 @@ objectTypes = {
 		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
 	}
+	
+###SOCIALISTS###
 }
