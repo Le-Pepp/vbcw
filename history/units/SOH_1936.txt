@@ -264,5 +264,29 @@ instant_effect = {
 		amount = 30
 		producer = CIV
 	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 4
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 8
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 3
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 4
+		producer = ENG
+	}
 }
 	#####################

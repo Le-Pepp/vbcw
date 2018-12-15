@@ -35,4 +35,5 @@
 	formation_flying = 1
 	synth_oil_experiments = 1
 	transport = 1
+	early_armoured_car = 1
 }
