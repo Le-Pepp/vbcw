@@ -15,8 +15,10 @@
 	support = {
        	engineer = { x = 0 y = 0 }
        	artillery = { x = 0 y = 1 }
+        marching_band = { x = 0 y = 2 }
 	}
 }
+
 division_template = {
 	name = "Workers' Mounted Regiment"
 	division_names_group = SOC_CAV_01
@@ -31,8 +33,44 @@ division_template = {
 	}
 	support = {
         recon = { x = 0 y = 0 }
+        marching_band = { x = 0 y = 1 }
 	}
 }
+
+division_template = {
+	name = "Flying Column"			
+	division_names_group = SOC_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+        marching_band = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "People's Militia"
+	division_names_group = SOC_GAR_01
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = {
+        marching_band = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
 division_template = {
 	name = "Mounted People's Militia"
 	division_names_group = SOC_YEO_01
@@ -45,46 +83,216 @@ division_template = {
 		yeomanry = { x = 1 y = 1 }
 		yeomanry = { x = 1 y = 2 }
 	}
-	priority = 0
-}
-division_template = {
-	name = "Tank Battlion"
-	division_names_group = SOC_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Reserve Workers' Regiment"
-	division_names_group = SOC_GAR_01
-	
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
-		militia = { x = 2 y = 2 }
+	support = {
+        marching_band = { x = 0 y = 0 }
 	}
 	priority = 0
 }
-
 
 units = {
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 253
-		division_template = "General Workers' Regiment"
-		start_experience_factor = 0.2
+		name = "Dowlais Ironworkers’ Defence Force"
+		location = 2411
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.85
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
+	division= {	
+		name = "Port Talbot Ironworkers’ Militia"
+		location = 297
+		division_template = "People's Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.95
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Port Talbot Dockers’ Brigade"
+		location = 2412
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.90
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "1st Rhondda Regiment"
+		location = 322
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.95
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "2nd Rhondda Regiment"
+		location = 322
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.95
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "3rd Rhondda Regiment"
+		location = 299
+		division_template = "Mounted People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.92
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "4th Rhondda Regiment"
+		location = 341
+		division_template = "Mounted People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.97
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Ebbw Vale Miners’ Militia"
+		location = 304
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.97
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Taff Vale Railwaymen’s Brigade"
+		location = 270
+		division_template = "Flying Column"
+		start_experience_factor = 0.0
+		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { early_armoured_car_equipment = { owner = "CIV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+	}
+	division= {	
+		name = "Barry Dockers’ Contingent"
+		location = 253
+		division_template = "People's Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.95
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Barry Railwaymen’s Militia"
+		location = 239
+		division_template = "Flying Column"
+		start_experience_factor = 0.0
+		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { early_armoured_car_equipment = { owner = "CIV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+	}
+	division= {	
+		name = "Swansea Smelters’ Brigade"
+		location = 313
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.92
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "1st Swansea Metalworkers’ Regiment"
+		location = 337
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.95
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "2nd Swansea Metalworkers’ Regiment"
+		location = 352
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.90
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Merthyr Rising Memorial Militia"
+		location = 325
+		division_template = "People's Militia"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+	}
+	division= {	
+		name = "Merthyr Tydfil Miners’ Regiment"
+		location = 2411
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Cardiff Dockworkers’ Regiment"
+		location = 253
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Cardiff Machinists’ Militia"
+		location = 271
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Cardiff Unemployed Men’s Militia"
+		location = 308
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Newport Unemployed Men’s Militia"
+		location = 298
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "South Wales Sailors’ Soviet"
+		location = 253
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "South Wales Methodist Militia"
+		location = 288
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Cardiff and Swansea Postal Workers’ Detachment"
+		location = 238
+		division_template = "Mounted People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.97
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Cardiff Transport Workers’ Regiment"
+		location = 270
+		division_template = "Flying Column"
+		start_experience_factor = 0.0
+		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { early_armoured_car_equipment = { owner = "CIV" } }
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+	}
+	division= {	
+		name = "Monmouth Mounted Militia"
+		location = 2410
+		division_template = "Mounted People's Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.97
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+	division= {	
+		name = "Abergavenny Methodist Militia"
+		location = 365
+		division_template = "People's Militia"
+		start_experience_factor = 0.0
+		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
+	}
+
 
 	
 	################
@@ -138,12 +346,66 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "SOC"
 		}
 		requested_factories = 2
 		progress = 0.1
 		efficiency = 50
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 200
+		producer = CIV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 180
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 120
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 80
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 35
+		producer = CIV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 8
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 8
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 6
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 8
+		producer = ENG
 	}
 }
 	#####################

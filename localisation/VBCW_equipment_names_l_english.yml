@@ -153,8 +153,12 @@
 
  ###CIVILIANS###
 
- CIV_motorized_equipment_1:0 "Civilian Lorries"
+ CIV_motorized_equipment_1:0 "Civilian Lorry"
+ CIV_motorized_equipment_1_short:0 "Civ. Lorry"
  CIV_infantry_equipment_0:0 "Commandeered Arms"
+ CIV_infantry_equipment_0_short:0 "Commandeered Arms"
+ CIV_infantry_equipment_1:0 "Commandeered Arms"
+ CIV_infantry_equipment_1_short:0 "Commandeered Arms"
  CIV_fighter_equipment_0:0 "Improvised Fighter"
  CIV_fighter_equipment_0_short:0 "Imp. Fighter"
  CIV_tac_bomber_equipment_0:0 "Improvised Bomber"
