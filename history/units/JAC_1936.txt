@@ -90,33 +90,29 @@ division_template = {
 
 
 units = {
-	division= {	
-		division= {	
+	division= {		
 		name = "King's Guard"
 		location = 2003
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
-	division= {	
-		division= {	
+	division= {		
 		name = "42nd Regiment of the Foot"
 		location = 1966
 		division_template = "Mountaineers"
 		start_experience_factor = 0.1
 	}	
-	division= {	
-		division= {	
+	division= {		
 		name = "92nd Highlanders"
 		location = 1910
 		division_template = "Mountaineers"
 		start_experience_factor = 0.1
 	}	
 	division= {	
-		division= {	
 		name = "1st Inverness Levy"
 		location = 1969
-		division_template = "Mountaineers"
+		division_template = "Highland Militia"
 		start_experience_factor = 0.1
 	}		
 	
