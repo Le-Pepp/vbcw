@@ -136,7 +136,7 @@ division_template = {
 
 
 division_template = {
-	name = "Local Defence Volunteers"
+	name = "Rifle Volunteers"
 	division_names_group = YRK_GAR_01
 	
 	regiments = {
@@ -157,16 +157,17 @@ division_template = {
 	regiments = {
 		yeomanry = { x = 0 y = 0 }
 		yeomanry = { x = 0 y = 1 }
-		yeomanry = { x = 0 y = 2 }
 		yeomanry = { x = 1 y = 0 }
 		yeomanry = { x = 1 y = 1 }
-		yeomanry = { x = 1 y = 2 }
 	}
 	priority = 0
 }
 
 
 units = {
+
+	###GUARDS###
+	
 	division= {	
 		name = "Grenadier Guards"
 		location = 1236
@@ -179,6 +180,453 @@ units = {
 		location = 1505
 		division_template = "Guards Regiment"
 		start_experience_factor = 0.3
+	}
+	
+	###CAVALRY/ARMOUR###
+	
+	division= {	
+		name = "Royal Horse Guards"
+		location = 1040
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name = "2nd Dragoon Guards"
+		location = 465
+		division_template = "Light Armoured Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "5th Inniskilling Dragoon Guards"
+		location = 911
+		division_template = "Light Armoured Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "2nd Dragoons"
+		location = 1236
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "4th Hussars"
+		location = 358
+		division_template = "Armoured Car Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "9th Queen’s Royal Lancers"
+		location = 1349
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "13th/18th (Queen Mary’s Own) Hussars"
+		location = 1216
+		division_template = "Armoured Car Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	###INFANTRY###
+	
+	division= {	
+		name = "Royal Scots"
+		location = 1513
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "Royal Northumberland Fusiliers"
+		location = 1633
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	division= {	
+		name = "The Lincolnshire Regiment"
+		location = 1097
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.2
+	}
+	
+	###MILITIA###
+	
+	division= {	
+		name = "1st East Suffolk Volunteers"
+		location = 489
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd East Suffolk Volunteers"
+		location = 2405
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st East Suffolk Irregulars"
+		location = 464
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "Lindsey Volunteers"
+		location = 158
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Lindsey Irregulars"
+		location = 904
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Lindsey Irregulars"
+		location = 935
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Lindsey Irregulars"
+		location = 955
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "4th Lindsey Irregulars"
+		location = 986
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Pembroke Volunteers"
+		location = 2414
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Pembroke Volunteers"
+		location = 2413
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Pembroke Irregulars"
+		location = 317
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Pembroke Irregulars"
+		location = 358
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Pembroke Irregulars"
+		location = 402
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st City of York Volunteers"
+		location = 1236
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd City of York Volunteers"
+		location = 1216
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd City of York Volunteers"
+		location = 1231
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd City of York Volunteers"
+		location = 1235
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Vale of York Irregulars"
+		location = 1252
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Vale of York Irregulars"
+		location = 1268
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Vale of York Irregulars"
+		location = 1282
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "4th Vale of York Irregulars"
+		location = 1286
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "5th Vale of York Irregulars"
+		location = 1301
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st North Riding Volunteers"
+		location = 1355
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd North Riding Volunteers"
+		location = 2420
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd North Riding Volunteers"
+		location = 1387
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st North Riding Irregulars"
+		location = 1327
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd North Riding Irregulars"
+		location = 1319
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Teesside Volunteers"
+		location = 1420
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Teesside Volunteers"
+		location = 1411
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Teesside Volunteers"
+		location = 1412
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "4th Teesside Volunteers"
+		location = 1414
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Teesside Irregulars"
+		location = 1373
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Teesside Irregulars"
+		location = 1378
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Westmorland Volunteers"
+		location = 1349
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Westmorland Volunteers"
+		location = 1305
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Westmorland Irregulars"
+		location = 1354
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Westmorland Irregulars"
+		location = 1362
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Furness Volunteers"
+		location = 1272
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Furness Volunteers"
+		location = 1287
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "Furness Irregulars"
+		location = 1293
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Lakeland Volunteers"
+		location = 1401
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Lakeland Volunteers"
+		location = 1438
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "Lakeland Irregulars"
+		location = 1403
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Cumberland Volunteers"
+		location = 1505
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Cumberland Volunteers"
+		location = 1505
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Cumberland Volunteers"
+		location = 2421
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Cumberland Irregulars"
+		location = 1466
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Cumberland Irregulars"
+		location = 1531
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Northumbria Volunteers"
+		location = 1571
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Northumbria Volunteers"
+		location = 1666
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "3rd Northumbria Volunteers"
+		location = 1559
+		division_template = "Rifle Volunteers"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "1st Northumbria Irregulars"
+		location = 1601
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}
+	
+	division= {	
+		name = "2nd Northumbria Irregulars"
+		location = 1488
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
 	}
 
 	

@@ -16,7 +16,7 @@ ideas = {
 			picture = george_vi
 			
 			modifier = {
-				non_core_manpower = 0.5
+				conscription_factor = 0.25
 			}
 		}
 	}

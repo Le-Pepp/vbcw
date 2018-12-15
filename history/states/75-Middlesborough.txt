@@ -4,7 +4,7 @@ state={
 	provinces={
 		1411 1412 1420 
 	}
-	manpower=150000
+	manpower=175000
 	
 	resources = {
 		oil = 8
@@ -14,7 +14,7 @@ state={
 	state_category = city
 	
 	history={
-		add_extra_state_shared_building_slots = 2
+		add_extra_state_shared_building_slots = 3
 		owner = YRK
 		add_core_of = YRK
 		add_claim_by = ROY
