@@ -737,7 +737,7 @@ instant_effect = {
 		}
 		requested_factories = 3
 		progress = 0.1
-		efficiency = 50
+		efficiency = 60
 	}
 }
 	#####################

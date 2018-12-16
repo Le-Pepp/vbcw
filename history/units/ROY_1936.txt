@@ -245,19 +245,13 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		name = "Welsh Guards"
-		location = 511
-		division_template = "Guards Regiment"
-		start_experience_factor = 0.3
-	}
-	division= {	
 		name = "Queen's (Royal West Surrey) Regiment"
 		location = 2395
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 	}
 	division= {	
-		name = Royal Warickshire Regiment"
+		name = "Royal Warwickshire Regiment"
 		location = 2400
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
@@ -407,92 +401,92 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		name = "1st LDV "Oxford and Cambridge""
+		name = "1st LDV 'Oxford and Cambridge'"
 		location = 448
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "2nd LDV Warwickshire "The Bard's Own""
+		name = "2nd LDV Warwickshire 'The Bard's Own'"
 		location = 518
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "3rd LDV "Bucks Volunteers""
+		name = "3rd LDV 'Bucks Volunteers'"
 		location = 2397
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "4th LDV "Evesham Irregulars""
+		name = "4th LDV 'Evesham Irregulars'"
 		location = 468
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "14th LDV "City of Bristol""
+		name = "14th LDV 'City of Bristol'"
 		location = 289
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "23rd LDV "Royal South Gloucesters""
+		name = "23rd LDV 'Royal South Gloucesters'"
 		location = 384
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "27th LDV "Middlesex""
+		name = "27th LDV 'Middlesex'"
 		location = 320
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "31st LDV "Royal Brecon""
+		name = "31st LDV 'Royal Brecon'"
 		location = 2416
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "33rd LDV "Royal Wiltshire""
+		name = "33rd LDV 'Royal Wiltshire'"
 		location = 139
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	
 	division= {	
-		name = "44th LDV "Glamorgan""
+		name = "44th LDV 'Glamorgan'"
 		location = 376
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "52nd LDV "Herefordshire""
+		name = "52nd LDV 'Herefordshire'"
 		location = 475
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "54th LDV "Shropshire""
+		name = "54th LDV 'Shropshire'"
 		location = 723
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "57th LDV "Monmouthshire""
+		name = "57th LDV 'Monmouthshire'"
 		location = 398
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "67th LDV "Worcester""
+		name = "67th LDV 'Worcester'"
 		location = 398
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "15th Middlesex "Docks and Customs""
+		name = "15th Middlesex 'Docks and Customs'"
 		location = 311
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
@@ -931,7 +925,53 @@ instant_effect = {
 		}
 		requested_factories = 3
 		progress = 0.1
+		efficiency = 60
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROY"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 60
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ROY"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 55
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "ROY"
+		}
+		requested_factories = 1
+		progress = 0.3
 		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = mechanized_equipment_1
+			creator = "ROY"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 450
+		producer = CIV
 	}
 }
 	#####################

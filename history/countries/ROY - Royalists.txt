@@ -90,6 +90,7 @@ set_politics = {
 
 add_ideas = {
 	ROY_cavalry_elan
+	limited_conscription
 }
 
 create_faction = Legitimists
