@@ -70,6 +70,7 @@ set_politics = {
 add_ideas = {
 	no_man_an_island
 	JAC_highlanders
+	limited_conscription
 }
 
 set_convoys = 50

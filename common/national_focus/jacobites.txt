@@ -250,7 +250,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = italian_advisors
+			add_ideas = JAC_italian_advisors
 		}
 	}
 
@@ -589,7 +589,7 @@ focus_tree = {
 			create_navy_leader = {
 				name = "Jean-Pierre Esteva "
 				portrait_path = "gfx/leaders/VBCW/JAC/JAC_Esteva.dds"
-				traits = { sea_wolf }
+				traits = { seawolf }
 				skill = 2
 			}   
 		}
