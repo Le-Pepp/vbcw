@@ -96,6 +96,24 @@ units = {
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	division= {		
+		name = "The Cameronians (Scottish Rifles)"
+		location = 1848
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {
+		name = "The Seaforth Highlanders (Ross-shire Buffs, The Duke of Albany’s)"
+		location = 2428
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}	
+	division= {
+		name = "The Queen’s Own Cameron Highlanders"
+		location = 1984
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}		
+	division= {		
 		name = "42nd Regiment of the Foot"
 		location = 1966
 		division_template = "Mountaineers"
