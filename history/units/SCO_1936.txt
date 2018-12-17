@@ -454,7 +454,7 @@ units = {
 	}	
 	division= {	
 		name = "Fife Flying Column"
-		location = 358
+		location = 1784
 		division_template = "Armoured Car Regiment"
 		start_experience_factor = 0.2
 	}	
