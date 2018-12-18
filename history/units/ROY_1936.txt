@@ -329,12 +329,6 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		name = "The Prince of Wales’s Volunteers (South Lancashire Regiment)"
-		location = 1048
-		division_template = "Infantry Regiment"
-		start_experience_factor = 0.1
-	}
-	division= {	
 		name = "Oxfordshire and Buckinghamshire Light Infantry"
 		location = 377
 		division_template = "Infantry Regiment"
@@ -378,7 +372,7 @@ units = {
 	}
 	division= {	
 		name = "The North Staffordshire Regiment (Prince of Wales')"
-		location = 1048
+		location = 1240
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.1
 	}
@@ -450,7 +444,7 @@ units = {
 	}
 	division= {	
 		name = "33rd LDV 'Royal Wiltshire'"
-		location = 139
+		location = 359
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -469,7 +463,7 @@ units = {
 	}
 	division= {	
 		name = "54th LDV 'Shropshire'"
-		location = 723
+		location = 623
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -705,7 +699,7 @@ units = {
 	}		
 	division= {	
 		name = "Brecknockshire Irregulars"
-		location = 2416
+		location = 388
 		division_template = "Local Defence Volunteers"
 		start_experience_factor = 0.0
 	}	
@@ -778,14 +772,14 @@ units = {
 	}	
 	division= {	
 		name = "9th Motor Battalion ‘Wurttemburg Cross’"
-		location = 1220
+		location = 1264
 		division_template = "Motor Regiment"
 		start_experience_factor = 0.0
 	}	
 	
 	division= {	
 		name = "1st Armoured Car Regiment"
-		location = 1220
+		location = 1321
 		division_template = "Armoured Car Regiment"
 		start_experience_factor = 0.0
 	}	
