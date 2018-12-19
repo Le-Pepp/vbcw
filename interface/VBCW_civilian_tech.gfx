@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_CIV_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/CIV_mechanized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_CIV_infantry_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/CIV_infantry_equipment_0.dds"
 	}	
