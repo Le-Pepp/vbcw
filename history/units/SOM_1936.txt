@@ -42,9 +42,9 @@ division_template = {
 		light_armor = { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
 	}
 }
 
@@ -599,7 +599,7 @@ units = {
 		division_template = "Tank Battalion"
 		start_experience_factor = 0.0
 		force_equipment_variants = { gw_tank_equipment = { owner = "CIV" } }
-		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "CIV" } }
 	}		
 	division= {	
 		name = "Leeds Flying Column"
@@ -607,7 +607,7 @@ units = {
 		division_template = "Tank Battalion"
 		start_experience_factor = 0.0
 		force_equipment_variants = { gw_tank_equipment = { owner = "CIV" } }
-		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "CIV" } }
 	}	
 	division= {	
 		name = "Nottingham Tracked Battalion"
@@ -615,7 +615,7 @@ units = {
 		division_template = "Tank Battalion"
 		start_experience_factor = 0.0
 		force_equipment_variants = { gw_tank_equipment = { owner = "CIV" } }
-		force_equipment_variants = { motorized_equipment_1 = { owner = "CIV" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "CIV" } }
 	}	
 	division= {	
 		name = "I Postal Lancers"
