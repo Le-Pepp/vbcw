@@ -34,6 +34,6 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_CIV_gwtank_medium"
-		texturefile = "gfx/interface/technologies/planes/CIV_gwtank.dds"
+		texturefile = "gfx/interface/technologies/CIV_gwtank.dds"
 	}
 }

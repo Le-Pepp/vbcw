@@ -364,7 +364,7 @@ units = {
 	}	
 	division= {	
 		name = "Leeds Metalworkers’ Brigade"
-		location = 1117
+		location = 1177
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
 	}	
@@ -544,7 +544,7 @@ units = {
 	}		
 	division= {	
 		name = "Bevin Brigade"
-		location = 846
+		location = 869
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
 	}	

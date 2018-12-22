@@ -155,6 +155,8 @@
 
  CIV_motorized_equipment_1:0 "Civilian Lorry"
  CIV_motorized_equipment_1_short:0 "Civ. Lorry"
+ CIV_mechanized_equipment_1:0 "Improvised APC"
+ CIV_mechanized_equipment_1_short:0 "Imp. APC"
  CIV_infantry_equipment_0:0 "Commandeered Arms"
  CIV_infantry_equipment_0_short:0 "Commandeered Arms"
  CIV_infantry_equipment_1:0 "Commandeered Arms"
@@ -163,10 +165,10 @@
  CIV_fighter_equipment_0_short:0 "Imp. Fighter"
  CIV_tac_bomber_equipment_0:0 "Improvised Bomber"
  CIV_tac_bomber_equipment_0_short:0 "Imp. Bomber"
- CIV_early_armoured_car_equipment:0 "Heath-Robinson Armoured Car"
- CIV_early_armoured_car_equipment_short:0 "Heath-Robinson AC"
- CIV_gw_tank_equipment:0 "Heath-Robinson Tank"
- CIV_gw_tank_equipment_short:0 "Heath-Robinson Tank"
+ CIV_early_armoured_car_equipment:0 "Improvised Armoured Car"
+ CIV_early_armoured_car_equipment_short:0 "Imp. Armoured Car"
+ CIV_gw_tank_equipment:0 "Improvised Tank"
+ CIV_gw_tank_equipment_short:0 "Imp. Tank"
 
  ###ROYALISTS### 
 
