@@ -155,7 +155,21 @@ KER_INF_01 =
 		103 = { "4th Battalion Duke of Cornwall's Light Infantry" }
 	}
 }
-
+KER_VOL_01 = {name = "Volunteer Brigades"
+	      for_countries = {KER}
+	      can_use = {always = yes}
+	      division_types = { "infantry" }
+	      ordered =
+	{
+		1 = { "1.Brigada de Voluntarios Celta" }
+		2 = { "2.Brigada de Voluntarios Celta" }
+		3 = { "1.Breton Volunteer Brigade" }
+		4 = { "1.Irish Celtic Brigade" }
+		5 = { "2.Irish Celtic Brigade" }
+		6 = { "3.Irish Celtic Brigade" }
+	}
+	   
+}   
 KER_CAV_01 = 
 {
 	name = "Cavalry Regiments"

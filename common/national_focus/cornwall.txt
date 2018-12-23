@@ -795,7 +795,9 @@ focus = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			add_political_power = 75	
+			swap_ideas = {remove_idea = KER_pasty_service_external
+					 add_idea = KER_pasty_service_external_2
+		}	
 	}
 }
 focus = {

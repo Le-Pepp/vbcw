@@ -166,6 +166,7 @@ KER_means_tech_boost:0 "The Cornish Means"
  KER_deep_sleep_desc:0 "There are many enemies in London - the raving luncatic Spode being one of them. Killing him would be a mercy, we all know who will be paraded through Berkley Square on pikes when London falls to our forces. Rather, we should destroy his career. There have been some vicious rumors about him owning a certain chain of shops selling ladies' underwear..."
  KER_remember_remember:0 "Remember, Remember"
  KER_remember_remember_desc:0 ""
+ KER_pasty_service_external_2:0 "The Black Cats"
 ###EVENTS###
 KER_events.1.t:0 "The Cornish Propose a Trade Deal"
 KER_events.1.d:0 "A few days ago, a Cornish delegation with a very thick accent arrived in the city of Cork. After a very confusing dialogue in which both sides attempted to understand each other, it was finally decided that these strange men must be here as some sort of delegation. They were taken to the local mayor who finally managed to get to the bottom of the situation - these men are a trade delegation for Kernow. They were invited to speak with our own ministers, and over a nice cup of tea decided that - "
@@ -193,6 +194,8 @@ KER_events.8.t:0 "The Focus of the Factories"
 KER_events.8.d:0 "With the increasing number of munitions factories, our factories are becoming very unfocused, mainly putting together whatever they want. Because of this, it is becoming much more difficult to keep our armies well supplied. A council of our largest factory owners has been called in Truro - we should decide whether we should focus on quality rifles, or rather on assembling more artillery to feed our divisions on the front."
 KER_events.8.a:0 "Focus on Artillery"
 KER_events.8.b:0 "Focus on Quality Weapons"
+####DECISIONS###
+recruit_breton_volunteers:0 "Recruit Breton Volunteers"
 ###TECHS###
  KER_early_armoured_car_equipment:0 "Mole"
  KER_early_armoured_car_equipment_short:0 "Mole"
