@@ -40,6 +40,7 @@
 	early_trawler = 1
 	basic_trawler = 1
 	trench_warfare = 1
+	support_weapons = 1
 
 	transport = 1
 	fleet_in_being = 1

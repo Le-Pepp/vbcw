@@ -45,6 +45,7 @@ focus_tree = {
 			}
 		}
 	}
+	
 ###DOCKYARDS###
 
 	focus = {
@@ -173,8 +174,7 @@ focus_tree = {
 		cost = 10
 		x = 4
 		y = 2
-		prerequisite = {focus = LIV_liverpudlian_industry}
-		mutually_exclusive = {}
+		prerequisite = { focus = LIV_liverpudlian_industry }
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -209,14 +209,14 @@ focus_tree = {
 			}
 		}
 	}
-		
+	
 	focus = {
 		id = LIV_pave_the_roads
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10
 		x = 4
 		y = 4
-		prerequisite = {focus = LIV_new_industries}
+		prerequisite = { focus = LIV_new_industries }
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -226,6 +226,7 @@ focus_tree = {
 					level = 3
 					instant_build = yes
 				}
+			}
 			50 = {				
 				add_building_construction = {
 					type = infrastructure
@@ -235,6 +236,8 @@ focus_tree = {
 			}		
 		}
 	}
+
+	
 	
 	focus = {
 		id = LIV_artificial_oil
@@ -257,6 +260,7 @@ focus_tree = {
 				}
 			}
 		}
+	}
 	
 	
 
@@ -777,3 +781,4 @@ focus_tree = {
 			}
 		}
 	}
+}

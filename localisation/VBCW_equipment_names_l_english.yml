@@ -153,16 +153,22 @@
 
  ###CIVILIANS###
 
- CIV_motorized_equipment_1:0 "Civilian Lorries"
+ CIV_motorized_equipment_1:0 "Civilian Lorry"
+ CIV_motorized_equipment_1_short:0 "Civ. Lorry"
+ CIV_mechanized_equipment_1:0 "Improvised APC"
+ CIV_mechanized_equipment_1_short:0 "Imp. APC"
  CIV_infantry_equipment_0:0 "Commandeered Arms"
+ CIV_infantry_equipment_0_short:0 "Commandeered Arms"
+ CIV_infantry_equipment_1:0 "Commandeered Arms"
+ CIV_infantry_equipment_1_short:0 "Commandeered Arms"
  CIV_fighter_equipment_0:0 "Improvised Fighter"
  CIV_fighter_equipment_0_short:0 "Imp. Fighter"
  CIV_tac_bomber_equipment_0:0 "Improvised Bomber"
  CIV_tac_bomber_equipment_0_short:0 "Imp. Bomber"
- CIV_early_armoured_car_equipment:0 "Heath-Robinson Armoured Car"
- CIV_early_armoured_car_equipment_short:0 "Heath-Robinson AC"
- CIV_gw_tank_equipment:0 "Heath-Robinson Tank"
- CIV_gw_tank_equipment_short:0 "Heath-Robinson Tank"
+ CIV_early_armoured_car_equipment:0 "Improvised Armoured Car"
+ CIV_early_armoured_car_equipment_short:0 "Imp. Armoured Car"
+ CIV_gw_tank_equipment:0 "Improvised Tank"
+ CIV_gw_tank_equipment_short:0 "Imp. Tank"
 
  ###ROYALISTS### 
 
@@ -206,14 +212,14 @@
  ROY_anti_tank_equipment_2:0 "QF 6-pounder"
  ROY_anti_tank_equipment_3:0 "QF 17-pounder"
  
- ROY_mechanized_equipment_1:0 "Bren Carrier"
- ROY_mechanized_equipment_1_short:0 "Bren Carrier"
+ ROY_mechanized_equipment_1:0 "Bren Gun Carrier"
+ ROY_mechanized_equipment_1_short:0 "Bren Gun Carrier"
  ROY_mechanized_equipment_2:0 "Universal Carrier"
  ROY_mechanized_equipment_2_short:0 "Universal Carrier"
- ROY_mechanized_equipment_3:0 "Kangaroo Carrier"
- ROY_mechanized_equipment_3_short:0 "Kangaroo Carrier"
+ ROY_mechanized_equipment_3:0 "Balmoral Carrier"
+ ROY_mechanized_equipment_3_short:0 "Balmoral Carrier"
  
- ROY_motorized_equipment_1:1 "Morris C8"
+ ROY_motorized_equipment_1:1 "C8 Quad"
   
  ROY_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  ROY_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -406,14 +412,14 @@
  BUF_anti_tank_equipment_2:0 "QF 6-pounder"
  BUF_anti_tank_equipment_3:0 "QF 17-pounder"
  
- BUF_mechanized_equipment_1:0 "Bren Carrier"
- BUF_mechanized_equipment_1_short:0 "Bren Carrier"
+ BUF_mechanized_equipment_1:0 "Bren Gun Carrier"
+ BUF_mechanized_equipment_1_short:0 "Bren Gun Carrier"
  BUF_mechanized_equipment_2:0 "Universal Carrier"
  BUF_mechanized_equipment_2_short:0 "Universal Carrier"
- BUF_mechanized_equipment_3:0 "Kangaroo Carrier"
- BUF_mechanized_equipment_3_short:0 "Kangaroo Carrier"
+ BUF_mechanized_equipment_3:0 "Imperial Carrier"
+ BUF_mechanized_equipment_3_short:0 "Imperial Carrier"
  
- BUF_motorized_equipment_1:1 "Bedford MW"
+ BUF_motorized_equipment_1:1 "Matador"
   
  BUF_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  BUF_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -606,14 +612,14 @@
  YRK_anti_tank_equipment_2:0 "QF 6-pounder"
  YRK_anti_tank_equipment_3:0 "3-inch Gun M5"
  
- YRK_mechanized_equipment_1:0 "M2 Half Track Car"
- YRK_mechanized_equipment_1_short:0 "M2 Half Track Car"
- YRK_mechanized_equipment_2:0 "M33 Half Track"
+ YRK_mechanized_equipment_1:0 "Bren Gun Carrier"
+ YRK_mechanized_equipment_1_short:0 "Bren Gun Carrier"
+ YRK_mechanized_equipment_2:0 "M3 Half Track"
  YRK_mechanized_equipment_2_short:0 "M3 Half Track"
  YRK_mechanized_equipment_3:0 "M5 Half Track"
  YRK_mechanized_equipment_3_short:0 "M5 Half Track"
  
- YRK_motorized_equipment_1:1 "Vauxhall M"
+ YRK_motorized_equipment_1:1 "Model M"
   
  YRK_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  YRK_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -814,7 +820,7 @@
  ANG_mechanized_equipment_3:0 "AMX-VCI"
  ANG_mechanized_equipment_3_short:0 "AMX-VCI"
  
- ANG_motorized_equipment_1:1 "Crossley Delta"
+ ANG_motorized_equipment_1:1 "Delta-4"
   
  ANG_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  ANG_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -1014,7 +1020,7 @@
  SOC_mechanized_equipment_3:0 "BTR-152"
  SOC_mechanized_equipment_3_short:0 "BTR-152"
  
- SOC_motorized_equipment_1:1 "Austin K2/Y"
+ SOC_motorized_equipment_1:1 "K2/Y"
   
  SOC_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SOC_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -1212,7 +1218,7 @@
  SOD_mechanized_equipment_3:0 "BTR-152"
  SOD_mechanized_equipment_3_short:0 "BTR-152"
  
- SOD_motorized_equipment_1:1 "Austin K2/Y"
+ SOD_motorized_equipment_1:1 "K2/Y"
   
  SOD_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SOD_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -1410,7 +1416,7 @@
  SOG_mechanized_equipment_3:0 "BTR-152"
  SOG_mechanized_equipment_3_short:0 "BTR-152"
  
- SOG_motorized_equipment_1:1 "Austin K2/Y"
+ SOG_motorized_equipment_1:1 "K2/Y"
  
  SOG_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SOG_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -1608,7 +1614,7 @@
  SOH_mechanized_equipment_3:0 "BTR-152"
  SOH_mechanized_equipment_3_short:0 "BTR-152"
  
- SOH_motorized_equipment_1:1 "Austin K2/Y"
+ SOH_motorized_equipment_1:1 "K2/Y"
  
  SOH_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SOH_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -1806,7 +1812,7 @@
  SOM_mechanized_equipment_3:0 "BTR-152"
  SOM_mechanized_equipment_3_short:0 "BTR-152"
  
- SOM_motorized_equipment_1:1 "Austin K2/Y"
+ SOM_motorized_equipment_1:1 "K2/Y"
  
  SOM_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SOM_early_armoured_car_equipment_short:0 "Rolls-Royce"
@@ -2004,7 +2010,7 @@
  SON_mechanized_equipment_3:0 "BTR-152"
  SON_mechanized_equipment_3_short:0 "BTR-152"
  
- SON_motorized_equipment_1:1 "Austin K2/Y"
+ SON_motorized_equipment_1:1 "K2/Y"
  
  SON_early_armoured_car_equipment:0 "Rolls-Royce Armoured Car"
  SON_early_armoured_car_equipment_short:0 "Rolls-Royce"

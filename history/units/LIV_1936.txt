@@ -14,7 +14,7 @@
 	}
 	support = {
        	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
+       	mortar = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -82,7 +82,7 @@ units = {
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
 	}
 	division= {	
 		name = "2nd Battalion King's Regiment (Liverpool)"
@@ -90,7 +90,7 @@ units = {
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
 	}
 	
 	division= {
@@ -161,6 +161,36 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.1
 		efficiency = 65
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 1200
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 18
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 10
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 16
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 8
+		producer = ENG
 	}
 }
 	#####################

@@ -1,6 +1,6 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_idea_code_talkers"
+		name = "GFX_idea_WAL_code_talkers"
 		texturefile = "gfx/interface/ideas/idea_code_talkers.dds"
 	}
 	spriteType = {
@@ -54,13 +54,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KER_rifle_reliability"
 		texturefile = "gfx/interface/ideas/idea_ast_volunteer_defence_corps.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_simon_bolitho"
-		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_edward_bolitho_airborne"
-		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
 	}
 }

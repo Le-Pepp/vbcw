@@ -73,19 +73,401 @@ division_template = {
 	}
 	priority = 0
 }
+division_template = {
+	name = "Guards Regiment"			
+	division_names_group = SCO_INF_01
+	is_locked = yes
+
+	regiments = {
+		guards = { x = 0 y = 0 }
+		guards = { x = 0 y = 1 }
+		guards = { x = 0 y = 2 }
+        guards = { x = 0 y = 3 }
+		guards = { x = 1 y = 0 }
+		guards = { x = 1 y = 1 }
+		guards = { x = 1 y = 2 }
+        guards = { x = 1 y = 3 }
+	}
+	support = {
+       	signal_company = { x = 0 y = 0 }
+       	marching_band = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Armoured Car Regiment"
+	division_names_group = SCO_CAV_01
+	regiments = {
+		armoured_car = { x = 0 y = 0 }
+		armoured_car = { x = 0 y = 1 }
+		armoured_car = { x = 0 y = 2 }
+		armoured_car = { x = 1 y = 0 }
+		armoured_car = { x = 1 y = 1 }
+		armoured_car = { x = 1 y = 2 }
+	}
+	support = {
+        signal_company = { x = 0 y = 0 }
+        maintenance_company = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Motor Regiment"			
+	division_names_group = SCO_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	mortar = { x = 0 y = 1 }
+       	mechanised_recon = { x = 0 y = 2 }
+	}
+}
+
+
 
 
 units = {
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
+		name = "Scots Guards"
+		location = 1707
+		division_template = "Guards Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "The Royal Scots Fusiliers"
+		location = 1728
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "The Black Watch (Royal Highlanders)"
+		location = 1929
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Highland Light Infantry"
+		location = 1814
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "The Gordon Highlanders"
+		location = 1764
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "The Argyll and Sutherland Highlanders (Princess Louise’s)"
+		location = 1929
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "The Edinburgh Rifles"
 		location = 1711
 		division_template = "Infantry Regiment"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
+	}	
+	division= {	
+		name = "Tay Light Infantry"
+		location = 1806
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
 	}
-
+	division= {	
+		name = "Berwick Volunteers"
+		location = 1635
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Roxburgh Volunteers"
+		location = 1605
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "Dumfries Volunteers"
+		location = 1542
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "Ayrshire Volunteers"
+		location = 1617
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "South Lanark Volunteers"
+		location = 2422
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "Peebles Volunteers"
+		location = 1652
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Selkirk Volunteers"
+		location = 1635
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Haddingtonshire Volunteers"
+		location = 1735
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "1st Edinburgh Volunteers"
+		location = 1728
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "2nd Edinburgh Volunteers"
+		location = 1711
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "3rd Edinburgh Volunteers"
+		location = 1707
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "4th Edinburgh Volunteers"
+		location = 1721
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "5th Edinburgh Volunteers"
+		location = 1724
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Midlothian Volunteers"
+		location = 1667
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Linlithgow Volunteers"
+		location = 1686
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}
+	division= {	
+		name = "Kinross Volunteers"
+		location = 1743
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "1st Fife Volunteers"
+		location = 1716
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "2nd Fife Volunteers"
+		location = 1784
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Forfar Volunteers"
+		location = 1818
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Kincardine Volunteers"
+		location = 1884
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Banff Volunteers"
+		location = 1990
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "1st Aberdeen Volunteers"
+		location = 1929
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "2nd Aberdeen Volunteers"
+		location = 1940
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "3rd Aberdeen Volunteers"
+		location = 1941
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "1st Dundee Volunteers"
+		location = 1814
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "2nd Dundee Volunteers"
+		location = 2424
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Perth Volunteers"
+		location = 1806
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Kintyre Volunteers"
+		location = 1599
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Inner Hebridies Volunteers"
+		location = 1677
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Argyll Volunteers"
+		location = 1687
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Wigtownshire Volunteers"
+		location = 1480
+		division_template = "Local Defence Volunteers"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "The Scottish Horse"
+		location = 1721
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.2
+	}	
+	division= {	
+		name = "Dunbar Scouts"
+		location = 1718
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.1
+	}	
+	division= {	
+		name = "Angus Mounted Infantry"
+		location = 1845
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Argyll Dragoons"
+		location = 1764
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "Ayrshire (Earl of Carrick’s Own) Yeomanry"
+		location = 1640
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "1st Borders Volunteer Yeomanry"
+		location = 1635
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "2nd Borders Volunteer Yeomanry"
+		location = 1574
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Fife Volunteer Yeomanry"
+		location = 1771
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Edinburgh Yeomanry"
+		location = 1707
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "Lothian Volunteer Yeomanry"
+		location = 1680
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "1st Aberdeenshire Yeomanry"
+		location = 1929
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}		
+	division= {	
+		name = "2nd Aberdeenshire Yeomanry"
+		location = 1883
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Perthshire Volunteer Yeomanry"
+		location = 1883
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Angus Volunteer Yeomanry"
+		location = 2425
+		division_template = "Yeomanry Regiment"
+		start_experience_factor = 0.0
+	}	
+	division= {	
+		name = "Fife Flying Column"
+		location = 1784
+		division_template = "Armoured Car Regiment"
+		start_experience_factor = 0.2
+	}	
+	division= {	
+		name = "Edinburgh and Midlothian Rifles"
+		location = 1682
+		division_template = "Motor Regiment"
+		start_experience_factor = 0.2
+	}	
+	
+	
+	
+	
 	
 	################
 	##### NAVY #####

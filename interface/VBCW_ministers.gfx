@@ -143,8 +143,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/SOG/SOG_minister_moffat.dds"
 	}
 
-	###YORKISTS###
-		##MINISTERS##
+####YORKISTS####
+	###MINISTERS###
 
 	spriteType = {
 		name = "GFX_idea_YRK_chamberlain"
@@ -211,7 +211,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_elizabeth.dds"
 	}
 	
-		##HIGH COMMAND##
+	###HIGH COMMAND###
 
 	spriteType = {
 		name = "GFX_idea_YRK_alanbrooke"
@@ -248,7 +248,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/YRK/YRK_minister_power.dds"
 	}
 	
-	###SCOOATLAN###	
+####SCOOATLAN####
 
 	spriteType = {
 		name = "GFX_idea_SCO_muirhead"
@@ -295,7 +295,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/SCO/SCO_minister_kerr.dds"
 	}
 	
-	###LIVERPOOL###	
+####LIVERPOOL####	
 
 	spriteType = {
 		name = "GFX_idea_LIV_errington"
@@ -316,8 +316,20 @@ spriteTypes = {
 		name = "GFX_idea_LIV_hubback"
 		texturefile = "gfx/interface/ideas/ministers/LIV/LIV_minister_hubback.dds"
 	}
+	
+####KERNOW####
 
-	###GENERIC###
+	spriteType = {
+		name = "GFX_idea_simon_bolitho"
+		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_edward_bolitho_airborne"
+		texturefile = "gfx/interface/ideas/ministers/KER/KER_simon_bolitho.dds"
+	}
+
+####GENERIC####
 
 	spriteType = {
 		name = "GFX_idea_fascist_booster" ###Spode###

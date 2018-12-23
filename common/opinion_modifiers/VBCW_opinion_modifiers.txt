@@ -18,4 +18,5 @@ opinion_modifiers = {
 	VBCW_enemy_of_my_enemy = { value = 20 }
 	LIV_loyalty_to_the_king { value = 50 }
 	LIV_branching_out { value = 50 }
+	JAC_reconciliation { value = 50 }
 }	

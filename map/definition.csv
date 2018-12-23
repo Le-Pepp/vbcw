@@ -156,7 +156,7 @@
 155;30;135;135;land;false;plains;1
 156;90;0;0;land;false;plains;1
 157;60;85;85;land;false;plains;1
-158;90;225;225;land;true;urban;1
+158;250;110;235;land;false;urban;1
 159;20;0;0;land;false;plains;1
 160;50;195;195;land;false;plains;1
 161;90;25;25;land;false;plains;1
@@ -1064,7 +1064,7 @@
 1063;250;162;195;land;false;urban;1
 1064;250;150;225;land;true;urban;1
 1065;250;151;145;land;false;urban;1
-1066;250;110;235;land;false;urban;1
+1066;90;225;225;land;true;urban;1
 1067;95;211;95;land;false;plains;1
 1068;250;151;165;land;false;urban;1
 1069;250;111;45;land;true;plains;1

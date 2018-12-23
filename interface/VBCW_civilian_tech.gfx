@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_CIV_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/CIV_mechanized_equipment_1.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_CIV_infantry_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/CIV_infantry_equipment_0.dds"
 	}	
@@ -24,11 +29,11 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_CIV_early_armoured_car_medium"
-		texturefile = "gfx/interface/technologies/planes/CIV_early_armored_car.dds"
+		texturefile = "gfx/interface/technologies/CIV_early_armored_car.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_CIV_gwtank_medium"
-		texturefile = "gfx/interface/technologies/planes/CIV_gwtank.dds"
+		texturefile = "gfx/interface/technologies/CIV_gwtank.dds"
 	}
 }
