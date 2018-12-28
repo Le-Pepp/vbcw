@@ -331,6 +331,79 @@ focus_tree = {
 			
 		available_if_capitulated = yes
 		completion_reward = {
+		
+	hidden_effect = {
+				if = {
+					limit = {
+						has_tech = tech_recon
+					}
+					division_template = {
+						name = "Liverpool Pals Battalion"
+						priority = 2
+						division_names_group = LIV_INF_01
+						regiments = {
+							militia = { x = 0 y = 0 }
+							militia = { x = 0 y = 1 }
+							militia = { x = 0 y = 2 }
+				
+		    	   		 	militia = { x = 1 y = 0 }
+							militia = { x = 1 y = 1 }
+							militia = { x = 1 y = 2 }
+				
+		    	   		 	militia = { x = 2 y = 0 }
+							artillery_brigade = { x = 2 y = 1 }
+							artillery_brigade = { x = 2 y = 2 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							recon = { x = 0 y = 1 }
+						}
+					}
+					else = {
+						division_template = {
+							name = "Liverpool Pals Battalion"
+							priority = 2
+							division_names_group = LIV_INF_01
+							regiments = {
+								militia = { x = 0 y = 0 }
+								militia = { x = 0 y = 1 }
+								militia = { x = 0 y = 2 }
+					
+			    	   		 	militia = { x = 1 y = 0 }
+								militia = { x = 1 y = 1 }
+								militia = { x = 1 y = 2 }
+					
+			    	   		 	militia = { x = 2 y = 0 }
+								artillery_brigade = { x = 2 y = 1 }
+								artillery_brigade = { x = 2 y = 2 }
+							}
+							support = {
+								engineer = { x = 0 y = 0 }
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 50 }
+					create_unit = {
+						division = "name = \"Liverpool Pals Battalion- 1st City\" division_template = \"Liverpool Pals Battalion\" start_experience_factor = 1.0"
+						owner = LIV
+					}
+					create_unit = {
+						division = "name = \"Liverpool Pals Battalion- 2nd City\" division_template = \"Liverpool Pals Battalion\" start_experience_factor = 1.0"
+						owner = LIV
+					}
+					create_unit = {
+						division = "name = \"Liverpool Pals Battalion- 3rd City\" division_template = \"Liverpool Pals Battalion\" start_experience_factor = 1.0"
+						owner = LIV
+					}
+					create_unit = {
+						division = "name = \"Liverpool Pals Battalion- 4th City\" division_template = \"Liverpool Pals Battalion\" start_experience_factor = 1.0"
+						owner = LIV
+					}
+				}
+			}
 							
 		}
 	}
@@ -690,29 +763,11 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			if = {
-				limit = {
-					capital_scope = {
-						NOT = {
-							free_building_slots = {
-								building = air_base
-								size > 1
-							}
-						}
-					}
-				}
 				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
 					add_building_construction = {
 						type = air_base
 						level = 4
 						instant_build = yes
-					}
 				}
 			}
 		}
