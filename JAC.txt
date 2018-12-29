@@ -1,0 +1,21 @@
+JAC_secure_orkney = {
+
+		icon = generic_operation
+	
+		allowed = {
+			tag = JAC
+		}
+		
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 1
+		}
+	
+		
+		complete_effect = {
+			 country_event = JAC_events.5
+			}
+		}
+	}
