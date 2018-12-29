@@ -627,7 +627,9 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 		completion_reward = {
-			unlock_decision_category_tooltip = JAC_secure_orkney
+			completion_reward = {
+				unlock_decision_tooltip = JAC_secure_orkney
+			}	
 		}     
 	}
 	
