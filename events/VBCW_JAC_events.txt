@@ -89,4 +89,25 @@ country_event = {
     }
    }
  }
+ 
+country_event = {
+	id = JAC_events.5
+	title = JAC_events.5.t
+	desc = JAC_events.5.d
+	picture = GFX_event_pope
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = JAC_events.5.a
+	 	ai_chance = { factor = 100 }
+   		JAC = { 
+			transfer_state = 119
+			add_state_core = 119
+		}
+    }
+   }
+ }
+
 
