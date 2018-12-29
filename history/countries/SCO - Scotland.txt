@@ -91,9 +91,9 @@ add_ideas = {
 set_convoys = 50
 
 create_country_leader = {
-	name = "John MacCormick"
+	name = "Alexander MacEwan
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/VBCW/SCO/SCO-MacCormick.dds"
+	picture = "gfx/leaders/VBCW/SCO/SCO-MacEwan.dds"
 	expire = "1965.1.1"
 	ideology = civic_nationalist_subtype
 	traits = {
@@ -137,7 +137,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hugh McDiarmid"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/VBCW/SCO/SCO-MacDiarmid.dds"
+	picture = "gfx/leaders/VBCW/SCO/SCO-MacDiarmid2.dds"
 	expire = "1965.1.1"
 	ideology = communist_subtype
 	traits = {
@@ -154,6 +154,17 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_field_marshal = {
+	name = "Charles Fergusson"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Fergusson.dds"
+	traits = { infantry_officer cavalry_leader }
+	skill = 4
+	attack_skill = 2
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 3
 }
 
 create_field_marshal = {
@@ -285,4 +296,15 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 3
     logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Walter Maxwell-Scott"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Maxwell-Scott.dds"
+	traits = { old_guard unionist_sympathies }
+	skill = 2
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
 }
