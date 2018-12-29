@@ -91,7 +91,7 @@ add_ideas = {
 set_convoys = 50
 
 create_country_leader = {
-	name = "Alexander MacEwan
+	name = "Alexander MacEwan"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "gfx/leaders/VBCW/SCO/SCO-MacEwan.dds"
 	expire = "1965.1.1"
@@ -158,7 +158,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Charles Fergusson"
-	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Fergusson.dds"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-CFergusson.dds"
 	traits = { infantry_officer cavalry_leader }
 	skill = 4
 	attack_skill = 2
