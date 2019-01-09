@@ -2,9 +2,9 @@
 
 #MacEwan fucking dies
 country_event = {
-	id = SCO.1
-	title = SCO.1.t
-	desc = SCO.1.d
+	id = SCO_events.1
+	title = SCO_events.1.t
+	desc = SCO_events.1.d
 	picture = GFX_report_event_generic_funeral
 
 	fire_only_once = yes
@@ -21,7 +21,7 @@ country_event = {
 
 
 	option = {
-		name = SCO.1.a
+		name = SCO_events.1.a
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "John MacCormick"
@@ -36,7 +36,7 @@ country_event = {
 	}
 
 	option = {
-		name = SCO.1.b
+		name = SCO_events.1.b
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Andrew Dewar Gibb"
@@ -51,7 +51,7 @@ country_event = {
 	}
 
 	option = {
-		name = SCO.1.b
+		name = SCO_events.1.c
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Robert Mcintyre"

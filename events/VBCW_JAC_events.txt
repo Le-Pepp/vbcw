@@ -13,13 +13,12 @@ country_event = {
 		name = JAC_events.1.a
 	 	ai_chance = { factor = 100 }
 		add_offsite_building = { type = industrial_complex level = 1 }
-    add_offsite_building = { type = arms_factory level = 1 }
-    add_political_power = 150
-	}
-    hidden_effect = {
+		add_offsite_building = { type = arms_factory level = 1 }
+		add_political_power = 150
+		hidden_effect = {
 			news_event = { hours = 6 id = VBCW_news.2 }
 		}
-    
+	}    
 }
 
 country_event = {
@@ -34,12 +33,11 @@ country_event = {
 	option = { 
 		name = JAC_events.2.a
 	 	ai_chance = { factor = 100 }
-    add_political_power = 100
-	  }
-    hidden_effect = {
+		add_political_power = 100
+		hidden_effect = {
 			news_event = { hours = 6 id = VBCW_news.3 }
 		}
-   
+	}   
 }
 
 country_event = {
@@ -54,20 +52,20 @@ country_event = {
 	option = { 
 		name = JAC_events.3.a
 	 	ai_chance = { factor = 50 }
-    add_political_power = 100
-    add_stability = 0.2
+		add_political_power = 100
+		add_stability = 0.2
 		add_war_support = 0.2
-    add_state_claim = all
-    }
-    hidden_effect = {
+		add_state_claim = all
+		hidden_effect = {
 			news_event = { hours = 6 id = VBCW_news.4 }
 		}
+    }
     option = { 
 		name = JAC_events.3.b
 	 	ai_chance = { factor = 50 }
-    add_political_power = 100
-    add_stability = 0.35
-    add_war_support = 0.35
+		add_political_power = 100
+		add_stability = 0.35
+		add_war_support = 0.35
     }   
 }
 
@@ -83,12 +81,12 @@ country_event = {
 	option = { 
 		name = JAC_events.4.a
 	 	ai_chance = { factor = 80 }
-    add_manpower = 10000 
-    ITA = {
-    send_equipment = { target = JAC type = infantry_equipment amount = 1000 }		
-    }
-   }
- }
+		add_manpower = 10000 
+		ITA = {
+			send_equipment = { target = JAC type = infantry_equipment amount = 1000 }		
+		}
+	}
+}
  
 country_event = {
 	id = JAC_events.5
@@ -107,7 +105,6 @@ country_event = {
 			add_state_core = 119
 		}
     }
-   }
- }
+}
 
 

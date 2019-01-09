@@ -17,12 +17,10 @@ KER_foreign_volunteers = {
         visible = {
 			has_completed_focus = KER_foreign_volunteers}
 
-        complete_effect = {
-			
-		country_event = 
-				
-			
+        complete_effect = {			
+			country_event = { }			
 		}
+		
 		ai_will_do = {
 			factor = 0
 		}
