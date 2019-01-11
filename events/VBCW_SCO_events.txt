@@ -12,7 +12,7 @@ country_event = {
 	trigger = {
 		tag = SCO
 		has_government = civic_nationalist
-		date > 1938.6.1
+		date > 1939.6.1
 	}	
 	mean_time_to_happen = {
 		days = 30
@@ -26,7 +26,7 @@ country_event = {
 		create_country_leader = {
 			name = "John MacCormick"
 			desc = "POLITICS_AUGUST_VON_MACKENSEN_DESC"
-			picture = "gfx/leaders/VBCW/SCO/SCO-MacEwan.dds"
+			picture = "gfx/leaders/VBCW/SCO/SCO-MacCormick.dds"
 			expire = "1965.1.1"
 			ideology = civic_nationalist_subtype
 			traits = {
