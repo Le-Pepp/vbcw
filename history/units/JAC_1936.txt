@@ -14,7 +14,7 @@
 	}
 	support = {
        	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
+       	mortar = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -47,15 +47,7 @@ division_template = {
 	}
 	priority = 0
 }
-division_template = {
-	name = "Tank Battlion"
-	division_names_group = JAC_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
+
 division_template = {
 	name = "Highland Militia"
 	division_names_group = JAC_GAR_01
@@ -73,6 +65,7 @@ division_template = {
 	}
 	priority = 0
 }
+
 division_template = {
 	name = "Mountaineers"		
 	division_names_group = JAC_INF_01
@@ -92,7 +85,7 @@ units = {
 		name = "King's Guard"
 		location = 2003
 		division_template = "Infantry Regiment"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
 	division= {		
@@ -185,7 +178,7 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.1
-		efficiency = 50
+		efficiency = 55
 	}
 	
 	add_equipment_to_stockpile = {
@@ -197,6 +190,24 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = artillery_equipment_1
 		amount = 18
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 40
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 20
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 12
 		producer = ENG
 	}
 }
