@@ -725,7 +725,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_SPAA"
-					position = { x = 1010 y = -80 }
+					position = { x = 825 y = -80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -738,7 +738,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_TD"
-					position = { x = 810 y = -80 }
+					position = { x = 625 y = -80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -751,7 +751,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_SPG"
-					position = { x = 610 y = -80 }
+					position = { x = 425 y = -80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -764,7 +764,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 410 y = -80 }
+					position = { x = 225 y = -80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -777,7 +777,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 210 y = -80 }
+					position = { x = 25 y = -80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -790,7 +790,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_light"
-					position = { x = 10 y = -80  }
+					position = { x = -175 y = -80  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -803,7 +803,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "armour_subtitle_car"
-					position = { x = -190 y = -80  }
+					position = { x = -375 y = -80  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -818,7 +818,7 @@ guiTypes = {
 				
 			gridboxtype = {
 				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 0% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 50 height = 70 }
 				format = "UP"
@@ -826,7 +826,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_armoured_car_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 0% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 50 height = 70 }
 				format = "UP"
