@@ -179,7 +179,10 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			custom_effect_tooltip = expand_dlci_tt
-			hidden_effect = {load_oob = KER_DLCI add_manpower =5000 }
+			hidden_effect = {	
+				load_oob = KER_DCLI 
+				add_manpower = 5000 
+			}
 		}
 	}
 	

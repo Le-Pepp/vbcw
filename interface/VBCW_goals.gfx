@@ -257,10 +257,6 @@ spriteTypes = {
 		name = "GFX_goal_operation_eulalie"
 		texturefile = "gfx/interface/goals/goal_operation_eulalie.dds"
 	}
-
-
-
-
 	
 ###LIVERPOOL###
 	spriteType = {
