@@ -14,9 +14,11 @@
 	}
 	support = {
        	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
+       	mortar = { x = 0 y = 1 }
+       	mechanised_recon = { x = 0 y = 2 }
 	}
 }
+
 division_template = {
 	name = "Cavalry Regiment"
 	division_names_group = SCO_CAV_01
@@ -33,20 +35,7 @@ division_template = {
         recon = { x = 0 y = 0 }
 	}
 }
-division_template = {
-	name = "Yeomanry Regiment"
-	division_names_group = SCO_YEO_01
 
-	regiments = {
-		yeomanry = { x = 0 y = 0 }
-		yeomanry = { x = 0 y = 1 }
-		yeomanry = { x = 0 y = 2 }
-		yeomanry = { x = 1 y = 0 }
-		yeomanry = { x = 1 y = 1 }
-		yeomanry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
 division_template = {
 	name = "Tank Battlion"
 	division_names_group = SCO_ARM_01
@@ -56,6 +45,7 @@ division_template = {
 		light_armor = { x = 0 y = 2 }
 	}
 }
+
 division_template = {
 	name = "Local Defence Volunteers"
 	division_names_group = SCO_GAR_01
@@ -73,6 +63,22 @@ division_template = {
 	}
 	priority = 0
 }
+
+division_template = {
+	name = "Yeomanry Regiment"
+	division_names_group = SCO_YEO_01
+
+	regiments = {
+		yeomanry = { x = 0 y = 0 }
+		yeomanry = { x = 0 y = 1 }
+		yeomanry = { x = 0 y = 2 }
+		yeomanry = { x = 1 y = 0 }
+		yeomanry = { x = 1 y = 1 }
+		yeomanry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
 division_template = {
 	name = "Guards Regiment"			
 	division_names_group = SCO_INF_01
@@ -109,6 +115,7 @@ division_template = {
         maintenance_company = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
 	name = "Motor Regiment"			
 	division_names_group = SCO_MOT_01
@@ -129,9 +136,6 @@ division_template = {
        	mechanised_recon = { x = 0 y = 2 }
 	}
 }
-
-
-
 
 units = {
 	division= {	
@@ -463,11 +467,7 @@ units = {
 		location = 1682
 		division_template = "Motor Regiment"
 		start_experience_factor = 0.2
-	}	
-	
-	
-	
-	
+	}		
 	
 	################
 	##### NAVY #####
@@ -541,6 +541,54 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 720
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 400
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 72
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 40
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 18
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 32
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 24
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 260
+		producer = CIV
 	}
 }
 	#####################
