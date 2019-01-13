@@ -114,13 +114,14 @@ division_template = {
 	}
 }
 
-
 units = {
 	division= {	
 		name = "Manchester Textile Workers’ Brigade"
 		location = 1021
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "1st Manchester Transport Workers’ Regiment"
@@ -229,12 +230,16 @@ units = {
 		location = 624
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "2nd Coventry General Workers’ Brigade"
 		location = 598
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}		
 	division= {	
 		name = "I Birmingham Tradesmen’s Regiment"
@@ -367,6 +372,8 @@ units = {
 		location = 1177
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "1st Leeds General Workers’ Militia"
@@ -415,6 +422,8 @@ units = {
 		location = 1120
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "1st Sheffield Steelworkers’ Union"
@@ -445,6 +454,8 @@ units = {
 		location = 1029
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "I Sheffield General Workers’ Brigade"
@@ -493,12 +504,16 @@ units = {
 		location = 614
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "Stoke Tyre Workers’ Soviet"
 		location = 845
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}		
 	division= {	
 		name = "1st Stoke Steelworkers’ Regiment"
@@ -541,12 +556,16 @@ units = {
 		location = 958
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}		
 	division= {	
 		name = "Bevin Brigade"
 		location = 869
 		division_template = "General Workers' Regiment"
 		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}	
 	division= {	
 		name = "Hardie Revolutionary Workers’ Militia"
