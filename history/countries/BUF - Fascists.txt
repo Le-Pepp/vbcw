@@ -35,6 +35,8 @@ set_technology = {
 	basic_gunboat = 1
 	early_torpedo_boat = 1
 	basic_torpedo_boat = 1
+	early_armoured_car = 1
+	basic_armoured_car = 1
 }
 
 set_politics = {

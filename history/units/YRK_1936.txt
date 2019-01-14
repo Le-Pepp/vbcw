@@ -134,7 +134,6 @@ division_template = {
 	}
 }
 
-
 division_template = {
 	name = "Rifle Volunteers"
 	division_names_group = YRK_GAR_01
@@ -173,6 +172,7 @@ units = {
 		location = 1236
 		division_template = "Guards Regiment"
 		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 	}
 	
 	division= {	
@@ -180,6 +180,7 @@ units = {
 		location = 1505
 		division_template = "Guards Regiment"
 		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 	}
 	
 	###CAVALRY/ARMOUR###
@@ -240,6 +241,8 @@ units = {
 		location = 1513
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
 	}
 	
 	division= {	
@@ -247,6 +250,8 @@ units = {
 		location = 1633
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
 	}
 	
 	division= {	
@@ -254,6 +259,17 @@ units = {
 		location = 1097
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
+	}
+	
+	division= {	
+		name = "The Suffolk Regiment"
+		location = 578
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.2
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { mortar_equipment_1 = { owner = "ENG" } }
 	}
 	
 	###MILITIA###
@@ -727,8 +743,7 @@ air_wings = {
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
-instant_effect = {
-	
+instant_effect = {	
 
 	add_equipment_production = {
 		equipment = {
@@ -738,6 +753,54 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.1
 		efficiency = 60
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 390
+		producer = CIV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 1200
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 400
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 112
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 48
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MG_equipment_1
+		amount = 24
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 50
+		producer = ENG
+	}
+	
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_1
+		amount = 32
+		producer = ENG
 	}
 }
 	#####################
