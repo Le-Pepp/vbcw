@@ -167,3 +167,166 @@ create_field_marshal = {
     logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Claude Auchinleck"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Auchinleck.dds"
+	traits = { inflexible_strategist career_officer }
+	skill = 5
+	attack_skill = 3
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Alan Cunningham"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Cunningham.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 1
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "George Giffard"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Giffard.dds"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Brian Horrocks"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Horrocks.dds"
+	traits = { war_hero career_officer armour_officer }
+	skill = 3
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Archibald Wavell"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-Wavell.dds"
+	traits = { career_officer }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Adrian Carton de Wiart"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK-deWiart.dds"
+	traits = { war_hero old_guard reckless }
+	skill = 5
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Jock Campbell"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_Campbell.dds"
+	traits = { armour_officer }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Miles Dempsey"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_Dempsey.dds"
+	traits = { brilliant_strategist career_officer infantry_officer }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Oliver Leese"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_Leese.dds"
+	traits = { inflexible_strategist career_officer }
+	skill = 4
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Richard O'Connor"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_OConnor.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Henry Pownall"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_Pownall.dds"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Neil Ritchie"
+	portrait_path = "gfx/Leaders/VBCW/YRK/YRK_Ritchie.dds"
+	traits = { inflexible_strategist politically_connected armour_officer }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
