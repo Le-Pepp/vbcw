@@ -112,7 +112,7 @@ units = {
 	}
 	division= {	
 		name = "East Yorkshire Regiment"
-		location = 1192
+		location = 1147
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
@@ -152,7 +152,7 @@ units = {
 	}
 	division= {	
 		name = "Dorset Regiment"
-		location = 118
+		location = 155
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
@@ -176,7 +176,7 @@ units = {
 	}
 	division= {	
 		name = "Wiltshire Regiment"
-		location = 176
+		location = 165
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
@@ -192,13 +192,13 @@ units = {
 	}	
 	division= {	
 		name = "Yorkshire Hussars"
-		location = 1192
+		location = 1152
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.2
 	}	
 	division= {	
 		name = "Wiltshire Yeomanry"
-		location = 176
+		location = 185
 		division_template = "Cavalry Regiment"
 		start_experience_factor = 0.2
 	}
@@ -230,7 +230,7 @@ units = {
 	}		
 	division= {	
 		name = "2nd Bristol Volunteers"
-		location = 2389
+		location = 309
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}	
@@ -248,7 +248,7 @@ units = {
 	}	
 	division= {	
 		name = "1st Salisbury Volunteers"
-		location = 176
+		location = 128
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -296,13 +296,13 @@ units = {
 	}	
 	division= {	
 		name = "1st Canterbury Volunteers"
-		location = 229
+		location = 150
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "2nd Canterbury Volunteers"
-		location = 201
+		location = 195
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}	
@@ -332,7 +332,7 @@ units = {
 	}
 	division= {	
 		name = "1st Oxford Volunteers"
-		location = 275
+		location = 314
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -356,7 +356,7 @@ units = {
 	}
 	division= {	
 		name = "1st St Eds & Ips Volunteers"
-		location = 578
+		location = 493
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -368,7 +368,7 @@ units = {
 	}
 	division= {	
 		name = "1st Norwich Volunteers"
-		location = 717
+		location = 622
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -386,7 +386,7 @@ units = {
 	}
 	division= {	
 		name = "1st Ely Volunteers"
-		location = 607
+		location = 651
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -416,25 +416,25 @@ units = {
 	}
 	division= {	
 		name = "3rd Lincoln Volunteers"
-		location = 854
+		location = 815
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st York Volunteers"
-		location = 1192
+		location = 1238
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd York Volunteers"
-		location = 1192
+		location = 1198
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "3rd York Volunteers"
-		location = 1279
+		location = 1152
 		division_template = "Diocesan Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -447,7 +447,7 @@ units = {
 ###YEOMANRY##	
 	division= {	
 		name = "1st Bath and Wells Mounted Volunteers"
-		location = 2385
+		location = 224
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
@@ -459,7 +459,7 @@ units = {
 	}
 	division= {	
 		name = "1st Bristol Mounted Volunteers"
-		location = 260
+		location = 225
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}		
@@ -483,19 +483,19 @@ units = {
 	}
 	division= {	
 		name = "1st Winchester Mounted Volunteers"
-		location = 2123
+		location = 215
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "2nd Winchester Mounted Volunteers"
-		location = 2375
+		location = 113
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "1st Chichester Mounted Volunteers"
-		location = 119
+		location = 183
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
@@ -507,37 +507,37 @@ units = {
 	}		
 	division= {	
 		name = "1st Canterbury Mounted Volunteers"
-		location = 229
+		location = 150
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "2nd Canterbury Mounted Volunteers"
-		location = 201
+		location = 189
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "3rd Canterbury Mounted Volunteers"
-		location = 252
+		location = 201
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}	
 	division= {	
 		name = "4th Canterbury Mounted Volunteers"
-		location = 252
+		location = 229
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st Guildford Mounted Volunteers"
-		location = 2393
+		location = 210
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd Guildford Mounted Volunteers"
-		location = 2388
+		location = 211
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -549,43 +549,43 @@ units = {
 	}
 	division= {	
 		name = "1st Oxford Mounted Volunteers"
-		location = 275
+		location = 339
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd Oxford Mounted Volunteers"
-		location = 2394
+		location = 276
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "3rd Oxford Mounted Volunteers"
-		location = 2394
+		location = 319
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st Rochester Mounted Volunteers"
-		location = 2391
+		location = 212
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd Rochester Mounted Volunteers"
-		location = 2392
+		location = 2130
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st St Eds & Ips Mounted Volunteers"
-		location = 578
+		location = 504
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd St Eds & Ips Mounted Volunteers"
-		location = 578
+		location = 469
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -597,13 +597,13 @@ units = {
 	}
 	division= {	
 		name = "1st Norwich Mounted Volunteers"
-		location = 717
+		location = 619
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd Norwich Mounted Volunteers"
-		location = 2406
+		location = 782
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
@@ -615,49 +615,49 @@ units = {
 	}
 	division= {	
 		name = "2nd Ely Mounted Volunteers"
-		location = 543
+		location = 550
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st Lincoln Mounted Volunteers"
-		location = 931
+		location = 822
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd Lincoln Mounted Volunteers"
-		location = 804
+		location = 749
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "3rd Lincoln Mounted Volunteers"
-		location = 854
+		location = 720
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "4th Lincoln Mounted Volunteers"
-		location = 854
+		location = 716
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "1st York Mounted Volunteers"
-		location = 1192
+		location = 1245
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "2nd York Mounted Volunteers"
-		location = 1192
+		location = 1200
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "3rd York Mounted Volunteers"
-		location = 1279
+		location = 1157
 		division_template = "Mounted Volunteers"
 		start_experience_factor = 0.0
 	}

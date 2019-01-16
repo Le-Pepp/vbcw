@@ -265,7 +265,7 @@ units = {
 	
 	division= {	
 		name = "The Suffolk Regiment"
-		location = 578
+		location = 489
 		division_template = "Infantry Regiment"
 		start_experience_factor = 0.2
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }

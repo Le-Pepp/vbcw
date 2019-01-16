@@ -137,7 +137,7 @@ units = {
 	}
 	division= {	
 		name = "1st Wear Shipbuilders’ Regiment"
-		location = 1520
+		location = 1510
 		division_template = "People's Militia"
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.90

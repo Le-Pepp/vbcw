@@ -97,31 +97,31 @@ units = {
 	}
 	division= {	
 		name = "Metropolitan Constabulary Lewisham Division"
-		location = 301
+		location = 268
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Metropolitan Constabulary Wandsworth Division"
-		location = 301
+		location = 291
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Metropolitan Constabulary Hammersmith Division"
-		location = 300
+		location = 307
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Metropolitan Constabulary Woolwich Division"
-		location = 265
+		location = 281
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Metropolitan Constabulary Fulham Division"
-		location = 349
+		location = 279
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
@@ -133,7 +133,7 @@ units = {
 	}
 	division= {	
 		name = "Middlesex Constabulary Enfield Division"
-		location = 321
+		location = 349
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
@@ -170,19 +170,19 @@ units = {
 	}
 	division= {	
 		name = "Hertfordshire Constabulary Mounted Division"
-		location = 2302
+		location = 407
 		division_template = "Mounted Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Essex Constabulary Mounted Division"
-		location = 2404
+		location = 449
 		division_template = "Mounted Constabulary"
 		start_experience_factor = 0.1
 	}
 	division= {	
 		name = "Middlesex Constabulary Mounted Division"
-		location = 321
+		location = 336
 		division_template = "Constabulary"
 		start_experience_factor = 0.1
 	}
@@ -208,79 +208,79 @@ units = {
 	}
 	division= {	
 		name = "Westminster Auxiliary"
-		location = 316
+		location = 315
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "St Pancras Auxiliary"
-		location = 316
+		location = 335
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Islington Auxiliary"
-		location = 316
+		location = 335
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Lambeth Auxiliary"
-		location = 316
+		location = 265
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Southwark Auxiliary"
-		location = 316
+		location = 301
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Camberwell Auxiliary"
-		location = 316
+		location = 244
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Lewisham Auxiliary"
-		location = 316
+		location = 251
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Greenwich Auxiliary"
-		location = 316
+		location = 272
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Battersea Auxiliary"
-		location = 316
+		location = 291
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Hammersmith Auxiliary"
-		location = 316
+		location = 307
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Willesden Auxiliary"
-		location = 316
+		location = 331
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "Wembley Auxiliary"
-		location = 316
+		name = "Fulham Auxiliary"
+		location = 279
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Ealing Auxiliary"
-		location = 316
+		location = 290
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
@@ -292,31 +292,31 @@ units = {
 	}
 	division= {	
 		name = "Finchley Auxiliary"
-		location = 316
+		location = 336
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Tottenham Auxiliary"
-		location = 316
+		location = 349
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Ilford Auxiliary"
-		location = 316
+		location = 346
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Barking Auxiliary"
-		location = 316
+		location = 310
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Romford Auxiliary"
-		location = 316
+		location = 310
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
@@ -328,25 +328,25 @@ units = {
 	}
 	division= {	
 		name = "Croydon Auxiliary"
-		location = 265
+		location = 246
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Wimbledon Auxiliary"
-		location = 316
+		location = 263
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
-		name = "Twickenham Auxiliary"
+		name = "Richmond Auxiliary"
 		location = 261
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "Bromley Auxiliary"
-		location = 264
+		location = 244
 		division_template = "Auxiliary Legion"
 		start_experience_factor = 0.0
 	}
@@ -407,13 +407,13 @@ units = {
 ###MOUNTED AUXILIARIES###
 	division= {	
 		name = "I Hertforshire Mounted Auxiliary"
-		location = 345
+		location = 446
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "II Hertforshire Mounted Auxiliary"
-		location = 345
+		location = 371
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
@@ -425,19 +425,19 @@ units = {
 	}
 	division= {	
 		name = "I Essex Mounted Auxiliary"
-		location = 2404
+		location = 439
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "II Essex Mounted Auxiliary"
-		location = 2404
+		location = 432
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
 	division= {	
 		name = "III Essex Mounted Auxiliary"
-		location = 2404
+		location = 422
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
@@ -455,7 +455,7 @@ units = {
 	}
 	division= {	
 		name = "II Middlesex Mounted Auxiliary"
-		location = 321
+		location = 209
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
