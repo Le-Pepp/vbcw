@@ -74,6 +74,10 @@ bookmarks = {
 			minor = yes
 			history = "SOD_VBCW_DESC"
 			ideology = democratic_socialist
+			ideas = {
+				SOD_miners_militia
+				SOM_strike_up_the_band
+			}
 		}
 		"SOC"={
 			minor = yes
@@ -115,6 +119,9 @@ bookmarks = {
 			minor = yes
 			history = "JAC_VBCW_DESC"
 			ideology = autocratic
+			ideas = {
+				JAC_highlanders
+			}
 		}		
 		"MNX"={
 			minor = yes
