@@ -45,3 +45,73 @@ news_event = {
 		trigger = { TAG = ROY }
 	}
 }
+news_event = {
+	id = vbcw_news.2
+	title = vbcw_news.2.t
+	desc = vbcw_news.2.d
+	picture = GFX_news_event_infantry_parade
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = vbcw_news.2.a
+		trigger = {
+			NOT = {
+				TAG = KER
+				TAG = ANG
+			}
+		}
+	}
+	option = {
+		name = vbcw_news.2.b
+		trigger = { TAG = KER }
+	}
+	option = {
+		name = vbcw_news.2.c
+		trigger = { TAG = ANG }
+	}
+}
+news_event = {
+	id = vbcw_news.3
+	title = vbcw_news.3.t
+	desc = vbcw_news.3.d
+	picture = GFX_news_event_people_fucking_about_in_city
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+		name = vbcw_news.3.a
+		trigger = {
+			NOT = {
+				TAG = KER
+				TAG = ROY
+			}
+		}
+	}
+	option = {
+		name = vbcw_news.3.b
+		trigger = { TAG = KER }
+	}
+	option = {
+		name = vbcw_news.3.c
+		trigger = { TAG = ROY }
+	}
+}

@@ -191,27 +191,361 @@ country_event = {
 	}
 	
 }
-#####Breton Volunteers####
-country_event = {
+#############################
+#########Tea Party Events####
+#############################
+country_event = { ###Starting##
 	id = KER_events.9
 	title = KER_events.9.t
 	desc = KER_events.9.d
-	picture = GFX_event_woman_production_line
+	picture = GFX_report_event_teacup
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = { 
-		name = KER_events.8.a
-	 	add_ideas = KER_artillery_focus
-		army_experience = 10
+		name = KER_events.9.a
+	 	add_political_power = 5
+		hidden_effect = { country_event = { id = KER_events.10 days = 2} }
  		
 	}
-	option = { 
-		name = KER_events.8.b
-	 	add_ideas = KER_rifle_reliability
-		army_experience = 10
+	
+	
+}
+country_event = { ###Suit or Vestments##
+	id = KER_events.10
+	title = KER_events.10.t
+	desc = KER_events.10.d
+	picture = GFX_report_event_vestments_suit
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Wear Vestment##
+		name = KER_events.10.a
+	 	add_political_power = 5
+		hidden_effect = { country_event = {id = KER_events.11 days = 2} }
  		
 	}
+	option = { ###Wear Suit##
+		name = KER_events.10.b
+	 	add_political_power = 5
+		hidden_effect = {country_event = { id = KER_events.11 days = 2} }
+ 		
+	}
+	
+	
+}
+country_event = { ###Suit or Vestments##
+	id = KER_events.11
+	title = KER_events.11.t
+	desc = KER_events.11.d
+	picture = GFX_report_event_tophat_bowlerhat
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Wear Tophat##
+		name = KER_events.11.a
+	 	add_political_power = 5
+		hidden_effect = {country_event = { id = KER_events.12 days = 2} }
+ 		
+	}
+	option = { ###Wear Bowlerhat##
+		name = KER_events.11.b
+	 	add_political_power = 5
+		hidden_effect = {country_event = { id = KER_events.12 days = 2} }
+ 		
+	}
+	
+	
+}
+country_event = { ###Cosmo Arrives##
+	id = KER_events.12
+	title = KER_events.12.t
+	desc = KER_events.12.d
+	picture = GFX_report_event_cosmo_and_friend
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###hello dear friend##
+		name = KER_events.12.a
+	 	add_political_power = 5
+		hidden_effect = {country_event = { id = KER_events.13 days = 2} }
+ 		
+	}
+	
+	
+	
+}
+country_event = { ###Ed Arrives##
+	id = KER_events.13
+	title = KER_events.13.t
+	desc = KER_events.13.d
+	picture = GFX_report_event_hunkin_and_ed
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###m'lady##
+		name = KER_events.13.a
+	 	add_political_power = 5
+		hidden_effect = {country_event = { id = KER_events.14 days = 2} }
+ 		
+	}
+	
+	
+	
+}
+country_event = { ###Shall I be mother?##
+	id = KER_events.14
+	title = KER_events.14.t
+	desc = KER_events.14.d
+	picture = GFX_report_event_teacup
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		name = KER_events.14.a
+	 	custom_effect_tooltip = KER_cosmo_happy_tt
+		hidden_effect = {country_event = { id = KER_events.15 days = 2} }
+ 		
+	}
+	option = { ###Cosmo can do it##
+		name = KER_events.14.b
+	 	custom_effect_tooltip = KER_cosmo_miffed_tt
+		set_country_flag = cosmo_war
+		hidden_effect = {country_event = { id = KER_events.15 days = 2} }
+ 		
+	}
+	
+	
+	
+}
+country_event = { ###How many Sugars##
+	id = KER_events.15
+	title = KER_events.15.t
+	desc = KER_events.15.d
+	picture = GFX_report_event_sugar
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###One Sugar##
+		name = KER_events.15.a
+	 	custom_effect_tooltip = KER_edward_miffed_tt
+		set_country_flag = edward_war
+		hidden_effect = {country_event = { id = KER_events.16 days = 2} }
+ 		
+	}
+	option = { ###Two Sugars##
+		name = KER_events.15.b
+	 	custom_effect_tooltip = KER_edward_miffed_tt
+		set_country_flag = edward_war
+		hidden_effect = {country_event = { id = KER_events.16 days = 2} }
+ 		
+	}
+	option = { ###Three Sugars##
+		name = KER_events.15.c
+	 	custom_effect_tooltip = KER_edward_miffed_tt
+		set_country_flag = edward_war
+		hidden_effect = {country_event = { id = KER_events.16 days = 2} }
+ 		
+	}
+	option = { ###No Sugar##
+		name = KER_events.15.e
+	 	custom_effect_tooltip = KER_edward_happy_tt
+		hidden_effect = {country_event = { id = KER_events.16 days = 2} }
+ 		
+	}
+	
+	
+	
+}
+country_event = { ###A walk round the Garden##
+	id = KER_events.16
+	title = KER_events.16.t
+	desc = KER_events.16.d
+	picture = GFX_report_event_cosmo_and_ed
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Rose##
+		name = KER_events.16.a
+	 	custom_effect_tooltip = KER_cosmo_bad_flowers
+		custom_effect_tooltip = KER_edward_bad_flowers
+		set_country_flag = edward_war
+		set_country_flag = cosmo_war
+		hidden_effect = {country_event = { id = KER_events.17 days = 2} }
+ 		
+	}
+	option = { ###Lily##
+		name = KER_events.16.b
+	 	custom_effect_tooltip = KER_cosmo_bad_flowers
+		custom_effect_tooltip = KER_edward_good_flowers
+		set_country_flag = cosmo_war
+		clr_country_flag = edward_war
+		hidden_effect = {country_event = { id = KER_events.17 days = 2} }
+ 		
+	}
+	option = { ###Senna##
+		name = KER_events.16.c
+	 	custom_effect_tooltip = KER_cosmo_good_flowers
+		custom_effect_tooltip = KER_edward_bad_flowers
+		set_country_flag = edward_war
+		clr_country_flag = cosmo_war
+		hidden_effect = {country_event = { id = KER_events.17 days = 2} }
+ 		
+	}
+	option = { ###Petunias##
+		name = KER_events.16.e
+	 	custom_effect_tooltip = KER_cosmo_good_flowers
+		custom_effect_tooltip = KER_edward_good_flowers
+		clr_country_flag = cosmo_war
+		clr_country_flag = edward_war
+		hidden_effect = {country_event = { id = KER_events.17 days = 2} }
+ 		
+	}
+	
+	
+	
+}
+country_event = { ###Farewell friends##
+	id = KER_events.17
+	title = KER_events.17.t
+	desc = KER_events.17.d
+	picture = GFX_report_event_cosmo_happy
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		name = KER_events.17.a
+	 	
+		IF = {
+			limit = { 
+				KER = {has_country_flag = cosmo_war}
+				}
+			ANG = {country_event = { id = KER_events.15 days = 2} }
+		      }
+		IF = {
+			limit = { 
+				KER = {has_country_flag = edward_war}
+				}
+			ROY = {country_event = { id = KER_events.15 days = 2} }
+		      }
+		
+		
+		hidden_effect = {country_event = { id = KER_events.15 days = 2} }
+ 		
+	}
+	
+	
+	
+	
+}
+country_event = { ###The Tea War (Anglicans)##
+	id = KER_events.18
+	title = KER_events.18.t
+	desc = KER_events.18.d
+	picture = GFX_report_event_teacup
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		ai_chance = {factor = 100}
+		KER = {country_event = { id = KER_events.19 days = 2} }
+		name = KER_events.18.a
+	 	
+	}
+	option = { ###no##
+		ai_chance = {factor = 0}
+		add_political_power = -10
+		name = KER_events.18.b
+		
+	 	
+	}
+	
+	
+	
+}
+country_event = { ###The Tea War (Anglicans)##
+	id = KER_events.19
+	title = KER_events.19.t
+	desc = KER_events.19.d
+	picture = GFX_report_event_deployment
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		ai_chance = {factor = 100}
+		ANG = { declare_war_on = {   
+				target = KER
+				type = annex_everything
+				
+					}
+			}
+		name = KER_events.19.a
+	 	
+	}
+	
+	
+	
+	
+}
+country_event = { ###The Tea War (Royalists)##
+	id = KER_events.20
+	title = KER_events.20.t
+	desc = KER_events.20.d
+	picture = GFX_report_event_teacup
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		ai_chance = {factor = 100}
+		KER = {country_event = { id = KER_events.21 days = 2} }
+		name = KER_events.20.a
+	 	
+	}
+	option = { ###no##
+		ai_chance = {factor = 0}
+		add_political_power = -10
+		name = KER_events.20.b
+		
+	 	
+	}
+	
+	
+	
+}
+country_event = { ###The Tea War (Royalists)##
+	id = KER_events.21
+	title = KER_events.21.t
+	desc = KER_events.21.d
+	picture = GFX_report_event_deployment
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { ###Yes##
+		ai_chance = {factor = 100}
+		ROY = { declare_war_on = {   
+				target = KER
+				type = annex_everything
+				
+					}
+			}
+		name = KER_events.21.a
+	 	
+	}
+	
+	
+	
 	
 }

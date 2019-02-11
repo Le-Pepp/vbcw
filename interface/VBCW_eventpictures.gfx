@@ -4,7 +4,42 @@ spriteTypes = {
 		name = "GFX_report_event_TOG"
 		texturefile = "gfx/event_pictures/event_tog.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_hunkin_and_ed"
+		texturefile = "gfx/event_pictures/event_hunkin_and_ed.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_cosmo_and_ed"
+		texturefile = "gfx/event_pictures/event_cosmo_and_ed.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_tophat_bowlerhat"
+		texturefile = "gfx/event_pictures/event_tophat_bowlerhat.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_vestments_suit"
+		texturefile = "gfx/event_pictures/event_vestments_suit.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_cosmo_and_friend"
+		texturefile = "gfx/event_pictures/event_cosmo_and_friend.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_sugar"
+		texturefile = "gfx/event_pictures/event_sugar.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_teacup"
+		texturefile = "gfx/event_pictures/event_teacup.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_edward_sad"
+		texturefile = "gfx/event_pictures/event_edward_sad.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_cosmo_happy"
+		texturefile = "gfx/event_pictures/event_cosmo_happy.dds"
+	}
 	spriteType = {
 		name = "GFX_report_event_palace"
 		texturefile = "gfx/event_pictures/event_palace.dds"
@@ -82,6 +117,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_troops_entering_coastal_city"
 		texturefile = "gfx/event_pictures/news_event_troops_entering_coastal_city.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_infantry_parade"
+		texturefile = "gfx/event_pictures/news_event_infantry_parade.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_soldier_bikes"
+		texturefile = "gfx/event_pictures/news_event_soldier_bikes.dds"
 	}
 	spriteType = {
 		name = "GFX_news_event_definetely_not_berlin_parade"
