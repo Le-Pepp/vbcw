@@ -109,3 +109,16 @@ create_field_marshal = {
     logistics_skill = 1
 }
 
+create_navy_leader = {
+	name = "Barry Domville"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Domville.dds"
+	traits = { spotter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Patrick Boyle"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Boyle.dds"
+	traits = {  }
+	skill = 2
+}
