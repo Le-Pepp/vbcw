@@ -308,3 +308,24 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 2
 }
+
+create_navy_leader = {
+	name = "Robert Burnett"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Burnett.dds"
+	traits = { blockade_runner }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "William Scott-Chalmers"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Chalmers.dds"
+	traits = { old_guard }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Bertram Ramsay"
+	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Ramsay.dds"
+	traits = { blockade_runner superior_tactitian }
+	skill = 4
+}
