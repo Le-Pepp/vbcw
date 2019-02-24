@@ -1,0 +1,118 @@
+leader_traits = {
+	
+	hero_of_the_october_revolution = {
+		type = all
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			army_morale_factor = 0.15
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	veteran_of_spain = {
+		type = all
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			hills = {
+				movement = 0.05
+				attack = 0.1
+				defence = 0.1
+			}
+			mountain = {
+				movement = 0.05
+				attack = 0.05
+				defence = 0.05
+			}
+			army_org_factor = 0.05
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	peoples_soldier = {
+		type = all
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			army_core_attack_factor = 0.10
+			army_core_defence_factor = 0.10
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	auxiliary_constable = {
+		type = all
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			army_org_factor = 0.20
+			army_attack_factor = -0.05
+			army_defence_factor = -0.05
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	clan_chief = {
+		type = all
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			hills = {
+				movement = 0.05
+				attack = 0.1
+				defence = 0.1
+			}
+			mountain = {
+				movement = 0.05
+				attack = 0.05
+				defence = 0.05
+			}
+			forest = {
+				movement = 0.05
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	unionist_sympathies = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+}
