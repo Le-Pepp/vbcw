@@ -646,7 +646,7 @@ focus = {
     				transfer_troops = yes
 				}
 				add_popularity = {
-    			ideology = communism
+    			ideology = communist
     			popularity = 0.25
 				}
 				country_event = SCO_events.4
@@ -687,14 +687,16 @@ focus = {
 			available_if_capitulated = yes
 			completion_reward = {
 				add_timed_idea = {
-				idea = SCO_national_consolidation_idea
-				days = 180
+					idea = SCO_national_consolidation_idea
+					days = 180
 				}
-				SOG = {remove_state_core = 100
-				remove_state_core = 101
-				remove_state_core = 103
-				remove_state_core = 102
-				remove_state_core = 104}
+				SOG = {
+					remove_state_core = 100
+					remove_state_core = 101
+					remove_state_core = 103
+					remove_state_core = 102
+					remove_state_core = 104
+				}
 			}
 		}
 
@@ -709,26 +711,6 @@ focus = {
 			available_if_capitulated = yes
 			completion_reward = {
 				add_ideas = SCO_scotland_the_brave_idea
-			}
-		}
-
-		focus = {
-			id = SCO_constitutional_monarch
-			icon = GFX_goal_generic_intelligence_exchange
-			cost = 5
-			x = 19
-			y = 3
-			mutually_exclusive = {focus = SCO_maintain_the_republic}
-			prerequisite = {focus = SCO_secure_the_nation}
-			continue_if_invalid = yes
-			available_if_capitulated = yes
-			completion_reward = {
-				add_popularity = {
-    			ideology = conservative
-    			popularity = 0.05
-				}
-				add_political_power = 50
-				add_opinion_modifier = { target = YRK modifier = SCO_constitutional_monarch_opinion }
 			}
 		}
 

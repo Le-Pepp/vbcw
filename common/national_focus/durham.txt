@@ -240,7 +240,7 @@ focus_tree = {
 		cost = 5
 		x = 9
 		y = 5
-		prerequisite = {focus = SOD_radical_protestantism}
+		prerequisite = { focus = SOD_radical_protestantism }
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -255,11 +255,11 @@ focus_tree = {
 		cost = 5
 		x = 9
 		y = 6
-		prerequisite = {focus = SOD_emulate_diggers_and_levellers}
+		prerequisite = { focus = SOD_emulate_diggers_and_levellers }
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = equal_before_god
+			add_ideas = SOD_equal_before_god
 			add_popularity = {
 				popularity = 0.2
 				ideology = radical_socialism

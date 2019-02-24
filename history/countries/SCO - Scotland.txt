@@ -326,6 +326,6 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Bertram Ramsay"
 	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Ramsay.dds"
-	traits = { blockade_runner superior_tactitian }
+	traits = { blockade_runner superior_tactician }
 	skill = 4
 }
