@@ -425,7 +425,7 @@ units = {
 	}
 	division= {	
 		name = "I Essex Mounted Auxiliary"
-		location = 439
+		location = 387
 		division_template = "Mounted Auxiliaries"
 		start_experience_factor = 0.0
 	}
