@@ -156,27 +156,27 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ROY_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/ROY_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/ROY_motorized_equipment_1.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ROY_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/ROY_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/mech/ROY_mechanized_equipment_3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ROY_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/ROY_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/mech/ROY_mechanized_equipment_2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_ROY_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/ROY_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/ROY_mechanized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_ROY_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/ROY_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/ROY_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -328,27 +328,27 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_BUF_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/BUF_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/BUF_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_BUF_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/BUF_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/BUF_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_BUF_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/BUF_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/mech/BUF_mechanized_equipment_3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_BUF_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/BUF_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/mech/BUF_mechanized_equipment_2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_BUF_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/BUF_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/BUF_mechanized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -500,27 +500,27 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_YRK_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/YRK_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/YRK_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YRK_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/YRK_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/YRK_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YRK_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/YRK_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/mech/YRK_mechanized_equipment_3.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YRK_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/YRK_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/mech/YRK_mechanized_equipment_2.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YRK_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/YRK_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/YRK_mechanized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -672,12 +672,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ANG_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/ANG_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/ANG_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_ANG_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/ANG_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/ANG_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -831,12 +831,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOC_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SOC_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -988,12 +988,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOD_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SOD_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -1145,12 +1145,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOG_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SOG_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -1301,12 +1301,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOH_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SOH_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -1457,12 +1457,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SOM_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SOM_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
@@ -1613,12 +1613,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_SON_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_SON_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/SOC_motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mech/SOC_motorized_equipment_1.dds"
 	}
 	
 	SpriteType = {
