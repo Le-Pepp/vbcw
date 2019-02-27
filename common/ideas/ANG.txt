@@ -64,6 +64,8 @@ ideas = {
 		designer = yes
 		
 		ANG_dennis = {
+		
+			picture = designer_dennis
 			
 			allowed = {
 				original_TAG = ANG
@@ -80,6 +82,8 @@ ideas = {
 		}
 		
 		ANG_crossley = {
+		
+			picture = designer_crossley
 			
 			allowed = {
 				original_TAG = ANG
@@ -134,6 +138,8 @@ ideas = {
 		designer = yes
 		
 		ANG_gloster = {
+		
+			picture = designer_gloster
 			
 			allowed = {
 				original_TAG = ANG
@@ -151,6 +157,8 @@ ideas = {
 		}
 		
 		ANG_bristol = {
+		
+			picture = designer_bristol
 			
 			allowed = {
 				original_TAG = ANG

@@ -1,30 +1,70 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_idea_designer_aec"
+		texturefile = "gfx/interface/ideas/companies/idea_aec.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_designer_alvis"
 		texturefile = "gfx/interface/ideas/companies/idea_alvis.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_designer_raleigh"
-		texturefile = "gfx/interface/ideas/companies/idea_raleigh.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_designer_bsa"
-		texturefile = "gfx/interface/ideas/companies/idea_bsa.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_designer_austin"
-		texturefile = "gfx/interface/ideas/companies/idea_austin.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_designer_dunlop"
-		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_designer_armstrong_whitworth"
 		texturefile = "gfx/interface/ideas/companies/idea_armstrong_whitworth.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_designer_austin"
+		texturefile = "gfx/interface/ideas/companies/idea_austin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_bedford"
+		texturefile = "gfx/interface/ideas/companies/idea_bedford.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_designer_blackburn"
 		texturefile = "gfx/interface/ideas/companies/idea_blackburn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_boulton_paul"
+		texturefile = "gfx/interface/ideas/companies/idea_blackburn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_bristol"
+		texturefile = "gfx/interface/ideas/companies/idea_bristol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_bsa"
+		texturefile = "gfx/interface/ideas/companies/idea_bsa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_crossley"
+		texturefile = "gfx/interface/ideas/companies/idea_crossley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_dennis"
+		texturefile = "gfx/interface/ideas/companies/idea_dennis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_dunlop"
+		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_ekco"
+		texturefile = "gfx/interface/ideas/companies/idea_ekco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_gloster"
+		texturefile = "gfx/interface/ideas/companies/idea_gloster.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_handleypage"
+		texturefile = "gfx/interface/ideas/companies/idea_handleypage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_morris"
+		texturefile = "gfx/interface/ideas/companies/idea_morris.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_raleigh"
+		texturefile = "gfx/interface/ideas/companies/idea_raleigh.dds"
 	}
 }

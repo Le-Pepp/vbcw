@@ -142,6 +142,8 @@ ideas = {
 		designer = yes
 		
 		ROY_morris = {
+		
+			picture = designer_morris
 			
 			allowed = {
 				original_TAG = ROY
@@ -195,6 +197,8 @@ ideas = {
 		}
 		
 		ROY_ecko = {
+		
+			picture = designer_ekco
 			
 			allowed = {
 				original_TAG = ROY

@@ -348,6 +348,8 @@ ideas = {
 		designer = yes
 		
 		SOM_boulton_paul = {
+		
+			picture = designer_boulton_paul
 			
 			allowed = {
 				original_TAG = SOM

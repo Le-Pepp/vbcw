@@ -78,6 +78,8 @@ ideas = {
 		}
 		
 		BUF_handley_page = {
+		
+			picture = designer_handleypage
 			
 			allowed = {
 				original_TAG = BUF
@@ -136,6 +138,8 @@ ideas = {
 		designer = yes
 		
 		BUF_AEC = {
+		
+			picture = designer_aec
 			
 			allowed = {
 				original_TAG = BUF
@@ -152,6 +156,8 @@ ideas = {
 		}
 		
 		BUF_bedford = {
+		
+			picture = designer_bedford
 			
 			allowed = {
 				original_TAG = BUF
