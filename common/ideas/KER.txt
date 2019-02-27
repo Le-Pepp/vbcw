@@ -268,11 +268,11 @@ ideas = {
 				   }
 			modifier = {
 				lend_lease_tension = -0.2
-		}
-		modifier = {
+			}
+			modifier = {
 				production_speed_arms_factory_factor = 0.1
 				
-		}
+			}
 		}
 		KER_german_investments = {
 
@@ -432,6 +432,10 @@ ideas = {
 		ker_camborne_school_of_mines = {
 
 			picture = generic_industrial_concern_1
+			
+			allowed = {
+				original_tag = KER
+			}
 			
 			available = {
 				has_completed_focus = KER_resource_exploitation

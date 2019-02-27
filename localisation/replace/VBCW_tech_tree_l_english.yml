@@ -82,19 +82,6 @@
  
  ###Equipment Types
  
-    ##Generic Infantry Weapons
-    
- infantry_equipment_0:0 "Pattern 1914 Enfield"
- infantry_equipment_0_short:0 "Pattern 1914 Enfield"
- infantry_equipment_1:0 "Ross Rifle Mk. III"
- infantry_equipment_1_short:0 "Ross Rifle Mk. III"
- infantry_equipment_2:0 "Lanchester"
- infantry_equipment_2_short:0 "Lanchester"
- infantry_equipment_3:0 "De Lisle"
- infantry_equipment_3_short:0 "De Lisle"
- infantry_at:0 "Boys Anti-Tank Rifle"
- infantry_at2:0 "PIAT"
- 
     ##Armoured Cars
  
  armoured_car_equipment:0 "Armoured Car"

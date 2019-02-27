@@ -25,7 +25,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_designer_boulton_paul"
-		texturefile = "gfx/interface/ideas/companies/idea_blackburn.dds"
+		texturefile = "gfx/interface/ideas/companies/idea_boulton_paul.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_designer_bristol"
