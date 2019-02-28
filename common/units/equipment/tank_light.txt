@@ -42,7 +42,7 @@ equipments = {
 		
 		build_cost_ic = 8
 		resources = {
-			oil = 1
+			#oil = 1
 			steel = 2
 		}
 
@@ -112,7 +112,7 @@ equipments = {
 		
 		build_cost_ic = 9
 		resources = {
-			oil = 1
+			#oil = 1
 			steel = 3
 		}
 	}
@@ -142,7 +142,7 @@ equipments = {
 		
 		build_cost_ic = 10 
 		resources = {
-			oil = 2
+			#oil = 2
 			steel = 4
 		}
 	}
@@ -172,7 +172,7 @@ equipments = {
 		
 		build_cost_ic = 11 
 		resources = {
-			oil = 2
+			#oil = 2
 			steel = 4
 		}
 	}

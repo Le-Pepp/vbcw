@@ -42,7 +42,7 @@ equipments = {
 		
 		build_cost_ic = 12 
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 1
 			steel = 2
 		}
@@ -84,7 +84,7 @@ equipments = {
 
 		build_cost_ic = 13
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 1
 			steel = 2
 		}	
@@ -116,7 +116,7 @@ equipments = {
 		
 		build_cost_ic = 14
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 1
 			steel = 3
 		}	
@@ -148,7 +148,7 @@ equipments = {
 		
 		build_cost_ic = 15
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 3
 		}	
@@ -180,7 +180,7 @@ equipments = {
 		
 		build_cost_ic = 16
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 2
 			steel = 4
 		}	
@@ -228,7 +228,7 @@ equipments = {
 		build_cost_ic = 12
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 2
 		}
@@ -276,7 +276,7 @@ equipments = {
 		resources = {
 			steel = 3
 			tungsten = 2
-			oil = 1
+			#oil = 1
 		}
 	}
 
@@ -310,7 +310,7 @@ equipments = {
 		resources = {
 			steel = 4
 			tungsten = 3
-			oil = 2
+			#oil = 2
 		}
 	}
 
@@ -356,7 +356,7 @@ equipments = {
 		build_cost_ic = 12
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 2
 		}
@@ -405,7 +405,7 @@ equipments = {
 		build_cost_ic = 13
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 3
 			steel = 3
 		}		
@@ -441,7 +441,7 @@ equipments = {
 		build_cost_ic = 14
 		
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 4
 			steel = 4
 		}
@@ -490,7 +490,7 @@ equipments = {
 		build_cost_ic = 12
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 2
 		}
@@ -539,7 +539,7 @@ equipments = {
 		build_cost_ic = 13
 		
 		resources = {
-			oil = 1
+			#oil = 1
 			tungsten = 2
 			steel = 3
 		}
@@ -575,7 +575,7 @@ equipments = {
 		build_cost_ic = 14
 		
 		resources = {
-			oil = 2
+			#oil = 2
 			tungsten = 2
 			steel = 4
 		}		

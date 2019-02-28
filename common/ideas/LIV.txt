@@ -102,7 +102,7 @@ ideas = {
 				stability_factor = 0.15	
 				consumer_goods_factor = 0.1
 				political_power_cost = -0.05
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 			}
 		}
 		

@@ -273,7 +273,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				attack = 0.1
+				soft_attack = 0.1
 				breakthrough = 0.1
 				instant = yes
 			}
@@ -318,7 +318,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			gunboat = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
@@ -328,12 +328,12 @@ leader_traits = {
 				instant = yes
 			}
 			trawler = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
 			corvette = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
@@ -348,22 +348,22 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			gunboat = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			torpedo_boat = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			trawler = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			corvette = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
@@ -408,27 +408,27 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			sloop = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
 			destroyer = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
 			light_cruiser = {
-				attack = 0.1
+				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
 			monitor = {
-				attack = 0.1
+				hg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
 			heavy_cruiser = {
-				attack = 0.1
+				hg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
@@ -443,27 +443,27 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			sloop = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			destroyer = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			light_cruiser = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			monitor = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
 			heavy_cruiser = {
-				evasion = 0.1
+				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
 			}
