@@ -15,10 +15,10 @@ state={
 		add_claim_by = ROY
 		add_claim_by = YRK
 		add_claim_by = ANG
-		victory_points {
+		victory_points = {
 			1418 10 
 		}
-		victory_points {
+		victory_points = {
 			1452 10 
 		}
 		buildings = {

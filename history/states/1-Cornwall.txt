@@ -19,11 +19,11 @@ state={
 	history={
 		add_extra_state_shared_building_slots = 5
 		owner = KER
-		victory_points { 55 25 }
-		victory_points { 78 5 }
-		victory_points { 75 5 }
-		victory_points { 2381 10 }
-		victory_points { 39 5 }
+		victory_points = { 55 25 }
+		victory_points = { 78 5 }
+		victory_points = { 75 5 }
+		victory_points = { 2381 10 }
+		victory_points = { 39 5 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

@@ -14,9 +14,9 @@ state={
 		add_claim_by = ROY
 		add_claim_by = YRK
 		add_claim_by = JAC
-		victory_points { 1814 10 }
-		victory_points { 1818 5 }
-		victory_points { 1832 5 }
+		victory_points = { 1814 10 }
+		victory_points = { 1818 5 }
+		victory_points = { 1832 5 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

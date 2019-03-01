@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		victory_points { 2419 10 }
+		victory_points = { 2419 10 }
 		owner = WAL
 		add_core_of = WAL
 		add_claim_by = ROY

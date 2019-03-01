@@ -20,8 +20,8 @@ state={
 		add_core_of = SCO
 		add_claim_by = ROY
 		add_claim_by = YRK
-		victory_points { 1617 10 }
-		victory_points { 1640 10 }
+		victory_points = { 1617 10 }
+		victory_points = { 1640 10 }
 		buildings = {
 			infrastructure = 4
 			air_base = 1

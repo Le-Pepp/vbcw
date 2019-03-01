@@ -14,516 +14,516 @@ focus_tree = {
 ###industry###
 ##############
 
-	focus = {
-		id = SCO_prepare_for_the_struggle
-		icon = GFX_goal_generic_construct_civilian
-		cost = 5
-		x = 6
-		y = 0
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_northern_industry
-		icon = GFX_goal_generic_construction
-		cost = 5
-		x = 2
-		y = 1
-		available = {controls_state = 105}
-		available = {controls_state = 115}
-		available = {controls_state = 108}
-		available = {controls_state = 109}
-		prerequisite = {focus = SCO_prepare_for_the_struggle}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			105 = {
-			add_extra_state_shared_building_slots = 3
-			}
-			115 = {
-			add_extra_state_shared_building_slots = 3
-			}
-			108 = {
-			add_extra_state_shared_building_slots = 3
-			}
-			109 = {
-			add_extra_state_shared_building_slots = 3
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_dundee_textiles
-		icon = GFX_goal_generic_consumer_goods
-		cost = 5
-		x = 0
-		y = 2
-		available = {controls_state = 107}
-		prerequisite = {focus = SCO_northern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			107 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+		focus = {
+			id = SCO_prepare_for_the_struggle
+			icon = GFX_goal_generic_construct_civilian
+			cost = 5
+			x = 6
+			y = 0
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					uses = 1
+					category = industry
 				}
 			}
 		}
-	}
 
-	focus = {
-		id = SCO_highland_distilleries
-		icon = GFX_goal_generic_consumer_goods
-		cost = 5
-		x = 0
-		y = 3
-		available = {controls_state = 110}
-		available = {controls_state = 113}
-		available = {controls_state = 115}
-		available = {controls_state = 114}
-		prerequisite = {focus = SCO_dundee_textiles}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			113 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+		focus = {
+			id = SCO_northern_industry
+			icon = GFX_goal_generic_construction
+			cost = 5
+			x = 2
+			y = 1
+			available = {controls_state = 105}
+			available = {controls_state = 115}
+			available = {controls_state = 108}
+			available = {controls_state = 109}
+			prerequisite = {focus = SCO_prepare_for_the_struggle}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				105 = {
+				add_extra_state_shared_building_slots = 3
 				}
-			}
-			110 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+				115 = {
+				add_extra_state_shared_building_slots = 3
 				}
-			}
-			115 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+				108 = {
+				add_extra_state_shared_building_slots = 3
 				}
-			}
-			114 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+				109 = {
+				add_extra_state_shared_building_slots = 3
 				}
-			}
-
-			hidden_effect = { set_global_flag = sco_whisky_islands
 			}
 		}
-	}
 
-	focus = {
-		id = SCO_reopen_the_GNSR
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
-		x = 2
-		y = 2
-		available = {controls_state = 109}
-		available = {controls_state = 110}
-		prerequisite = { focus = SCO_northern_industry }
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			109 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 3
-					instant_build = yes
+		focus = {
+			id = SCO_dundee_textiles
+			icon = GFX_goal_generic_consumer_goods
+			cost = 5
+			x = 0
+			y = 2
+			available = {controls_state = 107}
+			prerequisite = {focus = SCO_northern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				107 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
 				}
 			}
-			110 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 3
-					instant_build = yes
-				}
-			}		
 		}
-	}
 
-	focus = {
-		id = SCO_east_coast_mainline
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5
-		x = 2
-		y = 3
-		available = {controls_state = 87}
-		available = {controls_state = 96}
-		available = {controls_state = 97}
-		available = {controls_state = 98}
-		available = {controls_state = 105}
-		available = {controls_state = 106}
-		available = {controls_state = 107}
-		available = {controls_state = 108}
-		available = {controls_state = 109}
-		prerequisite = { focus = SCO_reopen_the_GNSR}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			custom_effect_tooltip = SCO_build_railway_tt
-		hidden_effect = {
-			87 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+		focus = {
+			id = SCO_highland_distilleries
+			icon = GFX_goal_generic_consumer_goods
+			cost = 5
+			x = 0
+			y = 3
+			available = {controls_state = 110}
+			available = {controls_state = 113}
+			available = {controls_state = 115}
+			available = {controls_state = 114}
+			prerequisite = {focus = SCO_dundee_textiles}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				113 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				110 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				115 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				114 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+
+				hidden_effect = { set_global_flag = sco_whisky_islands
 				}
 			}
-			96 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			97 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			98 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			105 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			106 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			107 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			108 = {				
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
+		}
+
+		focus = {
+			id = SCO_reopen_the_GNSR
+			icon = GFX_goal_generic_construct_infrastructure
+			cost = 5
+			x = 2
+			y = 2
+			available = {controls_state = 109}
+			available = {controls_state = 110}
+			prerequisite = { focus = SCO_northern_industry }
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
 				109 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+				110 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}		
+			}
+		}
+
+		focus = {
+			id = SCO_east_coast_mainline
+			icon = GFX_goal_generic_construct_infrastructure
+			cost = 5
+			x = 2
+			y = 3
+			available = {controls_state = 87}
+			available = {controls_state = 96}
+			available = {controls_state = 97}
+			available = {controls_state = 98}
+			available = {controls_state = 105}
+			available = {controls_state = 106}
+			available = {controls_state = 107}
+			available = {controls_state = 108}
+			available = {controls_state = 109}
+			prerequisite = { focus = SCO_reopen_the_GNSR}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				custom_effect_tooltip = SCO_build_railway_tt
+			hidden_effect = {
+				87 = {				
 					add_building_construction = {
 						type = infrastructure
 						level = 1
 						instant_build = yes
 					}
 				}
-			}
-		}		
-	}
-
-
-	focus = {
-		id = SCO_tay_shipbuilding
-		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 5
-		x = 4
-		y = 2
-		prerequisite = {focus = SCO_northern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			107 = {
-			add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
+				96 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
-			}
-		}	
-	}
-
-	focus = {
-		id = SCO_port_of_aberdeen
-		icon = GFX_goal_generic_build_navy
-		cost = 5
-		x = 4
-		y = 3
-		prerequisite = {focus = SCO_tay_shipbuilding}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			110 = {
-				add_building_construction = {
-					type = naval_base
-					level = 3
-					province = 1940
-					instant_build = yes
+				97 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
-			}
+				98 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				105 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				106 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				107 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				108 = {				
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+					109 = {				
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}		
 		}
-	}
 
 
-focus = {
-		id = SCO_southern_industry
-		icon = GFX_goal_generic_construction
-		cost = 5
-		x = 10
-		y = 1
-		available = {controls_state = 91}
-		available = {controls_state = 90}
-		available = {controls_state = 87}
-		prerequisite = {focus = SCO_prepare_for_the_struggle}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			91 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			90 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			87 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_leith_shipbuilding
-		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 5
-		x = 8
-		y = 2
-		prerequisite = {focus = SCO_southern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			97 = {
-			add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
-		}	
-	}
-
-	focus = {
-		id = SCO_rosyth_shipbuilding
-		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 5
-		x = 8
-		y = 3
-		prerequisite = {focus = SCO_leith_shipbuilding}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			105 = {
-			add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-		}	
-	}
-
-	focus = {
-		id = SCO_port_of_leith
-		icon = GFX_goal_generic_build_navy
-		cost = 5
-		x = 8
-		y = 4
-		prerequisite = {focus = SCO_rosyth_shipbuilding}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			97 = {
-				add_building_construction = {
-					type = naval_base
-					level = 4
-					province = 1711
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_lothian_collieries
-		icon = GFX_goal_generic_construction2
-		cost = 5
-		x = 10
-		y = 2
-		prerequisite = {focus = SCO_southern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			98 = {
-				add_resource = {
-						type = chromium
-						amount = 24
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_ayrshire_collieries
-		icon = GFX_goal_generic_construction2
-		cost = 5
-		x = 10
-		y = 3
-		prerequisite = {focus = SCO_lothian_collieries}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			92 = {
-				add_resource = {
-						type = chromium
-						amount = 24
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = SCO_edinburgh_industries
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
-		x = 12
-		y = 2
-		available = {controls_state = 97}
-		prerequisite = {focus = SCO_southern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			97 = {
+		focus = {
+			id = SCO_tay_shipbuilding
+			icon = GFX_goal_generic_construct_naval_dockyard
+			cost = 5
+			x = 4
+			y = 2
+			prerequisite = {focus = SCO_northern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				107 = {
 				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
 				}
-			}
-			97 = {
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 4
-					instant_build = yes
-				}
-			}
+			}	
 		}
-	}
 
-	focus = {
-		id = SCO_local_industries
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5
-		x = 12
-		y = 3
-		available = {controls_state = 97}
-		prerequisite = {focus = SCO_southern_industry}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
+		focus = {
+			id = SCO_port_of_aberdeen
+			icon = GFX_goal_generic_build_navy
+			cost = 5
+			x = 4
+			y = 3
+			prerequisite = {focus = SCO_tay_shipbuilding}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				110 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 1940
+						instant_build = yes
+					}
 				}
 			}
 		}
-	}
 
-	focus = {
-		id = SCO_reconcile_irish
-		icon = GFX_goal_generic_consumer_goods
-		cost = 5
-		x = 12
-		y = 4
-		bypass = {has_government = fascist}
-		prerequisite = {focus = SCO_local_industries}
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = SCO_irish_reconciled
+
+		focus = {
+			id = SCO_southern_industry
+			icon = GFX_goal_generic_construction
+			cost = 5
+			x = 10
+			y = 1
+			available = {controls_state = 91}
+			available = {controls_state = 90}
+			available = {controls_state = 87}
+			prerequisite = {focus = SCO_prepare_for_the_struggle}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				91 = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				90 = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				87 = {
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
-	}
+
+		focus = {
+			id = SCO_leith_shipbuilding
+			icon = GFX_goal_generic_construct_naval_dockyard
+			cost = 5
+			x = 8
+			y = 2
+			prerequisite = {focus = SCO_southern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				97 = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+			}	
+		}
+
+		focus = {
+			id = SCO_rosyth_shipbuilding
+			icon = GFX_goal_generic_construct_naval_dockyard
+			cost = 5
+			x = 8
+			y = 3
+			prerequisite = {focus = SCO_leith_shipbuilding}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				105 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}	
+		}
+
+		focus = {
+			id = SCO_port_of_leith
+			icon = GFX_goal_generic_build_navy
+			cost = 5
+			x = 8
+			y = 4
+			prerequisite = {focus = SCO_rosyth_shipbuilding}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				97 = {
+					add_building_construction = {
+						type = naval_base
+						level = 4
+						province = 1711
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = SCO_lothian_collieries
+			icon = GFX_goal_generic_construction2
+			cost = 5
+			x = 10
+			y = 2
+			prerequisite = {focus = SCO_southern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				98 = {
+					add_resource = {
+							type = chromium
+							amount = 24
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = SCO_ayrshire_collieries
+			icon = GFX_goal_generic_construction2
+			cost = 5
+			x = 10
+			y = 3
+			prerequisite = {focus = SCO_lothian_collieries}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				92 = {
+					add_resource = {
+							type = chromium
+							amount = 24
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = SCO_edinburgh_industries
+			icon = GFX_goal_generic_construct_civ_factory
+			cost = 5
+			x = 12
+			y = 2
+			available = {controls_state = 97}
+			prerequisite = {focus = SCO_southern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				97 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				97 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = arms_factory
+						level = 4
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = SCO_local_industries
+			icon = GFX_goal_generic_construct_civ_factory
+			cost = 5
+			x = 12
+			y = 3
+			available = {controls_state = 97}
+			prerequisite = {focus = SCO_southern_industry}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = SCO_reconcile_irish
+			icon = GFX_goal_generic_consumer_goods
+			cost = 5
+			x = 12
+			y = 4
+			bypass = {has_government = fascist}
+			prerequisite = {focus = SCO_local_industries}
+			continue_if_invalid = yes
+			available_if_capitulated = yes
+			completion_reward = {
+				add_ideas = SCO_irish_reconciled
+			}
+		}
 
 ##############
 ###politics###
@@ -532,7 +532,7 @@ focus = {
 #peaceful#
 
 
-	focus = {
+		focus = {
 			id = SCO_peaceful_methods
 			icon = GFX_goal_support_democracy
 			cost = 5
@@ -546,7 +546,7 @@ focus = {
 			}
 		}
 
-	focus = {
+		focus = {
 			id = SCO_status_quo
 			icon = GFX_goal_tripartite_pact
 			cost = 5
@@ -561,7 +561,7 @@ focus = {
 			}
 		}
 
-	focus = {
+		focus = {
 			id = SCO_secure_the_nation
 			icon = GFX_goal_generic_propaganda
 			cost = 5
@@ -573,31 +573,31 @@ focus = {
 			completion_reward = {
 				custom_effect_tooltip = SCO_SNP_loyalists
 				hidden_effect = {
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 97 }
-					create_unit = {
-						division = "name = \"MacEwan Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"MacCormick Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Wallace Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Bruce Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
-						owner = SCO
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 97 }
+						create_unit = {
+							division = "name = \"MacEwan Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"MacCormick Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Wallace Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Bruce Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.1"
+							owner = SCO
+						}
 					}
 				}
 			}
 		}
-	}
 
-	focus = {
+		focus = {
 			id = SCO_maintain_the_republic
 			icon = GFX_goal_generic_demand_territory
 			cost = 5
@@ -619,7 +619,7 @@ focus = {
 			cost = 5
 			x = 15
 			y = 4
-			available = {JAC { exists = no }}
+			available = { JAC = { exists = no }}
 			prerequisite = {focus = SCO_maintain_the_republic}
 			continue_if_invalid = yes
 			available_if_capitulated = yes
@@ -660,7 +660,7 @@ focus = {
 			x = 16
 			y = 5
 			bypass = {has_government = democratic_socialist}
-			available = {SOG { exists = no }}
+			available = { SOG = { exists = no }}
 			mutually_exclusive = {focus = SCO_compromise_with_clydeside}
 			prerequisite = {focus = SCO_special_elections}
 			continue_if_invalid = yes
@@ -778,7 +778,7 @@ focus = {
 			continue_if_invalid = yes
 			available_if_capitulated = yes
 			completion_reward = {
-				YRK {
+				YRK = {
 					country_event = {
     					id = YRK.events.5
     					days = 10
@@ -793,7 +793,7 @@ focus = {
 			cost = 5
 			x = 18
 			y = 6
-			available = {JAC { exists = no }}
+			available = { JAC = { exists = no } }
 			prerequisite = {focus = SCO_invite_albert}
 			continue_if_invalid = yes
 			available_if_capitulated = yes
@@ -1090,7 +1090,8 @@ focus = {
 			continue_if_invalid = yes
 			available_if_capitulated = yes
 			completion_reward = {
-				SOG {annex_country = {
+				SOG = { 
+					annex_country = {
     					target = SCO
     					transfer_troops = yes
 					}				
@@ -1360,7 +1361,7 @@ focus = {
 				create_country_leader = {
 					name = "Archibald Maule Ramsay"
 					desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-					picture = "gfx/leaders/VBCW/SCO/SCO_Ramsay.dds"
+					picture = "gfx/leaders/VBCW/SCO/SCO-Ramsay.dds"
 					expire = "1965.1.1"
 					ideology = fascist_subtype
 					traits = {
@@ -1478,57 +1479,56 @@ focus = {
 			completion_reward = {
 				army_experience = 10
 				custom_effect_tooltip = SCO_highland_levies
-				hidden_effect = {
-				random_owned_controlled_state = {
-					limit = { ROOT = { has_full_control_of_state = PREV } }
-					prioritize = { 111 }
-					create_unit = {
-						division = "name = \"Clan Campbell Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan Fraser Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan MacDonald Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan Sutherland Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan MacKenzie Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan Cameron Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-					create_unit = {
-						division = "name = \"Clan MacLean Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
-						owner = SCO
-					}
-
-					create_unit = {
-						division = "name = \"Atholl Highlanders\" division_template = \"Infantry Regiment\" start_experience_factor = 0.5"
-						owner = SCO
-					}
-					create_corps_commander = {
-						name = "John Stewart-Murray, 8th Duke of Atholl"
-						picture = "gfx/leaders/VBCW/SCO/SCO_Atholl.dds"
-						traits = { old_guard cavalry_officer career_officer unionist_sympathies }
-						skill = 3
-						attack_skill = 4
-						defense_skill = 2
-						planning_skill = 2
-						logistics_skill = 3
+					hidden_effect = {
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 111 }
+						create_unit = {
+							division = "name = \"Clan Campbell Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan Fraser Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan MacDonald Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan Sutherland Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan MacKenzie Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan Cameron Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Clan MacLean Battalion\" division_template = \"Local Defence Volunteers\" start_experience_factor = 0.2"
+							owner = SCO
+						}
+						create_unit = {
+							division = "name = \"Atholl Highlanders\" division_template = \"Infantry Regiment\" start_experience_factor = 0.5"
+							owner = SCO
+						}
+						create_corps_commander = {
+							name = "John Stewart-Murray, 8th Duke of Atholl"
+							picture = "gfx/leaders/VBCW/SCO/SCO-Atholl.dds"
+							traits = { old_guard cavalry_officer career_officer unionist_sympathies }
+							skill = 3
+							attack_skill = 4
+							defense_skill = 2
+							planning_skill = 2
+							logistics_skill = 3
+						}
 					}
 				}
 			}
 		}
-	}
 
 
 		focus = {
@@ -1738,28 +1738,4 @@ focus = {
 				unlock_decision_tooltip = SCO_french_aid_decision
 			}
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}

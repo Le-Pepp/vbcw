@@ -9,9 +9,9 @@ state={
 	state_category = large_town
 	
 	history={
-		victory_points { 303 10 }
-		victory_points { 391 5 }
-		victory_points { 457 5 }
+		victory_points = { 303 10 }
+		victory_points = { 391 5 }
+		victory_points = { 457 5 }
 		owner = BUF
 		add_core_of = BUF
 		add_claim_by = YRK

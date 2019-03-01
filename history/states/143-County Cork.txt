@@ -17,7 +17,7 @@
 	history={
 		owner = IRL
 		add_core_of = IRL
-		victory_points { 425 10 }
+		victory_points = { 425 10 }
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

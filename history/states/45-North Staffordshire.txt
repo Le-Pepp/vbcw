@@ -13,15 +13,15 @@ state={
 	
 	state_category = large_town
 	
-	history=[
+	history={
 		owner = SOM
 		add_core_of = SOM
 		add_claim_by = ROY
 		add_claim_by = ANG
 		add_claim_by = YRK
-		victory_points { 746 10 }
-		victory_points { 845 20 }
-		victory_points { 2386 10 }
+		victory_points = { 746 10 }
+		victory_points = { 845 20 }
+		victory_points = { 2386 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 1

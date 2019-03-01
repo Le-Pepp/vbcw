@@ -564,16 +564,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 	
@@ -602,16 +592,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 	
@@ -634,16 +614,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}	
 	

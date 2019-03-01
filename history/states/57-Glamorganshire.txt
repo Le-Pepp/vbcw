@@ -22,11 +22,11 @@ state={
 		add_claim_by = ROY
 		add_claim_by = WAL
 		add_claim_by = YRK
-		victory_points { 253 25 }
-		victory_points { 313 10 }
-		victory_points { 322 5 }
-		victory_points { 2411 10 }
-		victory_points { 2412 10 }
+		victory_points = { 253 25 }
+		victory_points = { 313 10 }
+		victory_points = { 322 5 }
+		victory_points = { 2411 10 }
+		victory_points = { 2412 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2

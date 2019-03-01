@@ -262,7 +262,7 @@ focus_tree = {
 			add_ideas = SOD_equal_before_god
 			add_popularity = {
 				popularity = 0.2
-				ideology = radical_socialism
+				ideology = anarcho_syndicalist
 			}
 			add_stability = 0.1
 		}
@@ -493,7 +493,7 @@ focus_tree = {
 		x = 9
 		y = 10
 		prerequisite = {focus = SOD_national_cooperation}
-		bypass = { SOM = {has_government = radcal_socialism}}
+		bypass = { SOM = {has_government = anarcho_syndicalist}}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
@@ -742,6 +742,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			army_experience = 20
-
+		}
 	}
 }

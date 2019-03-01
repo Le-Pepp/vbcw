@@ -96,15 +96,6 @@ same_government_type_as_ROOT = {
 	}
 }
 
-has_naval_treaty_trigger = {
-	OR = {
-		has_idea = MTG_naval_treaty_adherent
-		has_idea = MTG_naval_treaty_cheating
-		has_idea = MTG_naval_treaty_adherent_reduced
-		has_idea = MTG_naval_treaty_cheating_reduced
-	}
-}
-
 ai_air_doctrine_tier_1_trigger = {
 	OR = {
 		has_tech = naval_strike_tactics
@@ -133,7 +124,7 @@ ai_land_doctrine_tier_1_trigger = {
 		has_tech = elastic_defence
 		has_tech = mobile_defence
 		has_tech = grand_assault
-		has_tech = defence_in_depth
+		has_tech = guerilla_warfare
 	}
 }
 
@@ -143,7 +134,6 @@ ai_land_doctrine_tier_2_trigger = {
 		has_tech = mechanised_offensive
 		has_tech = branch_interoperation
 		has_tech = infiltration_assault
-		has_tech = vast_offensives
-		has_tech = large_front_offensive
+		has_tech = local_knowledge
 	}
 }

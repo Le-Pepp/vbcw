@@ -22,7 +22,7 @@ state={
 		add_claim_by = ROY
 		add_claim_by = YRK
 		add_claim_by = ANG
-		victory_points { 1089 10 }
+		victory_points = { 1089 10 }
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2

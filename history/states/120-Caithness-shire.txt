@@ -14,8 +14,8 @@ state={
 	
 	history={
 		add_extra_state_shared_building_slots = 1
-		victory_points { 2062 5 }
-		victory_points { 2081 5 }
+		victory_points = { 2062 5 }
+		victory_points = { 2081 5 }
 		owner = JAC
 		add_core_of = JAC
 		add_claim_by = ROY

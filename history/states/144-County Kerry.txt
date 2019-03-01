@@ -9,7 +9,7 @@ state={
 	state_category = town
 	
 	history={
-		victory_points { 2435 10 }
+		victory_points = { 2435 10 }
 		owner = IRL
 		add_core_of = IRL
 		buildings = {

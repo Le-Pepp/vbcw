@@ -15,7 +15,7 @@ state={
 	state_category = large_town
 	
 	history={
-		victory_points { 2408 10 }
+		victory_points = { 2408 10 }
 		owner = LIV
 		add_core_of = LIV
 		add_claim_by = ROY

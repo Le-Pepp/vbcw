@@ -19,13 +19,13 @@ state={
 		add_core_of = ROY
 		add_claim_by = ANG
 		add_claim_by = YRK
-		victory_points { 992 10 }
-		victory_points { 1008 10 }
-		victory_points { 1048 10 }
-		victory_points { 1116 10 }
-		victory_points { 1129 10 }
-		victory_points { 1153 10 }
-		victory_points { 1064 10 }
+		victory_points = { 992 10 }
+		victory_points = { 1008 10 }
+		victory_points = { 1048 10 }
+		victory_points = { 1116 10 }
+		victory_points = { 1129 10 }
+		victory_points = { 1153 10 }
+		victory_points = { 1064 10 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2

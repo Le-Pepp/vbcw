@@ -485,31 +485,6 @@ technologies = {
 			factor = 0.5
 			
 			modifier = {
-				factor = 5
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ITA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
 				factor = 2
 				has_war = yes
 			}

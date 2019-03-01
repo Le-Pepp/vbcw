@@ -12,7 +12,7 @@ state={
 		add_core_of = MNX
 		add_claim_by = ROY
 		add_claim_by = YRK
-		victory_points {
+		victory_points = {
 			2147 10 
 		}
 		buildings = {
