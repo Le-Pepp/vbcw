@@ -21,7 +21,7 @@ equipments = {
 		}
 		
 		#Misc Abilities
-		maximum_speed = 3.5
+		maximum_speed = 4
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -45,6 +45,8 @@ equipments = {
 			steel = 3
 			tungsten = 4
 		}
+		
+		fuel_consumption = 10
 	}
 
 	super_heavy_tank_equipment_1 = {

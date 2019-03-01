@@ -46,6 +46,8 @@ equipments = {
 			tungsten = 1
 		}
 		
+		fuel_consumption = 3.6
+		
 	}
 
 	# 1934

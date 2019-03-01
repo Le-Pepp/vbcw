@@ -46,6 +46,8 @@ equipments = {
 			steel = 2
 		}
 
+		fuel_consumption = 1.8
+
 	}
 
 	# WW1 tank
