@@ -114,6 +114,10 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Domville.dds"
 	traits = { spotter }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {
@@ -121,4 +125,8 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Boyle.dds"
 	traits = {  }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

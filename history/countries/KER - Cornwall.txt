@@ -122,8 +122,6 @@ create_corps_commander = {
     logistics_skill = 2
 }
 
-
-
 create_corps_commander = {
 	name = "Robert McGowan Barrington-Ward"
 	portrait_path = "gfx/leaders/VBCW/KER/KER-BarringtonWard.dds"
@@ -140,4 +138,8 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/VBCW/KER/KER-Phillips.dds"
 	traits = { spotter }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }

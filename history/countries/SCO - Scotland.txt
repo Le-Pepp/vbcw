@@ -314,6 +314,10 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Burnett.dds"
 	traits = { blockade_runner }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
 }
 
 create_navy_leader = {
@@ -321,11 +325,19 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Chalmers.dds"
 	traits = { old_guard }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Bertram Ramsay"
 	portrait_path = "gfx/leaders/VBCW/SCO/SCO-Ramsay.dds"
 	traits = { blockade_runner superior_tactician }
-	skill = 4
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
