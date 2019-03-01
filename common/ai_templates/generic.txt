@@ -64,6 +64,7 @@ armor_generic = {
 			0.00 #-- suppression_factor
 			0.01 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
@@ -75,6 +76,12 @@ armor_generic = {
 			0.10 #-- reliability
 			0.10 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -140,6 +147,7 @@ armor_generic = {
 			0.00 #-- suppression_factor
 			0.01 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
@@ -151,6 +159,12 @@ armor_generic = {
 			0.10 #-- reliability
 			0.10 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 
@@ -226,6 +240,7 @@ armor_generic = {
 			0.00 #-- suppression_factor
 			0.01 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
@@ -237,6 +252,12 @@ armor_generic = {
 			0.10 #-- reliability
 			0.10 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -309,6 +330,7 @@ armor_generic = {
 			0.00 #-- suppression_factor
 			0.01 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
@@ -320,6 +342,12 @@ armor_generic = {
 			0.10 #-- reliability
 			0.10 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 
@@ -407,6 +435,7 @@ garrison_generic = {
 			0.00 #-- suppression_factor
 			0.00 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.00 #-- air_attack
 			#-- Common Values
@@ -418,6 +447,12 @@ garrison_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -467,11 +502,25 @@ suppression_generic = {
 			factor = 2
 
 			modifier = {
-				factor = 1
+				factor = 50
+				tag = GER
+				OR = {
+					AND = {
+						has_completed_focus = GER_anschluss
+						NOT = { ai_has_role_template = garrison }
+					}
+					
+					AND = {
+						any_country = {
+							is_justifying_wargoal_against = ROOT
+						}
+						NOT = { ai_has_role_template = garrison }
+					}
+				}			
 			}
 		}
 		
-		target_width = 6.0
+		target_width = 12.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -492,6 +541,7 @@ suppression_generic = {
 			0.00 #-- suppression_factor
 			0.00 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.00 #-- air_attack
 			#-- Common Values
@@ -503,6 +553,12 @@ suppression_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -515,7 +571,7 @@ suppression_generic = {
 			}
 			
 			regiments = {
-				cavalry = 3
+				cavalry = 6
 			}
 		}
 		
@@ -573,6 +629,7 @@ infantry_generic = {
 			0.00 #-- suppression_factor
 			0.00 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.00 #-- air_attack
 			#-- Common Values
@@ -584,6 +641,12 @@ infantry_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -682,6 +745,7 @@ infantry_big_generic = {
 			0.00 #-- suppression_factor
 			0.00 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.00 #-- air_attack
 			#-- Common Values
@@ -693,6 +757,12 @@ infantry_big_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			0.00 #-- build_cost_ic
 		}
 		
@@ -779,6 +849,7 @@ mountaineers_generic = {
 			0 #-- suppression_factor
 			0 #-- experience_loss_factor
 			0 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0 #-- air_attack
 			#-- Common Values
@@ -789,7 +860,13 @@ mountaineers_generic = {
 			0 #-- ap_attack
 			0 #-- reliability
 			0 #-- reliability_factor
-			0 #-- weight
+			0.00 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			-0.1 #-- build_cost_ic
 		}
 
@@ -872,6 +949,7 @@ marines_generic = {
 			0.00 #-- suppression_factor
 			0.00 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.00 #-- air_attack
 			#-- Common Values
@@ -883,6 +961,12 @@ marines_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			-0.2 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			-0.1 #-- build_cost_ic
 		}
 
@@ -960,6 +1044,7 @@ paratrooper_generic = {
 			0.01 #-- suppression_factor
 			0.05 #-- experience_loss_factor
 			0.00 #-- equipment_capture_factor
+			0.00 #-- fuel_capacity
 			#-- Air Values
 			0.01 #-- air_attack
 			#-- Common Values
@@ -971,6 +1056,12 @@ paratrooper_generic = {
 			0.00 #-- reliability
 			0.00 #-- reliability_factor
 			-1.0 #-- weight
+			0.00 #-- fuel_consumption
+			0.00 #-- fuel_consumption_factor
+			0.00 #-- strat_attack
+			0.00 #-- carrier_size
+			0.00 #-- acc_hot_gain
+			0.00 #-- acc_cold_gain
 			-0.1 #-- build_cost_ic
 		}
 

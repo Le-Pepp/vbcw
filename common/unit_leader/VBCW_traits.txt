@@ -1,7 +1,7 @@
 leader_traits = {
 	
 	hero_of_the_october_revolution = {
-		type = all
+		type = land
 		
 		trait_type = personality_trait
 		
@@ -15,7 +15,7 @@ leader_traits = {
 	}
 	
 	veteran_of_spain = {
-		type = all
+		type = land
 		
 		trait_type = personality_trait
 		
@@ -39,7 +39,7 @@ leader_traits = {
 	}
 	
 	peoples_soldier = {
-		type = all
+		type = land
 		
 		trait_type = personality_trait
 		
@@ -54,7 +54,7 @@ leader_traits = {
 	}
 	
 	auxiliary_constable = {
-		type = all
+		type = land
 		
 		trait_type = personality_trait
 		
@@ -70,7 +70,7 @@ leader_traits = {
 	}
 	
 	clan_chief = {
-		type = all
+		type = land
 		
 		trait_type = personality_trait
 		
@@ -98,7 +98,7 @@ leader_traits = {
 	}
 	
 	unionist_sympathies = { 
-		type = all
+		type = land
 		trait_type = personality_trait
 		gain_xp = {
 			always = no # not gainable
