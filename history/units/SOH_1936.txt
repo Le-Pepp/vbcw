@@ -177,28 +177,28 @@ units = {
 	##### NAVY #####
 	################
 	
-	navy = {				
-		name = "Hull Fleet"			
-		base = 1148
-		location = 1148
-		ship = { name = "Southampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
-		ship = { name = "Echo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }
-		ship = { name = "Garry" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Liffey" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		ship = { name = "Buckingham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		ship = { name = "Glen Kidson" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-	}
-	
-	navy = {				
-		name = "Grimsby Fleet"			
-		base = 1089
-		location = 1089	
-		ship = { name = "Glasgow" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Sandringham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Malayan" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Lune" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "Fane" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-	}
+#	navy = {				
+#		name = "Hull Fleet"			
+#		base = 1148
+#		location = 1148
+#		ship = { name = "Southampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Echo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }
+#		ship = { name = "Garry" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Liffey" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Buckingham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Glen Kidson" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#	}
+#	
+#	navy = {				
+#		name = "Grimsby Fleet"			
+#		base = 1089
+#		location = 1089	
+#		ship = { name = "Glasgow" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Sandringham" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Malayan" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Lune" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Fane" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+#	}
 }	
 
 

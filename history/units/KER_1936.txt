@@ -148,26 +148,6 @@ units = {
 		start_equipment_factor = 0.75
 		force_equipment_variants = { infantry_equipment_0 = { owner = "CIV" } }
 	}
-
-
-	
-	################
-	##### NAVY #####
-	################
-	
-	navy = {				
-		name = "Cornish Fleet"			
-		base = 68
-		location = 68
-		ship = { name = "Ajax" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Amphion Class" } } }
-		ship = { name = "Electra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
-		ship = { name = "Eclipse" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
-		ship = { name = "Exmouth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }
-		ship = { name = "Laurel" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "Arcanes" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Erimo" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "Avona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-	}
 }	
 
 

@@ -222,21 +222,21 @@ units = {
 	##### NAVY #####
 	################
 	
-	navy = {				
-		name = "Tyne Fleet"			
-		base = 1533
-		location = 1533
-		ship = { name = "Newcastle" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
-		ship = { name = "Edinburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG version_name = "Edinburgh Class" } } }
-		ship = { name = "Manchester" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
-		ship = { name = "Sheffield" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Foresight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }		
-		ship = { name = "Fortune" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
-		ship = { name = "Cloud" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Coldsnap" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Speedy" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Seagull" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-	}
+#	navy = {				
+#		name = "Tyne Fleet"			
+#		base = 1533
+#		location = 1533
+#		ship = { name = "Newcastle" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Edinburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG version_name = "Edinburgh Class" } } }
+#		ship = { name = "Manchester" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+#		ship = { name = "Sheffield" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Foresight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }		
+#		ship = { name = "Fortune" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
+#		ship = { name = "Cloud" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Coldsnap" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Speedy" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Seagull" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#	}
 }	
 
 
@@ -332,16 +332,6 @@ instant_effect = {
 		type = artillery_equipment_1
 		amount = 8
 		producer = ENG
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = sloop_2
-			creator = "SON" 
-		}
-		requested_factories = 3
-		progress = 0.42
-		amount = 3
 	}
 }
 	#####################

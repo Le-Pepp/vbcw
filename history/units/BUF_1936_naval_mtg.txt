@@ -1,0 +1,23 @@
+﻿units = {	
+	######################
+	##### NAVY - MTG #####
+	######################
+	
+	fleet = {				
+		name = "Lightning Fleet"			
+		naval_base = 327
+		task_force = {				
+			name = "Thames Squadron"	
+			location = 327
+			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "HMS Worcester" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Campbell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+#			ship = { name = "MGB-13" definition = gunboat equipment = { gunboat_2 = { amount = 1 owner = BUF } } }
+#			ship = { name = "MGB-18" definition = gunboat equipment = { gunboat_2 = { amount = 1 owner = BUF } } }
+#			ship = { name = "MGB-24" definition = gunboat equipment = { gunboat_2 = { amount = 1 owner = BUF } } }
+#			ship = { name = "MGB-26" definition = gunboat equipment = { gunboat_2 = { amount = 1 owner = BUF } } }
+#			ship = { name = "MTB-06" definition = torpedo_boat equipment = { torpedo_boat_2 = { amount = 1 owner = BUF } } }
+#			ship = { name = "MTB-09" definition = torpedo_boat equipment = { torpedo_boat_2 = { amount = 1 owner = BUF } } }
+		}
+	}
+}	

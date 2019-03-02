@@ -178,19 +178,19 @@ units = {
 	##### NAVY #####
 	################
 	
-	navy = {				
-		name = "Tees Fleet"			
-		base = 1452
-		location = 1452
-		ship = { name = "Fame" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
-		ship = { name = "Firedrake" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
-		ship = { name = "Halo" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Horizon" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }		
-		ship = { name = "Mist" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Moontide" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Bramble" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-		ship = { name = "Hazard" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-	}
+#	navy = {				
+#		name = "Tees Fleet"			
+#		base = 1452
+#		location = 1452
+#		ship = { name = "Fame" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
+#		ship = { name = "Firedrake" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
+#		ship = { name = "Halo" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Horizon" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }		
+#		ship = { name = "Mist" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Moontide" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Bramble" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#		ship = { name = "Hazard" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+#	}
 }	
 
 

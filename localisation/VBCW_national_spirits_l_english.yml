@@ -4,9 +4,9 @@
  no_man_an_island:0 "No Man an Island"
  no_man_an_island_desc:0 "With the conflict on their very doorstep, more and more men come forward to fight for our cause."
  TOG_cruiser_tanks:0 "The Old Gang"
- TOG_cruiser_tanks:0 "The group of tank designers known as The Old Gang have found useful work improving our Cruiser Tank designs."
+ TOG_cruiser_tanks_desc:0 "The group of tank designers known as The Old Gang have found useful work improving our Cruiser Tank designs."
  TOG_infantry_tanks:0 "The Old Gang"
- TOG_infantry_tanks:0 "The group of tank designers known as The Old Gang have found useful work improving our Infantry Tank designs."
+ TOG_infantry_tanks_desc:0 "The group of tank designers known as The Old Gang have found useful work improving our Infantry Tank designs."
  
  ###FACTIONAL###
  ROY_cavalry_elan:0 "Cavalry Élan"
@@ -17,7 +17,6 @@
  ANG_jam_and_jerusalem_desc:0 "They say an army marches on its stomach, and the Army of the Lord is no different. No Anglican regiment enters the field without its local branch of the Women’s Institute on hand to provide an endless supply of tea and sandwiches.\n\nAll those tea urns and trestle tables do tend to slow things down, however..."
  YRK_peoples_prince:0 "The People's Prince"
  YRK_peoples_prince_desc:0 "As the only legal continuation of the legitimate Parliament, the Yorkist Front enjoys popular support across the British Isles. \n\nAs a result its armies often find their ranks swelled by volunteers wherever they go."
- BUF_auxiliary_constabularies:0 "Auxiliary Constabularies"
  SOM_strike_up_the_band:0 "Strike up the Band"
  SOM_strike_up_the_band_desc:0 "No industrial community is complete without its brass band, and the People’s Armies are always accompanied by a substantial brass section. \n\nAlthough the rousing selection of tunes they play keep up the troops’ spirits, they do often tend to give away their movements..."
  SOM_foundries_and_forges:0 "Forges and Foundries"

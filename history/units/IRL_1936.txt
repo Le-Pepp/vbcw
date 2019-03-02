@@ -91,12 +91,12 @@ units = {
 	##### NAVY #####
 	################
 	
-	navy = {				
-		name = "Dublin Fleet"			
-		base = 950
-		location = 950
-		ship = { name = "Belfast" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG version_name = "Edinburgh Class" } } }
-	}
+#	navy = {				
+#		name = "Dublin Fleet"			
+#		base = 950
+#		location = 950
+#		ship = { name = "Belfast" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG version_name = "Edinburgh Class" } } }
+#	}
 }	
 
 
