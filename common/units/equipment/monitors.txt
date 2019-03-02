@@ -1,186 +1,186 @@
-equipments = {
+# equipments = {
 
-	monitor = {
-		year = 1922
+	# monitor = {
+		# year = 1922
 
-		is_archetype = yes
-		is_buildable = no
-		type = screen_ship
+		# is_archetype = yes
+		# is_buildable = no
+		# type = screen_ship
 		
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
+		# upgrades = {
+			# ship_reliability_upgrade
+			# ship_engine_upgrade
+			# ship_gun_upgrade
+			# ship_anti_air_upgrade
+		# }
 		
-		interface_category = interface_category_screen_ships
+		# interface_category = interface_category_screen_ships
 
-		ap_attack = 8
-		attack = 10
-		fire_range = 20
-		torpedo_attack = 0
-		sub_attack = 0
-		shore_bombardment = 4
+		# ap_attack = 8
+		# attack = 10
+		# fire_range = 20
+		# torpedo_attack = 0
+		# sub_attack = 0
+		# shore_bombardment = 4
 		
-		anti_air_attack = 2
+		# anti_air_attack = 2
 		
-		armor_value = 5
-		evasion = 50
+		# armor_value = 5
+		# evasion = 50
 		
-		surface_detection = 10
-		sub_detection = 0
-		surface_visibility = 15
-		naval_speed = 18
-		reliability = 0.75
+		# surface_detection = 10
+		# sub_detection = 0
+		# surface_visibility = 15
+		# naval_speed = 18
+		# reliability = 0.75
 		
-		naval_range = 2400
+		# naval_range = 2400
 		
-		max_strength = 100		
+		# max_strength = 100		
 		
-		port_capacity_usage = 1
+		# port_capacity_usage = 1
 		
-		build_cost_ic = 3200
-		resources = {
-			#oil = 1
-			steel = 2
-		}
+		# build_cost_ic = 3200
+		# resources = {
+			# # oil = 1
+			# steel = 2
+		# }
 		
-		manpower = 250
-	}
+		# manpower = 250
+	# }
 
-	monitor_1 = {
-		year = 1922
+	# monitor_1 = {
+		# year = 1922
 
-		archetype = monitor
-		priority = 30
+		# archetype = monitor
+		# priority = 30
 
-		type = { 
-			screen_ship
-		}
+		# type = { 
+			# screen_ship
+		# }
 
-	}
+	# }
 	
-	monitor_2 = {
-		year = 1936
+	# monitor_2 = {
+		# year = 1936
 
-		archetype = monitor
-		parent = monitor_1
-		priority = 30
+		# archetype = monitor
+		# parent = monitor_1
+		# priority = 30
 		
-		ap_attack = 10
-		attack = 12
-		fire_range = 22
-		torpedo_attack = 0
-		sub_attack = 0
-		shore_bombardment = 6
+		# ap_attack = 10
+		# attack = 12
+		# fire_range = 22
+		# torpedo_attack = 0
+		# sub_attack = 0
+		# shore_bombardment = 6
 		
-		anti_air_attack = 4
+		# anti_air_attack = 4
 		
-		armor_value = 6
-		evasion = 55
+		# armor_value = 6
+		# evasion = 55
 		
-		surface_detection = 15
-		sub_detection = 0
-		naval_speed = 20
-		reliability = 0.80
+		# surface_detection = 15
+		# sub_detection = 0
+		# naval_speed = 20
+		# reliability = 0.80
 
-		naval_range = 3000
+		# naval_range = 3000
 		
-		max_strength = 120
+		# max_strength = 120
 		
-		port_capacity_usage = 1
+		# port_capacity_usage = 1
 		
-		type = { 
-			screen_ship
-		}
-		build_cost_ic = 3600
-		resources = {
-			#oil = 1
-			steel = 3
-		}
-		manpower = 300
-	}
+		# type = { 
+			# screen_ship
+		# }
+		# build_cost_ic = 3600
+		# resources = {
+			# # oil = 1
+			# steel = 3
+		# }
+		# manpower = 300
+	# }
 	
-	monitor_3 = {
-		year = 1940
+	# monitor_3 = {
+		# year = 1940
 
-		archetype = monitor
-		parent = monitor_2
-		priority = 30
+		# archetype = monitor
+		# parent = monitor_2
+		# priority = 30
 		
-		ap_attack = 12
-		attack = 14
-		fire_range = 24
-		torpedo_attack = 0
-		sub_attack = 0
-		shore_bombardment = 8
+		# ap_attack = 12
+		# attack = 14
+		# fire_range = 24
+		# torpedo_attack = 0
+		# sub_attack = 0
+		# shore_bombardment = 8
 		
-		anti_air_attack = 8
+		# anti_air_attack = 8
 		
-		armor_value = 7
-		evasion = 60
+		# armor_value = 7
+		# evasion = 60
 		
-		surface_detection = 20
-		sub_detection = 0
-		naval_speed = 22
-		reliability = 0.85
+		# surface_detection = 20
+		# sub_detection = 0
+		# naval_speed = 22
+		# reliability = 0.85
 
-		naval_range = 4000
+		# naval_range = 4000
 		
-		max_strength = 140
+		# max_strength = 140
 		
-		port_capacity_usage = 1
+		# port_capacity_usage = 1
 		
-		type = { 
-			screen_ship
-		}
-		build_cost_ic = 4000
-		resources = {
-			#oil = 2
-			steel = 3
-		}
-		manpower = 350
-	}
+		# type = { 
+			# screen_ship
+		# }
+		# build_cost_ic = 4000
+		# resources = {
+			# # oil = 2
+			# steel = 3
+		# }
+		# manpower = 350
+	# }
 	
-	monitor_4 = {
-		year = 1944
+	# monitor_4 = {
+		# year = 1944
 
-		archetype = monitor
-		parent = monitor_3
-		priority = 30
+		# archetype = monitor
+		# parent = monitor_3
+		# priority = 30
 		
-		ap_attack = 14
-		attack = 16
-		fire_range = 26
-		torpedo_attack = 0
-		sub_attack = 0
-		shore_bombardment = 10
+		# ap_attack = 14
+		# attack = 16
+		# fire_range = 26
+		# torpedo_attack = 0
+		# sub_attack = 0
+		# shore_bombardment = 10
 		
-		anti_air_attack = 12
+		# anti_air_attack = 12
 		
-		armor_value = 8
-		evasion = 65
+		# armor_value = 8
+		# evasion = 65
 		
-		surface_detection = 25
-		sub_detection = 0
-		naval_speed = 24
-		reliability = 0.90
+		# surface_detection = 25
+		# sub_detection = 0
+		# naval_speed = 24
+		# reliability = 0.90
 
-		naval_range = 4500
+		# naval_range = 4500
 		
-		max_strength = 160
+		# max_strength = 160
 		
-		port_capacity_usage = 1
+		# port_capacity_usage = 1
 		
-		type = { 
-			screen_ship
-		}
-		build_cost_ic = 4400
-		resources = {
-			#oil = 2
-			steel = 4
-		}
-		manpower = 400
-	}
-}
+		# type = { 
+			# screen_ship
+		# }
+		# build_cost_ic = 4400
+		# resources = {
+			# # oil = 2
+			# steel = 4
+		# }
+		# manpower = 400
+	# }
+# }

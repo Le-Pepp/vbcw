@@ -142,6 +142,28 @@ if = {
 			ship_anti_air_upgrade = 1
 		}
 		obsolete = yes
+	}		
+	create_equipment_variant = {
+		name = "E/F/G/H Class"
+		type = destroyer_1
+		parent_version = 1
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 3
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Tribal Class"
+		type = destroyer_2
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
 	}
 	# Light Cruisers #
 	create_equipment_variant = {
@@ -157,9 +179,31 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
+		name = "Danae Class"
+		type = light_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 2
+			ship_engine_upgrade = 2
+			ship_gun_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}		
+		obsolete = yes
+	}
+	create_equipment_variant = {
 		name = "Amphion Class"
 		type = light_cruiser_1
 		parent_version = 1
+		upgrades = {
+			ship_reliability_upgrade = 3
+			ship_engine_upgrade = 3
+			ship_gun_upgrade = 3
+			ship_anti_air_upgrade = 3
+		}
+	}
+	create_equipment_variant = {
+		name = "Town Class"
+		type = light_cruiser_2
 		upgrades = {
 			ship_reliability_upgrade = 3
 			ship_engine_upgrade = 3
@@ -223,6 +267,22 @@ if = {
 	limit = { has_dlc = "Man the Guns" }	
 	### Sloops ###
 	create_equipment_variant = {
+		name = "Hastings Class"
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
 		name = "Kingfisher Class"
 		type = ship_hull_light_1
 		parent_version = 0
@@ -271,7 +331,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "E/F Class"
+		name = "E/F/G/H Class"
 		type = ship_hull_light_2
 		parent_version = 0
 		modules = {
@@ -402,7 +462,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Edinburgh Class"
+		name = "Town Class"
 		type = ship_hull_cruiser_2
 		parent_version = 0
 		modules = {

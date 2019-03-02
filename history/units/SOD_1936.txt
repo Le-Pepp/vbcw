@@ -182,8 +182,8 @@ units = {
 #		name = "Tees Fleet"			
 #		base = 1452
 #		location = 1452
-#		ship = { name = "Fame" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }			
-#		ship = { name = "Firedrake" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F Class" } } }	
+#		ship = { name = "Fame" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }			
+#		ship = { name = "Firedrake" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }	
 #		ship = { name = "Halo" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
 #		ship = { name = "Horizon" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }		
 #		ship = { name = "Mist" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	

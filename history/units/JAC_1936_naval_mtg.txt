@@ -1,0 +1,21 @@
+﻿units = {	
+	######################
+	##### NAVY - MTG #####
+	######################
+	
+	fleet = {				
+		name = "Jacobite Fleet"			
+		naval_base = 2003
+		task_force = {				
+			name = "Invergordon Flotilla"	
+			location = 2003
+			ship = { name = "Cameron" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "Delhi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "Volunteer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Verity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Hastings" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Hastings Class" } } }
+			ship = { name = "Enchantress" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+#			ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+}	
