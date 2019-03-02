@@ -446,7 +446,8 @@ technologies = {
 			bc_tech
 		}
 	}
-		
+
+	
 	early_battleship = {
 
 		enable_equipments = { 
@@ -627,6 +628,7 @@ technologies = {
 			shbb_tech
 		}
 	}
+
 	
 	transport = {
 
@@ -708,6 +710,7 @@ technologies = {
 			tp_tech
 		}
 	}
+
 	
 	early_carrier = {
 
@@ -718,6 +721,11 @@ technologies = {
 		path = {
 			leads_to_tech = basic_carrier 
 			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = early_light_carrier 
+			research_cost_coeff = 0.75
 		}
 				
 		research_cost = 1.5
@@ -751,7 +759,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = early_light_carrier 
+			leads_to_tech = basic_light_carrier 
 			research_cost_coeff = 0.75
 		}
 		
@@ -785,7 +793,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = basic_light_carrier 
+			leads_to_tech = improved_light_carrier 
 			research_cost_coeff = 0.75
 		}
 		
@@ -815,7 +823,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_light_carrier 
+			leads_to_tech = advanced_light_carrier 
 			research_cost_coeff = 0.75
 		}
 		
@@ -838,6 +846,143 @@ technologies = {
 		}
 	}
 
+	
+	early_light_carrier = {
+
+		enable_equipments = { 
+			light_carrier_1
+		}
+		
+		path = {
+			leads_to_tech = basic_light_carrier 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = early_carrier 
+			research_cost_coeff = 0.75
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1922
+		
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cvl_tech
+		}
+	}	
+	
+	basic_light_carrier = {
+
+		enable_equipments = { 
+			light_carrier_2
+		}
+		
+		path = {
+			leads_to_tech = improved_light_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_carrier 
+			research_cost_coeff = 0.75
+		}
+		
+		research_cost = 2
+
+		start_year = 1936
+		
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cvl_tech
+		}
+	}
+	
+	improved_light_carrier = {
+
+		enable_equipments = { 
+			light_carrier_3
+		}
+		
+		path = {
+			leads_to_tech = advanced_light_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_carrier 
+			research_cost_coeff = 0.75
+		}
+	
+		research_cost = 2
+
+		start_year = 1940
+		
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 13 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cvl_tech
+		}
+	}	
+	
+	advanced_light_carrier = {
+
+		enable_equipments = { 
+			light_carrier_4
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier 
+			research_cost_coeff = 0.75
+		}
+	
+		research_cost = 2
+
+		start_year = 1944
+		
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cvl_tech
+		}
+	}
+
+	
 	early_corvette = {
 
 		enable_equipments = { 
@@ -867,7 +1012,6 @@ technologies = {
 			corvette_tech
 		}
 	}
-	
 	
 	basic_corvette	= {
 
@@ -954,6 +1098,7 @@ technologies = {
 		}
 	}
 
+	
 	early_sloop = {
 
 		enable_equipments = { 
@@ -983,8 +1128,7 @@ technologies = {
 			sloop_tech
 		}
 	}
-	
-	
+		
 	basic_sloop	= {
 
 		enable_equipments = { 
@@ -1070,6 +1214,7 @@ technologies = {
 		}
 	}
 
+	
 	early_trawler = {
 
 		enable_equipments = { 
@@ -1100,8 +1245,7 @@ technologies = {
 		}
 	}
 	
-	
-	basic_trawler	= {
+	basic_trawler = {
 
 		enable_equipments = { 
 			trawler_2
@@ -1186,6 +1330,7 @@ technologies = {
 		}
 	}
 
+	
 	early_torpedo_boat = {
 
 		enable_equipments = { 
@@ -1215,7 +1360,6 @@ technologies = {
 			motorboat_tech
 		}
 	}
-	
 	
 	basic_torpedo_boat	= {
 
@@ -1302,6 +1446,7 @@ technologies = {
 		}
 	}
 
+	
 	early_gunboat = {
 
 		enable_equipments = { 
@@ -1332,8 +1477,7 @@ technologies = {
 		}
 	}
 	
-	
-	basic_gunboat	= {
+	basic_gunboat = {
 
 		enable_equipments = { 
 			gunboat_2
@@ -1417,6 +1561,7 @@ technologies = {
 			motorboat_tech
 		}
 	}
+
 	
 	early_submarine = {
 
@@ -1532,6 +1677,7 @@ technologies = {
 		}
 	}
 
+	
 	early_monitor = {
 
 		enable_equipments = { 
@@ -1562,8 +1708,7 @@ technologies = {
 		}
 	}
 	
-	
-	basic_monitor	= {
+	basic_monitor = {
 
 		enable_equipments = { 
 			monitor_2
@@ -1645,92 +1790,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			monitor_tech
-		}
-	}
-	
-	early_light_carrier = {
-
-		enable_equipments = { 
-			light_carrier_1
-		}
-		
-		path = {
-			leads_to_tech = basic_light_carrier 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1922
-		
-		folder = {
-			name = naval_folder
-			position = { x = 2 y = 1 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			cvl_tech
-		}
-	}
-	
-	
-	basic_light_carrier = {
-
-		enable_equipments = { 
-			light_carrier_2
-		}
-		
-		path = {
-			leads_to_tech = improved_light_carrier
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-
-		start_year = 1936
-		
-		folder = {
-			name = naval_folder
-			position = { x = 2 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			cvl_tech
-		}
-	}
-	
-	improved_light_carrier = {
-
-		enable_equipments = { 
-			light_carrier_3
-		}
-	
-		research_cost = 2
-
-		start_year = 1940
-		
-		folder = {
-			name = naval_folder
-			position = { x = 2 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			cvl_tech
 		}
 	}	
 }
