@@ -20,4 +20,5 @@
 #			ship = { name = "Speedy" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 #			ship = { name = "Seagull" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 		}
+	}
 }	

@@ -58,4 +58,5 @@
 #			ship = { name = "Cypress" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 #			ship = { name = "Cedar" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 		}
+	}
 }	
