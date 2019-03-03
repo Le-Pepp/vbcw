@@ -44,10 +44,10 @@ spriteTypes = {
 	SpriteType = { name = "GFX_gunboat_4_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_3.dds" }
 	
 ###TORPEDO BOAT###
-	SpriteType = { name = "GFX_early_torpedo_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_1.dds" }	
-	SpriteType = { name = "GFX_basic_torpedo_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_2.dds" }	
-	SpriteType = { name = "GFX_improved_torpedo_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }	
-	SpriteType = { name = "GFX_advanced_torpedo_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }
+	SpriteType = { name = "GFX_early_motor_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_1.dds" }	
+	SpriteType = { name = "GFX_basic_motor_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_2.dds" }	
+	SpriteType = { name = "GFX_improved_motor_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }	
+	SpriteType = { name = "GFX_advanced_motor_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }
 	
 	SpriteType = { name = "GFX_torpedo_boat_1_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_1.dds" }
 	SpriteType = { name = "GFX_torpedo_boat_2_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_2.dds" }	

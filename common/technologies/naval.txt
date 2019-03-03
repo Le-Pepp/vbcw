@@ -1331,130 +1331,15 @@ technologies = {
 	}
 
 	
-	early_torpedo_boat = {
+	early_motor_boat = {
 
 		enable_equipments = { 
 			torpedo_boat_1
-		}
-		
-		path = {
-			leads_to_tech = basic_torpedo_boat 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1922
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 1 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			motorboat_tech
-		}
-	}
-	
-	basic_torpedo_boat	= {
-
-		enable_equipments = { 
-			torpedo_boat_2
-		}
-		
-		path = {
-			leads_to_tech = improved_torpedo_boat
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-
-		start_year = 1936
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			motorboat_tech
-		}
-	}
-	
-	improved_torpedo_boat = {
-
-		enable_equipments = { 
-			torpedo_boat_3
-		}
-		
-		path = {
-			leads_to_tech = advanced_torpedo_boat
-			research_cost_coeff = 1
-		}
-	
-		research_cost = 2
-
-		start_year = 1940
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			motorboat_tech
-		}
-	}
-	
-	advanced_torpedo_boat = {
-
-		enable_equipments = { 
-			torpedo_boat_4
-		}
-	
-		research_cost = 2
-
-		start_year = 1944
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			motorboat_tech
-		}
-	}
-
-	
-	early_gunboat = {
-
-		enable_equipments = { 
 			gunboat_1
 		}
 		
 		path = {
-			leads_to_tech = basic_gunboat 
+			leads_to_tech = basic_motor_boat 
 			research_cost_coeff = 1
 		}
 		
@@ -1477,14 +1362,15 @@ technologies = {
 		}
 	}
 	
-	basic_gunboat = {
+	basic_motor_boat = {
 
 		enable_equipments = { 
+			torpedo_boat_2
 			gunboat_2
 		}
 		
 		path = {
-			leads_to_tech = improved_gunboat
+			leads_to_tech = improved_motor_boat
 			research_cost_coeff = 1
 		}
 		
@@ -1507,14 +1393,15 @@ technologies = {
 		}
 	}
 	
-	improved_gunboat = {
+	improved_motor_boat = {
 
 		enable_equipments = { 
+			torpedo_boat_3
 			gunboat_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_gunboat
+			leads_to_tech = advanced_motor_boat
 			research_cost_coeff = 1
 		}
 	
@@ -1537,9 +1424,10 @@ technologies = {
 		}
 	}
 	
-	advanced_gunboat = {
+	advanced_motor_boat = {
 
 		enable_equipments = { 
+			torpedo_boat_4
 			gunboat_4
 		}
 	

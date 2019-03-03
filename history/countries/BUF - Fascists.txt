@@ -53,10 +53,8 @@ if = {
 		early_destroyer = 1
 		early_trawler = 1
 		early_corvette = 1
-		early_gunboat = 1
-		basic_gunboat = 1
-		early_torpedo_boat = 1
-		basic_torpedo_boat = 1
+		early_motor_boat = 1
+		basic_motor_boat = 1
 		transport = 1
 	}
 }
