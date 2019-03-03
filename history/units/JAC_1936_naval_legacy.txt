@@ -13,7 +13,7 @@
 			ship = { name = "Delhi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 			ship = { name = "Volunteer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Verity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
-			# ship = { name = "Hastings" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+			 ship = { name = "Hastings" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Enchantress" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
 		}

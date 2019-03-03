@@ -15,8 +15,8 @@
 			ship = { name = "Sheffield" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Foresight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }		
 			ship = { name = "Fortune" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }			
-			# ship = { name = "Cloud" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
-			# ship = { name = "Coldsnap" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Cloud" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Coldsnap" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }	
 			# ship = { name = "Speedy" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 			# ship = { name = "Seagull" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
 		}

@@ -18,8 +18,8 @@
 			ship = { name = "Wolverine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Witherington" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Wallace" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
-			# ship = { name = "Pelican" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Bittern" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Pelican" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bittern" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 		}
 		
 		task_force = {				

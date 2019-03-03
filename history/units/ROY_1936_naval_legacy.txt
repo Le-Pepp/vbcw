@@ -56,16 +56,16 @@
 			ship = { name = "HMS Basilisk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 		}
 	
-		# task_force = {				
-			# name = "Wight Squadron"	
-			# location = 103 # Wight
-			# ship = { name = "Gleaner" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		task_force = {				
+			name = "Wight Squadron"	
+			location = 103 # Wight
+			ship = { name = "Gleaner" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Hebe" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Hussar" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Boyne" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Mastiff" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Colne" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Gossamer" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		# }
+		}
 	}
 }

@@ -14,7 +14,9 @@
 			ship = { name = "Vanessa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Wessex" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Viscount" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Mallard" definition = sloop equipment = { sloop_2 = { amount = 1 owner = ENG } } }			
+			ship = { name = "Mallard" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "Erebus" definition = monitor equipment = { monitor_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "Roberts" definition = monitor equipment = { monitor_2 = { amount = 1 owner = ENG } } }				
 	#		ship = { name = "Conway Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
 	#		ship = { name = "Caernarvon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
 	#		ship = { name = "Cardiff Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	

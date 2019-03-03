@@ -48,15 +48,15 @@
 			ship = { name = "Walker" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 		}
 		
-		# task_force = {				
-			# name = "Tees Squadron"	
-			# location = 1412 # Middlesborough
-			# ship = { name = "Stork" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		task_force = {				
+			name = "Tees Squadron"	
+			location = 1412 # Middlesborough
+			ship = { name = "Stork" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Courtier" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "British" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Malay" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Cypress" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 			# ship = { name = "Cedar" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		# }
+		}
 	}
 }
