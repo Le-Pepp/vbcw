@@ -1,6 +1,6 @@
 equipments = {
 
-	ship_hull_corvette = {                    # the name of the archetype
+	ship_hull_motorboat = {                    # the name of the archetype
         year = 1922
 		
         is_archetype = yes
@@ -8,13 +8,13 @@ equipments = {
         type = screen_ship
         interface_category = interface_category_screen_ships
         priority = 2050
-        alias = corvette         
+        alias = gunboat         
 
         upgrades = {                            # these are actually necessary if your plan to make a version of your unit available to those without the DLC
             ship_reliability_upgrade
-            destroyer_engine_upgrade
-            ship_ASW_upgrade
-            ship_anti_air_upgrade
+            ship_engine_upgrade
+            ship_gun_upgrade
+            ship_torpedo_upgrade
         }
 
         module_slots = {                        # this is what the ship can contain in its design. it is useful to code the modules for the first model directly into the archetype
@@ -28,15 +28,15 @@ equipments = {
             }
             fixed_ship_torpedo_slot = {
                 required = no
-                allowed_module_categories = {  }
+                allowed_module_categories = { ship_torpedo }
             }
             fixed_ship_fire_control_system_slot = {
                 required = no
-                allowed_module_categories = { ship_fire_control_system }
+                allowed_module_categories = {  }
             }
             fixed_ship_radar_slot = {
                 required = no
-                allowed_module_categories = { ship_radar ship_sonar }
+                allowed_module_categories = {  }
             }
             fixed_ship_engine_slot = {
                 required = yes
@@ -49,7 +49,6 @@ equipments = {
             mid_1_custom_slot = {
                 required = no
                 allowed_module_categories = {
-                    ship_radar
                     ship_mine_warfare
                     ship_mine_layer
                     ship_light_anti_air
@@ -63,6 +62,7 @@ equipments = {
                     ship_mine_layer
 					ship_depth_charge
 					ship_light_anti_air
+					ship_v_light_battery
                 }
             }
         }
@@ -101,120 +101,101 @@ equipments = {
   
         armor_value = 0
   
-        surface_detection = 20
-        sub_detection = 10
-        surface_visibility = 6
-        naval_speed = 10
+        surface_detection = 10
+        sub_detection = 0
+        surface_visibility = 2
+        naval_speed = 20
         reliability = 0.80
   
-        naval_range = 1000 
-        max_strength = 15
+        naval_range = 200 
+        max_strength = 10
 
         fuel_consumption = 0 
-        manpower = 75
-        build_cost_ic = 150
+        manpower = 30
+        build_cost_ic = 60
         resources = {
-            steel = 2
+            steel = 1
         }
-    }
+    } 
 
-    ship_hull_corvette_1 = {
+    ship_hull_motorboat_1 = {
         year = 1922
 
-        archetype = ship_hull_corvette
+        archetype = ship_hull_motorboat
         priority = 2050
   
         module_slots = inherit
     }
 
-    ship_hull_corvette_2 = {
+    ship_hull_motorboat_2 = {
         year = 1926
 
-        archetype = ship_hull_corvette
-        parent = ship_hull_corvette_1
+        archetype = ship_hull_motorboat
+        parent = ship_hull_motorboat_1
         priority = 2050
   
         module_slots = inherit
 
-        surface_detection = 20
-        sub_detection = 10
-
-        naval_speed = 12
+        naval_speed = 24
         reliability = 0.85
-        naval_range = 1200 
-        max_strength = 20
+        naval_range = 250 
+        max_strength = 12
 
-        manpower = 100
-        build_cost_ic = 180
+        manpower = 40
+        build_cost_ic = 80
         resources = {
-            steel = 2
+            steel = 1
         }
     }
 
-    ship_hull_corvette_3 = {
+    ship_hull_motorboat_3 = {
         year = 1940
 
-        archetype = ship_hull_corvette
-        parent = ship_hull_corvette_2
+        archetype = ship_hull_motorboat
+        parent = ship_hull_motorboat_2
         priority = 2050
   
         module_slots = inherit
 
-        default_modules = {
-            mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
-        }
-
-        surface_detection = 25
-        sub_detection = 10
-
-        naval_speed = 14
+        naval_speed = 28
         reliability = 0.90
-        naval_range = 1400 
-        max_strength = 25
+        naval_range = 300 
+        max_strength = 14
 
-        manpower = 120
-        build_cost_ic = 225
+        manpower = 50
+        build_cost_ic = 100
         resources = {
-            steel = 2
+            steel = 1
         }
     }
 
-    ship_hull_corvette_4 = {
+    ship_hull_motorboat_4 = {
         year = 1944
 
-        archetype = ship_hull_corvette
-        parent = ship_hull_corvette_3
+        archetype = ship_hull_motorboat
+        parent = ship_hull_motorboat_3
         priority = 2050
   
         module_slots = inherit
 
-        default_modules = {
-            mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
-        }
-
-        surface_detection = 25
-        sub_detection = 10
-
-        naval_speed = 16
+        naval_speed = 32
         reliability = 0.90
-        naval_range = 1600 
-        max_strength = 30
+        naval_range = 400 
+        max_strength = 16
 
-        manpower = 150
-        build_cost_ic = 280
+        manpower = 60
+        build_cost_ic = 120
         resources = {
-            steel = 3
+            steel = 1
         }
     }
 	
 ###PREMADE SHIPS###
 
-    corvette_1 = {
+    gunboat_1 = {
         year = 1922
 
-        archetype = ship_hull_corvette
+        archetype = ship_hull_motorboat
         priority = 2050
   
         module_slots = inherit
@@ -225,18 +206,18 @@ equipments = {
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
-            fixed_ship_engine_slot = escort_ship_engine_1
-            fixed_depth_charge_slot = ship_depth_charge_1
+            fixed_ship_engine_slot = light_ship_engine_1
+            fixed_depth_charge_slot = empty
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_v_light_battery_1
         }
     }
 
-    corvette_2 = {
+    gunboat_2 = {
         year = 1926
 
-        archetype = ship_hull_corvette
-        parent = corvette_1
+        archetype = ship_hull_motorboat
+        parent = gunboat_1
         priority = 2050
   
         module_slots = inherit
@@ -247,18 +228,18 @@ equipments = {
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
-            fixed_ship_engine_slot = escort_ship_engine_2
-            fixed_depth_charge_slot = ship_depth_charge_2
+            fixed_ship_engine_slot = light_ship_engine_2
+            fixed_depth_charge_slot = empty
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_v_light_battery_2
         }
     }
 
-    corvette_3 = {
+    gunboat_3 = {
         year = 1940
 
-        archetype = ship_hull_corvette
-        parent = corvette_2
+        archetype = ship_hull_motorboat
+        parent = gunboat_2
         priority = 2050
   
         module_slots = inherit
@@ -268,19 +249,19 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_3
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = ship_sonar_1
-            fixed_ship_engine_slot = escort_ship_engine_3
-            fixed_depth_charge_slot = ship_depth_charge_3
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_3
+            fixed_depth_charge_slot = empty
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_v_light_battery_3
         }
     }
 
-    corvette_4 = {
+    gunboat_4 = {
         year = 1944
 
-        archetype = ship_hull_corvette
-        parent = corvette_3
+        archetype = ship_hull_motorboat
+        parent = gunboat_3
         priority = 2050
   
         module_slots = inherit
@@ -290,9 +271,96 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_4
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = ship_sonar_2
-            fixed_ship_engine_slot = escort_ship_engine_4
-            fixed_depth_charge_slot = ship_depth_charge_4
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_4
+            fixed_depth_charge_slot = empty
+            mid_1_custom_slot = empty
+            rear_1_custom_slot = ship_v_light_battery_4
+        }
+    }
+
+    torpedo_boat_1 = {
+        year = 1922
+
+        archetype = ship_hull_motorboat
+        priority = 2050
+  
+        module_slots = inherit
+  
+        default_modules = {                                                    # this is what your first equipment model will start with once researched
+            fixed_ship_battery_slot = ship_v_light_battery_1
+            fixed_ship_anti_air_slot = ship_light_anti_air_1
+            fixed_ship_torpedo_slot = ship_torpedo_1
+            fixed_ship_fire_control_system_slot = empty
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_1
+            fixed_depth_charge_slot = empty
+            mid_1_custom_slot = empty
+            rear_1_custom_slot = empty
+        }
+    }
+
+    torpedo_boat_2 = {
+        year = 1926
+
+        archetype = ship_hull_motorboat
+        parent = torpedo_boat_1
+        priority = 2050
+  
+        module_slots = inherit
+  
+        default_modules = {                                                    # this is what your first equipment model will start with once researched
+            fixed_ship_battery_slot = ship_v_light_battery_2
+            fixed_ship_anti_air_slot = ship_light_anti_air_2
+            fixed_ship_torpedo_slot = ship_torpedo_2
+            fixed_ship_fire_control_system_slot = empty
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_2
+            fixed_depth_charge_slot = empty
+            mid_1_custom_slot = empty
+            rear_1_custom_slot = empty
+        }
+    }
+
+    torpedo_boat_3 = {
+        year = 1940
+
+        archetype = ship_hull_motorboat
+        parent = torpedo_boat_2
+        priority = 2050
+  
+        module_slots = inherit
+  
+        default_modules = {                                                    # this is what your first equipment model will start with once researched
+            fixed_ship_battery_slot = ship_v_light_battery_3
+            fixed_ship_anti_air_slot = ship_light_anti_air_3
+            fixed_ship_torpedo_slot = ship_torpedo_3
+            fixed_ship_fire_control_system_slot = empty
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_3
+            fixed_depth_charge_slot = empty
+            mid_1_custom_slot = empty
+            rear_1_custom_slot = empty
+        }
+    }
+
+    torpedo_boat_4 = {
+        year = 1944
+
+        archetype = ship_hull_motorboat
+        parent = torpedo_boat_3
+        priority = 2050
+  
+        module_slots = inherit
+  
+        default_modules = {                                                    # this is what your first equipment model will start with once researched
+            fixed_ship_battery_slot = ship_v_light_battery_4
+            fixed_ship_anti_air_slot = ship_light_anti_air_4
+            fixed_ship_torpedo_slot = ship_torpedo_4
+            fixed_ship_fire_control_system_slot = empty
+            fixed_ship_radar_slot = empty
+            fixed_ship_engine_slot = light_ship_engine_4
+            fixed_depth_charge_slot = empty
             mid_1_custom_slot = empty
             rear_1_custom_slot = empty
         }

@@ -94,7 +94,7 @@ equipments = {
         hg_attack = 0
   
         torpedo_attack = 0
-        sub_attack = 2
+        sub_attack = 0
   
         anti_air_attack = 0
   
@@ -138,7 +138,7 @@ equipments = {
         naval_speed = 12
         reliability = 0.85
         naval_range = 800 
-        max_strength = 10
+        max_strength = 12
 
         manpower = 60
         build_cost_ic = 120
@@ -156,15 +156,10 @@ equipments = {
   
         module_slots = inherit
 
-        default_modules = {
-            mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
-        }
-
         naval_speed = 14
         reliability = 0.90
         naval_range = 1000 
-        max_strength = 10
+        max_strength = 14
 
         manpower = 80
         build_cost_ic = 160
@@ -182,15 +177,10 @@ equipments = {
   
         module_slots = inherit
 
-        default_modules = {
-            mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
-        }
-
         naval_speed = 16
         reliability = 0.90
         naval_range = 1200 
-        max_strength = 10
+        max_strength = 16
 
         manpower = 100
         build_cost_ic = 200
@@ -217,7 +207,7 @@ equipments = {
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_1
             fixed_depth_charge_slot = ship_depth_charge_1
-            mid_1_custom_slot = ship_mine_sweeper_1
+            mid_1_custom_slot = empty
             rear_1_custom_slot = empty
         }
     }
@@ -239,19 +229,8 @@ equipments = {
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_2
             fixed_depth_charge_slot = ship_depth_charge_2
-            mid_1_custom_slot = ship_mine_sweeper_1
+            mid_1_custom_slot = empty
             rear_1_custom_slot = empty
-        }
-
-        naval_speed = 12
-        reliability = 0.85
-        naval_range = 800 
-        max_strength = 10
-
-        manpower = 60
-        build_cost_ic = 120
-        resources = {
-            steel = 1
         }
     }
 
@@ -272,19 +251,8 @@ equipments = {
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_3
             fixed_depth_charge_slot = ship_depth_charge_3
-            mid_1_custom_slot = ship_mine_sweeper_1
+            mid_1_custom_slot = empty
             rear_1_custom_slot = empty
-        }
-
-        naval_speed = 14
-        reliability = 0.90
-        naval_range = 1000 
-        max_strength = 10
-
-        manpower = 80
-        build_cost_ic = 160
-        resources = {
-            steel = 2
         }
     }
 
@@ -305,19 +273,8 @@ equipments = {
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_4
             fixed_depth_charge_slot = ship_depth_charge_4
-            mid_1_custom_slot = ship_mine_sweeper_1
+            mid_1_custom_slot = empty
             rear_1_custom_slot = empty
-        }
-
-        naval_speed = 16
-        reliability = 0.90
-        naval_range = 1200 
-        max_strength = 10
-
-        manpower = 100
-        build_cost_ic = 200
-        resources = {
-            steel = 2
         }
     }
 }

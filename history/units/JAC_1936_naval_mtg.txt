@@ -15,7 +15,7 @@
 			ship = { name = "Verity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Hastings" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Hastings Class" } } }
 			ship = { name = "Enchantress" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-#			ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
 		}
 	}
 }	

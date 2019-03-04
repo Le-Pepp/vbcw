@@ -260,14 +260,14 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 1
-			fuel_consumption = 5
+			naval_speed = 2
+			fuel_consumption = 4
 			build_cost_ic = 30
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.05
-			naval_range = 0.5
+			naval_speed = 0.1
+			naval_range = 0.25
 		}
 		
 		can_convert_from = {
@@ -284,14 +284,14 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 1
-			fuel_consumption = 5
+			naval_speed = 2
+			fuel_consumption = 4
 			build_cost_ic = 40
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.1
-			naval_range = 0.5
+			naval_speed = 0.2
+			naval_range = 0.35
 		}
 		
 		can_convert_from = {
@@ -312,13 +312,13 @@ equipment_modules = {
 
 		
 		add_stats = {
-			naval_speed = 1.5
-			fuel_consumption = 6
+			naval_speed = 2
+			fuel_consumption = 5
 			build_cost_ic = 50
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.15
+			naval_speed = 0.3
 			naval_range = 0.5
 		}
 		
@@ -341,13 +341,13 @@ equipment_modules = {
 		
 		add_stats = {
 			naval_speed = 2
-			fuel_consumption = 6
+			fuel_consumption = 5
 			build_cost_ic = 60
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.2
-			naval_range = 0.5
+			naval_speed = 0.4
+			naval_range = 0.6
 		}
 		
 		can_convert_from = {

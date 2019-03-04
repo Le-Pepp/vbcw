@@ -11,12 +11,12 @@
 			location = 1452
 			ship = { name = "Fame" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }			
 			ship = { name = "Firedrake" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class" } } }	
-#			ship = { name = "Halo" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-#			ship = { name = "Horizon" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-#			ship = { name = "Mist" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-#			ship = { name = "Noontide" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-#			ship = { name = "Bramble" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-#			ship = { name = "Hazard" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }		
+			ship = { name = "Halo" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Horizon" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Mist" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Noontide" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Bramble" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Hazard" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }		
 		}
 	}
 }	
