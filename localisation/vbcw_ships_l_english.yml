@@ -80,10 +80,12 @@
  light_carrier_1:0 "Light Carrier I"
  light_carrier_2:0 "Light Carrier II"
  light_carrier_3:0 "Light Carrier III"
- light_carrier_desc:0 "A less capable but more affordable version of the Aircraft Carrier, designed primarily for convoy protection and escorting more valuable warships."
- light_carrier_1_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
- light_carrier_2_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
- light_carrier_3_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
+ light_carrier_3:0 "Light Carrier IV"
+ light_carrier_desc:0 "A smaller, cheaper alternative to the fleet carrier, light carriers are well suited to escort duties."
+ light_carrier_1_desc:0 "An early light carrier, converted from an old cruiser hull."
+ light_carrier_2_desc:0 "A purpose-built light carrier, boasting improved hangar space and defensive armament."
+ light_carrier_3_desc:0 "An improvement to the light carrier design, boasting more advanced machinery and weaponry."
+ light_carrier_4_desc:0 "The ultimate light carrier design, with greatly improved hangar space and anti-aircraft armament."
  
  ##TECH BONUSES##
  corvette_tech:0 "Corvette models"
@@ -119,3 +121,5 @@
  modifier_experience_gain_sloop_combat_factor:0 "Sloop Combat Experience Gain"
  modifier_experience_gain_monitor_training_factor:0 "Monitor Training Experience Gain"
  modifier_experience_gain_monitor_combat_factor:0 "Monitor Combat Experience Gain"
+ modifier_experience_gain_light_carrier_training_factor:0 "Light Carrier Training Experience Gain"
+ modifier_experience_gain_light_carrier_combat_factor:0 "Light Carrier Combat Experience Gain"
