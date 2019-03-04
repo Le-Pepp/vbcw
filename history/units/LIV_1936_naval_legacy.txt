@@ -12,7 +12,7 @@
 			ship = { name = "Hardy" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "Inglefield" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "Valentine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Cornelian" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }		
+			ship = { name = "Cornelian" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }		
 		}
 	}
 }

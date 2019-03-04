@@ -75,6 +75,7 @@
  light_carrier_2_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
  light_carrier_3_desc:0 "Smaller than fleet carriers, fight carriers can cover small independent operations and provide support to their larger cousins. fleet carriers."
  
+ ##TECH BONUSES##
  corvette_tech:0 "Corvette models"
  sloop_tech:0 "Sloop models"
  trawler_tech:0 "Trawler models"
@@ -82,8 +83,29 @@
  monitor_tech:0 "Monitor models"
  cvl_tech:0 "Light Carrier models"
  
+ ##TECH TREE TITLES##
+ NAVAL_TITLE_MOTOR_BOATS:0 "MOTOR BOATS"
+ NAVAL_TITLE_TRAWLERS:0 "TRAWLERS"
  NAVAL_TITLE_CORVETTES:0 "CORVETTES"
  NAVAL_TITLE_SLOOPS:0 "SLOOPS"
- NAVAL_TITLE_TRAWLERS:0 "TRAWLERS"
- NAVAL_TITLE_MOTOR_BOATS:0 "MOTOR BOATS"
  NAVAL_TITLE_MONITORS:0 "MONITORS"
+ 
+ ##HULL TYPES##
+ ship_hull_corvette:0 "Corvette"
+ ship_hull_corvette_desc:0 "Cheaply produced escort vessels built to mercantile standards. Primarily employed on convoy escort and anti-submarine duties."
+ ship_hull_corvette_1:0 "Early Corvette Hull"
+ ship_hull_corvette_1_desc:0 "To ensure the safety of convoys, the destroyer escorts and torpedo boats of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
+ 
+ ##EXPERIENCE##
+ modifier_experience_gain_gunboat_training_factor:0 "Gunboat Training Experience Gain"
+ modifier_experience_gain_gunboat_combat_factor:0 "Gunboat Combat Experience Gain"
+ modifier_experience_gain_torpedo_boat_training_factor:0 "Torpedo Boat Training Experience Gain"
+ modifier_experience_gain_torpedo_boat_combat_factor:0 "Torpedo Boat Combat Experience Gain"
+ modifier_experience_gain_trawler_training_factor:0 "Trawler Training Experience Gain"
+ modifier_experience_gain_trawler_combat_factor:0 "Trawler Combat Experience Gain"
+ modifier_experience_gain_corvette_training_factor:0 "Corvette Training Experience Gain"
+ modifier_experience_gain_corvette_combat_factor:0 "Corvette Combat Experience Gain"
+ modifier_experience_gain_sloop_training_factor:0 "Sloop Training Experience Gain"
+ modifier_experience_gain_sloop_combat_factor:0 "Sloop Combat Experience Gain"
+ modifier_experience_gain_monitor_training_factor:0 "Monitor Training Experience Gain"
+ modifier_experience_gain_monitor_combat_factor:0 "Monitor Combat Experience Gain"

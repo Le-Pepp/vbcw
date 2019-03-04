@@ -13,10 +13,10 @@
 			ship = { name = "Electra" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Eclipse" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Exmouth" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Laurel" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Arcanes" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			# ship = { name = "Erimo" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Avona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Laurel" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Arcanes" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "Erimo" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Avona" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 		}
 	}
 }

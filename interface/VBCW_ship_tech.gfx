@@ -3,56 +3,56 @@ spriteTypes = {
 	SpriteType = { name = "GFX_early_corvette_medium"		texturefile = "gfx/interface/technologies/ships/corvette_1.dds" }	
 	SpriteType = { name = "GFX_basic_corvette_medium"		texturefile = "gfx/interface/technologies/ships/corvette_2.dds" }	
 	SpriteType = { name = "GFX_improved_corvette_medium"	texturefile = "gfx/interface/technologies/ships/corvette_3.dds" }	
-	SpriteType = { name = "GFX_advanced_corvette_medium"	texturefile = "gfx/interface/technologies/ships/corvette_3.dds" }
+	SpriteType = { name = "GFX_advanced_corvette_medium"	texturefile = "gfx/interface/technologies/ships/corvette_4.dds" }
 	
 	SpriteType = { name = "GFX_corvette_1_medium"			texturefile = "gfx/interface/technologies/ships/corvette_1.dds" }
 	SpriteType = { name = "GFX_corvette_2_medium"			texturefile = "gfx/interface/technologies/ships/corvette_2.dds" }	
 	SpriteType = { name = "GFX_corvette_3_medium"			texturefile = "gfx/interface/technologies/ships/corvette_3.dds" }	
-	SpriteType = { name = "GFX_corvette_4_medium"			texturefile = "gfx/interface/technologies/ships/corvette_3.dds" }
+	SpriteType = { name = "GFX_corvette_4_medium"			texturefile = "gfx/interface/technologies/ships/corvette_4.dds" }
 
 ###SLOOP###
 	SpriteType = { name = "GFX_early_sloop_medium"			texturefile = "gfx/interface/technologies/ships/sloop_1.dds" }	
 	SpriteType = { name = "GFX_basic_sloop_medium"			texturefile = "gfx/interface/technologies/ships/sloop_2.dds" }	
 	SpriteType = { name = "GFX_improved_sloop_medium"		texturefile = "gfx/interface/technologies/ships/sloop_3.dds" }	
-	SpriteType = { name = "GFX_advanced_sloop_medium"		texturefile = "gfx/interface/technologies/ships/sloop_3.dds" }
+	SpriteType = { name = "GFX_advanced_sloop_medium"		texturefile = "gfx/interface/technologies/ships/sloop_4.dds" }
 	
 	SpriteType = { name = "GFX_sloop_1_medium"				texturefile = "gfx/interface/technologies/ships/sloop_1.dds" }
 	SpriteType = { name = "GFX_sloop_2_medium"				texturefile = "gfx/interface/technologies/ships/sloop_2.dds" }	
 	SpriteType = { name = "GFX_sloop_3_medium"				texturefile = "gfx/interface/technologies/ships/sloop_3.dds" }	
-	SpriteType = { name = "GFX_sloop_4_medium"				texturefile = "gfx/interface/technologies/ships/sloop_3.dds" }
+	SpriteType = { name = "GFX_sloop_4_medium"				texturefile = "gfx/interface/technologies/ships/sloop_4.dds" }
 	
 ###TRAWLER###	
 	SpriteType = { name = "GFX_early_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_1.dds" }	
 	SpriteType = { name = "GFX_basic_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_2.dds" }	
 	SpriteType = { name = "GFX_improved_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_3.dds" }	
-	SpriteType = { name = "GFX_advanced_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_3.dds" }
+	SpriteType = { name = "GFX_advanced_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_4.dds" }
 	
 	SpriteType = { name = "GFX_trawler_1_medium"			texturefile = "gfx/interface/technologies/ships/trawler_1.dds" }
 	SpriteType = { name = "GFX_trawler_2_medium"			texturefile = "gfx/interface/technologies/ships/trawler_2.dds" }	
 	SpriteType = { name = "GFX_trawler_3_medium"			texturefile = "gfx/interface/technologies/ships/trawler_3.dds" }	
-	SpriteType = { name = "GFX_trawler_4_medium"			texturefile = "gfx/interface/technologies/ships/trawler_3.dds" }
+	SpriteType = { name = "GFX_trawler_4_medium"			texturefile = "gfx/interface/technologies/ships/trawler_4.dds" }
 	
 ###GUNBOAT###
 	SpriteType = { name = "GFX_early_gunboat_medium"		texturefile = "gfx/interface/technologies/ships/gunboat_1.dds" }	
 	SpriteType = { name = "GFX_basic_gunboat_medium"		texturefile = "gfx/interface/technologies/ships/gunboat_2.dds" }	
 	SpriteType = { name = "GFX_improved_gunboat_medium"		texturefile = "gfx/interface/technologies/ships/gunboat_3.dds" }	
-	SpriteType = { name = "GFX_advanced_gunboat_medium"		texturefile = "gfx/interface/technologies/ships/gunboat_3.dds" }
+	SpriteType = { name = "GFX_advanced_gunboat_medium"		texturefile = "gfx/interface/technologies/ships/gunboat_4.dds" }
 	
 	SpriteType = { name = "GFX_gunboat_1_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_1.dds" }
 	SpriteType = { name = "GFX_gunboat_2_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_2.dds" }	
 	SpriteType = { name = "GFX_gunboat_3_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_3.dds" }	
-	SpriteType = { name = "GFX_gunboat_4_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_3.dds" }
+	SpriteType = { name = "GFX_gunboat_4_medium"			texturefile = "gfx/interface/technologies/ships/gunboat_4.dds" }
 	
 ###TORPEDO BOAT###
 	SpriteType = { name = "GFX_early_motor_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_1.dds" }	
 	SpriteType = { name = "GFX_basic_motor_boat_medium"		texturefile = "gfx/interface/technologies/ships/torpedo_boat_2.dds" }	
 	SpriteType = { name = "GFX_improved_motor_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }	
-	SpriteType = { name = "GFX_advanced_motor_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }
+	SpriteType = { name = "GFX_advanced_motor_boat_medium"	texturefile = "gfx/interface/technologies/ships/torpedo_boat_4.dds" }
 	
 	SpriteType = { name = "GFX_torpedo_boat_1_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_1.dds" }
 	SpriteType = { name = "GFX_torpedo_boat_2_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_2.dds" }	
 	SpriteType = { name = "GFX_torpedo_boat_3_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }	
-	SpriteType = { name = "GFX_torpedo_boat_4_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_3.dds" }
+	SpriteType = { name = "GFX_torpedo_boat_4_medium"			texturefile = "gfx/interface/technologies/ships/torpedo_boat_4.dds" }
 	
 ###MONITOR###
 	SpriteType = { name = "GFX_early_monitor_medium"		texturefile = "gfx/interface/technologies/ships/monitor_1.dds" }	

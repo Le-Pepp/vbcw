@@ -252,4 +252,112 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
+	
+###ESCORT ENGINES###
+	escort_ship_engine_1 = {
+		category = light_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 1
+			fuel_consumption = 5
+			build_cost_ic = 30
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.05
+			naval_range = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 80
+		}
+
+	}
+
+	escort_ship_engine_2 = {
+		category = light_ship_engine
+		parent = light_ship_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 1
+			fuel_consumption = 5
+			build_cost_ic = 40
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.1
+			naval_range = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = light_ship_engine_1
+			convert_cost_ic = 10
+		}
+	}
+
+	escort_ship_engine_3 = {
+		category = light_ship_engine
+		parent = light_ship_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 1.5
+			fuel_consumption = 6
+			build_cost_ic = 50
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.15
+			naval_range = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = light_ship_engine_2
+			convert_cost_ic = 10
+		}
+	}
+	
+	escort_ship_engine_4 = {
+		category = light_ship_engine
+		parent = light_ship_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 2
+			fuel_consumption = 6
+			build_cost_ic = 60
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.2
+			naval_range = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = light_ship_engine_3
+			convert_cost_ic = 10
+		}
+	}
 }
