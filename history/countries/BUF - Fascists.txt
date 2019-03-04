@@ -141,12 +141,88 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Fashy McFashface"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
+	name = "J.F.C Fuller"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Fuller.tga"
+	traits = { panzer_leader panzer_expert}
+	skill = 5
+	attack_skill = 6
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Philip Game"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Game.tga"
+	traits = { auxiliary_constable }
 	skill = 2
 	attack_skill = 1
-    defense_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Arnold Leese"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Leese.tga"
+	traits = { politically_connected cavalry_leader }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wyndham Lewis"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Lewis.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Harold Scott"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Scott.tga"
+	traits = { auxiliary_constable }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John Nott Bower"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Nott-Bower.tga"
+	traits = { auxiliary_constable }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "R.C.M Jenkins"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Jenkins.tga"
+	traits = { auxiliary_constable }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Arthur Young"
+	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Young.tga"
+	traits = { auxiliary_constable }
+	skill = 1
+	attack_skill = 1
+    defense_skill = 1
     planning_skill = 2
     logistics_skill = 1
 }
