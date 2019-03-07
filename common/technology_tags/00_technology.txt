@@ -39,6 +39,7 @@ technology_categories = {
 	cas_bomber
 	corvette_tech
 	sloop_tech
+	escort_tech
 	trawler_tech
 	motorboat_tech
 	monitor_tech
