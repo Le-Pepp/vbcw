@@ -255,7 +255,7 @@ equipment_modules = {
 	
 ###ESCORT ENGINES###
 	escort_ship_engine_1 = {
-		category = light_ship_engine
+		category = escort_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -271,15 +271,15 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = light_ship_engine
+			module_category = escort_ship_engine
 			convert_cost_ic = 80
 		}
 
 	}
 
 	escort_ship_engine_2 = {
-		category = light_ship_engine
-		parent = light_ship_engine_1
+		category = escort_ship_engine
+		parent = escort_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -295,19 +295,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = light_ship_engine
+			module_category = escort_ship_engine
 			convert_cost_ic = 80
 		}
 		
 		can_convert_from = {
-			module = light_ship_engine_1
+			module = escort_ship_engine_1
 			convert_cost_ic = 10
 		}
 	}
 
 	escort_ship_engine_3 = {
-		category = light_ship_engine
-		parent = light_ship_engine_2
+		category = escort_ship_engine
+		parent = escort_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -323,19 +323,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = light_ship_engine
+			module_category = escort_ship_engine
 			convert_cost_ic = 80
 		}
 		
 		can_convert_from = {
-			module = light_ship_engine_2
+			module = escort_ship_engine_2
 			convert_cost_ic = 10
 		}
 	}
 	
 	escort_ship_engine_4 = {
-		category = light_ship_engine
-		parent = light_ship_engine_3
+		category = escort_ship_engine
+		parent = escort_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -351,12 +351,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = light_ship_engine
+			module_category = escort_ship_engine
 			convert_cost_ic = 80
 		}
 		
 		can_convert_from = {
-			module = light_ship_engine_3
+			module = escort_ship_engine_3
 			convert_cost_ic = 10
 		}
 	}

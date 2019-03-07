@@ -8,16 +8,16 @@ equipments = {
         type = screen_ship
         interface_category = interface_category_screen_ships
         priority = 2050
-        alias = trawler         
+        alias = trawler 
 
-        upgrades = {                            # these are actually necessary if your plan to make a version of your unit available to those without the DLC
-            ship_reliability_upgrade
-            destroyer_engine_upgrade
-            ship_ASW_upgrade
-            ship_anti_air_upgrade
-        }
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
 
-        module_slots = {                        # this is what the ship can contain in its design. it is useful to code the modules for the first model directly into the archetype
+        module_slots = {                        
             fixed_ship_battery_slot = {
                 required = yes
                 allowed_module_categories = { ship_v_light_battery }
@@ -40,7 +40,7 @@ equipments = {
             }
             fixed_ship_engine_slot = {
                 required = yes
-                allowed_module_categories = { light_ship_engine }
+                allowed_module_categories = { escort_ship_engine }
             }
             fixed_depth_charge_slot = {
                 required = no
@@ -66,16 +66,7 @@ equipments = {
             }
         }
   
-        module_count_limit = { category = ship_anti_air count < 4 }            # these lines limit the total amount of each module category allowed in the design
-        module_count_limit = { category = ship_torpedo count < 3 }
-        module_count_limit = { category = ship_depth_charge count < 3 }
-        module_count_limit = { category = ship_radar count < 3 }
-        module_count_limit = { category = ship_mine_warfare count < 3 }
-        module_count_limit = { category = ship_mine_layer count < 3 }
-        module_count_limit = { category = ship_light_battery count < 2 }
-        module_count_limit = { category = ship_sonar count < 2 }
-  
-        default_modules = {                                                    # this is what your first equipment model will start with once researched
+        default_modules = {                                                    
             fixed_ship_battery_slot = empty
             fixed_ship_anti_air_slot = empty
             fixed_ship_torpedo_slot = empty
@@ -87,7 +78,7 @@ equipments = {
             rear_1_custom_slot = empty
         }
   
-        lg_armor_piercing = 0                                                # it is also useful to script the base hull stats for your firs equipment model directly into the archetype
+        lg_armor_piercing = 0                                                
         lg_attack = 0
 
         hg_armor_piercing = 0
@@ -138,7 +129,7 @@ equipments = {
         naval_speed = 12
         reliability = 0.85
         naval_range = 800 
-        max_strength = 12
+        max_strength = 16
 
         manpower = 60
         build_cost_ic = 120
@@ -159,7 +150,7 @@ equipments = {
         naval_speed = 14
         reliability = 0.90
         naval_range = 1000 
-        max_strength = 14
+        max_strength = 20
 
         manpower = 80
         build_cost_ic = 160
@@ -180,7 +171,7 @@ equipments = {
         naval_speed = 16
         reliability = 0.90
         naval_range = 1200 
-        max_strength = 16
+        max_strength = 24
 
         manpower = 100
         build_cost_ic = 200
