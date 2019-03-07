@@ -19,12 +19,12 @@
 		task_force = {				
 			name = "Clyde Escort Fleet"	
 			location = 1740
-			ship = { name = "Kittiwake" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Puffin" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Pearl" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Ruby" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }		
-			ship = { name = "Magnolia" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Sycamore" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Kittiwake" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Puffin" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+		#	ship = { name = "Pearl" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Ruby" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }		
+		#	ship = { name = "Magnolia" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Sycamore" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 		}
 	}
 }	

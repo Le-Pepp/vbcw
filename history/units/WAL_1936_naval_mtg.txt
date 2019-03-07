@@ -14,11 +14,11 @@
 			ship = { name = "Vanessa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Wessex" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Viscount" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
-			ship = { name = "Mallard" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Conway Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Caernarvon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Cardiff Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Caerphilly Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Mallard" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+		#	ship = { name = "Conway Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Caernarvon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Cardiff Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Caerphilly Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 		}
 	}
 }	

@@ -1,0 +1,9 @@
+spriteTypes = {
+###################################################
+# Ship hulls
+###################################################
+	spriteType = {
+		name = "GFX_SD_tv_escort"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_escort.dds"
+	}
+}

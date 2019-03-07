@@ -14,13 +14,13 @@
 			ship = { name = "Escort" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 						
 			ship = { name = "Escapade" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 						
 			ship = { name = "Encounter" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 						
-			ship = { name = "Kingfisher" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Widgeon" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Sheldrake" definition = sloop equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Radnor Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Brecon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-			ship = { name = "Blackwater" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-			ship = { name = "Kennet" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }			
+			ship = { name = "Kingfisher" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Widgeon" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Sheldrake" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+		#	ship = { name = "Radnor Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Brecon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+		#	ship = { name = "Blackwater" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
+		#	ship = { name = "Kennet" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }			
 		}
 	}
 }	
