@@ -78,10 +78,11 @@ spriteTypes = {
 	SpriteType = { name = "GFX_improved_ship_hull_escort_medium"		texturefile = "gfx/interface/technologies/ships/sloop_3.dds" }	
 	SpriteType = { name = "GFX_advanced_ship_hull_escort_medium"		texturefile = "gfx/interface/technologies/ships/sloop_4.dds" }
 	
-	SpriteType = { name = "GFX_light_carrier_1_medium"			texturefile = "gfx/interface/technologies/ships/light_carrier_1.dds" }	
-	SpriteType = { name = "GFX_light_carrier_2_medium"			texturefile = "gfx/interface/technologies/ships/light_carrier_2.dds" }	
-	SpriteType = { name = "GFX_light_carrier_3_medium"			texturefile = "gfx/interface/technologies/ships/light_carrier_3.dds" }
-	SpriteType = { name = "GFX_light_carrier_4_medium"			texturefile = "gfx/interface/technologies/ships/light_carrier_4.dds" }
+###TRAWLER HULL###
+	SpriteType = { name = "GFX_early_ship_hull_trawler_medium"			texturefile = "gfx/interface/technologies/ships/trawler_1.dds" }	
+	SpriteType = { name = "GFX_basic_ship_hull_trawler_medium"			texturefile = "gfx/interface/technologies/ships/trawler_2.dds" }	
+	SpriteType = { name = "GFX_improved_ship_hull_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_3.dds" }	
+	SpriteType = { name = "GFX_advanced_ship_hull_trawler_medium"		texturefile = "gfx/interface/technologies/ships/trawler_4.dds" }
 
 #############	
 ###MODULES###

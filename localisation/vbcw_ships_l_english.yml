@@ -104,7 +104,7 @@
  NAVAL_TITLE_ESCORTS:0 "ESCORTS"
  
  ##HULL TYPES##
- ship_hull_escort:0 "Corvette"
+ ship_hull_escort:0 "Escort"
  ship_hull_escort_desc:0 "Cheaply produced escort vessels built to mercantile standards. Primarily employed on convoy escort and anti-submarine duties."
  ship_hull_escort_1:0 "Early Escort Hull"
  ship_hull_escort_1_desc:0 ""
@@ -114,6 +114,17 @@
  ship_hull_escort_3_desc:0 ""
  ship_hull_escort_4:0 "1944 Escort Hull"
  ship_hull_escort_4_desc:0 ""
+ 
+ ship_hull_trawler:0 "Trawler"
+ ship_hull_trawler_desc:0 "Adapted from commercial fishing vessels, the Naval Trawler is employed mainly for patrol and minesweeping duties."
+ ship_hull_trawler_1:0 "Early Trawler Hull"
+ ship_hull_trawler_1_desc:0 ""
+ ship_hull_trawler_2:0 "1936 Trawler Hull"
+ ship_hull_trawler_2_desc:0 ""
+ ship_hull_trawler_3:0 "1940 Trawler Hull"
+ ship_hull_trawler_3_desc:0 ""
+ ship_hull_trawler_4:0 "1944 Trawler Hull"
+ ship_hull_trawler_4_desc:0 ""
  
  ##EXPERIENCE##
  modifier_experience_gain_gunboat_training_factor:0 "Gunboat Training Experience Gain"

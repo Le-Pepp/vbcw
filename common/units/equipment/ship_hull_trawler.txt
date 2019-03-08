@@ -19,32 +19,20 @@ equipments = {
 
         module_slots = {                        
             fixed_ship_battery_slot = {
-                required = yes
+                required = no
                 allowed_module_categories = { ship_v_light_battery }
             }
             fixed_ship_anti_air_slot = {
                 required = no
                 allowed_module_categories = { ship_light_anti_air }
             }
-            fixed_ship_torpedo_slot = {
-                required = no
-                allowed_module_categories = {  }
-            }
-            fixed_ship_fire_control_system_slot = {
-                required = no
-                allowed_module_categories = {  }
-            }
             fixed_ship_radar_slot = {
                 required = no
-                allowed_module_categories = {  }
+                allowed_module_categories = { ship_radar ship_sonar }
             }
             fixed_ship_engine_slot = {
                 required = yes
                 allowed_module_categories = { escort_ship_engine }
-            }
-            fixed_depth_charge_slot = {
-                required = no
-                allowed_module_categories = { ship_depth_charge }
             }
             mid_1_custom_slot = {
                 required = no
@@ -60,8 +48,8 @@ equipments = {
                 allowed_module_categories = {
                     ship_mine_warfare
                     ship_mine_layer
-					ship_depth_charge
 					ship_light_anti_air
+					ship_depth_charge
                 }
             }
         }
@@ -69,11 +57,8 @@ equipments = {
         default_modules = {                                                    
             fixed_ship_battery_slot = empty
             fixed_ship_anti_air_slot = empty
-            fixed_ship_torpedo_slot = empty
-            fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_1
-            fixed_depth_charge_slot = empty
             mid_1_custom_slot = empty
             rear_1_custom_slot = empty
         }
@@ -193,13 +178,10 @@ equipments = {
         default_modules = {                                                    # this is what your first equipment model will start with once researched
             fixed_ship_battery_slot = ship_v_light_battery_1
             fixed_ship_anti_air_slot = ship_light_anti_air_1
-            fixed_ship_torpedo_slot = empty
-            fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_1
-            fixed_depth_charge_slot = ship_depth_charge_1
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_depth_charge_1
         }
     }
 
@@ -215,13 +197,10 @@ equipments = {
         default_modules = {                                                    # this is what your first equipment model will start with once researched
             fixed_ship_battery_slot = ship_v_light_battery_2
             fixed_ship_anti_air_slot = ship_light_anti_air_2
-            fixed_ship_torpedo_slot = empty
-            fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_2
-            fixed_depth_charge_slot = ship_depth_charge_2
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_depth_charge_2
         }
     }
 
@@ -237,13 +216,10 @@ equipments = {
         default_modules = {                                                    # this is what your first equipment model will start with once researched
             fixed_ship_battery_slot = ship_v_light_battery_3
             fixed_ship_anti_air_slot = ship_light_anti_air_3
-            fixed_ship_torpedo_slot = empty
-            fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_3
-            fixed_depth_charge_slot = ship_depth_charge_3
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_depth_charge_3
         }
     }
 
@@ -259,13 +235,10 @@ equipments = {
         default_modules = {                                                    # this is what your first equipment model will start with once researched
             fixed_ship_battery_slot = ship_v_light_battery_4
             fixed_ship_anti_air_slot = ship_light_anti_air_4
-            fixed_ship_torpedo_slot = empty
-            fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = escort_ship_engine_4
-            fixed_depth_charge_slot = ship_depth_charge_4
             mid_1_custom_slot = empty
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_depth_charge_4
         }
     }
 }

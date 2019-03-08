@@ -492,7 +492,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper"
-						position = { x=207 y=3 }
+						position = { x=207 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -503,7 +503,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper@highlight"
-						position = { x=207 y=3 }
+						position = { x=207 y=0 }
 					}
 				}
 
