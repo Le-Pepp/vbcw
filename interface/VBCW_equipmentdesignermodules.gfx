@@ -19,6 +19,112 @@ spriteTypes = {
 ###################################################
 
 ###################################################
+# MOTORBOAT
+###################################################
+	
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_light_battery@highlight.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_torpedo@highlight.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_anti_air@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_depth_charge@highlight.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_armor@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_fire_control@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_fuel_tank@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_radar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_radar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+
+###################################################
 # TRAWLER
 ###################################################
 	

@@ -360,4 +360,112 @@ equipment_modules = {
 			convert_cost_ic = 10
 		}
 	}
+	
+###ESCORT ENGINES###
+	motorboat_engine_1 = {
+		category = motorboat_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 4
+			build_cost_ic = 30
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.1
+			naval_range = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = motorboat_engine
+			convert_cost_ic = 80
+		}
+
+	}
+
+	motorboat_engine_2 = {
+		category = motorboat_engine
+		parent = motorboat_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 4
+			build_cost_ic = 40
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.2
+			naval_range = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = motorboat_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = motorboat_engine_1
+			convert_cost_ic = 10
+		}
+	}
+
+	motorboat_engine_3 = {
+		category = motorboat_engine
+		parent = motorboat_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 5
+			build_cost_ic = 50
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.3
+			naval_range = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = motorboat_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = motorboat_engine_2
+			convert_cost_ic = 10
+		}
+	}
+	
+	motorboat_engine_4 = {
+		category = motorboat_engine
+		parent = motorboat_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 5
+			build_cost_ic = 60
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.4
+			naval_range = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = motorboat_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = motorboat_engine_3
+			convert_cost_ic = 10
+		}
+	}
 }

@@ -10,4 +10,8 @@ spriteTypes = {
 		name = "GFX_SD_tv_trawler"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_trawler.dds"
 	}
+	spriteType = {
+		name = "GFX_SD_tv_motorboat"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_motorboat.dds"
+	}
 }
