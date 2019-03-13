@@ -449,6 +449,8 @@ ideas = {
 		}
 		
 		SOM_nuffield = {
+		
+			picture = designer_nuffield
 			
 			allowed = {
 				original_TAG = SOM
@@ -486,6 +488,8 @@ ideas = {
 		}
 		
 		SOM_telsen = {
+		
+			picture = designer_telsen
 			
 			allowed = {
 				original_TAG = SOM
