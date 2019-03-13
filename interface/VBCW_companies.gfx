@@ -40,12 +40,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/companies/idea_crossley.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_designer_decca"
+		texturefile = "gfx/interface/ideas/companies/idea_decca.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_designer_dennis"
 		texturefile = "gfx/interface/ideas/companies/idea_dennis.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_designer_dunlop"
 		texturefile = "gfx/interface/ideas/companies/idea_dunlop.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_dynatron"
+		texturefile = "gfx/interface/ideas/companies/idea_dynatron.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_designer_ekco"
@@ -74,5 +82,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_designer_telsen"
 		texturefile = "gfx/interface/ideas/companies/idea_telsen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_thornycroft"
+		texturefile = "gfx/interface/ideas/companies/idea_thornycroft.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_designer_vosper"
+		texturefile = "gfx/interface/ideas/companies/idea_vosper.dds"
 	}
 }

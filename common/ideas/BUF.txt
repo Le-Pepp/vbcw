@@ -193,6 +193,8 @@ ideas = {
 		}
 		
 		BUF_decca = {
+		
+			picture = designer_decca
 			
 			allowed = {
 				original_TAG = BUF

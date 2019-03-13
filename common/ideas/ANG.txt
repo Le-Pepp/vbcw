@@ -106,6 +106,8 @@ ideas = {
 		designer = yes
 		
 		ANG_vosper = {
+		
+			picture = designer_vosper
 			
 			allowed = {
 				original_TAG = ANG

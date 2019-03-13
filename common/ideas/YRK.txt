@@ -374,6 +374,8 @@ ideas = {
 		designer = yes
 		
 		YRK_thornycroft = {
+		
+			picture = designer_thornycroft
 			
 			allowed = {
 				original_TAG = YRK
@@ -542,6 +544,8 @@ ideas = {
 		}
 		
 		YRK_dynatron = {
+		
+			picture = designer_dynatron
 			
 			allowed = {
 				original_TAG = YRK
