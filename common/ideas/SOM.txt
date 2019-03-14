@@ -316,6 +316,8 @@ ideas = {
 		designer = yes
 		
 		SOM_fellows_and_morton = {
+		
+			picture = designer_fellows_morton
 			
 			allowed = {
 				original_TAG = SOM
@@ -330,6 +332,8 @@ ideas = {
 		}
 		
 		SOM_goole_shipbuilding = {
+		
+			picture = designer_goole
 			
 			allowed = {
 				original_TAG = SOM

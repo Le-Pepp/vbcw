@@ -159,7 +159,7 @@ ideas = {
 			}
 		}
 		
-		ROY_metropolitan = {
+		ROY_leyland = {
 			
 			allowed = {
 				original_TAG = ROY

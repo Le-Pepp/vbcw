@@ -3,7 +3,7 @@
  ROY_RSAF:0 "Royal Small Arms Factory"
  ROY_ROF:0 "Royal Ordnance"
  ROY_morris:0 "Morris Motors"
- ROY_metropolitan:0 "Metropolitan Carriage Works"
+ ROY_leyland:0 "Leyland Motors"
  ROY_appledore:0 "Appledore Shipbuilders"
  ROY_barclay:0 "Barclay Curle"
  ROY_supermarine:0 "Supermarine"
@@ -48,7 +48,7 @@
  YRK_dynatron:0 "Dynatron Radio"
  
 ###MIDLANDS###
- SOM_fellows_and_morton: "Fellows and Morton"
+ SOM_fellows_and_morton: "Fellows, Morton and Clayton"
  SOM_goole_shipbuilding: "Goole Shipbuilding and Repair"
  SOM_boulton_paul: "Boulton Paul Aircraft"
  SOM_avro: "Avro"
