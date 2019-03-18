@@ -33,6 +33,12 @@ leader_traits = {
 			army_org_factor = 0.05
 		}
 		
+		targeted_modifier = {
+			tag = BUF
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		
 		new_commander_weight = {
 			factor = 0
 		}
