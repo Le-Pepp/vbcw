@@ -21,3 +21,11 @@
  
  ###MISC###
  category_irregular:0 "Militia & Yeomanry"
+ 
+ ###UNIT MODIFIERS###
+ modifier_army_sub_unit_category_cavalry_attack_factor:0 "Cavalry & Armoured Car Attack"
+ modifier_army_sub_unit_category_cavalry_defence_factor:0 "Cavalry & Armoured Car Defense"
+ modifier_army_sub_unit_category_cavalry_speed_factor:0 "Cavalry & Armoured Car Movement"
+ modifier_army_sub_unit_category_irregular_attack_factor:0 "Militia & Yeomanry Attack"
+ modifier_army_sub_unit_category_irregular_defence_factor:0 "Militia & Yeomanry Defense"
+ modifier_army_sub_unit_category_irregular_speed_factor:0 "Militia & Yeomanry Movement"
