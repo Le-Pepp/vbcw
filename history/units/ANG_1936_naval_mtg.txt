@@ -31,9 +31,9 @@
 			ship = { name = "Acheron" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "Versatile" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Vimy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
-	#		ship = { name = "Rosemary" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Lupin" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Foxglove" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Rosemary" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
+			ship = { name = "Lupin" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
+			ship = { name = "Foxglove" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
 		}
 		task_force = {				
 			name = "Dover Squadron"	
@@ -45,10 +45,10 @@
 			ship = { name = "Brazen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "Brilliant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "Boadicea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
-	#		ship = { name = "Sphinx" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Niger" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Salamander" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-	#		ship = { name = "Harrier" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hussar" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Niger" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Salamander" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Harrier" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 		}
 	}
 }	

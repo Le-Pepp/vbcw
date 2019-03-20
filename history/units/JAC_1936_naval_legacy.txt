@@ -14,8 +14,8 @@
 			ship = { name = "Volunteer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Verity" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "Hastings" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Enchantress" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
-			# ship = { name = "Jasper" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Enchantress" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Jasper" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
 		}
 	}
 }

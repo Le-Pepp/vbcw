@@ -17,10 +17,10 @@
 			ship = { name = "Kingfisher" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
 			ship = { name = "Widgeon" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
 			ship = { name = "Sheldrake" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-		#	ship = { name = "Radnor Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-		#	ship = { name = "Brecon Castle" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Blackwater" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }	
-		#	ship = { name = "Kennet" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }			
+			ship = { name = "Radnor Castle" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Brecon Castle" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Blackwater" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Kennet" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 		}
 	}
 }	

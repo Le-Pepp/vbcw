@@ -27,13 +27,13 @@
 			location = 1832		
 			ship = { name = "Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Valorous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
-		#	ship = { name = "Amethyst" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Agate" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Flanders" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Gunner" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Hawthorn" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Willow" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Windward" definition = trawler equipment = { trawler_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Amethyst" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "Agate" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "Flanders" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Gunner" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Hawthorn" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Willow" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Windward" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 		}
 	}
 }	

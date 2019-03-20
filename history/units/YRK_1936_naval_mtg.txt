@@ -52,11 +52,11 @@
 			name = "Tees Squadron"	
 			location = 1412 # Middlesborough
 			ship = { name = "Stork" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-		#	ship = { name = "Courtier" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "British" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Malay" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Cypress" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
-		#	ship = { name = "Cedar" definition = trawler equipment = { trawler_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Courtier" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "British" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "Malay" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "Cypress" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
+			ship = { name = "Cedar" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 		}
 	}
 }	
