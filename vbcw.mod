@@ -3,7 +3,7 @@ path="mod/vbcw/"
 tags={
 	"Map"
 }
-supported_version="1.5.*"
+supported_version="1.6.*"
 replace_path = "common/abilities"
 replace_path = "common/ai_equipment"
 replace_path = "common/ai_focuses"
