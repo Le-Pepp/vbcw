@@ -121,4 +121,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_SMI_ship_v_light_battery_2"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/v_light_battery_icon_2.dds" }
 	spriteType = { name = "GFX_SMI_ship_v_light_battery_3"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/v_light_battery_icon_3.dds" }
 	spriteType = { name = "GFX_SMI_ship_v_light_battery_4"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/v_light_battery_icon_4.dds" }
+
+	spriteType = { name = "GFX_SMI_ship_small_deck_space"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+	}
 }
