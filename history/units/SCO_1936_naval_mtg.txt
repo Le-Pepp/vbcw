@@ -7,7 +7,7 @@
 		name = "Scottish Navy"			
 		naval_base = 1743
 		task_force = {				
-			name = "Forth Fleet"
+			name = "Rosyth Squadron"
 			location = 1743
 			ship = { name = "Ramillies" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }				
 			ship = { name = "Emerald" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
@@ -23,7 +23,7 @@
 		}
 		
 		task_force = {				
-			name = "Escort Fleet"
+			name = "Escort Squadron"
 			location = 1832		
 			ship = { name = "Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Valorous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }

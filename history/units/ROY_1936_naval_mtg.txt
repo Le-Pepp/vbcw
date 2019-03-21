@@ -14,15 +14,9 @@
 					cv_fighter_equipment_0 =  { owner = "ROY" amount = 24 }
 					cv_nav_bomber_equipment_1 =  { owner = "ROY" amount = 12 }
 				}
-			}	
-			ship = { name = "HMS Ark Royal" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "ROY" amount = 30 }
-					cv_nav_bomber_equipment_1 =  { owner = "ROY" amount = 18 }
-				}
-			}			
+			}		
 			ship = { name = "HMS Royal Oak" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }				
-			ship = { name = "HMS Royal Sovereign" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }				
+			ship = { name = "HMS Royal Sovereign" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }				
 			ship = { name = "HMS Repulse" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }					
 			ship = { name = "HMS Renown" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }					
 			ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
@@ -35,6 +29,7 @@
 		task_force = {				
 			name = "Channel Squadron"	
 			location = 83 # Portland
+			ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMS London" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "HMS Exeter" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
@@ -47,10 +42,10 @@
 		task_force = {				
 			name = "Nore Squadron"
 			location = 327 # Chatham
+			ship = { name = "HMS Effingham" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
 			ship = { name = "HMS Diomede" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 			ship = { name = "HMS Dragon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 			ship = { name = "HMS Calypso" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
-			ship = { name = "HMS Effingham" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
 			ship = { name = "HMS Beagle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "HMS Boreas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "HMS Basilisk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }

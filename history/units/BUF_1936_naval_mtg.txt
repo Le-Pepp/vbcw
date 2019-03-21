@@ -9,9 +9,14 @@
 		task_force = {				
 			name = "Thames Squadron"	
 			location = 327
+			ship = { name = "HMS Valiant" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
 			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
 			ship = { name = "HMS Worcester" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "HMS Campbell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		task_force = {				
+			name = "Coastal Squadron"	
+			location = 327
 			ship = { name = "MGB-13" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
 			ship = { name = "MGB-18" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
 			ship = { name = "MGB-24" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
