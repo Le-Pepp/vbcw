@@ -139,9 +139,9 @@ add_ideas = {
 set_convoys = 50
 
 create_country_leader = {
-	name = "Barbara Castle"
+	name = "Ellen Wilkinson"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/VBCW/SON/SON-Castle.dds"
+	picture = "gfx/leaders/VBCW/SON/SON-Wilkinson.tga"
 	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {

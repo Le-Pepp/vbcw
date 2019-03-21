@@ -11,20 +11,20 @@
 			location = 1148
 			ship = { name = "Southampton" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
 			ship = { name = "Echo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }	
-			ship = { name = "Garry" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Liffey" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Buckingham" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Glen Kidson" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Garry" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Liffey" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Buckingham" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Glen Kidson" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 		}
 		
 		task_force = {				
 			name = "Grimsby Fleet"
 			location = 1089	
 			ship = { name = "Glasgow" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
-			ship = { name = "Sandringham" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Malayan" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Lune" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
-			ship = { name = "Fane" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Sandringham" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Malayan" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Lune" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
+			ship = { name = "Fane" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "Rosie" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "Sunbeam" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "Sweet Surprise II" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
