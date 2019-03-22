@@ -157,6 +157,9 @@
  EQ_MOD_CAT_ship_v_light_battery_TITLE:0 "Light Guns"
  EQ_MOD_CAT_ship_light_anti_air_TITLE:0 "Light Anti-Air"
  EQ_MOD_CAT_escort_ship_engine_TITLE:0 "Escort Engines"
+ EQ_MOD_CAT_motorboat_engine_TITLE:0 "Motorboat Engines"
+ EQ_MOD_CAT_ship_small_deck_space_TITLE:0 "Small Hangar Space"
+ 
  ship_v_light_battery_1:0 "3pdr Vickers"
  ship_v_light_battery_1_short:0 "Very Light Battery I"
  ship_v_light_battery_1_desc:0 "A small gun for use on escorts and other small craft."
@@ -208,3 +211,6 @@
  motorboat_engine_4:0 "3,200 Shp Engine"
  motorboat_engine_4_short:0 "Motorboat Engine IV"
  motorboat_engine_4_desc:0 "Improved engine layouts and turbine gearing allow higher efficiency for the same amount of weight."
+ 
+ ship_small_deck_space:0 "Small Hangar"
+ ship_small_deck_space_desc:0 "An open area inside the ship that allows the servicing and arming of wheeled airplanes. Adding further hangar space to a ship dramatically drives up cost."
