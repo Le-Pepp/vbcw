@@ -2,7 +2,7 @@ NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.5
 
 NDefines.NProduction.BASE_FACTORY_SPEED = 2
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 2
-NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 1
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2
 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 50
 NDefines.NBuildings.RADAR_RANGE_MIN = 150
