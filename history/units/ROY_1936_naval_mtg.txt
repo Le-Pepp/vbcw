@@ -20,18 +20,11 @@
 			ship = { name = "HMS Repulse" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }					
 			ship = { name = "HMS Renown" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }					
 			ship = { name = "HMS Norfolk" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-			ship = { name = "HMS Matabale" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Tribal Class" } } }
-			ship = { name = "HMS Ashanti" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Tribal Class" } } }
-			ship = { name = "HMS Mashona" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Tribal Class" } } }
-			ship = { name = "HMS Somali" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "Tribal Class" } } }
 		}
 	
 		task_force = {				
 			name = "Channel Squadron"	
 			location = 83 # Portland
-			ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
-			ship = { name = "HMS London" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-			ship = { name = "HMS Exeter" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
 			ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
 			ship = { name = "HMS Carlisle" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
@@ -54,10 +47,8 @@
 		task_force = {				
 			name = "Wight Squadron"	
 			location = 103 # Wight
-			ship = { name = "HMS Gleaner" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "HMS Hebe" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "HMS Sharpshooter" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Gossamer" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "HMT Boyne" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "HMT Mersey" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "HMT Colne" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }

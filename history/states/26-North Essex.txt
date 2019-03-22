@@ -12,6 +12,7 @@ state={
 		victory_points = { 303 10 }
 		victory_points = { 391 5 }
 		victory_points = { 457 5 }
+		victory_points = { 422 5 }
 		owner = BUF
 		add_core_of = BUF
 		add_claim_by = YRK
@@ -23,7 +24,7 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 2
-			412 = {
+			422 = {
 				naval_base = 2
 			}                    
 		}
