@@ -17,7 +17,6 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_front_line
 			category_army
 			category_cavalry
 			category_irregular

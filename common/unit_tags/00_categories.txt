@@ -14,6 +14,7 @@ sub_unit_categories = {
 	category_special_forces
 	category_cavalry
 	category_armoured_car
+	category_regular
 	category_irregular
 	category_nav_bomber
 	category_tac_bomber
