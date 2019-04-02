@@ -197,7 +197,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bernard Montgomery"
-	picture = "Portrait_Britain_Bernard_Montgomery.dds"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Monty.dds"
 	traits = { }
 	skill = 4 
 	attack_skill = 2
@@ -208,7 +208,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "William Slim"
-	picture = "Portrait_Britain_William_Slim.dds"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Slim.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 3
@@ -219,7 +219,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Harold Alexander"
-	picture = "Portrait_Britain_Harold_Alexander.dds"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Alexander.dds"
 	traits = {  }
 	skill = 5
 	attack_skill = 4
