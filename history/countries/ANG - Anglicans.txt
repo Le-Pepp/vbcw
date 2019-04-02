@@ -185,8 +185,8 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Churchy McChurchface"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "William Dobbie"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Dobbie.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 1
@@ -195,3 +195,79 @@ create_field_marshal = {
     logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Bernard Montgomery"
+	picture = "Portrait_Britain_Bernard_Montgomery.dds"
+	traits = { }
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "William Slim"
+	picture = "Portrait_Britain_William_Slim.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Harold Alexander"
+	picture = "Portrait_Britain_Harold_Alexander.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Eric Miles"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Miles.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John Hawkesworth"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Hawkesworth.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Harold Redman"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Redman.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nevil Brownjohn"
+	portrait_path = "gfx/leaders/VBCW/ANG/ANG-Brownjohn.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}

@@ -154,6 +154,7 @@ create_field_marshal = {
     planning_skill = 3
     logistics_skill = 4
 }
+
 create_field_marshal = {
 	name = "Philip Game"
 	portrait_path = "gfx/leaders/VBCW/BUF/BUF-Game.tga"

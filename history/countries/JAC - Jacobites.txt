@@ -136,6 +136,7 @@ create_field_marshal = {
     planning_skill = 5
     logistics_skill = 5
 }
+
 create_field_marshal = {
 	name = "Compton MacKenzie"
 	portrait_path = "gfx/leaders/VBCW/JAC/JAC-MacKenzie.dds"
@@ -201,5 +202,3 @@ create_corps_commander = {
     planning_skill = 1
     logistics_skill = 2
 }
-
-
