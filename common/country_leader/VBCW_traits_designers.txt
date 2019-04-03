@@ -317,13 +317,8 @@ leader_traits = {
 	small_vessel_manufacturer_1 = { 
 		random = no
 		equipment_bonus = {
-			gunboat = {
+			motorboat = {
 				lg_attack = 0.1
-				surface_detection = 0.1
-				instant = yes
-			}
-			torpedo_boat = {
-				torpedo_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
 			}
@@ -333,6 +328,11 @@ leader_traits = {
 				instant = yes
 			}
 			corvette = {
+				lg_attack = 0.1
+				surface_detection = 0.1
+				instant = yes
+			}
+			sloop = {
 				lg_attack = 0.1
 				surface_detection = 0.1
 				instant = yes
@@ -347,12 +347,7 @@ leader_traits = {
 	small_vessel_manufacturer_2 = { 
 		random = no
 		equipment_bonus = {
-			gunboat = {
-				##evasion = 0.1
-				surface_visibility = -0.1
-				instant = yes
-			}
-			torpedo_boat = {
+			motorboat = {
 				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
@@ -363,6 +358,11 @@ leader_traits = {
 				instant = yes
 			}
 			corvette = {
+				##evasion = 0.1
+				surface_visibility = -0.1
+				instant = yes
+			}
+			sloop = {
 				##evasion = 0.1
 				surface_visibility = -0.1
 				instant = yes
@@ -377,12 +377,7 @@ leader_traits = {
 	small_vessel_manufacturer_3 = { 
 		random = no
 		equipment_bonus = {
-			gunboat = {
-				naval_speed = 0.1
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			torpedo_boat = {
+			motorboat = {
 				naval_speed = 0.1
 				build_cost_ic = -0.1
 				instant = yes
@@ -397,6 +392,11 @@ leader_traits = {
 				build_cost_ic = -0.1
 				instant = yes
 			}
+			sloop = {
+				naval_speed = 0.1
+				build_cost_ic = -0.1
+				instant = yes
+			}
 		}
 		
 		ai_will_do = {
@@ -407,11 +407,6 @@ leader_traits = {
 	large_vessel_manufacturer_1 = { 
 		random = no
 		equipment_bonus = {
-			sloop = {
-				lg_attack = 0.1
-				surface_detection = 0.1
-				instant = yes
-			}
 			destroyer = {
 				lg_attack = 0.1
 				surface_detection = 0.1
@@ -442,11 +437,6 @@ leader_traits = {
 	large_vessel_manufacturer_2 = { 
 		random = no
 		equipment_bonus = {
-			sloop = {
-				##evasion = 0.1
-				surface_visibility = -0.1
-				instant = yes
-			}
 			destroyer = {
 				##evasion = 0.1
 				surface_visibility = -0.1
@@ -477,11 +467,6 @@ leader_traits = {
 	large_vessel_manufacturer_3 = { 
 		random = no
 		equipment_bonus = {
-			sloop = {
-				naval_speed = 0.1
-				build_cost_ic = -0.1
-				instant = yes
-			}
 			destroyer = {
 				naval_speed = 0.1
 				build_cost_ic = -0.1

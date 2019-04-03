@@ -33,12 +33,12 @@
  trawler_3_desc:0 "A marked improvement over earlier models, this design is a more capable patrol vessel, with improved minesweeping ability."
  trawler_4_desc:0 "The ultimate evolution of the naval trawler, capable of tackling patrol and minesweeping duties in hostile environments."
  
- motor_boat:0 "Motorboat"
+ motorboat:0 "Motorboat"
  early_motor_boat:0 "Motorboat I"
  basic_motor_boat:0 "Motorboat II"
  improved_motor_boat:0 "Motorboat III"
  advanced_motor_boat:0 "Motorboat IV"
- motor_boat_desc:0 "A small, fast vessel armed with torpedos or light guns. Intended to make hit-and-run attacks on enemy vessels."
+ motorboat_desc:0 "A small, fast vessel armed with torpedos or light guns. Intended to make hit-and-run attacks on enemy vessels."
  early_motor_boat_desc:0 "A very basic motorboat, little more than a civilian speedboat with retrofitted armament."
  basic_motor_boat_desc:0 "A new design, purpose-built as a naval vessel, with improved speed and heavier armament."
  improved_motor_boat_desc:0 "Mounting improved anti-air and anti-surface weaponry, this is the next evolution of the motorboat."
@@ -94,6 +94,7 @@
  motorboat_tech:0 "Motorboat models"
  monitor_tech:0 "Monitor models"
  cvl_tech:0 "Light Carrier models"
+ escort_tech:0 "Escort models"
  
  ##TECH TREE TITLES##
  NAVAL_TITLE_MOTOR_BOATS:0 "MOTOR BOATS"
@@ -142,6 +143,8 @@
  modifier_experience_gain_gunboat_combat_factor:0 "Gunboat Combat Experience Gain"
  modifier_experience_gain_torpedo_boat_training_factor:0 "Torpedo Boat Training Experience Gain"
  modifier_experience_gain_torpedo_boat_combat_factor:0 "Torpedo Boat Combat Experience Gain"
+ modifier_experience_gain_motorboat_training_factor:0 "Torpedo Boat Training Experience Gain"
+ modifier_experience_gain_motorboat_combat_factor:0 "Torpedo Boat Combat Experience Gain"
  modifier_experience_gain_trawler_training_factor:0 "Trawler Training Experience Gain"
  modifier_experience_gain_trawler_combat_factor:0 "Trawler Combat Experience Gain"
  modifier_experience_gain_corvette_training_factor:0 "Corvette Training Experience Gain"

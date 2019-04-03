@@ -1,6 +1,6 @@
 sub_units = {
 	corvette = {
-		sprite = corvette
+		sprite = escort
 		map_icon_category = ship
 		priority = 2
 		active = yes

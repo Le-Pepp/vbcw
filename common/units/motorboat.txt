@@ -1,22 +1,19 @@
 sub_units = {
-	sloop = {
-		sprite = escort
+	motorboat = {
+		sprite = motorboat
 		map_icon_category = ship
-		priority = 3
+		priority = 2
 		active = yes
 		type = { screen_ship }
-		need = { ship_hull_escort = 1 }
+		need = { ship_hull_motorboat = 1 }
 		
 		max_organisation = 40
 		
 		supply_consumption = 0.01
 		
-		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed }
+		critical_parts = { broken_propeller on_fire rudder_jammed }
 		critical_part_damage_chance_mult = 1
 		
 		hit_profile_mult = 1.0
 	}
-
 }
-
-	

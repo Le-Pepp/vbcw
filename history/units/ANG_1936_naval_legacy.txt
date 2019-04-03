@@ -31,9 +31,9 @@
 			ship = { name = "Acheron" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
 			ship = { name = "Versatile" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Vimy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
-		 	ship = { name = "Rosemary" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-		 	ship = { name = "Lupin" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
-		 	ship = { name = "Foxglove" definition = corvette equipment = { corvette_1 = { amount = 1 owner = ENG } } }
+		 	ship = { name = "Rosemary" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		 	ship = { name = "Lupin" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
+		 	ship = { name = "Foxglove" definition = sloop equipment = { sloop_1 = { amount = 1 owner = ENG } } }
 		}
 	
 	

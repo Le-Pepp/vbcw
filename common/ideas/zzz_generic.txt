@@ -430,6 +430,19 @@ ideas = {
 			
 			traits = { fortification_engineer }
 		}
+		
+		generic_silent_workhorse = {
+			
+			picture = silent_workhorse
+
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = silent_workhorse limit = 1 }
+				}
+			}
+			
+			traits = { silent_workhorse }
+		}
 
 		generic_war_industrialist = {
 			

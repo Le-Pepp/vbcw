@@ -19,12 +19,12 @@
 		task_force = {				
 			name = "Coastal Squadron"	
 			location = 422
-			ship = { name = "MGB-13" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
-			ship = { name = "MGB-18" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
-			ship = { name = "MGB-24" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
-			ship = { name = "MGB-26" definition = gunboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
-			ship = { name = "MTB-06" definition = torpedo_boat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Torpedo Boat" } } }
-			ship = { name = "MTB-09" definition = torpedo_boat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Torpedo Boat" } } }
+			ship = { name = "MGB-13" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
+			ship = { name = "MGB-18" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
+			ship = { name = "MGB-24" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
+			ship = { name = "MGB-26" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
+			ship = { name = "MTB-06" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Torpedo Boat" } } }
+			ship = { name = "MTB-09" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Torpedo Boat" } } }
 		}
 		task_force = {				
 			name = "Submarine Force"	

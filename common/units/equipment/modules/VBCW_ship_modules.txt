@@ -216,6 +216,9 @@ equipment_modules = {
 			hg_attack = 10
 			build_cost_ic = 800
 		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
 		build_cost_resources = {
 			steel = 1
 		}
@@ -236,7 +239,7 @@ equipment_modules = {
 			build_cost_ic = 1000
 		}
 		multiply_stats = {
-			naval_speed = -0.1
+			naval_speed = -0.15
 		}
 		build_cost_resources = {
 			steel = 1
