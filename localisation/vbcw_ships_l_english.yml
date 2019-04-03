@@ -105,6 +105,13 @@
  NAVAL_TITLE_ESCORTS:0 "ESCORTS"
  
  ##HULL TYPES##
+ ship_hull_monitor:0 "Monitor"
+ ship_hull_monitor_desc:0 "Intended for bombardment of targets ashore, monitors are slow, sluggish vessels mounting very large guns."
+ ship_hull_monitor_1:0 "Early Monitor Hull"
+ ship_hull_monitor_1_desc:0 ""
+ ship_hull_monitor_2:0 "1936 Monitor Hull"
+ ship_hull_monitor_2_desc:0 ""
+ 
  ship_hull_escort:0 "Escort"
  ship_hull_escort_desc:0 "Cheaply produced escort vessels built to mercantile standards. Primarily employed on convoy escort and anti-submarine duties."
  ship_hull_escort_1:0 "Early Escort Hull"

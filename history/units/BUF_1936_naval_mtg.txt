@@ -19,6 +19,8 @@
 		task_force = {				
 			name = "Coastal Squadron"	
 			location = 422
+			ship = { name = "HMS Erebus" definition = monitor equipment = { ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
+			ship = { name = "HMS Terror" definition = monitor equipment = { ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
 			ship = { name = "MGB-13" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
 			ship = { name = "MGB-18" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
 			ship = { name = "MGB-24" definition = motorboat equipment = { ship_hull_motorboat_1 = { amount = 1 owner = ENG version_name = "Motor Gun Boat" } } }
