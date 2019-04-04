@@ -164,11 +164,23 @@
  modifier_experience_gain_light_carrier_combat_factor:0 "Light Carrier Combat Experience Gain" 
  
  ##MODULES##
+ EQ_MOD_CAT_ship_rocket_battery_TITLE:0 "Rockets"
  EQ_MOD_CAT_ship_v_light_battery_TITLE:0 "Light Guns"
  EQ_MOD_CAT_ship_light_anti_air_TITLE:0 "Light Anti-Air"
  EQ_MOD_CAT_escort_ship_engine_TITLE:0 "Escort Engines"
  EQ_MOD_CAT_motorboat_engine_TITLE:0 "Motorboat Engines"
  EQ_MOD_CAT_ship_small_deck_space_TITLE:0 "Small Hangar Space"
+ 
+ ship_improvised_battery_1:0 "18pdr Field Gun"
+ ship_improvised_battery_1_short:0 "Improvised Battery I"
+ ship_improvised_battery_1_desc:0 "A makeshift armament improvised from old field artillery pieces."
+ 
+ ship_rocket_battery_1:0 "URP Launcher"
+ ship_rocket_battery_1_short:0 "Rocket Battery I"
+ ship_rocket_battery_1_desc:0 "Light rockets with high explosive warheads."
+ ship_rocket_battery_2:0 "RP3 Launcher"
+ ship_rocket_battery_2_short:0 "Rocket Battery II"
+ ship_rocket_battery_2_desc:0 "Heavy rockets with high explosive warheads."
  
  ship_v_light_battery_1:0 "3pdr Vickers"
  ship_v_light_battery_1_short:0 "Very Light Battery I"
