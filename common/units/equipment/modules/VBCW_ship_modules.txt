@@ -1,5 +1,74 @@
 equipment_modules = {
 
+###ROCKET BATTERY### 
+	ship_rocket_battery_1 = {
+		category = ship_rocket_battery
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			lg_attack = 4
+			hg_attack = 2
+			build_cost_ic = 120
+		}
+		add_average_stats = {
+			lg_armor_piercing = 2
+			hg_armor_piercing = 1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		
+		can_convert_from = {
+			module_category = ship_rocket_battery
+			convert_cost_ic = 90
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	
+	ship_rocket_battery_2 = {
+		category = ship_rocket_battery
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			lg_attack = 8
+			hg_attack = 4
+			build_cost_ic = 150
+		}
+		add_average_stats = {
+			lg_armor_piercing = 4
+			hg_armor_piercing = 2
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		
+		can_convert_from = {
+			module_category = ship_rocket_battery
+			convert_cost_ic = 110
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+###MAKESHIFT BATTERY### 
+	ship_improvised_battery_1 = {
+		category = ship_v_light_battery
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 20
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		
+		can_convert_from = {
+			module_category = ship_v_light_battery
+			convert_cost_ic = 10
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
 ###VERY LIGHT BATTERY### 
 	ship_v_light_battery_1 = {
 		category = ship_v_light_battery

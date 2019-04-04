@@ -4,7 +4,7 @@ guiTypes = {
 
 	################# Equipment Archetype: ship_hull_light_new_format_example #################
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_escort"
+		name = "equipment_designer_ship_hull_light"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_escort"
+			spriteType = "GFX_SD_tv_light"
 			position = { x=0 y=0 }
 		}
 
@@ -38,10 +38,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery"
-						position = { x=356 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_light_battery@highlight"
 					position = { x=0 y=0 }
@@ -49,31 +50,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_light_battery@highlight"
-						position = { x=356 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "ship_v_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery"
-						position = { x=356 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_v_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_light_battery@highlight"
-						position = { x=356 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
 					}
 				}
 
@@ -84,10 +62,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rocket"
-						position = { x=356 y=0 }
+						spriteType = "GFX_SM_light_hull_rocket"
+						position = { x=360 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_rocket_battery@highlight"
 					position = { x=0 y=0 }
@@ -95,8 +74,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_rocket@highlight"
-						position = { x=356 y=0 }
+						spriteType = "GFX_SM_light_hull_rocket@highlight"
+						position = { x=360 y=0 }
 					}
 				}
 			}
@@ -114,10 +93,13 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_anti_air"
-						position = { x=290 y=0 }
+						spriteType = "GFX_SM_light_hull_anti_air"
+						position = { x=330 y=0 }
 					}
 				}
+
+				
+
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
 					position = { x=0 y=0 }
@@ -125,31 +107,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_anti_air@highlight"
-						position = { x=290 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "ship_light_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_anti_air"
-						position = { x=290 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_anti_air@highlight"
-						position = { x=290 y=0 }
+						spriteType = "GFX_SM_light_hull_anti_air@highlight"
+						position = { x=330 y=0 }
 					}
 				}
 			}
@@ -167,10 +126,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_fire_control"
+						spriteType = "GFX_SM_light_hull_fire_control"
 						position = { x=0 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "@highlight"
 					position = { x=0 y=0 }
@@ -178,7 +138,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_fire_control@highlight"
+						spriteType = "GFX_SM_light_hull_fire_control@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -191,10 +151,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_sonar"
+						spriteType = "GFX_SM_light_hull_sonar"
 						position = { x=0 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_sonar@highlight"
 					position = { x=0 y=0 }
@@ -202,7 +163,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_sonar@highlight"
+						spriteType = "GFX_SM_light_hull_sonar@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -222,10 +183,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_radar"
+						spriteType = "GFX_SM_light_hull_radar"
 						position = { x=0 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_radar@highlight"
 					position = { x=0 y=0 }
@@ -233,7 +195,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_radar@highlight"
+						spriteType = "GFX_SM_light_hull_radar@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -246,10 +208,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_sonar"
+						spriteType = "GFX_SM_light_hull_sonar"
 						position = { x=0 y=0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_sonar@highlight"
 					position = { x=0 y=0 }
@@ -257,7 +220,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_sonar@highlight"
+						spriteType = "GFX_SM_light_hull_sonar@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -276,8 +239,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_torpedo"
-						position = { x=95 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=240 y=0 }
 					}
 				}
 
@@ -288,8 +251,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_torpedo@highlight"
-						position = { x=95 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=240 y=0 }
 					}
 				}
 			}
@@ -307,7 +270,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_engine"
+						spriteType = "GFX_SM_light_hull_engine"
 						position = { x=0 y=0 }
 					}
 				}
@@ -319,31 +282,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_engine@highlight"
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "escort_ship_engine"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_escort_hull_engine"
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "escort_ship_engine@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_escort_hull_engine@highlight"
+						spriteType = "GFX_SM_light_hull_engine@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -363,8 +302,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_front_1_depth_charge"
-						position = { x=407 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge"
+						position = { x=310 y=0 }
 					}
 				}
 
@@ -375,8 +314,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_front_1_depth_charge@highlight"
-						position = { x=407 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge@highlight"
+						position = { x=310 y=0 }
 					}
 				}
 
@@ -388,8 +327,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_front_1_anti_air"
-						position = { x=392 y=0 }
+						spriteType = "GFX_SM_light_hull_front_1_anti_air"
+						position = { x=400 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -399,31 +338,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "ship_light_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_front_1_anti_air"
-						position = { x=392 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_escort_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
+						spriteType = "GFX_SM_light_hull_front_1_anti_air@highlight"
+						position = { x=400 y=0 }
 					}
 				}
 
@@ -435,10 +351,11 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery"
-						position = { x=394 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=385 y=0 }
 					}
-				}				
+				}
+				
 				containerWindowType = {
 					name = "ship_light_battery@highlight"
 					position = { x=0 y=0 }
@@ -446,54 +363,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery@highlight"
-						position = { x=394 y=0 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "ship_v_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery"
-						position = { x=394 y=0 }
-					}
-				}				
-				containerWindowType = {
-					name = "ship_v_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_light_battery@highlight"
-						position = { x=394 y=0 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "ship_rocket_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_rocket"
-						position = { x=394 y=0 }
-					}
-				}				
-				containerWindowType = {
-					name = "ship_rocket_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_rocket@highlight"
-						position = { x=394 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=385 y=0 }
 					}
 				}
 			}
@@ -512,7 +383,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_torpedo"
+						spriteType = "GFX_SM_light_hull_torpedo"
 						position = { x=190 y=0 }
 					}
 				}
@@ -523,7 +394,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_torpedo@highlight"
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
 						position = { x=190 y=0 }
 					}
 				}
@@ -537,8 +408,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper"
-						position = { x=207 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_sweeper"
+						position = { x=100 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -548,8 +419,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper@highlight"
-						position = { x=207 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_sweeper@highlight"
+						position = { x=100 y=0 }
 					}
 				}
 
@@ -562,7 +433,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_layer"
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer"
 						position = { x=200 y=0 }
 					}
 				}
@@ -573,7 +444,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_layer@highlight"
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer@highlight"
 						position = { x=200 y=0 }
 					}
 				}
@@ -587,8 +458,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_depth_charge"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge"
+						position = { x=150 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -598,11 +469,10 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_depth_charge@highlight"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge@highlight"
+						position = { x=150 y=0 }
 					}
 				}
-				
 
 				#### MODULE: Anti-Air ####
 				containerWindowType = {
@@ -612,8 +482,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_anti_air"
+						position = { x=245 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -623,30 +493,32 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_anti_air@highlight"
+						position = { x=245 y=0 }
 					}
 				}
+				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_anti_air"
+					name = "ship_light_battery"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=170 y=0 }
 					}
 				}
+				
 				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
+					name = "ship_light_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=170 y=0 }
 					}
 				}
 
@@ -666,8 +538,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_torpedo"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=190 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -677,8 +549,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_torpedo@highlight"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=190 y=0 }
 					}
 				}
 
@@ -690,8 +562,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper"
-						position = { x=143 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_sweeper"
+						position = { x=175 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -701,8 +573,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_sweeper@highlight"
-						position = { x=143 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_sweeper@highlight"
+						position = { x=175 y=0 }
 					}
 				}
 
@@ -714,8 +586,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_layer"
-						position = { x=137 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer"
+						position = { x=200 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -725,8 +597,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_mine_layer@highlight"
-						position = { x=137 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer@highlight"
+						position = { x=200 y=0 }
 					}
 				}
 
@@ -738,8 +610,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_depth_charge"
-						position = { x=142 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge"
+						position = { x=180 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -749,8 +621,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_depth_charge@highlight"
-						position = { x=142 y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_depth_charge@highlight"
+						position = { x=180 y=0 }
 					}
 				}
 
@@ -762,8 +634,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_anti_air"
+						position = { x=202	y=0 }
 					}
 				}
 				containerWindowType = {
@@ -773,32 +645,35 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_light_hull_mid_1_anti_air@highlight"
+						position = { x=202	y=0 }
 					}
 				}
+				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_anti_air"
+					name = "ship_light_battery"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery"
+						position = { x=110 y=0 }
 					}
 				}
+				
 				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
+					name = "ship_light_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery@highlight"
+						position = { x=110 y=0 }
 					}
 				}
+
 			}
 
 			################# MODULE SLOT: Custom, Rear #1 #################
@@ -815,8 +690,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_torpedo"
-						position = { x=62 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=70 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -826,8 +701,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_torpedo@highlight"
-						position = { x=62 y=0 }
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=70 y=0 }
 					}
 				}
 
@@ -839,8 +714,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_mine_sweeper"
-						position = { x=32 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper"
+						position = { x=40 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -850,8 +725,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_mine_sweeper@highlight"
-						position = { x=32 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper@highlight"
+						position = { x=40 y=0 }
 					}
 				}
 
@@ -863,8 +738,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_mine_layer"
-						position = { x=58 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_mine_layer"
+						position = { x=48 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -874,8 +749,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_mine_layer@highlight"
-						position = { x=58 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_mine_layer@highlight"
+						position = { x=48 y=0 }
 					}
 				}
 
@@ -887,8 +762,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_depth_charge"
-						position = { x=46 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_depth_charge"
+						position = { x=45 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -898,8 +773,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_depth_charge@highlight"
-						position = { x=46 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_depth_charge@highlight"
+						position = { x=45 y=0 }
 					}
 				}
 
@@ -911,8 +786,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_anti_air"
+						position = { x=75 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -922,57 +797,35 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_anti_air@highlight"
+						position = { x=75 y=0 }
 					}
 				}
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_v_light_battery"
+					name = "ship_light_battery"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_light_battery"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery"
+						position = { x=91 y=0 }
 					}
 				}
 				containerWindowType = {
-					name = "ship_v_light_battery@highlight"
+					name = "ship_light_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rear_1_light_battery@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery@highlight"
+						position = { x=91 y=0 }
 					}
 				}
-				
+
 				containerWindowType = {
 					name = "ship_rocket_battery"
 					position = { x=0 y=0 }
@@ -980,19 +833,20 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_escort_hull_rocket"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_light_hull_rocket"
+						position = { x=91 y=0 }
 					}
-				}				
+				}
+
 				containerWindowType = {
 					name = "ship_rocket_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_escort_hull_rocket@highlight"
-						position = { x=55 y=0 }
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_rocket@highlight"
+						position = { x=91 y=0 }
 					}
 				}
 

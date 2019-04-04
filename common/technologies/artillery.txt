@@ -5,6 +5,10 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_1
 		}
+
+		enable_equipment_modules = { 
+			ship_improvised_battery_1
+		}
 		
 		path = {
 			leads_to_tech = interwar_artillery 
@@ -380,6 +384,11 @@ technologies = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
+
+		enable_equipment_modules = { 
+			ship_rocket_battery_1
+		}
+		
 #		enable_subunits = {
 #			rocket_artillery_brigade
 #		}
@@ -502,6 +511,10 @@ technologies = {
 	
 		enable_equipments = {
 			rocket_artillery_equipment_2
+		}
+
+		enable_equipment_modules = { 
+			ship_rocket_battery_2
 		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
