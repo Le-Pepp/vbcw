@@ -119,12 +119,17 @@ spriteTypes = {
 	spriteType = { name = "GFX_SMI_ship_rocket_battery_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/rocket_battery_icon_1.dds" }		
 	spriteType = { name = "GFX_SMI_ship_rocket_battery_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/rocket_battery_icon_2.dds" }	
 	
+###SHORE BOMBARDMENT BATTERY###	
+	spriteType = { name = "GFX_SMI_ship_shore_bombardment_battery" 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/shore_bombardment_battery_icn.dds" }		
+	spriteType = { name = "GFX_SMI_ship_shore_bombardment_battery_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/shore_bombardment_battery_icn_1.dds" }		
+	spriteType = { name = "GFX_SMI_ship_shore_bombardment_battery_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/shore_bombardment_battery_icn_2.dds" }	
+	
 ###LIGHT AA###	
-	spriteType = { name = "GFX_SMI_ship_light_anti_air" 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn.dds" }		
-	spriteType = { name = "GFX_SMI_ship_light_anti_air_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_1.dds" }
-	spriteType = { name = "GFX_SMI_ship_light_anti_air_2"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_2.dds" }
-	spriteType = { name = "GFX_SMI_ship_light_anti_air_3"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_3.dds" }
-	spriteType = { name = "GFX_SMI_ship_light_anti_air_4"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air_icn_4.dds" }
+	spriteType = { name = "GFX_SMI_ship_light_anti_air" 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_anti_air_icn.dds" }		
+	spriteType = { name = "GFX_SMI_ship_light_anti_air_1"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_anti_air_icn_1.dds" }
+	spriteType = { name = "GFX_SMI_ship_light_anti_air_2"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_anti_air_icn_2.dds" }
+	spriteType = { name = "GFX_SMI_ship_light_anti_air_3"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_anti_air_icn_3.dds" }
+	spriteType = { name = "GFX_SMI_ship_light_anti_air_4"	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_anti_air_icn_4.dds" }
 	
 ###V. LIGHT BATTERY###	
 	spriteType = { name = "GFX_SMI_ship_v_light_battery" 	textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/v_light_battery_icon.dds" }		
