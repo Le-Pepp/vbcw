@@ -282,7 +282,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {			
-			hg_attack = 10
+			hg_attack = 14
+			hg_armor_piercing = 2
 			build_cost_ic = 800
 		}
 		multiply_stats = {
@@ -304,7 +305,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 12
+			hg_attack = 18
+			hg_armor_piercing = 3
 			build_cost_ic = 1000
 		}
 		multiply_stats = {

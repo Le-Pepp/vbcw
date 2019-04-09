@@ -6,6 +6,12 @@ sub_units = {
 		active = yes
 		type = { screen_ship }
 		need = { ship_hull_light = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_shore_bombardment_battery_1 = 1
+				ship_shore_bombardment_battery_2 = 1
+			}
+		}
 		
 		max_organisation = 40
 		

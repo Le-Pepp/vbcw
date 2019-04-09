@@ -1561,28 +1561,13 @@ technologies = {
 		enable_equipments = { 
 			monitor_1
 		}
-		
-		path = {
-			leads_to_tech = basic_monitor 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
 
-		start_year = 1922
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 1 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			monitor_tech
+		research_cost = 1
+		start_year = 1936
+
+		# only from focus!!! #####
+		allow = {
+			always = no
 		}
 	}
 	
@@ -1591,23 +1576,13 @@ technologies = {
 		enable_equipments = { 
 			monitor_2
 		}
-		
-		research_cost = 2
 
+		research_cost = 1
 		start_year = 1940
-		
-		folder = {
-			name = naval_folder
-			position = { x = 0 y = 13 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			monitor_tech
+
+		# only from focus!!! #####
+		allow = {
+			always = no
 		}
 	}	
 }
