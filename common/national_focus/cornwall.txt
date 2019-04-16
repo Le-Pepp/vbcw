@@ -9,7 +9,49 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 20 y = 2000 }
 	default = no
-	
+	####Political####
+	focus = {
+		id = KER_restructure_the_government
+		icon = GFX_goal_generic_defence
+		cost = 5
+		x = 40
+		y = 0
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id =  KER_political_manoeuvres
+		icon = GFX_goal_foreign_diplomacy
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = KER_restructure_the_government
+		prerequisite = {focus = KER_restructure_the_government}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id =  KER_the_truro_cathedral
+		icon = GFX_goal_royal_edicts
+		cost = 5
+		x = 0
+		y = 2
+		relative_position_id = KER_restructure_the_government
+		prerequisite = {focus = KER_political_manoeuvres}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+			
+		}
+	}
+	####Army####
 	focus = {
 		id = KER_status_of_the_military
 		icon = GFX_focus_generic_military_mission

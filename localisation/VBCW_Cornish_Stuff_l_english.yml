@@ -167,6 +167,13 @@ KER_means_tech_boost:0 "The Cornish Means"
  KER_remember_remember:0 "Remember, Remember"
  KER_remember_remember_desc:0 ""
  KER_pasty_service_external_2:0 "The Black Cats"
+ KER_restructure_the_government:0 "Restructure the Government"
+ KER_restructure_the_government_desc:0 "It is clear that the current system of districts under the county council is inadequate for a wartime situation and merely slows down the effectiveness of the war effort. We must alter the governing system and set in stone constitutional rules to better govern Cornwall."
+ KER_political_manoeuvres:0 "Political Manoeuvres"
+ KER_political_manoeuvres_desc:0 "It is time for us to decide who we are. Where do our loyalties lie, and how shall we govern? All the while the Civil War rages, various parties and factions arrange themselves internally to take power."
+ KER_the_truro_cathedral:0 "The Truro Cathedral Declaration"
+ KER_the_truro_cathedral_desc:0 "The Mebyon Kernow have convened, and Arthur Quiller Couch has made his will clear - the country needs a strong ruler. The Bards have long sang songs of this day, but now is the time to declare us a Kingdom once more! Call the Bishop, we must crown a king!."
+
 ###EVENTS###
 KER_events.1.t:0 "The Cornish Propose a Trade Deal"
 KER_events.1.d:0 "A few days ago, a Cornish delegation with a very thick accent arrived in the city of Cork. After a very confusing dialogue in which both sides attempted to understand each other, it was finally decided that these strange men must be here as some sort of delegation. They were taken to the local mayor who finally managed to get to the bottom of the situation - these men are a trade delegation for Kernow. They were invited to speak with our own ministers, and over a nice cup of tea decided that - "
