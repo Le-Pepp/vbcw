@@ -41,6 +41,211 @@ ideas = {
 				army_org_factor = 0.1
 			}
 		}
+	SCO_irish_reconciled = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.05
+
+			}
+		}
+
+		SCO_national_consolidation_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = 0.05
+				industry_repair_factor = 0.2
+			}
+		}
+	
+		SCO_scotland_the_brave_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_army_of_aggression_focus
+			
+			modifier = {
+				political_power_factor = 0.15
+				training_time_army_factor = -0.05
+				conscription_factor = 0.15
+			}
+		}
+		SCO_new_constitution_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_constitutional_guarantee
+			
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+
+		SCO_destroy_the_north_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_mex_revolutionary_army
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+			}
+		}
+
+		SCO_stamp_out_liberalism_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = officers_purged
+			
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+
+		SCO_anti_catholocism_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_MEX_church_power_2
+			
+			modifier = {
+				political_power_factor = 0.3
+				stability_factor = -0.05
+				conscription_factor = -0.05
+			}
+		}
+
+		SCO_smash_the_jacobites_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+			}
+		}
+
+		SCO_defeat_the_pretender_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				conscription_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+			}
+		}
+
+		SCO_officer_schools_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = general_staff
+			
+			modifier = {
+				army_org_factor = 0.1
+				military_leader_cost_factor = -0.50
+				army_leader_start_level = 2
+			}
+		}
 	}
 	
 	political_advisor = {
