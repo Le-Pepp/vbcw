@@ -25,8 +25,8 @@
 			location = 1617		
 			ship = { name = "Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
 			ship = { name = "Valorous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
-			ship = { name = "Skipjack" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "Speedwell" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Skipjack" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Speedwell" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "Amethyst" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "Agate" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "Flanders" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }

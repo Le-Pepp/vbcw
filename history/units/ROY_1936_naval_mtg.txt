@@ -56,8 +56,8 @@
 			location = 103 # Wight
 			ship = { name = "HMS Sabre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
 			ship = { name = "HMS Shikari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Hebe" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Sharpshooter" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "HMS Hebe" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "HMS Sharpshooter" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "HMT Boyne" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "HMT Mersey" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "HMT Colne" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }

@@ -60,9 +60,9 @@
 		task_force = {				
 			name = "Tees Squadron"	
 			location = 1412 # Middlesbrough
-			ship = { name = "Stork" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Halcyon" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "Hazard" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Stork" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Halcyon" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Hazard" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "Courtier" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "British" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }
 			ship = { name = "Malay" definition = trawler equipment = { ship_hull_trawler_1 = { amount = 1 owner = CIV version_name = "Civilian Trawler" } } }

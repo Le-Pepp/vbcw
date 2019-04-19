@@ -2420,7 +2420,7 @@
 2419;255;40;40;land;false;urban;1
 2420;250;181;255;land;true;urban;1
 2421;250;210;255;land;false;urban;1
-2422;235;235;120;land;false;;urban;1
+2422;235;235;120;land;false;urban;1
 2423;245;245;121;land;false;urban;1
 2424;185;205;200;land;true;urban;1
 2425;205;205;200;land;true;uban;1

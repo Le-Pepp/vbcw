@@ -39,13 +39,13 @@
 			ship = { name = "Scimitar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
 			ship = { name = "Sardonyx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
 			ship = { name = "Skate" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "Rosemary" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
-			ship = { name = "Lupin" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
-			ship = { name = "Foxglove" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
-			ship = { name = "Hussar" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "Niger" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "Salamander" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "Harrier" definition = sloop equipment = { ship_hull_escort_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Rosemary" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
+			ship = { name = "Lupin" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
+			ship = { name = "Foxglove" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Flower Class" } } }
+			ship = { name = "Hussar" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Niger" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Salamander" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "Harrier" definition = sloop equipment = { ship_hull_sloop_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 		}
 		task_force = {				
 			name = "Dover Squadron"	

@@ -1641,15 +1641,28 @@ guiTypes = {
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-				}	
+				}		
 
 				instantTextBoxType = {
-					name = "naval_subtitle_escorts"
+					name = "naval_subtitle_corvettes"
 					position = { x = 30 y = 250 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_ESCORTS"
+					text = "NAVAL_TITLE_CORVETTES"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_sloops"
+					position = { x = 30 y = 350 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "NAVAL_TITLE_SLOOPS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -1658,7 +1671,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "naval_subtitle_destroyer"
-					position = { x = 30 y = 350 }
+					position = { x = 30 y = 450 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1672,7 +1685,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_cruiser"
-					position = { x = 30 y = 620 }
+					position = { x = 30 y = 720 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1686,7 +1699,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_battleship"
-					position = { x = 30 y = 820 }
+					position = { x = 30 y = 920 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1700,7 +1713,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_carrier"
-					position = { x = 30 y = 1020 }
+					position = { x = 30 y = 1120 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1714,7 +1727,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_sub"
-					position = { x = 30 y = 1120 }
+					position = { x = 30 y = 1220 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1728,7 +1741,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_subtitle_armaments"
-					position = { x = 30 y = 1570 }
+					position = { x = 30 y = 1670 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1741,7 +1754,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_subtitle_damage_control"
-					position = { x = 30 y = 1770 }
+					position = { x = 30 y = 2280 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1754,7 +1767,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_subtitle_fire_control"
-					position = { x = 30 y = 1910 }
+					position = { x = 30 y = 2420 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1767,7 +1780,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_subtitle_transport"
-					position = { x = 30 y = 2030 }
+					position = { x = 30 y = 2560 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1780,7 +1793,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_mines"
-					position = { x = 30 y = 2170 }
+					position = { x = 30 y = 2700 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1823,7 +1836,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_ship_hull_escort_tree"
+				name = "early_ship_hull_corvette_tree"
 				position = { x = 150 y = 250}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1831,7 +1844,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "early_ship_hull_light_tree"
+				name = "early_ship_hull_sloop_tree"
 				position = { x = 150 y = 350}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1839,8 +1852,16 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "early_ship_hull_light_tree"
+				position = { x = 150 y = 450}
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
 				name = "early_ship_hull_cruiser_tree"
-				position = { x = 150 y = 620 }
+				position = { x = 150 y = 720 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1848,7 +1869,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_ship_hull_heavy_tree"
-				position = { x = 150 y = 820 }
+				position = { x = 150 y = 920 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1856,7 +1877,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "early_ship_hull_carrier_tree"
-				position = { x = 150 y = 1020 }
+				position = { x = 150 y = 1120 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1864,27 +1885,22 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_torpedo_tree"
-				position = { x = 150 y = 1270 }
+				position = { x = 150 y = 1370 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			
 			gridboxtype = {
 				name = "basic_battery_tree"
-				position = { x = 150 y = 1660 }
+				position = { x = 150 y = 1810 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			
 			gridboxtype = {
 				name = "basic_secondary_battery_tree"
-				position = { x = 150 y = 1750 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "mtg_transport_tree"
 				position = { x = 150 y = 2150 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1893,7 +1909,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "damage_control_1_tree"
-				position = { x = 150 y = 1900 }
+				position = { x = 150 y = 2290 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1901,7 +1917,15 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "fire_control_methods_1_tree"
-				position = { x = 150 y = 2020 }
+				position = { x = 150 y = 2430 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "mtg_transport_tree"
+				position = { x = 150 y = 2570 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1909,7 +1933,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_naval_mines_tree"
-				position = { x = 150 y = 2170 }
+				position = { x = 150 y = 2710 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

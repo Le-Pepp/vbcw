@@ -14,8 +14,8 @@
 			ship = { name = "Escapade" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 						
 			ship = { name = "Encounter" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 							
 			ship = { name = "Fury" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 					
-			ship = { name = "Kingfisher" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
-			ship = { name = "Sheldrake" definition = sloop equipment = { ship_hull_escort_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Kingfisher" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "Sheldrake" definition = sloop equipment = { ship_hull_sloop_1 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
 			ship = { name = "Radnor Castle" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "Brecon Castle" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }
 			ship = { name = "Blackwater" definition = trawler equipment = { ship_hull_trawler_2 = { amount = 1 owner = ENG version_name = "Castle Class" } } }

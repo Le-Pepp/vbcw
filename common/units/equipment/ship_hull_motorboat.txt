@@ -20,7 +20,7 @@ equipments = {
         module_slots = {                        # this is what the ship can contain in its design. it is useful to code the modules for the first model directly into the archetype
             fixed_ship_battery_slot = {
                 required = yes
-                allowed_module_categories = { ship_v_light_battery }
+                allowed_module_categories = { ship_v_light_battery ship_light_anti_air }
             }
             fixed_ship_anti_air_slot = {
                 required = no
@@ -28,7 +28,7 @@ equipments = {
             }
             fixed_ship_torpedo_slot = {
                 required = no
-                allowed_module_categories = { ship_torpedo }
+                allowed_module_categories = { ship_small_torpedo }
             }
             fixed_ship_radar_slot = {
                 required = no
@@ -41,7 +41,7 @@ equipments = {
             rear_1_custom_slot = {
                 required = no
                 allowed_module_categories = {
-					ship_depth_charge
+					ship_small_depth_charge
 					ship_light_anti_air
                 }
             }
@@ -56,31 +56,19 @@ equipments = {
             rear_1_custom_slot = empty
         }
   
-        lg_armor_piercing = 0                                                # it is also useful to script the base hull stats for your firs equipment model directly into the archetype
-        lg_attack = 0
-
-        hg_armor_piercing = 0
-        hg_attack = 0
-  
-        torpedo_attack = 0
-        sub_attack = 0
-  
-        anti_air_attack = 0
-  
-        armor_value = 0
-  
         surface_detection = 10
         sub_detection = 0
         surface_visibility = 2
         naval_speed = 20
         reliability = 0.80
   
-        naval_range = 200 
-        max_strength = 10
+        naval_range = 400 
+        max_strength = 6
 
-        fuel_consumption = 0 
+        fuel_consumption = 0
+		
         manpower = 30
-        build_cost_ic = 60
+        build_cost_ic = 30
         resources = {
             steel = 1
         }
@@ -103,14 +91,16 @@ equipments = {
         priority = 2050
   
         module_slots = inherit
+  
+        surface_detection = 15
 
-        naval_speed = 24
+        naval_speed = 22
         reliability = 0.85
-        naval_range = 250 
-        max_strength = 12
+        naval_range = 600 
+        max_strength = 10
 
         manpower = 40
-        build_cost_ic = 80
+        build_cost_ic = 45
         resources = {
             steel = 1
         }
@@ -124,14 +114,16 @@ equipments = {
         priority = 2050
   
         module_slots = inherit
+  
+        surface_detection = 20
 
-        naval_speed = 28
+        naval_speed = 24
         reliability = 0.90
-        naval_range = 300 
+        naval_range = 800 
         max_strength = 14
 
         manpower = 50
-        build_cost_ic = 100
+        build_cost_ic = 60
         resources = {
             steel = 1
         }
@@ -145,14 +137,16 @@ equipments = {
         priority = 2050
   
         module_slots = inherit
+  
+        surface_detection = 25
 
-        naval_speed = 32
+        naval_speed = 26
         reliability = 0.90
-        naval_range = 400 
-        max_strength = 16
+        naval_range = 1000 
+        max_strength = 18
 
         manpower = 60
-        build_cost_ic = 120
+        build_cost_ic = 75
         resources = {
             steel = 1
         }
@@ -164,8 +158,8 @@ equipments = {
         year = 1922
 
         archetype = ship_hull_motorboat
-        priority = 2050
-  
+        priority = 2050 
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
@@ -173,9 +167,26 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_1
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = empty
+            fixed_ship_radar_slot = ship_sonar_1
             fixed_ship_engine_slot = motorboat_engine_1
-            rear_1_custom_slot = ship_light_anti_air_1
+            rear_1_custom_slot = ship_small_depth_charge_1
+        }
+  
+        surface_detection = 10
+        sub_detection = 0
+        surface_visibility = 2
+        naval_speed = 20
+        reliability = 0.80
+  
+        naval_range = 400 
+        max_strength = 6
+
+        fuel_consumption = 0
+		
+        manpower = 30
+        build_cost_ic = 30
+        resources = {
+            steel = 1
         }
     }
 
@@ -185,7 +196,7 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = gunboat_1
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
@@ -193,9 +204,22 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_2
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = empty
+            fixed_ship_radar_slot = ship_sonar_1
             fixed_ship_engine_slot = motorboat_engine_2
-            rear_1_custom_slot = ship_light_anti_air_2
+            rear_1_custom_slot = ship_small_depth_charge_2
+        }
+  
+        surface_detection = 15
+
+        naval_speed = 22
+        reliability = 0.85
+        naval_range = 600 
+        max_strength = 10
+
+        manpower = 40
+        build_cost_ic = 45
+        resources = {
+            steel = 1
         }
     }
 
@@ -205,7 +229,7 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = gunboat_2
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
@@ -213,9 +237,22 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_3
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = empty
+            fixed_ship_radar_slot = ship_sonar_2
             fixed_ship_engine_slot = motorboat_engine_3
-            rear_1_custom_slot = ship_light_anti_air_3
+            rear_1_custom_slot = ship_small_depth_charge_3
+        }
+  
+        surface_detection = 20
+
+        naval_speed = 24
+        reliability = 0.90
+        naval_range = 800 
+        max_strength = 14
+
+        manpower = 50
+        build_cost_ic = 60
+        resources = {
+            steel = 1
         }
     }
 
@@ -225,7 +262,7 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = gunboat_3
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
@@ -233,9 +270,22 @@ equipments = {
             fixed_ship_anti_air_slot = ship_light_anti_air_4
             fixed_ship_torpedo_slot = empty
             fixed_ship_fire_control_system_slot = empty
-            fixed_ship_radar_slot = empty
+            fixed_ship_radar_slot = ship_sonar_2
             fixed_ship_engine_slot = motorboat_engine_4
-            rear_1_custom_slot = ship_light_anti_air_4
+            rear_1_custom_slot = ship_small_depth_charge_4
+        }
+  
+        surface_detection = 25
+
+        naval_speed = 26
+        reliability = 0.90
+        naval_range = 1000 
+        max_strength = 18
+
+        manpower = 60
+        build_cost_ic = 75
+        resources = {
+            steel = 1
         }
     }
 
@@ -244,17 +294,34 @@ equipments = {
 
         archetype = ship_hull_motorboat
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
-            fixed_ship_battery_slot = ship_v_light_battery_1
+            fixed_ship_battery_slot = ship_improvised_battery_1
             fixed_ship_anti_air_slot = ship_light_anti_air_1
-            fixed_ship_torpedo_slot = ship_torpedo_1
+            fixed_ship_torpedo_slot = ship_small_torpedo_1
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = motorboat_engine_1
             rear_1_custom_slot = empty
+        }
+  
+        surface_detection = 10
+        sub_detection = 0
+        surface_visibility = 2
+        naval_speed = 20
+        reliability = 0.80
+  
+        naval_range = 400 
+        max_strength = 6
+
+        fuel_consumption = 0
+		
+        manpower = 30
+        build_cost_ic = 30
+        resources = {
+            steel = 1
         }
     }
 
@@ -264,17 +331,30 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = torpedo_boat_1
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
-            fixed_ship_battery_slot = ship_v_light_battery_2
+            fixed_ship_battery_slot = ship_v_light_battery_1
             fixed_ship_anti_air_slot = ship_light_anti_air_2
-            fixed_ship_torpedo_slot = ship_torpedo_2
+            fixed_ship_torpedo_slot = ship_small_torpedo_2
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = motorboat_engine_2
             rear_1_custom_slot = empty
+        }
+  
+        surface_detection = 15
+
+        naval_speed = 22
+        reliability = 0.85
+        naval_range = 600 
+        max_strength = 10
+
+        manpower = 40
+        build_cost_ic = 45
+        resources = {
+            steel = 1
         }
     }
 
@@ -284,17 +364,30 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = torpedo_boat_2
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
-            fixed_ship_battery_slot = ship_v_light_battery_3
+            fixed_ship_battery_slot = ship_v_light_battery_2
             fixed_ship_anti_air_slot = ship_light_anti_air_3
-            fixed_ship_torpedo_slot = ship_torpedo_3
+            fixed_ship_torpedo_slot = ship_small_torpedo_3
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = motorboat_engine_3
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_light_anti_air_1
+        }
+  
+        surface_detection = 20
+
+        naval_speed = 24
+        reliability = 0.90
+        naval_range = 800 
+        max_strength = 14
+
+        manpower = 50
+        build_cost_ic = 60
+        resources = {
+            steel = 1
         }
     }
 
@@ -304,17 +397,30 @@ equipments = {
         archetype = ship_hull_motorboat
         parent = torpedo_boat_3
         priority = 2050
-  
+		
         module_slots = inherit
   
         default_modules = {                                                    # this is what your first equipment model will start with once researched
-            fixed_ship_battery_slot = ship_v_light_battery_4
+            fixed_ship_battery_slot = ship_v_light_battery_3
             fixed_ship_anti_air_slot = ship_light_anti_air_4
-            fixed_ship_torpedo_slot = ship_torpedo_4
+            fixed_ship_torpedo_slot = ship_small_torpedo_4
             fixed_ship_fire_control_system_slot = empty
             fixed_ship_radar_slot = empty
             fixed_ship_engine_slot = motorboat_engine_4
-            rear_1_custom_slot = empty
+            rear_1_custom_slot = ship_light_anti_air_2
+        }
+  
+        surface_detection = 25
+
+        naval_speed = 26
+        reliability = 0.90
+        naval_range = 1000 
+        max_strength = 18
+
+        manpower = 60
+        build_cost_ic = 75
+        resources = {
+            steel = 1
         }
     }
 }

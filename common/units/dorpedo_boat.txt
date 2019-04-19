@@ -1,11 +1,19 @@
 sub_units = {
-	motorboat = {
-		sprite = motorboat
+	torpedo_boat = {
+		sprite = torpedo_boat
 		map_icon_category = ship
 		priority = 2
 		active = yes
 		type = { screen_ship }
 		need = { ship_hull_motorboat = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_small_torpedo_1 = 1
+				ship_small_torpedo_2 = 1
+				ship_small_torpedo_3 = 1
+				ship_small_torpedo_4 = 1
+			}
+		}
 		
 		max_organisation = 40
 		

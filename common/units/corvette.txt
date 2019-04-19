@@ -1,19 +1,11 @@
 sub_units = {
 	corvette = {
-		sprite = escort
+		sprite = corvette
 		map_icon_category = ship
 		priority = 2
 		active = yes
 		type = { screen_ship }
-		need = { ship_hull_escort = 1 }
-		need_equipment_modules = {
-			any = {
-				ship_v_light_battery_1 = 1
-				ship_v_light_battery_2 = 1
-				ship_v_light_battery_3 = 1
-				ship_v_light_battery_4 = 1
-			}
-		}
+		need = { ship_hull_corvette = 1 }
 		
 		max_organisation = 40
 		

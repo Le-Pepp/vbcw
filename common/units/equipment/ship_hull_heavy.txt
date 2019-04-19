@@ -903,7 +903,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_4
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_4
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_shbb
 			front_1_custom_slot = ship_anti_air_4
@@ -911,17 +911,6 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_2
 			rear_1_custom_slot = ship_super_heavy_battery_1
 		}
-		hg_armor_piercing = 0
-		hg_attack = 0
-
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		
-		anti_air_attack = 0
-		
-		armor_value = 47
-
 		
 		surface_detection = 15
 		sub_detection = 5
@@ -931,8 +920,7 @@ equipments = {
 		
 		naval_range = 4000
 		
-		max_strength = 600
-		
+		max_strength = 600		
 
 		fuel_consumption = 93
 		
@@ -1031,17 +1019,8 @@ equipments = {
 			mid_3_custom_slot = dp_ship_secondaries
 			rear_1_custom_slot = ship_super_heavy_battery_1
 		}
-		hg_armor_piercing = 0
-		hg_attack = 0
-
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-
-		anti_air_attack = 0
 		
 		armor_value = 3
-
 		
 		surface_detection = 25
 		sub_detection = 5
@@ -1084,18 +1063,6 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		
-		hg_armor_piercing = 0
-		hg_attack = 0
-		
-		torpedo_attack = 0
-
-		anti_air_attack = 0
-		
-		armor_value = 0
-
 		
 		surface_detection = 12
 		sub_detection = 5
@@ -1105,8 +1072,7 @@ equipments = {
 
 		naval_range = 3000
 		
-		max_strength = 350
-		
+		max_strength = 350		
 
 		fuel_consumption = 67
 		
@@ -1132,7 +1098,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_4
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bc_2
 			front_1_custom_slot = ship_anti_air_4
@@ -1140,18 +1106,6 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		hg_armor_piercing = 0
-		hg_attack = 0
-
-		lg_armor_piercing = 0
-		lg_attack = 0
-
-		torpedo_attack = 0
-
-		anti_air_attack = 0
-		
-		armor_value = 30
-
 		
 		surface_detection = 25
 		sub_detection = 5
@@ -1162,8 +1116,6 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 400
-		
-
 
 		build_cost_ic = 4000
 		resources = {
@@ -1173,8 +1125,5 @@ equipments = {
 		}
 		manpower = 4000
 	}
-
-
-	
 	
 }

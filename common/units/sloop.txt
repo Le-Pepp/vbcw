@@ -1,19 +1,11 @@
 sub_units = {
 	sloop = {
-		sprite = escort
+		sprite = sloop
 		map_icon_category = ship
 		priority = 3
 		active = yes
 		type = { screen_ship }
-		need = { ship_hull_escort = 1 }
-		need_equipment_modules = {
-			any = {
-				ship_light_battery_1 = 1
-				ship_light_battery_2 = 1
-				ship_light_battery_3 = 1
-				ship_light_battery_4 = 1
-			}
-		}
+		need = { ship_hull_sloop = 1 }
 		
 		max_organisation = 40
 		
