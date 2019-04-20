@@ -167,6 +167,21 @@
  ship_hull_motorboat_3_desc:0 "Mounting improved anti-air and anti-surface weaponry, this is the next evolution of the Motor Launch."
  ship_hull_motorboat_4_desc:0 "A further improvement of the Motor Launch design, this model can boast an improved top speed and much heavier weaponry."
  
+ ship_hull_light_carrier:0 "Light Carrier"
+ ship_hull_light_carrier_conversion_ca:0 "Converted Cruiser Hull"
+ ship_hull_light_carrier_1:0 "1936 Light Carrier Hull"
+ ship_hull_light_carrier_2:0 "1940 Light Carrier Hull"
+ ship_hull_light_carrier_3:0 "1944 Light Carrier Hull"
+ ship_hull_light_carrier_desc:0 "A smaller, cheaper alternative to the fleet carrier, light carriers are well suited to escort duties."
+ ship_hull_light_carrier_conversion_ca_desc:0 "An early light carrier, converted from an old cruiser hull."
+ ship_hull_light_carrier_1_desc:0 "A purpose-built light carrier, boasting improved hangar space and defensive armament."
+ ship_hull_light_carrier_2_desc:0 "An improvement to the light carrier design, boasting more advanced machinery and weaponry."
+ ship_hull_light_carrier_3_desc:0 "The ultimate light carrier design, with greatly improved hangar space and anti-aircraft armament."
+ 
+ basic_ship_hull_carrier:0 "1936 Carrier Hulls"
+ improved_ship_hull_carrier:0 "1940 Carrier Hulls"
+ advanced_ship_hull_carrier:0 "1944 Carrier Hulls"
+ 
  ##EXPERIENCE##
  modifier_experience_gain_gunboat_training_factor:0 "Gunboat Training Experience Gain"
  modifier_experience_gain_gunboat_combat_factor:0 "Gunboat Combat Experience Gain"
@@ -209,16 +224,16 @@
  ship_small_torpedo_4_short:0 "Torpedo Tube IV"
  ship_small_torpedo_4_desc:0 "Having solved the mechanical issues of launching large torpedoes from surface ships, this advanced model can also be rapidly reloaded for another salvo."
  
- ship_small_depth_charge_1:0 "Depth Charge Rails"
+ ship_small_depth_charge_1:0 "Light Depth Charge Rails"
  ship_small_depth_charge_1_short:0 "Light Depth Charge I"
  ship_small_depth_charge_1_desc:0 "A simple set of rails allows depth charges to be rolled off the stern of the ship when the ship drives over the submerged target."
- ship_small_depth_charge_2:0 "Depth Charge Thrower"
+ ship_small_depth_charge_2:0 "Light Depth Charge Thrower"
  ship_small_depth_charge_2_short:0 "Light Depth Charge II"
  ship_small_depth_charge_2_desc:0 "Using a small explosive charge, this device throws a depth charge quite some distance, allowing a single ship to drop a pattern of depth charges across a larger area."
- ship_small_depth_charge_3:0 "Anti-submarine Mortar"
+ ship_small_depth_charge_3:0 "Light Anti-submarine Mortar"
  ship_small_depth_charge_3_short:0 "Light Depth Charge III"
  ship_small_depth_charge_3_desc:0 "A projector for a smaller depth charge with a contact fuze, allowing the ship to engage a target without breaking sonar contact."
- ship_small_depth_charge_4:0 "Advanced Anti-submarine Mortar"
+ ship_small_depth_charge_4:0 "Light Advanced Anti-submarine Mortar"
  ship_small_depth_charge_4_short:0 "Light Depth Charge IV"
  ship_small_depth_charge_4_desc:0 "An evolution of the previous model, this mortar can fire a significantly larger charge over a longer distance."
  

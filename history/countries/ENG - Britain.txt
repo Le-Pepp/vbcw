@@ -823,6 +823,7 @@ if = {
 		name = "Eagle Class"
 		type = ship_hull_carrier_conversion_bb
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -837,23 +838,25 @@ if = {
 
 	create_equipment_variant = {
 		name = "Pegasus Class"
-		type = ship_hull_carrier_conversion_ca
+		type = ship_hull_light_carrier_conversion_ca
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_small_deck_space
 			fixed_ship_deck_slot_2 = empty
 			fixed_ship_anti_air_slot = ship_light_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_secondaries_slot = ship_v_light_battery_1
 		}
 		obsolete = yes
 	}
 
 	create_equipment_variant = {
 		name = "Argus Class"
-		type = ship_hull_carrier_conversion_ca
+		type = ship_hull_light_carrier_conversion_ca
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_small_deck_space
 			fixed_ship_deck_slot_2 = ship_small_deck_space
@@ -867,15 +870,16 @@ if = {
 
 	create_equipment_variant = {
 		name = "Hermes Class"
-		type = ship_hull_carrier_conversion_ca
+		type = ship_hull_light_carrier_conversion_ca
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_small_deck_space
 			fixed_ship_deck_slot_2 = ship_small_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_secondaries_slot = ship_v_light_battery_1
 		}
 		obsolete = yes
 	}
@@ -883,6 +887,7 @@ if = {
 		name = "Courageous Class"
 		type = ship_hull_carrier_conversion_bb
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -898,6 +903,7 @@ if = {
 		name = "Ark Royal Class"
 		type = ship_hull_carrier_1
 		parent_version = 0
+        role_icon_index = 7
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space

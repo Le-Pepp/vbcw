@@ -48,12 +48,21 @@ equipments = {
 				allowed_module_categories = {
 					ship_mine_warfare
 					ship_mine_layer
+					ship_small_depth_charge
+					ship_anti_air
+					ship_light_anti_air
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
 					ship_depth_charge
 					ship_anti_air
 					ship_light_anti_air
 				}
 			}
-			rear_1_custom_slot = mid_1_custom_slot
 		}
 		
 		default_modules = {
@@ -162,7 +171,7 @@ equipments = {
 					ship_small_torpedo
 					ship_mine_warfare
 					ship_mine_layer
-					ship_depth_charge
+					ship_small_depth_charge
 					ship_anti_air
 					ship_light_anti_air
 				}
@@ -226,7 +235,7 @@ equipments = {
 					ship_small_torpedo
 					ship_mine_warfare
 					ship_mine_layer
-					ship_depth_charge
+					ship_small_depth_charge
 					ship_anti_air
 					ship_light_anti_air
 				}

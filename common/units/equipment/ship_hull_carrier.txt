@@ -267,7 +267,7 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.65
 		max_strength = 325
-		naval_speed = 23
+		naval_speed = 20
 
 		build_cost_ic = 2700
 		
@@ -386,7 +386,7 @@ equipments = {
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 26
+		naval_speed = 21
 		reliability = 0.70
 		
 		naval_range = 3000
@@ -475,7 +475,7 @@ equipments = {
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 28
+		naval_speed = 22
 		reliability = 0.80
 
 		naval_range = 4000
@@ -520,13 +520,12 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 30
+		naval_speed = 23
 		reliability = 0.85
 
 		naval_range = 5000
 		
 		max_strength = 350
-		
 
 
 		build_cost_ic = 5250
@@ -567,13 +566,12 @@ equipments = {
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 32
+		naval_speed = 24
 		reliability = 0.90
 
 		naval_range = 6000
 		
 		max_strength = 400
-		
 
 
 		build_cost_ic = 6000
@@ -583,173 +581,5 @@ equipments = {
 			tungsten = 2
 		}		
 		manpower = 6000
-	}
-
-	light_carrier_1 = {
-		year = 1922
-		visual_level = 1
-		archetype = ship_hull_carrier		
-		priority = 1000
-		
-		lg_armor_piercing = 1
-		lg_attack = 1
-		torpedo_attack = 0
-		
-		carrier_size = 20
-		
-		anti_air_attack = 4
-		
-		armor_value = 5
-		
-		surface_detection = 10
-		sub_detection = 5
-		surface_visibility = 20
-		naval_speed = 22
-		reliability = 0.64
-		
-		naval_range = 3000
-		
-		max_strength = 175		
-
-		fuel_consumption = 40
-
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
-		
-		build_cost_ic = 4000
-		
-		resources = {
-			#oil = 1
-			steel = 2
-			tungsten = 1
-		}
-		
-		manpower = 1200
-	}
-
-	light_carrier_2 = {
-		year = 1936
-		visual_level = 1
-		archetype = ship_hull_carrier		
-		priority = 1000
-		
-		lg_armor_piercing = 1
-		lg_attack = 1
-		torpedo_attack = 0
-		
-		carrier_size = 25
-		
-		anti_air_attack = 6
-		
-		armor_value = 6
-		
-		surface_detection = 10
-		sub_detection = 5
-		surface_visibility = 20
-		naval_speed = 24
-		reliability = 0.64
-		
-		naval_range = 3000
-		
-		max_strength = 200		
-
-		fuel_consumption = 44
-
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
-		
-		build_cost_ic = 4500
-		
-		resources = {
-			#oil = 1
-			steel = 2
-			tungsten = 1
-		}
-		
-		manpower = 1500
-	}
-
-	light_carrier_3 = {
-		year = 1940
-		visual_level = 1
-		archetype = ship_hull_carrier		
-		priority = 1000
-		
-		lg_armor_piercing = 1.5
-		lg_attack = 2.0
-		torpedo_attack = 0
-		
-		carrier_size = 30
-		
-		anti_air_attack = 8
-		
-		armor_value = 7
-		
-		surface_detection = 10
-		sub_detection = 5
-		surface_visibility = 20
-		naval_speed = 26
-		reliability = 0.64
-		
-		naval_range = 3000
-		
-		max_strength = 250		
-
-		fuel_consumption = 48
-
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
-		
-		build_cost_ic = 5000
-		
-		resources = {
-			#oil = 1
-			steel = 2
-			tungsten = 1
-		}
-		
-		manpower = 1800
-	}
-
-	light_carrier_4 = {
-		year = 1944
-		visual_level = 1
-		archetype = ship_hull_carrier		
-		priority = 1000
-		
-		lg_armor_piercing = 1.5
-		lg_attack = 2.0
-		torpedo_attack = 0
-		
-		carrier_size = 40
-		
-		anti_air_attack = 10
-		
-		armor_value = 8
-		
-		surface_detection = 10
-		sub_detection = 5
-		surface_visibility = 20
-		naval_speed = 28
-		reliability = 0.64
-		
-		naval_range = 3000
-		
-		max_strength = 275		
-
-		fuel_consumption = 52
-
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
-		
-		build_cost_ic = 5500
-		
-		resources = {
-			#oil = 1
-			steel = 2
-			tungsten = 1
-		}
-		
-		manpower = 2100
 	}
 }

@@ -177,6 +177,7 @@ equipment_modules = {
 	ship_light_anti_air_1 = {
 		category = ship_light_anti_air
 		sfx = sfx_ui_sd_module_turret
+
 		add_equipment_type = anti_air
 		
 		add_stats = {
@@ -485,6 +486,7 @@ equipment_modules = {
 	fleet_escort_ship_engine_1 = {
 		category = fleet_escort_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_1
 
 		
 		add_stats = {
@@ -509,6 +511,7 @@ equipment_modules = {
 		category = fleet_escort_ship_engine
 		parent = fleet_escort_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_2
 
 		
 		add_stats = {
@@ -537,6 +540,7 @@ equipment_modules = {
 		category = fleet_escort_ship_engine
 		parent = fleet_escort_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_3
 
 		
 		add_stats = {
@@ -565,6 +569,7 @@ equipment_modules = {
 		category = fleet_escort_ship_engine
 		parent = fleet_escort_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_4
 
 		
 		add_stats = {
@@ -592,6 +597,7 @@ equipment_modules = {
 	convoy_escort_ship_engine_1 = {
 		category = convoy_escort_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_1
 
 		
 		add_stats = {
@@ -616,6 +622,7 @@ equipment_modules = {
 		category = convoy_escort_ship_engine
 		parent = convoy_escort_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_2
 
 		
 		add_stats = {
@@ -644,6 +651,7 @@ equipment_modules = {
 		category = convoy_escort_ship_engine
 		parent = convoy_escort_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_3
 
 		
 		add_stats = {
@@ -672,6 +680,7 @@ equipment_modules = {
 		category = convoy_escort_ship_engine
 		parent = convoy_escort_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_4
 
 		
 		add_stats = {
@@ -700,6 +709,7 @@ equipment_modules = {
 	motorboat_engine_1 = {
 		category = motorboat_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_1
 
 		
 		add_stats = {
@@ -725,6 +735,7 @@ equipment_modules = {
 		category = motorboat_engine
 		parent = motorboat_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_2
 
 		
 		add_stats = {
@@ -754,6 +765,7 @@ equipment_modules = {
 		category = motorboat_engine
 		parent = motorboat_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_3
 
 		
 		add_stats = {
@@ -783,6 +795,7 @@ equipment_modules = {
 		category = motorboat_engine
 		parent = motorboat_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = light_ship_engine_4
 
 		
 		add_stats = {
