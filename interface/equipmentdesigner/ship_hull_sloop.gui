@@ -39,7 +39,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery"
-						position = { x=356 y=0 }
+						position = { x=375 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -50,7 +50,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_light_battery@highlight"
-						position = { x=356 y=0 }
+						position = { x=375 y=0 }
 					}
 				}
 
