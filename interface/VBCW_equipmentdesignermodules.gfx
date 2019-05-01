@@ -558,11 +558,21 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_anti_air"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_anti_air.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_anti_air.dds"
 	}
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_anti_air@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_anti_air@highlight.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_anti_air@highlight.dds"
 	}
 
 
@@ -606,12 +616,12 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_SM_sloop_hull_mid_1_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_depth_charge.dds"
+		name = "GFX_SM_sloop_hull_mid_2_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_depth_charge.dds"
 	}
 	spriteType = {
-		name = "GFX_SM_sloop_hull_mid_1_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_depth_charge@highlight.dds"
+		name = "GFX_SM_sloop_hull_mid_2_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_depth_charge@highlight.dds"
 	}
 
 	
@@ -627,11 +637,21 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_mine_layer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_mine_rails.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_mine_rails.dds"
 	}
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_mine_layer@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_mine_rails@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_mine_rails@highlight.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_mine_rails.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_mine_rails@highlight.dds"
 	}
 
 	
@@ -647,11 +667,21 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_mine_sweeper"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_mine_sweeper.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_mine_sweeper.dds"
 	}
 	spriteType = {
 		name = "GFX_SM_sloop_hull_mid_1_mine_sweeper@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_mine_sweeper@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_1_mine_sweeper@highlight.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_mine_sweeper"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_mine_sweeper.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_sloop_hull_mid_2_mine_sweeper@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_mine_sweeper@highlight.dds"
 	}
 
 	
@@ -667,21 +697,21 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SM_sloop_hull_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_torpedo.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_fixed_torpedo.dds"
 	}
 	spriteType = {
 		name = "GFX_SM_sloop_hull_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_torpedo@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_fixed_torpedo@highlight.dds"
 	}
 
 
 	spriteType = {
-		name = "GFX_SM_sloop_hull_mid_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_torpedo.dds"
+		name = "GFX_SM_sloop_hull_mid_2_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_torpedo.dds"
 	}
 	spriteType = {
-		name = "GFX_SM_sloop_hull_mid_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_torpedo@highlight.dds"
+		name = "GFX_SM_sloop_hull_mid_2_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/sloop_hull/sloop_hull_mid_2_torpedo@highlight.dds"
 	}
 
 

@@ -52,6 +52,7 @@ equipment_modules = {
 ###MAKESHIFT BATTERY### 
 	ship_improvised_battery_1 = {
 		category = ship_v_light_battery
+		gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -72,6 +73,7 @@ equipment_modules = {
 ###VERY LIGHT BATTERY### 
 	ship_v_light_battery_1 = {
 		category = ship_v_light_battery
+		gui_category = ship_light_battery
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -94,6 +96,7 @@ equipment_modules = {
 
 	ship_v_light_battery_2 = {
 		category = ship_v_light_battery
+		gui_category = ship_light_battery
 		parent = ship_v_light_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
@@ -120,6 +123,7 @@ equipment_modules = {
 
 	ship_v_light_battery_3 = {
 		category = ship_v_light_battery
+		gui_category = ship_light_battery
 		parent = ship_v_light_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
@@ -146,6 +150,7 @@ equipment_modules = {
 
 	ship_v_light_battery_4 = {
 		category = ship_v_light_battery
+		gui_category = ship_light_battery
 		parent = ship_v_light_battery_3
 		sfx = sfx_ui_sd_module_turret
 		
@@ -176,6 +181,7 @@ equipment_modules = {
 	
 	ship_light_anti_air_1 = {
 		category = ship_light_anti_air
+		gui_category = ship_anti_air
 		sfx = sfx_ui_sd_module_turret
 
 		add_equipment_type = anti_air
@@ -198,6 +204,7 @@ equipment_modules = {
 
 	ship_light_anti_air_2 = {
 		category = ship_light_anti_air
+		gui_category = ship_anti_air
 		parent = ship_light_anti_air_1
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = anti_air
@@ -225,6 +232,7 @@ equipment_modules = {
 	
 	ship_light_anti_air_3 = {
 		category = ship_light_anti_air
+		gui_category = ship_anti_air
 		parent = ship_light_anti_air_2
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = anti_air
@@ -251,6 +259,7 @@ equipment_modules = {
 	
 	ship_light_anti_air_4 = {
 		category = ship_light_anti_air
+		gui_category = ship_anti_air
 		parent = ship_light_anti_air_3
 		sfx = sfx_ui_sd_module_turret
 
@@ -332,6 +341,7 @@ equipment_modules = {
 
 	ship_small_depth_charge_1 = {
 		category = ship_small_depth_charge
+		gui_category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 		
 		
@@ -348,6 +358,7 @@ equipment_modules = {
 
 	ship_small_depth_charge_2 = {
 		category = ship_small_depth_charge
+		gui_category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -364,6 +375,7 @@ equipment_modules = {
 
 	ship_small_depth_charge_3 = {
 		category = ship_small_depth_charge
+		gui_category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -380,6 +392,7 @@ equipment_modules = {
 
 	ship_small_depth_charge_4 = {
 		category = ship_small_depth_charge
+		gui_category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -398,6 +411,7 @@ equipment_modules = {
 	
 	ship_small_torpedo_1 = {
 		category = ship_small_torpedo
+		gui_category = ship_torpedo
 		sfx = sfx_ui_sd_module_turret
 
 		
@@ -414,6 +428,7 @@ equipment_modules = {
 
 	ship_small_torpedo_2 = {
 		category = ship_small_torpedo
+		gui_category = ship_torpedo
 		parent = ship_small_torpedo_1
 		
 		sfx = sfx_ui_sd_module_turret
@@ -444,6 +459,7 @@ equipment_modules = {
 
 	ship_small_torpedo_3 = {
 		category = ship_small_torpedo
+		gui_category = ship_torpedo
 		parent = ship_small_torpedo_2
 		
 		sfx = sfx_ui_sd_module_turret
@@ -464,6 +480,7 @@ equipment_modules = {
 
 	ship_small_torpedo_4 = {
 		category = ship_small_torpedo
+		gui_category = ship_torpedo
 		parent = ship_small_torpedo_3
 		
 		sfx = sfx_ui_sd_module_turret
@@ -824,6 +841,7 @@ equipment_modules = {
 ###SMALL CARRIER HANGAR###
 	ship_small_deck_space = {
 		category = ship_small_deck_space
+		gui_category = ship_deck_space
 		gfx = ship_deck_space
 
 		add_stats = {

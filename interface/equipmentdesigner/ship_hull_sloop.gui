@@ -62,7 +62,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery"
-						position = { x=356 y=0 }
+						position = { x=375 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -73,7 +73,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_light_battery@highlight"
-						position = { x=356 y=0 }
+						position = { x=375 y=0 }
 					}
 				}
 
@@ -85,7 +85,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rocket"
-						position = { x=356 y=0 }
+						position = { x=372 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -96,7 +96,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_rocket@highlight"
-						position = { x=356 y=0 }
+						position = { x=372 y=0 }
 					}
 				}
 			}
@@ -115,7 +115,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_anti_air"
-						position = { x=290 y=0 }
+						position = { x=238 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -126,7 +126,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_anti_air@highlight"
-						position = { x=290 y=0 }
+						position = { x=238 y=0 }
 					}
 				}
 
@@ -138,7 +138,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_anti_air"
-						position = { x=290 y=0 }
+						position = { x=238 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -149,7 +149,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_anti_air@highlight"
-						position = { x=290 y=0 }
+						position = { x=238 y=0 }
 					}
 				}
 			}
@@ -277,7 +277,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_sloop_hull_torpedo"
-						position = { x=95 y=0 }
+						position = { x=268 y=0 }
 					}
 				}
 
@@ -289,7 +289,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
-						position = { x=95 y=0 }
+						position = { x=268 y=0 }
 					}
 				}
 
@@ -301,7 +301,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_sloop_hull_torpedo"
-						position = { x=95 y=0 }
+						position = { x=268 y=0 }
 					}
 				}
 
@@ -313,7 +313,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
-						position = { x=95 y=0 }
+						position = { x=268 y=0 }
 					}
 				}
 			}
@@ -323,30 +323,6 @@ guiTypes = {
 				name = "fixed_ship_engine_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
-
-				containerWindowType = {
-					name = "convoy_escort_ship_engine"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_sloop_hull_engine"
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "convoy_escort_ship_engine@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_sloop_hull_engine@highlight"
-						position = { x=0 y=0 }
-					}
-				}
 
 				containerWindowType = {
 					name = "fleet_escort_ship_engine"
@@ -388,7 +364,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_front_1_depth_charge"
-						position = { x=407 y=0 }
+						position = { x=330 y=0 }
 					}
 				}
 
@@ -400,7 +376,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_front_1_depth_charge@highlight"
-						position = { x=407 y=0 }
+						position = { x=330 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -411,7 +387,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_front_1_depth_charge"
-						position = { x=407 y=0 }
+						position = { x=330 y=0 }
 					}
 				}
 
@@ -423,7 +399,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_front_1_depth_charge@highlight"
-						position = { x=407 y=0 }
+						position = { x=330 y=0 }
 					}
 				}
 
@@ -436,7 +412,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_front_1_anti_air"
-						position = { x=392 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -447,7 +423,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 				
@@ -459,7 +435,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_front_1_anti_air"
-						position = { x=392 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -470,7 +446,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_sloop_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 
@@ -483,7 +459,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -494,7 +470,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery@highlight"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 				
@@ -506,7 +482,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -517,7 +493,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_light_battery@highlight"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 				
@@ -529,7 +505,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rocket"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -540,7 +516,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rocket@highlight"
-						position = { x=394 y=0 }
+						position = { x=410 y=0 }
 					}
 				}
 			}
@@ -559,8 +535,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_torpedo"
-						position = { x=190 y=0 }
+						spriteType = "GFX_SM_sloop_hull_torpedo"
+						position = { x=200 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -570,8 +546,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_torpedo@highlight"
-						position = { x=190 y=0 }
+						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
+						position = { x=200 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -581,8 +557,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_torpedo"
-						position = { x=190 y=0 }
+						spriteType = "GFX_SM_sloop_hull_torpedo"
+						position = { x=200 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -592,8 +568,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_torpedo@highlight"
-						position = { x=190 y=0 }
+						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
+						position = { x=200 y=0 }
 					}
 				}
 
@@ -607,7 +583,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_mine_sweeper"
-						position = { x=207 y=0 }
+						position = { x=149 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -618,7 +594,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_mine_sweeper@highlight"
-						position = { x=207 y=0 }
+						position = { x=149 y=0 }
 					}
 				}
 
@@ -632,7 +608,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_mine_layer"
-						position = { x=200 y=0 }
+						position = { x=194 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -643,7 +619,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_mine_layer@highlight"
-						position = { x=200 y=0 }
+						position = { x=194 y=0 }
 					}
 				}
 
@@ -657,7 +633,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge"
-						position = { x=200 y=0 }
+						position = { x=204 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -668,7 +644,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge@highlight"
-						position = { x=200 y=0 }
+						position = { x=204 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -679,7 +655,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge"
-						position = { x=200 y=0 }
+						position = { x=204 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -690,7 +666,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge@highlight"
-						position = { x=200 y=0 }
+						position = { x=204 y=0 }
 					}
 				}
 				
@@ -704,7 +680,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -715,7 +691,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -726,7 +702,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -737,7 +713,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 
@@ -757,8 +733,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_torpedo"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_torpedo"
+						position = { x=94 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -768,8 +744,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_torpedo@highlight"
+						position = { x=94 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -779,8 +755,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_torpedo"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_torpedo"
+						position = { x=94 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -790,8 +766,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_torpedo@highlight"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_torpedo@highlight"
+						position = { x=94 y=0 }
 					}
 				}
 
@@ -803,8 +779,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_mine_sweeper"
-						position = { x=143 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_mine_sweeper"
+						position = { x=105 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -814,8 +790,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_mine_sweeper@highlight"
-						position = { x=143 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_mine_sweeper@highlight"
+						position = { x=105 y=0 }
 					}
 				}
 
@@ -827,8 +803,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_mine_layer"
-						position = { x=137 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_mine_layer"
+						position = { x=96 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -838,8 +814,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_mine_layer@highlight"
-						position = { x=137 y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_mine_layer@highlight"
+						position = { x=96 y=0 }
 					}
 				}
 
@@ -851,7 +827,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge"
+						spriteType = "GFX_SM_sloop_hull_mid_2_depth_charge"
 						position = { x=142 y=0 }
 					}
 				}
@@ -862,7 +838,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge@highlight"
+						spriteType = "GFX_SM_sloop_hull_mid_2_depth_charge@highlight"
 						position = { x=142 y=0 }
 					}
 				}
@@ -873,7 +849,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge"
+						spriteType = "GFX_SM_sloop_hull_mid_2_depth_charge"
 						position = { x=142 y=0 }
 					}
 				}
@@ -884,7 +860,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_depth_charge@highlight"
+						spriteType = "GFX_SM_sloop_hull_mid_2_depth_charge@highlight"
 						position = { x=142 y=0 }
 					}
 				}
@@ -897,8 +873,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_anti_air"
+						position = { x=177	y=0 }
 					}
 				}
 				containerWindowType = {
@@ -908,8 +884,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_anti_air@highlight"
+						position = { x=177	y=0 }
 					}
 				}
 				containerWindowType = {
@@ -919,8 +895,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_anti_air"
+						position = { x=177	y=0 }
 					}
 				}
 				containerWindowType = {
@@ -930,8 +906,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
+						spriteType = "GFX_SM_sloop_hull_mid_2_anti_air@highlight"
+						position = { x=177	y=0 }
 					}
 				}
 			}
@@ -951,7 +927,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_torpedo"
-						position = { x=62 y=0 }
+						position = { x=57 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -962,7 +938,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_torpedo@highlight"
-						position = { x=62 y=0 }
+						position = { x=57 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -973,7 +949,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_torpedo"
-						position = { x=62 y=0 }
+						position = { x=57 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -984,7 +960,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_torpedo@highlight"
-						position = { x=62 y=0 }
+						position = { x=57 y=0 }
 					}
 				}
 
@@ -997,7 +973,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_mine_sweeper"
-						position = { x=32 y=0 }
+						position = { x=35 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1008,7 +984,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_mine_sweeper@highlight"
-						position = { x=32 y=0 }
+						position = { x=35 y=0 }
 					}
 				}
 
@@ -1021,7 +997,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_mine_layer"
-						position = { x=58 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1032,7 +1008,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_mine_layer@highlight"
-						position = { x=58 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 
@@ -1045,7 +1021,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_depth_charge"
-						position = { x=46 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1056,7 +1032,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_depth_charge@highlight"
-						position = { x=46 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1067,7 +1043,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_depth_charge"
-						position = { x=46 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1078,7 +1054,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_depth_charge@highlight"
-						position = { x=46 y=0 }
+						position = { x=8 y=0 }
 					}
 				}
 
@@ -1090,8 +1066,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_sloop_hull_rear_1_anti_air"
+						position = { x=132 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1101,8 +1077,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_sloop_hull_rear_1_anti_air@highlight"
+						position = { x=132 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1112,8 +1088,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_sloop_hull_rear_1_anti_air"
+						position = { x=132 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1123,8 +1099,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_sloop_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_sloop_hull_rear_1_anti_air@highlight"
+						position = { x=132 y=0 }
 					}
 				}
 
@@ -1137,7 +1113,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_light_battery"
-						position = { x=55 y=0 }
+						position = { x=125 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1148,7 +1124,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rear_1_light_battery@highlight"
-						position = { x=55 y=0 }
+						position = { x=125 y=0 }
 					}
 				}
 				
@@ -1160,7 +1136,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rocket"
-						position = { x=55 y=0 }
+						position = { x=107 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -1171,7 +1147,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_sloop_hull_rocket@highlight"
-						position = { x=55 y=0 }
+						position = { x=107 y=0 }
 					}
 				}
 
