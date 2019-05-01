@@ -42,3 +42,11 @@
  vbcw.fluff.1.a:0 "Set them to work on our Cruiser tanks"
  vbcw.fluff.1.b:0 "Set them to work on our Infantry tanks"
  vbcw.fluff.1.c:0 "Let them develop their prototype for production"
+ 
+ vbcw_news.4.t:0 "Paul Robeson Visits Britain"
+ vbcw_news.4.d_positive:0 "Having recently returned from a tour of Spain, American singer Paul Robeson has landed on our shores to continue the struggle against fascism. He believes by holding concerts around the country he can rally support for our cause, and boost the morale of our men in the field."
+ vbcw_news.4.d_neutral:0 "Having recently returned from a tour of Spain, American singer Paul Robeson has landed on our shores to continue the struggle against fascism. He believes by holding concerts around the country he can rally support for the cause of the People's Armies, and boost the morale of their men in the field."
+ vbcw_news.4.d_negative:0 "Having recently returned from rabble-rousing in Spain, American singer Paul Robeson has darkened our shores to add his voice to the clamouring masses. He believes by holding concerts around the country he can rally support for their misguided cause."
+ vbcw_news.4.a:0 "Yes! A voice such as his cannot fail to be heard."
+ vbcw_news.4.b:0 "Well, good luck with that."
+ vbcw_news.4.c:0 "He'd better not come round here."

@@ -3,8 +3,7 @@
 add_namespace = vbcw.fluff
 
 country_event = {
-	id = vbcw.fluff.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event vbcw.fluff.2"}
+	id = vbcw.fluff.1 ### TOG TOG TOG
 	title = vbcw.fluff.1.t
 	desc = vbcw.fluff.1.d
 	picture = GFX_report_event_TOG

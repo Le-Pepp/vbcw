@@ -115,3 +115,83 @@ news_event = {
 		trigger = { TAG = ROY }
 	}
 }
+
+news_event = {
+	id = vbcw_news.4 ### Paul Robeson Tour
+	title = vbcw_news.4.t
+	desc = { 
+		text = vbcw_news.4.d_positive
+		trigger = {
+			OR = {
+				tag = SOM
+				is_in_faction_with = SOM
+			}
+		}
+	}
+	desc = { 
+		text = vbcw_news.4.d_neutral
+		trigger = {
+			not = {
+				tag = SOM
+				tag = BUF
+				is_in_faction_with = SOM
+				is_in_faction_with = BUF
+				has_government = fascist
+			}
+		}
+	}
+	desc = { 
+		text = vbcw_news.4.d_negative
+		trigger = {
+			OR = {
+				tag = BUF
+				is_in_faction_with = BUF
+				has_government = fascist
+			}
+		}
+	}
+	picture = GFX_news_event_paul_robeson
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 275
+	}
+
+	option = {
+		name = vbcw_news.4.a #Positive
+		trigger = {
+			OR = {
+				tag = SOM
+				is_in_faction_with = SOM
+			}
+		}
+		set_global_flag = paul_robeson_tour
+	}
+
+	option = {
+		name = vbcw_news.4.b #Neutral
+		trigger = {
+			not = {
+				tag = SOM
+				tag = BUF
+				is_in_faction_with = SOM
+				is_in_faction_with = BUF
+				has_government = fascist
+			}
+		}
+		set_global_flag = paul_robeson_tour
+	}
+
+	option = {
+		name = vbcw_news.4.c #Negative
+		trigger = {
+			OR = {
+				tag = BUF
+				is_in_faction_with = BUF
+				has_government = fascist
+			}
+		}
+		set_global_flag = paul_robeson_tour
+	}
+}
