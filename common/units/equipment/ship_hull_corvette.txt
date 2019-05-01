@@ -24,11 +24,11 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_light_anti_air ship_anti_air }
+				allowed_module_categories = { ship_light_anti_air }
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
+				allowed_module_categories = { ship_sonar }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -45,17 +45,24 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_small_depth_charge
-					ship_anti_air
 					ship_light_anti_air
+					ship_v_light_battery
 				}
 			}
-			rear_1_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = 
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
+					ship_small_depth_charge
+					ship_light_anti_air
+				}
 		}
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = convoy_escort_ship_engine_1
 			mid_1_custom_slot = empty
@@ -104,7 +111,7 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 
 			mid_1_custom_slot = inherit
-			rear_1_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -144,8 +151,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
-					ship_rocket_battery
 				}
 			}
 			mid_1_custom_slot = {
@@ -154,7 +159,9 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_small_depth_charge
+					ship_anti_air
 					ship_light_anti_air
+					ship_v_light_battery
 				}
 			}
 			rear_1_custom_slot = {
@@ -164,7 +171,6 @@ equipments = {
 					ship_mine_layer
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -202,7 +208,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -212,7 +217,9 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_small_depth_charge
+					ship_anti_air
 					ship_light_anti_air
+					ship_v_light_battery
 				}
 			}
 			rear_1_custom_slot = {
@@ -222,7 +229,6 @@ equipments = {
 					ship_mine_layer
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -253,7 +259,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = ship_v_light_battery_1
 			fixed_ship_anti_air_slot = ship_light_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = convoy_escort_ship_engine_1
 			mid_1_custom_slot = empty
@@ -294,7 +300,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = ship_v_light_battery_2
 			fixed_ship_anti_air_slot = ship_light_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = convoy_escort_ship_engine_2
 			mid_1_custom_slot = ship_light_anti_air_1
@@ -341,7 +347,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -351,7 +356,9 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_small_depth_charge
+					ship_anti_air
 					ship_light_anti_air
+					ship_v_light_battery
 				}
 			}
 			rear_1_custom_slot = {
@@ -361,7 +368,6 @@ equipments = {
 					ship_mine_layer
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -370,12 +376,12 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = ship_v_light_battery_3
 			fixed_ship_anti_air_slot = ship_light_anti_air_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = convoy_escort_ship_engine_3
-			front_1_custom_slot = ship_small_depth_charge_3
+			front_1_custom_slot = ship_small_depth_charge_1
 			mid_1_custom_slot = ship_light_anti_air_2
-			rear_1_custom_slot = ship_v_light_battery_1
+			rear_1_custom_slot = ship_small_depth_charge_3
 		}
 		
 		surface_detection = 20
@@ -418,7 +424,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -428,7 +433,9 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_small_depth_charge
+					ship_anti_air
 					ship_light_anti_air
+					ship_v_light_battery
 				}
 			}
 			rear_1_custom_slot = {
@@ -438,7 +445,6 @@ equipments = {
 					ship_mine_layer
 					ship_small_depth_charge
 					ship_light_anti_air
-					ship_v_light_battery
 					ship_rocket_battery
 				}
 			}
@@ -447,12 +453,12 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = ship_v_light_battery_4
 			fixed_ship_anti_air_slot = ship_light_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = convoy_escort_ship_engine_4
-			front_1_custom_slot = ship_small_depth_charge_4
+			front_1_custom_slot = ship_small_depth_charge_1
 			mid_1_custom_slot = ship_light_anti_air_3
-			rear_1_custom_slot = ship_v_light_battery_2
+			rear_1_custom_slot = ship_small_depth_charge_4
 		}
 		
 		surface_detection = 25
