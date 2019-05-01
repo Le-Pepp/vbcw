@@ -39,7 +39,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_light_battery"
-						position = { x=356 y=0 }
+						position = { x=353 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -50,7 +50,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_light_battery@highlight"
-						position = { x=356 y=0 }
+						position = { x=353 y=0 }
 					}
 				}
 
@@ -62,7 +62,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_light_battery"
-						position = { x=356 y=0 }
+						position = { x=353 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -73,7 +73,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_light_battery@highlight"
-						position = { x=356 y=0 }
+						position = { x=353 y=0 }
 					}
 				}
 
@@ -85,7 +85,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rocket"
-						position = { x=356 y=0 }
+						position = { x=344 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -96,7 +96,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_rocket@highlight"
-						position = { x=356 y=0 }
+						position = { x=344 y=0 }
 					}
 				}
 			}
@@ -115,7 +115,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_anti_air"
-						position = { x=290 y=0 }
+						position = { x=273 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -126,7 +126,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_anti_air@highlight"
-						position = { x=290 y=0 }
+						position = { x=273 y=0 }
 					}
 				}
 
@@ -138,7 +138,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_anti_air"
-						position = { x=290 y=0 }
+						position = { x=273 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -149,7 +149,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_anti_air@highlight"
-						position = { x=290 y=0 }
+						position = { x=273 y=0 }
 					}
 				}
 			}
@@ -264,35 +264,35 @@ guiTypes = {
 			}
 
 			################# MODULE SLOT: Torpedo #################
-			containerWindowType = {
-				name = "fixed_ship_torpedo_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+			# containerWindowType = {
+				# name = "fixed_ship_torpedo_slot"
+				# position = { x=0 y=0 }
+				# size = { width=100% height=100% }
 
-				containerWindowType = {
-					name = "ship_torpedo"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+				# containerWindowType = {
+					# name = "ship_torpedo"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_corvette_hull_torpedo"
-						position = { x=95 y=0 }
-					}
-				}
+					# iconType = {
+						# name = "blueprint"
+						# spriteType = "GFX_SM_corvette_hull_torpedo"
+						# position = { x=95 y=0 }
+					# }
+				# }
 
-				containerWindowType = {
-					name = "ship_torpedo@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+				# containerWindowType = {
+					# name = "ship_torpedo@highlight"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_corvette_hull_torpedo@highlight"
-						position = { x=95 y=0 }
-					}
-				}
-			}
+					# iconType = {
+						# name = "blueprint_highlight"
+						# spriteType = "GFX_SM_corvette_hull_torpedo@highlight"
+						# position = { x=95 y=0 }
+					# }
+				# }
+			# }
 
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
@@ -364,7 +364,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge"
-						position = { x=407 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 
@@ -376,7 +376,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge@highlight"
-						position = { x=407 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -387,7 +387,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge"
-						position = { x=407 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 
@@ -399,7 +399,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge@highlight"
-						position = { x=407 y=0 }
+						position = { x=301 y=0 }
 					}
 				}
 
@@ -412,7 +412,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_front_1_anti_air"
-						position = { x=392 y=0 }
+						position = { x=325 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -423,7 +423,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
+						position = { x=325 y=0 }
 					}
 				}
 				
@@ -435,7 +435,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_front_1_anti_air"
-						position = { x=392 y=0 }
+						position = { x=325 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -446,56 +446,11 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_corvette_hull_front_1_anti_air@highlight"
-						position = { x=392 y=0 }
+						position = { x=325 y=0 }
 					}
 				}
 
-				#### MODULE: Light Battery ####
-				containerWindowType = {
-					name = "ship_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_light_battery"
-						position = { x=394 y=0 }
-					}
-				}				
-				containerWindowType = {
-					name = "ship_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_light_battery@highlight"
-						position = { x=394 y=0 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "ship_v_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_light_battery"
-						position = { x=394 y=0 }
-					}
-				}				
-				containerWindowType = {
-					name = "ship_v_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_light_battery@highlight"
-						position = { x=394 y=0 }
-					}
-				}
+				#### MODULE: Rocket Battery ####
 				
 				containerWindowType = {
 					name = "ship_rocket_battery"
@@ -504,8 +459,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rocket"
-						position = { x=394 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_rocket"
+						position = { x=395 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -515,8 +470,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rocket@highlight"
-						position = { x=394 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_rocket@highlight"
+						position = { x=395 y=0 }
 					}
 				}
 			}
@@ -528,28 +483,28 @@ guiTypes = {
 				size = { width=100% height=100% }
 
 				#### MODULE: Torpedo ####
-				containerWindowType = {
-					name = "ship_torpedo"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+				# containerWindowType = {
+					# name = "ship_torpedo"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_torpedo"
-						position = { x=190 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_torpedo@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					# iconType = {
+						# name = "image"
+						# spriteType = "GFX_SM_corvette_hull_mid_torpedo"
+						# position = { x=190 y=0 }
+					# }
+				# }
+				# containerWindowType = {
+					# name = "ship_torpedo@highlight"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_torpedo@highlight"
-						position = { x=190 y=0 }
-					}
-				}
+					# iconType = {
+						# name = "image"
+						# spriteType = "GFX_SM_corvette_hull_mid_torpedo@highlight"
+						# position = { x=190 y=0 }
+					# }
+				# }
 
 
 				#### MODULE: Mine Sweeper ####
@@ -561,7 +516,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_mine_sweeper"
-						position = { x=207 y=0 }
+						position = { x=164 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -572,7 +527,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_mine_sweeper@highlight"
-						position = { x=207 y=0 }
+						position = { x=164 y=0 }
 					}
 				}
 
@@ -586,7 +541,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_mine_layer"
-						position = { x=200 y=0 }
+						position = { x=116 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -597,7 +552,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_mine_layer@highlight"
-						position = { x=200 y=0 }
+						position = { x=116 y=0 }
 					}
 				}
 
@@ -610,8 +565,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge"
+						position = { x=149 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -621,8 +576,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge@highlight"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge@highlight"
+						position = { x=149 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -632,8 +587,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge"
+						position = { x=149 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -643,8 +598,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge@highlight"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_corvette_hull_front_1_depth_charge@highlight"
+						position = { x=149 y=0 }
 					}
 				}
 				
@@ -658,7 +613,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						position = { x=129 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -669,7 +624,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						position = { x=129 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -680,7 +635,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=192 y=0 }
+						position = { x=129 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -691,181 +646,35 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=192 y=0 }
+						position = { x=129 y=0 }
 					}
 				}
 
-			}
 
-			################# MODULE SLOT: Custom, Middle #2 #################
-			containerWindowType = {
-				name = "mid_2_custom_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
-
-				#### MODULE: Torpedo ####
+				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_torpedo"
+					name = "ship_v_light_battery"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_torpedo"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_corvette_hull_mid_1_light_battery"
+						position = { x=125 y=0 }
 					}
 				}
 				containerWindowType = {
-					name = "ship_torpedo@highlight"
+					name = "ship_v_light_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_torpedo@highlight"
-						position = { x=135 y=0 }
+						spriteType = "GFX_SM_corvette_hull_mid_1_light_battery@highlight"
+						position = { x=125 y=0 }
 					}
 				}
 
-				#### MODULE: Mine Sweeper ####
-				containerWindowType = {
-					name = "ship_mine_sweeper"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_mine_sweeper"
-						position = { x=143 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_mine_sweeper@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_mine_sweeper@highlight"
-						position = { x=143 y=0 }
-					}
-				}
-
-				#### MODULE: Mine Layer ####
-				containerWindowType = {
-					name = "ship_mine_layer"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_mine_layer"
-						position = { x=137 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_mine_layer@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_mine_layer@highlight"
-						position = { x=137 y=0 }
-					}
-				}
-
-				#### MODULE: Depth Charge ####
-				containerWindowType = {
-					name = "ship_depth_charge"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge"
-						position = { x=142 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_depth_charge@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge@highlight"
-						position = { x=142 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_small_depth_charge"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge"
-						position = { x=142 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_small_depth_charge@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_depth_charge@highlight"
-						position = { x=142 y=0 }
-					}
-				}
-
-				#### MODULE: Anti-Air ####
-				containerWindowType = {
-					name = "ship_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=126	y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=126	y=0 }
-					}
-				}
 			}
 
 			################# MODULE SLOT: Custom, Rear #1 #################
@@ -875,28 +684,28 @@ guiTypes = {
 				size = { width=100% height=100% }
 
 				#### MODULE: Torpedo ####
-				containerWindowType = {
-					name = "ship_torpedo"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+				# containerWindowType = {
+					# name = "ship_torpedo"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rear_torpedo"
-						position = { x=62 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_torpedo@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					# iconType = {
+						# name = "image"
+						# spriteType = "GFX_SM_corvette_hull_rear_torpedo"
+						# position = { x=62 y=0 }
+					# }
+				# }
+				# containerWindowType = {
+					# name = "ship_torpedo@highlight"
+					# position = { x=0 y=0 }
+					# size = { width=100% height=100% }
 					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rear_torpedo@highlight"
-						position = { x=62 y=0 }
-					}
-				}
+					# iconType = {
+						# name = "image"
+						# spriteType = "GFX_SM_corvette_hull_rear_torpedo@highlight"
+						# position = { x=62 y=0 }
+					# }
+				# }
 
 				#### MODULE: Mine Sweeper ####
 				containerWindowType = {
@@ -907,7 +716,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_mine_sweeper"
-						position = { x=32 y=0 }
+						position = { x=67 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -918,7 +727,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_mine_sweeper@highlight"
-						position = { x=32 y=0 }
+						position = { x=67 y=0 }
 					}
 				}
 
@@ -931,7 +740,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_mine_layer"
-						position = { x=58 y=0 }
+						position = { x=37 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -942,7 +751,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_mine_layer@highlight"
-						position = { x=58 y=0 }
+						position = { x=37 y=0 }
 					}
 				}
 
@@ -955,7 +764,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_depth_charge"
-						position = { x=46 y=0 }
+						position = { x=43 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -966,7 +775,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_depth_charge@highlight"
-						position = { x=46 y=0 }
+						position = { x=43 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -977,7 +786,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_depth_charge"
-						position = { x=46 y=0 }
+						position = { x=43 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -988,7 +797,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rear_1_depth_charge@highlight"
-						position = { x=46 y=0 }
+						position = { x=43 y=0 }
 					}
 				}
 
@@ -1000,8 +809,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_corvette_hull_rear_1_anti_air"
+						position = { x=96 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1011,8 +820,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_corvette_hull_rear_1_anti_air@highlight"
+						position = { x=96 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1022,8 +831,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_corvette_hull_rear_1_anti_air"
+						position = { x=96 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1033,35 +842,12 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_corvette_hull_mid_1_anti_air@highlight"
-						position = { x=55 y=0 }
+						spriteType = "GFX_SM_corvette_hull_rear_1_anti_air@highlight"
+						position = { x=96 y=0 }
 					}
 				}
 
-				#### MODULE: Light Battery ####
-				containerWindowType = {
-					name = "ship_v_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rear_1_light_battery"
-						position = { x=55 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_v_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_corvette_hull_rear_1_light_battery@highlight"
-						position = { x=55 y=0 }
-					}
-				}
-				
+				#### MODULE: Rocket Battery ####				
 				containerWindowType = {
 					name = "ship_rocket_battery"
 					position = { x=0 y=0 }
@@ -1070,7 +856,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rocket"
-						position = { x=55 y=0 }
+						position = { x=67 y=0 }
 					}
 				}				
 				containerWindowType = {
@@ -1081,7 +867,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_corvette_hull_rocket@highlight"
-						position = { x=55 y=0 }
+						position = { x=67 y=0 }
 					}
 				}
 
