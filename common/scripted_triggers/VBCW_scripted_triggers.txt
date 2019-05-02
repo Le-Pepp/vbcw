@@ -36,6 +36,14 @@ has_same_government_as_ROOT = {
 	}
 }
 
+has_socialist_government = {
+	OR = {
+		has_government = communist
+		has_government = anarcho_syndicalist
+		has_government = democratic_socialist
+	}
+}
+
 has_far_left_government = {
 	OR = {
 		has_government = communist
