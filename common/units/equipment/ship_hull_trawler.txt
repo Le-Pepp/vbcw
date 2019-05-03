@@ -38,7 +38,6 @@ equipments = {
                 required = no
                 allowed_module_categories = {
                     ship_mine_warfare
-                    ship_mine_layer
                     ship_light_anti_air
 					ship_small_depth_charge
                 }
@@ -123,8 +122,24 @@ equipments = {
         archetype = ship_hull_trawler
         parent = ship_hull_trawler_2
         priority = 2050
-
-        module_slots = inherit
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			mid_1_custom_slot = inherit
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+                    ship_mine_warfare
+                    ship_mine_layer
+					ship_light_anti_air
+					ship_small_depth_charge
+					ship_v_light_battery
+				}
+			}
+		}	
   
         surface_detection = 20
 
@@ -150,7 +165,24 @@ equipments = {
         parent = ship_hull_trawler_3
         priority = 2050
 
-        module_slots = inherit
+        module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			mid_1_custom_slot = inherit
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+                    ship_mine_warfare
+                    ship_mine_layer
+					ship_light_anti_air
+					ship_small_depth_charge
+					ship_v_light_battery
+					ship_rocket_battery
+				}
+			}
+		}	
   
         surface_detection = 25
 
@@ -222,7 +254,6 @@ equipments = {
                 required = no
                 allowed_module_categories = {
                     ship_mine_warfare
-                    ship_mine_layer
                     ship_light_anti_air
 					ship_small_depth_charge
                 }

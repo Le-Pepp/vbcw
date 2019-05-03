@@ -142,6 +142,15 @@ spriteTypes = {
 ###################################################
 	
 	spriteType = {
+		name = "GFX_SM_trawler_hull_rear_1_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rear_1_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_trawler_hull_rear_1_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rear_1_light_battery@highlight.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_SM_trawler_hull_light_battery"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_fixed_light_battery.dds"
 	}
@@ -196,16 +205,6 @@ spriteTypes = {
 		name = "GFX_SM_trawler_hull_rear_1_depth_charge@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rear_depth_charge@highlight.dds"
 	}
-
-	
-	spriteType = {
-		name = "GFX_SM_trawler_hull_mid_1_mine_layer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_mid_mine_rails.dds"
-	}
-	spriteType = {
-		name = "GFX_SM_trawler_hull_mid_1_mine_layer@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_mid_mine_rails@highlight.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_SM_trawler_hull_rear_1_mine_layer"
@@ -242,6 +241,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_trawler_hull_rocket@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rocket@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_trawler_hull_rear_1_rocket"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rear_1_rocket.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_trawler_hull_rear_1_rocket@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/trawler_hull/trawler_hull_rear_1_rocket@highlight.dds"
 	}
 	
 
