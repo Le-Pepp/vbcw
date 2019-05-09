@@ -39,7 +39,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_light_battery"
-						position = { x=289 y=0 }
+						position = { x=297 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -50,7 +50,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_motorboat_hull_light_battery@highlight"
-						position = { x=289 y=0 }
+						position = { x=297 y=0 }
 					}
 				}
 
@@ -61,8 +61,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_motorboat_hull_light_battery"
-						position = { x=289 y=0 }
+						spriteType = "GFX_SM_motorboat_hull_front_anti_air"
+						position = { x=296 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -72,8 +72,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_motorboat_hull_light_battery@highlight"
-						position = { x=289 y=0 }
+						spriteType = "GFX_SM_motorboat_hull_front_anti_air@highlight"
+						position = { x=296 y=0 }
 					}
 				}
 			}
@@ -92,7 +92,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_anti_air"
-						position = { x=99 y=0 }
+						position = { x=83 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -103,7 +103,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_motorboat_hull_anti_air@highlight"
-						position = { x=99 y=0 }
+						position = { x=83 y=0 }
 					}
 				}
 			}
@@ -122,7 +122,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_motorboat_hull_torpedo"
-						position = { x=141 y=0 }
+						position = { x=201 y=0 }
 					}
 				}
 
@@ -134,7 +134,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_motorboat_hull_torpedo@highlight"
-						position = { x=141 y=0 }
+						position = { x=201 y=0 }
 					}
 				}
 			}
@@ -240,7 +240,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_rear_1_depth_charge"
-						position = { x=13 y=0 }
+						position = { x=25 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -251,7 +251,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_rear_1_depth_charge@highlight"
-						position = { x=13 y=0 }
+						position = { x=25 y=0 }
 					}
 				}
 
@@ -264,7 +264,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_rear_1_anti_air"
-						position = { x=0 y=0 }
+						position = { x=30 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -275,7 +275,31 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_motorboat_hull_rear_1_anti_air@highlight"
-						position = { x=0 y=0 }
+						position = { x=30 y=0 }
+					}
+				}
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_small_torpedo"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_motorboat_hull_rear_1_torpedo"
+						position = { x=89 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_small_torpedo@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_motorboat_hull_rear_1_torpedo@highlight"
+						position = { x=89 y=0 }
 					}
 				}
 			}

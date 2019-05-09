@@ -43,6 +43,7 @@ equipments = {
                 allowed_module_categories = {
 					ship_small_depth_charge
 					ship_light_anti_air
+					ship_small_torpedo
                 }
             }
         }

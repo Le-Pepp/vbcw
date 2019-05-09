@@ -46,6 +46,16 @@ spriteTypes = {
 	
 
 	spriteType = {
+		name = "GFX_SM_motorboat_hull_front_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_front_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_front_anti_air@highlight.dds"
+	}
+	
+
+	spriteType = {
 		name = "GFX_SM_motorboat_hull_anti_air"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_fixed_anti_air.dds"
 	}
@@ -80,6 +90,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_motorboat_hull_rear_1_depth_charge@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_depth_charge@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_motorboat_hull_rear_1_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/motorboat_hull/motorboat_hull_rear_torpedo@highlight.dds"
 	}
 	
 
