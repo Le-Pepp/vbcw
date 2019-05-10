@@ -3,6 +3,10 @@ spriteTypes = {
 # Ship hulls
 ###################################################
 	spriteType = {
+		name = "GFX_SD_tv_monitor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_monitor.dds"
+	}
+	spriteType = {
 		name = "GFX_SD_tv_sloop"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_sloop.dds"
 	}

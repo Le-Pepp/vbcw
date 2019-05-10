@@ -346,11 +346,13 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_secondaries
 				}
 			}
 			rear_1_custom_slot =  {
 				required = no
 				allowed_module_categories = {
+					ship_anti_air
 					ship_secondaries
 				}
 			}
@@ -621,11 +623,13 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_secondaries
 				}
 			}
 			rear_1_custom_slot =  {
 				required = no
 				allowed_module_categories = {
+					ship_anti_air
 					ship_secondaries
 				}
 			}
@@ -672,40 +676,7 @@ equipments = {
 		priority = 2000
 		parent = monitor_1
 
-		module_slots = {
-			fixed_ship_battery_slot = {
-				required = yes
-				allowed_module_categories = { ship_shore_bombardment_battery }
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = { ship_anti_air }
-			}
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = { ship_fire_control_system }
-			}
-			fixed_ship_radar_slot = {
-				required = no
-				allowed_module_categories = { ship_radar }
-			}
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { light_ship_engine }
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-				}
-			}
-			rear_1_custom_slot =  {
-				required = no
-				allowed_module_categories = {
-					ship_secondaries
-				}
-			}
-		}
+		module_slots = inherit
 
 		default_modules = {
 			fixed_ship_battery_slot = ship_shore_bombardment_battery_2

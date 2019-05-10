@@ -289,6 +289,7 @@ equipment_modules = {
 	
 	ship_shore_bombardment_battery_1 = {
 		category = ship_shore_bombardment_battery
+		gui_category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {			
@@ -311,6 +312,7 @@ equipment_modules = {
 
 	ship_shore_bombardment_battery_2 = {
 		category = ship_shore_bombardment_battery
+		gui_category = ship_heavy_battery
 		parent = ship_shore_bombardment_battery_1
 		sfx = sfx_ui_sd_module_turret
 		

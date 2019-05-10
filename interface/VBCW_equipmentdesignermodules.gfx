@@ -32,6 +32,118 @@ spriteTypes = {
 	}
 
 ###################################################
+# MONITOR HULL
+###################################################
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fixed_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_fixed_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fixed_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_fixed_heavy_battery@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fixed_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fixed_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_fixed_anti_air@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_mid_1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_mid_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_mid_1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_mid_anti_air@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_mid_1_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_mid_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_mid_1_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_mid_secondaries@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_rear_1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_rear_1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_rear_anti_air@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_rear_1_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_rear_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_rear_1_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/monitor_hull/monitor_hull_rear_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_monitor_hull_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_armor@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_monitor_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fire_control@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_fuel_tank@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_monitor_hull_radar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_radar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_monitor_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_monitor_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+
+###################################################
 # MOTORBOAT
 ###################################################
 	
