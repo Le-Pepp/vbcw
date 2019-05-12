@@ -249,9 +249,17 @@ equipments = {
 				allowed_module_categories = { heavy_ship_engine carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+				}
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_anti_air
 					ship_secondaries
 					ship_deck_space
 					ship_small_deck_space
@@ -279,44 +287,44 @@ equipments = {
 		manpower = 5000
 	}
 
-	ship_hull_carrier_conversion_ca = {
-		year = 1922
-		visual_level = 0
-		archetype = ship_hull_carrier
-		priority = 1200
-		can_convert_from = { ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_panzerschiff }
-		module_slots = {
-			fixed_ship_deck_slot_1 = inherit
-			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }
-			}
-			fixed_ship_secondaries_slot = inherit
-		}
+	# ship_hull_carrier_conversion_ca = {
+		# year = 1922
+		# visual_level = 0
+		# archetype = ship_hull_carrier
+		# priority = 1200
+		# can_convert_from = { ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_panzerschiff }
+		# module_slots = {
+			# fixed_ship_deck_slot_1 = inherit
+			# fixed_ship_deck_slot_2 = inherit
+			# fixed_ship_anti_air_slot = inherit
+			# fixed_ship_radar_slot = inherit
+			# fixed_ship_engine_slot = {
+				# required = yes
+				# allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }
+			# }
+			# fixed_ship_secondaries_slot = inherit
+		# }
 
-		default_modules = {
-			fixed_ship_deck_slot_1 = empty
-			fixed_ship_deck_slot_2 = empty
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = empty
-		}
-		naval_range = 4000
+		# default_modules = {
+			# fixed_ship_deck_slot_1 = empty
+			# fixed_ship_deck_slot_2 = empty
+			# fixed_ship_anti_air_slot = empty
+			# fixed_ship_radar_slot = empty
+			# fixed_ship_engine_slot = cruiser_ship_engine_1
+			# fixed_ship_secondaries_slot = empty
+		# }
+		# naval_range = 4000
 		
-		max_strength = 125
+		# max_strength = 125
 		
-		reliability = 0.65
-		naval_speed = 20
-		build_cost_ic = 2700
-		resources = {
-			steel = 3
-		}
-		manpower = 1000
-	}
+		# reliability = 0.65
+		# naval_speed = 20
+		# build_cost_ic = 2700
+		# resources = {
+			# steel = 3
+		# }
+		# manpower = 1000
+	# }
 
 ###Prescripted designs for people without MtG
 

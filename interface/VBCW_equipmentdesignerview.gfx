@@ -3,6 +3,18 @@ spriteTypes = {
 # Ship hulls
 ###################################################
 	spriteType = {
+		name = "GFX_SD_tv_carrier_conversion"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_carrier_conversion.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_light_carrier_conversion"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_light_carrier_conversion.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_light_carrier"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_light_carrier.dds"
+	}
+	spriteType = {
 		name = "GFX_SD_tv_monitor"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_monitor.dds"
 	}

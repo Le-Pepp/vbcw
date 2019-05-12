@@ -207,9 +207,6 @@
  EQ_MOD_CAT_convoy_escort_ship_engine_TITLE:0 "Commercial Marine Engines"
  EQ_MOD_CAT_fleet_escort_ship_engine_TITLE:0 "Escort Engines"
  EQ_MOD_CAT_motorboat_engine_TITLE:0 "Motorboat Engines"
- EQ_MOD_CAT_ship_small_deck_space_TITLE:0 "Small Hangar Space"
- EQ_MOD_CAT_ship_small_torpedo_TITLE:0 "Torpedo Tubes" 
- EQ_MOD_CAT_ship_small_depth_charge_TITLE:0 "Light Anti-Submarine Warfare" 
  
  ship_small_torpedo_1:0 "2x 18" Torpedo Tube"
  ship_small_torpedo_1_short:0 "Torpedo Tube I"
@@ -260,6 +257,13 @@
  ship_v_light_battery_4:0 "QF 12pdr 12cwt"
  ship_v_light_battery_4_short:0 "Very Light Battery IV"
  ship_v_light_battery_4_desc:0 "A small gun in a powered, armored mount."
+ 
+ ship_shore_bombardment_battery_1:0 "BL 12" Mk VIII"
+ ship_shore_bombardment_battery_1_short:0 "Shore Bombardment Battery I"
+ ship_shore_bombardment_battery_1_desc:0 "A turret from an obsolete battleship, refitted for shore bombardment."
+ ship_shore_bombardment_battery_2:0 "BL 15" Mk I"
+ ship_shore_bombardment_battery_2_short:0 "Shore Bombardment Battery II"
+ ship_shore_bombardment_battery_2_desc:0 "A turret from an obsolete battleship, refitted for shore bombardment."
  
  ship_light_anti_air_1:0 ".303 Lewis"
  ship_light_anti_air_1_short:0 "Light Anti-Air I"

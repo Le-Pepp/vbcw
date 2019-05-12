@@ -27,7 +27,7 @@ equipments = {
 			}
 			fixed_ship_deck_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_small_deck_space ship_carrier_armor }
+				allowed_module_categories = { ship_small_deck_space }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -47,11 +47,10 @@ equipments = {
 				allowed_module_categories = { ship_v_light_battery ship_secondaries }
 			}
 			
-			front_1_custom_slot = {
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {		
 					ship_small_deck_space
-					ship_carrier_armor
 					ship_anti_air
 					ship_light_anti_air
 				}
@@ -140,7 +139,6 @@ equipments = {
 					ship_anti_air
 					ship_light_anti_air
 					ship_small_deck_space
-					ship_carrier_armor
 				}
 			}
 			mid_1_custom_slot = {
@@ -149,7 +147,6 @@ equipments = {
 					ship_anti_air
 					ship_light_anti_air
 					ship_small_deck_space
-					ship_carrier_armor
 				}
 			}
 		}
@@ -189,7 +186,6 @@ equipments = {
 					ship_anti_air
 					ship_light_anti_air
 					ship_small_deck_space
-					ship_carrier_armor
 				}
 			}
 			mid_1_custom_slot = {
@@ -198,7 +194,6 @@ equipments = {
 					ship_anti_air
 					ship_light_anti_air
 					ship_small_deck_space
-					ship_carrier_armor
 				}
 			}
 			mid_2_custom_slot = {
@@ -207,7 +202,6 @@ equipments = {
 					ship_anti_air
 					ship_light_anti_air
 					ship_small_deck_space
-					ship_carrier_armor
 				}
 			}
 		}
@@ -245,6 +239,20 @@ equipments = {
 				allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_anti_air
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_anti_air
+				}
+			}
 		}
 
 		default_modules = {

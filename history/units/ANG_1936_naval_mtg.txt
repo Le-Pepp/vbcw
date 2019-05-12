@@ -15,7 +15,7 @@
 					cv_nav_bomber_equipment_1 =  { owner = "ANG" amount = 6 }
 				}
 			}	
-			ship = { name = "Hermes" definition = light_carrier equipment = { ship_hull_light_carrier_conversion_ca = { amount = 1 owner = ENG version_name = "Hermes Class" } } 
+			ship = { name = "Hermes" definition = light_carrier equipment = { ship_hull_light_carrier_1 = { amount = 1 owner = ENG version_name = "Hermes Class" } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "ANG" amount = 12 }
 					cv_nav_bomber_equipment_1 =  { owner = "ANG" amount = 8 }

@@ -906,4 +906,364 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_sloop_hull_sonar@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}	
+	
+	
+###################################################
+# Light Carrier
+###################################################
+
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fixed_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_fixed_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_front1_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_hull/light_carrier_hull_front1_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_armor@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fire_control@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_fuel_tank@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_radar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_radar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	
+	
+###################################################
+# Light Carrier Conversion
+###################################################
+
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_front1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_front1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_front1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_front1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_mid1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_mid1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_mid1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_2_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_2_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fixed_2_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_carrier_conversion_hull/light_carrier_conversion_hull_fixed_2_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_armor@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fire_control@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_fuel_tank@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_radar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_radar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_carrier_conversion_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	
+	
+###################################################
+# Carrier Conversion
+###################################################
+
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_front1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_front1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_front1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_front1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_front1_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_front1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_front1_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_front1_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fixed_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_fixed_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_mid1_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_conversion_hull/carrier_conversion_hull_mid1_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_armor@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fire_control@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fire_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_fuel_tank@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_fuel_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_radar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_radar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_conversion_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
 	}
