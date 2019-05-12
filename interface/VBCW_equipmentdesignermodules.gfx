@@ -1138,6 +1138,20 @@ spriteTypes = {
 	
 	
 ###################################################
+# Carrier
+###################################################
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_hull/carrier_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/carrier_hull/carrier_hull_mid1_anti_air@highlight.dds"
+	}
+	
+	
+###################################################
 # Carrier Conversion
 ###################################################
 
