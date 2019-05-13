@@ -30,6 +30,24 @@ spriteTypes = {
 		name = "GFX_SM_light_hull_rocket@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_rocket@highlight.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_SM_light_hull_front_1_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_front_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_front_1_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_front_depth_charge@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_mid_1_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/light_hull/light_hull_mid_1_torpedo@highlight.dds"
+	}
 
 ###################################################
 # MONITOR HULL
