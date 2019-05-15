@@ -277,7 +277,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_front_1_depth_charge"
-						position = { x=310 y=0 }
+						position = { x=370 y=0 }
 					}
 				}
 
@@ -289,7 +289,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_light_hull_front_1_depth_charge@highlight"
-						position = { x=310 y=0 }
+						position = { x=370 y=0 }
 					}
 				}
 

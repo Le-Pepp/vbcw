@@ -94,7 +94,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_fixed_anti_air"
-						position = { x=307 y=0 }
+						position = { x=306 y=0 }
 					}
 				}
 
@@ -107,7 +107,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_cruiser_hull_fixed_anti_air@highlight"
-						position = { x=307 y=0 }
+						position = { x=306 y=0 }
 					}
 				}
 			}
@@ -638,7 +638,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery"
-						position = { x=152 y=0 }
+						position = { x=198 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -649,7 +649,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery@highlight"
-						position = { x=152 y=0 }
+						position = { x=198 y=0 }
 					}
 				}
 				
@@ -742,7 +742,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_rear_1_mine_layer"
-						position = { x=80 y=0 }
+						position = { x=151 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -753,7 +753,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_rear_1_mine_layer@highlight"
-						position = { x=80 y=0 }
+						position = { x=151 y=0 }
 					}
 				}
 
