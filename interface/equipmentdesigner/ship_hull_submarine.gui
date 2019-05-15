@@ -41,7 +41,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_fixed_torpedo"
-						position = { x=340 y=0 }
+						position = { x=405 y=0 }
 					}
 				}
 
@@ -53,7 +53,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_fixed_torpedo@highlight"
-						position = { x=340 y=0 }
+						position = { x=405 y=0 }
 					}
 				}
 			}
@@ -104,7 +104,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_front1_torpedo"
-						position = { x=410 y=0 }
+						position = { x=417 y=0 }
 					}
 				}
 
@@ -116,7 +116,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_front1_torpedo@highlight"
-						position = { x=410 y=0 }
+						position = { x=417 y=0 }
 					}
 				}
 
@@ -129,7 +129,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_airplane_launcher"
-						position = { x=331 y=0 }
+						position = { x=263 y=0 }
 					}
 				}
 
@@ -141,7 +141,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_airplane_launcher@highlight"
-						position = { x=331 y=0 }
+						position = { x=263 y=0 }
 					}
 				}
 
@@ -154,7 +154,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_front1_mine_layer"
-						position = { x=342 y=0 }
+						position = { x=420 y=0 }
 					}
 				}
 
@@ -166,7 +166,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_front1_mine_layer@highlight"
-						position = { x=342 y=0 }
+						position = { x=420 y=0 }
 					}
 				}
 
@@ -294,7 +294,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_rear1_torpedo"
-						position = { x=140 y=0 }
+						position = { x=37 y=0 }
 					}
 				}
 
@@ -306,7 +306,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_rear1_torpedo@highlight"
-						position = { x=140 y=0 }
+						position = { x=37 y=0 }
 					}
 				}
 				
@@ -319,7 +319,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_rear1_mine_layer"
-						position = { x=140 y=0 }
+						position = { x=38 y=0 }
 					}
 				}
 
@@ -331,7 +331,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_rear1_mine_layer@highlight"
-						position = { x=140 y=0 }
+						position = { x=38 y=0 }
 					}
 				}
 				#### MODULE: Airplane Launcher ####
@@ -343,7 +343,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_airplane_launcher"
-						position = { x=331 y=0 }
+						position = { x=263 y=0 }
 					}
 				}
 
@@ -355,7 +355,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_airplane_launcher@highlight"
-						position = { x=331 y=0 }
+						position = { x=263 y=0 }
 					}
 				}
 
