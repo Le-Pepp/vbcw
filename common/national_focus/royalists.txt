@@ -1,0 +1,358 @@
+focus_tree = {
+	id = ROY_Coolstuff
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROY
+		}
+	}
+	
+	default = no
+	
+	###############
+	###industry###
+	###############
+
+
+	focus = {
+		id = ROY_revitalise_the_economy
+		icon = GFX_goal_continuous_naval_production
+		cost = 5
+		x = 2
+		y = 0
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_welsh_coal_fields
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		x = 0
+		y = 1
+		
+		prerequisite = {focus = ROY_revitalise_the_economy}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_corps_of_engineers
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5
+		x = 0
+		y = 2
+		
+		prerequisite = {focus = ROY_welsh_coal_fields}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_expand_the_a40
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		x = 4
+		y = 1
+		
+		prerequisite = {focus = ROY_revitalise_the_economy}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_royal_north_union_rail
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		x = 4
+		y = 2
+		
+		prerequisite = {focus = ROY_expand_the_a40}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_madresfield_park
+		icon = GFX_focus_research
+		cost = 5
+		x = 2
+		y = 3
+		
+		prerequisite = {focus = ROY_royal_north_union_rail}
+		prerequisite = {focus = ROY_corps_of_engineers}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_cumbrian_steel_mills
+		icon = GFX_focus_generic_steel
+		cost = 5
+		x = 0
+		y = 4
+		
+		prerequisite = {focus = ROY_madresfield_park}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_ironbridge_smelters
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		x = 0
+		y = 5
+		
+		prerequisite = {focus = ROY_cumbrian_steel_mills}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_northampton_armaments
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5
+		x = 4
+		y = 4
+		
+		prerequisite = {focus = ROY_madresfield_park}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = ROY_leyland_motor_company
+		icon = GFX_goal_continuous_armor_production
+		cost = 5
+		x = 4
+		y = 5
+		
+		prerequisite = {focus = ROY_northampton_armaments}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_war_tactics_committee
+		icon = GFX_focus_wonderweapons
+		cost = 5
+		x = 2
+		y = 6
+		
+		prerequisite = {focus = ROY_leyland_motor_company}
+		prerequisite = {focus = ROY_ironbridge_smelters}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_a_loyal_army
+		icon = GFX_focus_chi_british_cooperation
+		cost = 5
+		x = 12
+		y = 0
+		
+		mutually_exclusive = {focus = ROY_a_professional_army}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_recall_africans
+		icon = GFX_goal_tfv_saf_secure_interests_in_africa
+		cost = 5
+		x = 10
+		y = 1
+		
+		prerequisite = {focus = ROY_a_loyal_army}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_recall_hong_kong
+		icon = GFX_focus_chi_one_china_policy
+		cost = 5
+		x = 14
+		y = 1
+		
+		prerequisite = {focus = ROY_a_loyal_army}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_recall_punjabs
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		cost = 5
+		x = 12
+		y = 2
+		
+		prerequisite = {focus = ROY_recall_africans}
+		prerequisite = {focus = ROY_recall_hong_kong}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_recall_dominions
+		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
+		cost = 5
+		x = 10
+		y = 3
+		
+		prerequisite = {focus = ROY_recall_punjabs}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_recall_gurkhas
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 5
+		x = 12
+		y = 5
+		
+		prerequisite = {focus = ROY_recall_punjabs}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_a_professional_army
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 5
+		x = 24
+		y = 0
+		
+		mutually_exclusive = {focus = ROY_a_loyal_army}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_brunswick_auxiliary
+		icon = GFX_goal_generic_CAS
+		cost = 5
+		x = 22
+		y = 1
+		
+		prerequisite = {focus = ROY_a_professional_army}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_brunswick_hussars
+		icon = GFX_goal_generic_cavalry
+		cost = 5
+		x = 26
+		y = 1
+		
+		prerequisite = {focus = ROY_a_professional_army}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_brunswick_freikorps
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 5
+		x = 24
+		y = 2
+		
+		prerequisite = {focus = ROY_brunswick_hussars}
+		prerequisite = {focus = ROY_brunswick_auxiliary}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_japanese_aid
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		cost = 5
+		x = 26
+		y = 3
+		
+		prerequisite = {focus = ROY_brunswick_freikorps}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROY_king's_legion
+		icon = GFX_focus_eng_god_save_the_king
+		cost = 5
+		x = 24
+		y = 5
+		
+		prerequisite = {focus = ROY_brunswick_freikorps}
+
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
