@@ -63,46 +63,22 @@ if = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-		}
-
-		autocratic = {
-			popularity = 5 
-		}
-		
-		conservative = {
-			popularity = 60
-		}
-		
-		liberal = { 
-			popularity = 15
-		}
-		
-		democratic_socialist = { 
-			popularity = 10
-		}
-				
-		communist = { 
-			popularity = 0
-		}
-				
-		anarcho_syndicalist = { 
-			popularity = 0
-		}
-				
-		civic_nationalist = { 
-			popularity = 10
-		}
-	}
-	
+set_politics = {	
 	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    autocratic = 5
+    conservative = 60
+    liberal = 15
+    democratic_socialist = 10
+    communist = 0
+    anarcho_syndicalist = 0
+    civic_nationalist = 10
 }
 
 set_convoys = 10

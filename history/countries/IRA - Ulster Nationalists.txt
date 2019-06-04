@@ -17,46 +17,22 @@ set_technology = {
 	guerilla_warfare = 1
 }
 
-set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-		}
-
-		autocratic = {
-			popularity = 60
-		}
-		
-		conservative = {
-			popularity = 20
-		}
-		
-		liberal = { 
-			popularity = 0
-		}
-		
-		democratic_socialist = { 
-			popularity = 5
-		}
-				
-		communist = { 
-			popularity = 5
-		}
-				
-		anarcho_syndicalist = { 
-			popularity = 0
-		}
-				
-		civic_nationalist = { 
-			popularity = 10
-		}
-	}
-	
+set_politics = {	
 	ruling_party = autocratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    autocratic = 60
+    conservative = 20
+    liberal = 0
+    democratic_socialist = 5
+    communist = 5
+    anarcho_syndicalist = 0
+    civic_nationalist = 10
 }
 
 set_convoys = 50

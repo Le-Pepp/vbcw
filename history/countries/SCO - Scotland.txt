@@ -95,46 +95,22 @@ if = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 1
-		}
-
-		autocratic = {
-			popularity = 0
-		}
-		
-		conservative = {
-			popularity = 30
-		}
-		
-		liberal = { 
-			popularity = 4
-		}
-		
-		democratic_socialist = { 
-			popularity = 9
-		}
-				
-		communist = { 
-			popularity = 4
-		}
-				
-		anarcho_syndicalist = { 
-			popularity = 0
-		}
-				
-		civic_nationalist = { 
-			popularity = 52
-		}
-	}
-	
+set_politics = {	
 	ruling_party = civic_nationalist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 1
+    autocratic = 0
+    conservative = 30
+    liberal = 4
+    democratic_socialist = 9
+    communist = 4
+    anarcho_syndicalist = 0
+    civic_nationalist = 52
 }
 
 add_ideas = {
