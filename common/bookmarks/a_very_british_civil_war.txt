@@ -50,12 +50,12 @@ bookmarks = {
 				SOM_strike_up_the_band
 				SOM_foundries_and_forges
 			}		
-		}
-		"IRL"={
-			history = "IRL_VBCW_DESC"
-			ideology = conservative	
+		}		
+		"JAC"={
+			history = "JAC_VBCW_DESC"
+			ideology = autocratic
 			ideas = {
-				IRL_limited_intervention
+				JAC_highlanders
 			}
 		}
 		"---"={
@@ -65,6 +65,35 @@ bookmarks = {
 
 
 		# minors ####
+		"IRL"={
+			minor = yes
+			history = "IRL_VBCW_DESC"
+			ideology = conservative	
+			ideas = {
+				IRL_limited_intervention
+			}
+		}
+		"WAL"={
+			minor = yes
+			history = "WAL_VBCW_DESC"
+			ideology = civic_nationalist
+		}	
+		"KER"={
+			minor = yes
+			history = "KER_VBCW_DESC"
+			ideology = civic_nationalist
+			ideas = {
+				KER_kernow_bys_vykken
+			}
+		}
+		"LIV"={
+			minor = yes
+			history = "LIV_VBCW_DESC"
+			ideology = democratic_socialist
+			ideas = {
+				LIV_city_under_siege
+			}
+		}
 		"SOG"={
 			minor = yes
 			history = "SOG_VBCW_DESC"
@@ -93,36 +122,7 @@ bookmarks = {
 			minor = yes
 			history = "SON_VBCW_DESC"
 			ideology = democratic_socialist
-		}
-		"KER"={
-			minor = yes
-			history = "KER_VBCW_DESC"
-			ideology = civic_nationalist
-			ideas = {
-				KER_kernow_bys_vykken
-			}
-		}
-		"LIV"={
-			minor = yes
-			history = "LIV_VBCW_DESC"
-			ideology = democratic_socialist
-			ideas = {
-				LIV_city_under_siege
-			}
-		}
-		"WAL"={
-			minor = yes
-			history = "WAL_VBCW_DESC"
-			ideology = civic_nationalist
-		}		
-		"JAC"={
-			minor = yes
-			history = "JAC_VBCW_DESC"
-			ideology = autocratic
-			ideas = {
-				JAC_highlanders
-			}
-		}		
+		}	
 		"MNX"={
 			minor = yes
 			history = "MNX_VBCW_DESC"
