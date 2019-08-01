@@ -1,6 +1,26 @@
 spriteTypes = {	
 ###CORNWALL###
 	spriteType = {
+		name = "GFX_goal_cornish_throne"
+		texturefile = "gfx/interface/goals/goal_cornish_throne.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_wine"
+		texturefile = "gfx/interface/goals/goal_wine.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_hitler_strudel"
+		texturefile = "gfx/interface/goals/goal_hitler_strudel.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_benito_brunch"
+		texturefile = "gfx/interface/goals/goal_benito_brunch.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_franco_fish"
+		texturefile = "gfx/interface/goals/goal_franco_fish.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_cornish_army"
 		texturefile = "gfx/interface/goals/goal_cornish_army.tga"
 	}
@@ -27,6 +47,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_secret_pasty_service"
 		texturefile = "gfx/interface/goals/goal_secret_pasty_service.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_bishops_boys"
+		texturefile = "gfx/interface/goals/goal_bishops_boys.dds"
 	}
 	spriteType = {
 		name = "GFX_goal_york_socialism"
