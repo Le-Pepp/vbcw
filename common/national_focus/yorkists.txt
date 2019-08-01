@@ -1,0 +1,1150 @@
+focus_tree = {
+	id = YRK_Coolstuff
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YRK
+		}
+	}
+	
+	default = no
+	
+	
+
+
+	focus = {
+		id = YRK_total_tory_majority
+		icon = GFX_goal_support_democracy
+		cost = 5
+		x = 8
+		y = 0
+		
+		available = {always = never}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_conscrpit_for_a_cause
+		icon = GFX_focus_generic_little_entente
+		cost = 5
+		x = 4
+		y = 1
+		
+		prerequisite = {focus = YRK_total_tory_majority}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_lower_taxation
+		icon = GFX_focus_mex_privatisation
+		cost = 5
+		x = 2
+		y = 2
+		
+		prerequisite = {focus = YRK_conscrpit_for_a_cause}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_guarantee_property_rights
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		cost = 5
+		x = 2
+		y = 3
+		
+		prerequisite = {focus = YRK_lower_taxation}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_yorkist_identity
+		icon = 
+		cost = 5
+		x = 0
+		y = 4
+		
+		mutually_exclusive = {focus = YRK_british_identity}
+		prerequisite = {focus = YRK_guarantee_property_rights}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}	
+
+	focus = {
+		id = YRK_british_identity
+		icon = 
+		cost = 5
+		x = 2
+		y = 4
+		
+		mutually_exclusive = {focus = YRK_yorkist_identity}
+		prerequisite = {focus = YRK_guarantee_property_rights}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_exploit_the_radio
+		icon = GFX_goal_generic_radar
+		cost = 5
+		x = 1
+		y = 5
+		
+		prerequisite = {focus = YRK_british_identity		focus = YRK_yorkist_identity} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_christian_values
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		cost = 5
+		x = 1
+		y = 6
+		
+		prerequisite = {focus = YRK_exploit_the_radio} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_battlestations
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		x = 4
+		y = 3
+		
+		prerequisite = {focus = YRK_conscrpit_for_a_cause} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_encourage_local_militias
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		x = 4
+		y = 4
+		
+		prerequisite = {focus = YRK_battlestations} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_very_british_ingenuity
+		icon = GFX_goal_generic_production2
+		cost = 5
+		x = 4
+		y = 5
+		
+		prerequisite = {focus = YRK_encourage_local_militias} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_war_measures_bill
+		icon = GFX_goal_generic_military_sphere
+		cost = 5
+		x = 4
+		y = 6
+		
+		prerequisite = {focus = YRK_very_british_ingenuity} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_increase_university_funding
+		icon = GFX_focus_research
+		cost = 5
+		x = 4
+		y = 7
+		
+		prerequisite = {focus = YRK_war_measures_bill} 
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_recruitment_of_defectors
+		icon = GFX_focus_prc_infiltration
+		cost = 5
+		x = 6
+		y = 2
+		
+		prerequisite = {focus = YRK_conscrpit_for_a_cause}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_halifax's_mission
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		x = 8
+		y = 3
+		
+		prerequisite = {focus = YRK_recruitment_of_defectors}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_colonial_outreach
+		icon = GFX_goal_generic_trade
+		cost = 5
+		x = 6
+		y = 4
+		
+		prerequisite = {focus = YRK_halifax's_mission}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_friends_in_europe
+		icon = GFX_goal_generic_trade
+		cost = 5
+		x = 8
+		y = 4
+		
+		prerequisite = {focus = YRK_halifax's_mission}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_further_afield
+		icon = GFX_goal_generic_trade
+		cost = 5
+		x = 10
+		y = 4
+		
+		prerequisite = {focus = YRK_halifax's_mission}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_white_rose_of_york
+		icon = 
+		cost = 5
+		x = 12
+		y = 1
+		
+		prerequisite = {focus = YRK_total_tory_majority}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_anglican_unity
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 10
+		y = 2
+		
+		prerequisite = {focus = YRK_white_rose_of_york}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_anti-fascism
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5
+		x = 14
+		y = 2
+		
+		prerequisite = {focus = YRK_white_rose_of_york}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_crush_socialism
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5
+		x = 11
+		y = 3
+		
+		prerequisite = {focus = YRK_anti-fascism}				prerequisite = {focus = YRK_anglican_unity}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_woo_churchill
+		icon = GFX_focus_eng_motion_of_no_confidence
+		cost = 5
+		x = 16
+		y = 1
+		
+		prerequisite = {focus = YRK_total_tory_majority}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_crown_albert_king
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5
+		x = 16
+		y = 2
+		
+		prerequisite = {focus = YRK_woo_churchill}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_destroy_the_pretenders
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 15
+		y = 3
+		
+		prerequisite = {focus = YRK_crown_albert_king}
+		prerequisite = {focus = YRK_anti-fascism}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_minor_nationalist_movements
+		icon = GFX_goal_generic_position_armies
+		cost = 5
+		x = 13
+		y = 4
+		
+		prerequisite = {focus = YRK_destroy_the_pretenders	focus = YRK_crush_socialism}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_second_act_of_union
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5
+		x = 12
+		y = 5
+		
+		prerequisite = {focus = YRK_minor_nationalist_movements}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_ulster_liberation
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		x = 14
+		y = 5
+		
+		prerequisite = {focus = YRK_minor_nationalist_movements}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_total_irish_occupation
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5
+		x = 13
+		y = 6
+		
+		prerequisite = {focus = YRK_ulster_liberation}	prerequisite = {focus = YRK_second_act_of_union}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_lord_protector's_coup
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5
+		x = 30
+		y = 0
+		
+		available = {always = never}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_destroy_liverpool
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 24
+		y = 1
+		
+		prerequisite = {focus = YRK_lord_protector's_coup}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_snuff_out_edward's_forces
+		icon = GFX_focus_rom_abdicate
+		cost = 5
+		x = 23
+		y = 2
+		
+		prerequisite = {focus = YRK_destroy_liverpool}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_shoot_the_fash
+		icon = 
+		cost = 5
+		x = 25
+		y = 2
+		
+		prerequisite = {focus = YRK_destroy_liverpool}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_hunt_down_terrorists
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 5
+		x = 24
+		y = 3
+		
+		prerequisite = {focus = YRK_snuff_out_edward's_forces	focus = YRK_shoot_the_fash}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_union_or_war
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5
+		x = 20
+		y = 4
+		
+		prerequisite = {focus = YRK_hunt_down_terrorists}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_socialist_destruction
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5
+		x = 24
+		y = 4
+		
+		prerequisite = {focus = YRK_hunt_down_terrorists}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_crush_kernow
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 28
+		y = 4
+		
+		prerequisite = {focus = YRK_hunt_down_terrorists}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_manx_operation
+		icon = GFX_goal_generic_position_armies
+		cost = 5
+		x = 22
+		y = 5
+		
+		prerequisite = {focus = YRK_union_or_war			focus = YRK_socialist_destruction}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_sow_the_wind
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		cost = 5
+		x = 26
+		y = 5
+		
+		prerequisite = {focus = YRK_union_or_war			focus = YRK_crush_kernow}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_cross_the_sea
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 5
+		x = 24
+		y = 6
+		
+		prerequisite = {focus = YRK_manx_operation			focus = YRK_sow_the_wind}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_levy_a_royal_force
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 5
+		x = 34
+		y = 1
+		
+		prerequisite = {focus = YRK_lord_protector's_coup}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_overrule_parliament
+		icon = GFX_focus_usa_voter_registration_act
+		cost = 5
+		x = 32
+		y = 2
+		
+		prerequisite = {focus = YRK_levy_a_royal_force}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_assert_royal_power
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5
+		x = 32
+		y = 3
+		
+		prerequisite = {focus = YRK_overrule_parliament}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_dissolve_parliament
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 5
+		x = 32
+		y = 4
+		
+		prerequisite = {focus = YRK_assert_royal_power}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_uphold_tradition
+		icon = GFX_focus_generic_home_defense
+		cost = 5
+		x = 34
+		y = 2
+		
+		prerequisite = {focus = YRK_levy_a_royal_force}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_work_the_land
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		x = 36
+		y = 3
+		
+		prerequisite = {focus = YRK_uphold_tradition}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_royal_factories_commission
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		x = 34
+		y = 4
+		
+		prerequisite = {focus = YRK_work_the_land}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_glorify_the_military
+		icon = GFX_focus_generic_military_mission
+		cost = 5
+		x = 38
+		y = 4
+		
+		prerequisite = {focus = YRK_work_the_land}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_promote_loyal_aristocracy
+		icon = GFX_focus_eng_special_air_service
+		cost = 5
+		x = 39
+		y = 5
+		
+		prerequisite = {focus = YRK_glorify_the_military}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_outreach_to_the_colonies
+		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
+		cost = 5
+		x = 33
+		y = 5
+		
+		prerequisite = {focus = YRK_royal_factories_commission}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_introduce_rationing
+		icon = GFX_focus_generic_concessions
+		cost = 5
+		x = 36
+		y = 5
+		
+		prerequisite = {focus = YRK_royal_factories_commission	focus = YRK_glorify_the_military}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_imperial_research_institute
+		icon = GFX_focus_research2
+		cost = 5
+		x = 34
+		y = 6
+		
+		prerequisite = {focus = YRK_outreach_to_the_colonies 
+		focus = YRK_introduce_rationing}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_rule_from_london
+		icon = 
+		cost = 5
+		x = 28
+		y = 7
+		
+		mutually_exclusive = {focus = YRK_rule_from_york}
+		prerequisite = {focus = YRK_cross_the_sea 
+		focus = YRK_imperial_research_institute}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_rule_from_york
+		icon = 
+		cost = 5
+		x = 30
+		y = 7
+		
+		mutually_exclusive = {focus = YRK_rule_from_london}
+		prerequisite = {focus = YRK_cross_the_sea 
+		focus = YRK_imperial_research_institute}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_liberal_victory
+		icon = 
+		cost = 5
+		x = 48
+		y = 0
+		
+		available = {always = never}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_liberals_split
+		icon = 
+		cost = 5
+		x = 48
+		y = 1
+		
+		prerequisite = {focus = YRK_liberal_victory}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_classic_liberals
+		icon = 
+		cost = 5
+		x = 44
+		y = 2
+		
+		mutually_exclusive = {focus = YRK_new_liberals}
+		prerequisite = {focus = YRK_liberals_split}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_the_beveridge_report
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		x = 42
+		y = 3
+		
+		prerequisite = {focus = YRK_classic_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_church_state_debate
+		icon = 
+		cost = 5
+		x = 42
+		y = 4
+		
+		prerequisite = {focus = YRK_the_beveridge_report}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_land_reform
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		x = 44
+		y = 4
+		
+		prerequisite = {focus = YRK_classic_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_the_welfare_state
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5
+		x = 46
+		y = 3
+		
+		prerequisite = {focus = YRK_classic_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_the_local_option
+		icon = GFX_goal_generic_fortify_city
+		cost = 5
+		x = 46
+		y = 4
+		
+		prerequisite = {focus = YRK_the_welfare_state}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_new_liberals
+		icon = 
+		cost = 5
+		x = 52
+		y = 2
+		
+		mutually_exclusive = {focus = YRK_classic_liberals}
+		prerequisite = {focus = YRK_liberals_split}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_push_for_civil_liberties
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 50
+		y = 3
+		
+		prerequisite = {focus = YRK_new_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_health_for_heroes
+		icon = 
+		cost = 5
+		x = 50
+		y = 4
+		
+		prerequisite = {focus = YRK_push_for_civil_liberties}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_lenient_ethnic_treatment
+		icon = 
+		cost = 5
+		x = 52
+		y = 4
+		
+		prerequisite = {focus = YRK_new_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_adopt_keynesian_thought
+		icon = GFX_goal_generic_national_unity
+		cost = 5
+		x = 54
+		y = 3
+		
+		prerequisite = {focus = YRK_new_liberals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_open_major_ports
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 5
+		x = 54
+		y = 4
+		
+		prerequisite = {focus = YRK_adopt_keynesian_thought}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_reject_tariffs
+		icon = 
+		cost = 5
+		x = 48
+		y = 5
+		
+		prerequisite = {focus = YRK_land_reform
+		focus = YRK_lenient_ethnic_treatment}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_reunify_the_liberal_party
+		icon = 
+		cost = 5
+		x = 48
+		y = 6
+		
+		prerequisite = {focus = YRK_reject_tariffs}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_reject_socialism
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5
+		x = 46
+		y = 7
+		
+		prerequisite = {focus = YRK_reunify_the_liberal_party}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_religiously_tolerant_units
+		icon = 
+		cost = 5
+		x = 45
+		y = 8
+		
+		prerequisite = {focus = YRK_reject_socialism}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_beacon_of_liberty
+		icon = 
+		cost = 5
+		x = 44
+		y = 9
+		
+		prerequisite = {focus = YRK_religiously_tolerant_units}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_turn_on_the_anglicans
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 50
+		y = 7
+		
+		prerequisite = {focus = YRK_reunify_the_liberal_party}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_international_outreach
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		x = 51
+		y = 8
+		
+		prerequisite = {focus = YRK_turn_on_the_anglicans}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_blind_eye_to_smuggling
+		icon = 
+		cost = 5
+		x = 52
+		y = 9
+		
+		prerequisite = {focus = YRK_international_outreach}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_independence_movement_debates
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5
+		x = 48
+		y = 8
+		
+		prerequisite = {focus = YRK_reunify_the_liberal_party}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_devolved_unification
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 47
+		y = 9
+		
+		mutually_exclusive = {focus = YRK_unite_the_nation}
+		prerequisite = {focus = YRK_independence_movement_debates}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_unite_the_nation
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5
+		x = 49
+		y = 9
+		
+		mutually_exclusive = {focus = YRK_devolved_unification}
+		prerequisite = {focus = YRK_independence_movement_debates}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_imperialist_crusade
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 48
+		y = 10
+		
+		prerequisite = {focus = YRK_independence_movement_debates}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
