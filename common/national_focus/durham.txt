@@ -57,7 +57,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 				add_stability = 0.05
-				add_ideas = SOD_manditory_union_membership		
+				add_ideas = SOD_manditory_union_membership_idea		
 		}	
 	}
 	
@@ -72,8 +72,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SOD_manditory_union_membership
-				add_ideas = SOD_workplace_democracy
+				remove_idea = SOD_manditory_union_membership_idea
+				add_ideas = SOD_workplace_democracy_idea
 			}
 		}
 	}
@@ -88,7 +88,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_durham_university
+			add_ideas = SOD_durham_university_idea
 		}
 	}
 	
@@ -228,7 +228,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_radical_protestantism
+			add_ideas = SOD_radical_protestantism_idea
 			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_radical_protestantism } }
 		}
 	}
@@ -244,8 +244,8 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			remove_ideas = SOD_radical_protestantism
-			add_ideas = SOD_christian_socialism			
+			remove_ideas = SOD_radical_protestantism_idea
+			add_ideas = SOD_christian_socialism_idea			
 		}
 	}
 
@@ -259,7 +259,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_equal_before_god
+			add_ideas = SOD_equal_before_god_idea
 			add_popularity = {
 				popularity = 0.2
 				ideology = anarcho_syndicalist
@@ -319,8 +319,8 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_institutional_atheism
-			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_institutional_atheism } }
+			add_ideas = SOD_institutional_atheism_idea
+			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_institutional_atheism_ops } }
 		}
 
 	}
@@ -335,7 +335,7 @@ focus_tree = {
 		continue_if_invalid = yes					
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_political_commissars
+			add_ideas = SOD_political_commissars_idea
 		}
 	}
 	
@@ -350,7 +350,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_stability = -0.1
-			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_outlawed_church} }
+			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_outlawed_church_ops} }
 		}
 	}
 	
@@ -384,7 +384,7 @@ focus_tree = {
 		continue_if_invalid = yes		
 		available_if_capitulated = yes
 		completion_reward = {
-			 add_ideas = SOD_indigenous_production
+			 add_ideas = SOD_indigenous_production_idea
 			 add_political_power = 25
 		}
 	}
@@ -400,7 +400,8 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_new_jeruselum } }
+			ANG = { add_opinion_modifier = { target = ROOT modifier = SOD_new_jeruselum_ops
+			} }
 			add_stability = 0.05		
 		}
 	}
@@ -482,7 +483,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_national_cooperation
+			add_ideas = SOD_national_cooperation_idea
 		}
 	}
 	
@@ -516,7 +517,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 100
-			SOM = { add_opinion_modifier = { target = ROOT modifier = SOD_go_it_alone } }
+			SOM = { add_opinion_modifier = { target = ROOT modifier = SOD_go_it_alone_ops } }
 		}
 	}
 	
@@ -530,7 +531,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = SOD_independent_commune
+			add_ideas = SOD_independent_commune_idea
 			leave_faction = yes
 		}
 	}
@@ -641,7 +642,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			army_experience = 20
-			add_ideas = SOD_dli_veterans
+			add_ideas = SOD_dli_veterans_idea
 		}	
 	}
 
@@ -662,7 +663,7 @@ focus_tree = {
 				bonus = 0.5
 				category = land_doctrine
 			}
-			add_ideas = SOD_local_knowledge
+			add_ideas = SOD_local_knowledge_idea
 		}	
 	}
 
@@ -676,7 +677,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		completion_reward = {
-				add_ideas = militarised_colliery_bands
+				add_ideas = SOD_militarised_colliery_bands_idea
 		}
 	}
 	
@@ -696,19 +697,19 @@ focus_tree = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 82 }
 					create_unit = {
-						division = "name = \"wip1\" division_template = \"People's Militia\" start_experience_factor = 1.0"
+						division = "name = \"1st  Durham Colleges Students’ Representative Council Armed Wing\" division_template = \"People's Militia\" start_experience_factor = 1.0"
 						owner = SOD
 					}
 					create_unit = {
-						division = "name = \"WIP2\" division_template = \"People's Militia\" start_experience_factor = 1.0"
+						division = "name = \"The  Durham Union Society Marching Column\" division_template = \"People's Militia\" start_experience_factor = 1.0"
 						owner = SOD
 					}
 					create_unit = {
-						division = "name = \"WIP3\" division_template = \"People's Militia\" start_experience_factor = 1.0"
+						division = "name = \"WDF Duhram Guards Battalion\" division_template = \"People's Militia\" start_experience_factor = 1.0"
 						owner = SOD
 					}
 					create_unit = {
-						division = "name = \"WIP4\" division_template = \"People's Militia\" start_experience_factor = 1.0"
+						division = "name = \"Duhram Miners Association Defence Force\" division_template = \"People's Militia\" start_experience_factor = 1.0"
 						owner = SOD
 					}
 				}
