@@ -42,9 +42,9 @@ focus_tree = {
 				planning_skill = 5
 				logistics_skill = 4
 			}
-			  
+
      		country_event = JAC_events.1
-		}
+     	}
 	}
 	
 	focus = {
@@ -740,9 +740,9 @@ focus_tree = {
 		continue_if_invalid = yes
 		
 		available_if_capitulated = yes
+		
 		completion_reward = {
 			every_state = { add_core_of = JAC}           
-        }        
         }
 	}
 
