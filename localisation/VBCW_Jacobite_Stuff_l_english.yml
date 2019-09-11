@@ -91,3 +91,10 @@ JAC_events.4.d:0 "The pope has authorised the sending of equipment and men to ou
 JAC_events.4.a:0 "Hurrah for the pope!"
 ###OTHER###
 JAC_royal_guards_divisions_tt:0 "Raises a division of elite highlanders."
+###OTHER###
+JAC_royal_guards_divisions_tt:0 "Raises a division of elite highlanders."
+JAC_german_divisions_tt:0 "A battalion of loyal Bavarians shall come to our shores to fight."
+JAC_secure_orkney:0 "Secure Orkney"
+JAC_secure_orkney_desc:0 "A daring operation shall be led to secure the islands of Orkney, and free the populous from the accursed English. However, there is still the matter of planning the whole damn thing that needs to be seen to..."
+import_german_troops:0 "Import Bavarian Veterans"
+import_german_troops_desc:0 "There is no shortage of Bavarian (and German) veterans willing to assist their king in combat. We should get in touch."
