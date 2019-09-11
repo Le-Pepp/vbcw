@@ -18,6 +18,9 @@ focus_tree = {
 		y = 0
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 10
+		}
 		completion_reward = {
 		
 			create_country_leader = {
