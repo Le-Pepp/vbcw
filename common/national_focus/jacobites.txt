@@ -740,11 +740,9 @@ focus_tree = {
 		continue_if_invalid = yes
 		
 		available_if_capitulated = yes
-		
-		complete_tooltip = {
-			every_state = {
-				 add_claim_by = JAC        
-            }            
+		completion_reward = {
+			every_state = { add_core_of = JAC}           
+        }        
         }
 	}
 
