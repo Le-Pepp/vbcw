@@ -1148,3 +1148,1101 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	
+	focus = {
+		id = YRK_labour_victory
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		x = 62
+		y = 0
+		
+		available = {always = never}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_attlee_guides_us
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 60
+		y = 1
+		
+		mutually_exclusive = {focus = YRK_cripps'_christian_socialism}
+		prerequisite = {focus = YRK_labour_victory}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_cripps'_christian_socialism
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 64
+		y = 1
+		
+		mutually_exclusive = {focus = YRK_attlee_guides_us}
+		prerequisite = {focus = YRK_labour_victory}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_socialist_unity
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 58
+		y = 2
+		
+		prerequisite = {focus = YRK_attlee_guides_us}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_seize_private_land
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 58
+		y = 3
+		
+		prerequisite = {focus = YRK_socialist_unity}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_international_outreach_S
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5
+		x = 58
+		y = 4
+		
+		prerequisite = {focus = YRK_seize_private_land}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_establish_early_welfare
+		icon = GFX_focus_generic_concessions
+		cost = 5
+		x = 62
+		y = 2
+		
+		prerequisite = {focus = YRK_labour_victory}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_raise_taxes
+		icon = GFX_focus_generic_concessions
+		cost = 5
+		x = 60
+		y = 3
+		
+		prerequisite = {focus = YRK_establish_early_welfare}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_wartime_healthcare
+		icon = GFX_focus_generic_concessions
+		cost = 5
+		x = 64
+		y = 3
+		
+		prerequisite = {focus = YRK_establish_early_welfare}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_trade_union_empowerment
+		icon = GFX_focus_generic_concessions
+		cost = 5
+		x = 62
+		y = 4
+		
+		prerequisite = {focus = YRK_establish_early_welfare}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_tighten_ties_with_canterbury
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 5
+		x = 66
+		y = 2
+		
+		prerequisite = {focus = YRK_cripps'_christian_socialism}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_equal_before_god
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 66
+		y = 3
+		
+		prerequisite = {focus = YRK_tighten_ties_with_canterbury}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_static_wages
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5
+		x = 66
+		y = 4
+		
+		prerequisite = {focus = YRK_equal_before_god}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_figurehead_monarch
+		icon = GFX_focus_rom_handle_king
+		cost = 5
+		x = 60
+		y = 5
+		
+		prerequisite = {focus = YRK_trade_union_empowerment}
+		prerequisite = {focus = YRK_international_outreach_S
+		focus = YRK_static_wages}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_anti-fascist_bloc
+		icon = GFX_focus_rom_handle_king
+		cost = 5
+		x = 64
+		y = 5
+		
+		prerequisite = {focus = YRK_trade_union_empowerment}
+		prerequisite = {focus = YRK_international_outreach_S
+		focus = YRK_static_wages}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = YRK_deal_with_mersyside
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		x = 60
+		y = 6
+		
+		prerequisite = {focus = YRK_figurehead_monarch}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+		focus = {
+		id = YRK_unite_the_communes
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		x = 58
+		y = 6
+		
+		prerequisite = {focus = YRK_figurehead_monarch}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_denounce_radicals
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		x = 64
+		y = 6
+		
+		prerequisite = {focus = YRK_anti-fascist_bloc}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_united_front
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		x = 66
+		y = 6
+		
+		prerequisite = {focus = YRK_anti-fascist_bloc}
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_the_irish_question
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 62
+		y = 7
+		
+		prerequisite = {focus = YRK_deal_with_mersyside}
+		prerequisite = {focus = YRK_denounce_radicals}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_operation_triskelion
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5
+		x = 62
+		y = 8
+		
+		prerequisite = {focus = YRK_the_irish_question}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_convene_parliament
+		icon = GFX_focus_generic_treaty
+		cost = 5
+		x = 41
+		y = 0
+	
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+	focus = {
+		id = YRK_revitalise_northern_industries
+		icon = 
+		cost = 5
+		x = 8
+		y = 9
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_new_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5
+		x = 5
+		y = 10
+		
+
+		prerequisite = {focus = YRK_revitalise_northern_industries}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_barrow_docks
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5
+		x = 5
+		y = 11
+		
+		prerequisite = {focus = YRK_new_dockyards}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_civillian_industries
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		x = 8
+		y = 10
+		
+
+		prerequisite = {focus = YRK_revitalise_northern_industries}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_carlisle-york_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		x = 8
+		y = 11
+		
+		prerequisite = {focus = YRK_civillian_industries}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_military_complexes
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5
+		x = 11
+		y = 10
+		
+
+		prerequisite = {focus = YRK_revitalise_northern_industries}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_build_up_berwick
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 5
+		x = 11
+		y = 11
+		
+		prerequisite = {focus = YRK_military_complexes}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_department_of_batteries
+		icon = GFX_
+		cost = 5
+		x = 6
+		y = 12
+		
+		prerequisite = {focus = YRK_barrow_docks	focus = YRK_carlisle-york_railway}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_department_of_munitions
+		icon = GFX_goal_generic_army_artillery
+		cost = 5
+		x = 10
+		y = 12
+		
+		prerequisite = {focus = YRK_build_up_berwick	focus = YRK_carlisle-york_railway}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_labour_laws
+		icon = GFX_goal_generic_soviet_construction
+		cost = 5
+		x = 6
+		y = 13
+		
+		prerequisite = {focus = YRK_department_of_batteries
+		focus = YRK_department_of_munitions}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_think_tanks
+		icon = GFX_focus_research
+		cost = 5
+		x = 10
+		y = 13
+		
+		prerequisite = {focus = YRK_department_of_batteries
+		focus = YRK_department_of_munitions}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_industrial_requisition
+		icon = GFX_focus_generic_industry_2
+		cost = 5
+		x = 8
+		y = 13
+		
+		prerequisite = {focus = YRK_department_of_batteries
+		focus = YRK_department_of_munitions}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_invest_in_victory
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		x = 8
+		y = 14
+		
+		prerequisite = {focus = YRK_industrial_requisition}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_scientist_haven
+		icon = GFX_focus_research2
+		cost = 5
+		x = 8
+		y = 15
+		
+		prerequisite = {focus = YRK_invest_in_victory}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_royal_air_corps
+		icon = GFX_goal_generic_air_doctrine
+		cost = 5
+		x = 22
+		y = 9
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_bombing
+		icon = GFX_goal_generic_air_bomber
+		cost = 5
+		x = 19
+		y = 10
+		
+		prerequisite = {focus = YRK_royal_air_corps}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_naval_bombing
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 5
+		x = 19
+		y = 11
+		
+		prerequisite = {focus = YRK_bombing}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_new_stratagies
+		icon = GFX_goal_generic_CAS
+		cost = 5
+		x = 17
+		y = 11
+		
+		prerequisite = {focus = YRK_bombing}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_interception
+		icon = GFX_goal_generic_air_fighter
+		cost = 5
+		x = 25
+		y = 10
+		
+		prerequisite = {focus = YRK_royal_air_corps}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_ground_support
+		icon = GFX_goal_generic_air_fighter2
+		cost = 5
+		x = 25
+		y = 11
+		
+		prerequisite = {focus = YRK_interception}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_hawk_wings
+		icon = GFX_goal_generic_CAS
+		cost = 5
+		x = 27
+		y = 11
+		
+		prerequisite = {focus = YRK_interception}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_master_the_skies
+		icon = GFX_goal_generic_radar
+		cost = 5
+		x = 22
+		y = 13
+		
+		prerequisite = {focus = YRK_naval_bombing
+		focus = YRK_ground_support}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_the_eagle_squadron
+		icon = 
+		cost = 5
+		x = 19
+		y = 14
+		
+		prerequisite = {focus = YRK_master_the_skies}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_improved_building_methods
+		icon = GFX_goal_generic_air_production
+		cost = 5
+		x = 25
+		y = 14
+		
+		prerequisite = {focus = YRK_master_the_skies}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_naval_effort
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5
+		x = 36
+		y = 9
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_new_doctrines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 5
+		x = 33
+		y = 10
+		
+		mutually_exclusive = { focus = YRK_old_doctrines }
+		prerequisite = {focus = YRK_naval_effort}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_aeronautical_primacy
+		icon = GFX_goal_generic_navy_carrier
+		cost = 5
+		x = 31
+		y = 11
+		
+		prerequisite = {focus = YRK_new_doctrines}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_sea_wolfs
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 5
+		x = 31
+		y = 12
+		
+		prerequisite = {focus = YRK_aeronautical_primacy}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_old_doctrines
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 5
+		x = 39
+		y = 10
+		
+		mutually_exclusive = { focus = YRK_new_doctrines }
+		prerequisite = {focus = YRK_naval_effort}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_big-gun_primacy
+		icon = GFX_goal_generic_navy_battleship
+		cost = 5
+		x = 41
+		y = 11
+		
+		prerequisite = {focus = YRK_old_doctrines}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_shock_and_awe
+		icon = GFX_
+		cost = 5
+		x = 41
+		y = 12
+		
+		prerequisite = {focus = YRK_big-gun_primacy}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_naval_invasions 
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 5
+		x = 36
+		y = 11
+		
+		prerequisite = {focus = YRK_naval_effort}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_requisition_civillian_ships
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 5
+		x = 36
+		y = 12
+		
+		prerequisite = {focus = YRK_naval_invasions}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_modular_construction
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5
+		x = 34
+		y = 13
+		
+		prerequisite = {focus = YRK_requisition_civillian_ships}
+		prerequisite = {focus = YRK_sea_wolfs}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_dockyard_cities
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5
+		x = 38
+		y = 13
+		
+		prerequisite = {focus = YRK_requisition_civillian_ships}
+		prerequisite = {focus = YRK_shock_and_awe}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_canadian_sailors
+		icon = GFX_
+		cost = 5
+		x = 36
+		y = 13
+		
+
+		prerequisite = {focus = YRK_requisition_civillian_ships}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_canadian_fleet
+		icon = GFX_
+		cost = 5
+		x = 36
+		y = 14
+		
+
+		prerequisite = {focus = YRK_canadian_sailors}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = YRK_canadian_volunteers
+		icon = GFX_
+		cost = 5
+		x = 58
+		y = 9
+		
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_small_arms
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		x = 55
+		y = 10
+		
+
+		prerequisite = {focus = YRK_canadian_volunteers}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_modern_cavalry
+		icon = GFX_goal_generic_army_motorized
+		cost = 5
+		x = 61
+		y = 10
+		
+
+		prerequisite = {focus = YRK_canadian_volunteers}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_artillery_modernization
+		icon = GFX_goal_generic_army_artillery2
+		cost = 5
+		x = 58
+		y = 11
+		
+
+		prerequisite = {focus = YRK_small_arms
+		focus = YRK_modern_cavalry}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_doctrine_development
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5
+		x = 53
+		y = 11
+		
+
+		prerequisite = {focus = YRK_small_arms}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_develop_armour
+		icon = GFX_goal_generic_army_tanks
+		cost = 5
+		x = 63
+		y = 11
+		
+
+		prerequisite = {focus = YRK_modern_cavalry}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_heavy_tanks
+		icon = GFX_goal_generic_army_artillery
+		cost = 5
+		x = 61
+		y = 12
+		
+
+		prerequisite = {focus = YRK_develop_armour}
+		prerequisite = {focus = YRK_artillery_modernization}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_offensive_armour
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 63
+		y = 13
+		
+
+		prerequisite = {focus = YRK_heavy_tanks}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_defensive_armour
+		icon = GFX_goal_generic_defence
+		cost = 5
+		x = 59
+		y = 13
+		
+
+		prerequisite = {focus = YRK_heavy_tanks}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_integrate_professional_regiments
+		icon = GFX_
+		cost = 5
+		x = 55
+		y = 12
+		
+
+		prerequisite = {focus = YRK_doctrine_development}
+		prerequisite = {focus = YRK_artillery_modernization}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_american_help
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 5
+		x = 53
+		y = 13
+		
+
+		mutually_exclusive = { focus = YRK_canadian_help }
+		prerequisite = {focus = YRK_integrate_professional_regiments}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_request_military_advisors
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 5
+		x = 53
+		y = 14
+		
+		prerequisite = {focus = YRK_american_help}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_foreign_volunteers
+		icon = GFX_focus_generic_little_entente
+		cost = 5
+		x = 53
+		y = 15
+		
+		prerequisite = {focus = YRK_request_military_advisors}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_canadian_help
+		icon = GFX_
+		cost = 5
+		x = 57
+		y = 13
+		
+
+		mutually_exclusive = { focus = YRK_american_help }
+		prerequisite = {focus = YRK_integrate_professional_regiments}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_create_military_acadamy
+		icon = GFX_
+		cost = 5
+		x = 57
+		y = 14
+		
+		prerequisite = {focus = YRK_canadian_help}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = YRK_yorkist_army
+		icon = GFX_
+		cost = 5
+		x = 57
+		y = 15
+		
+		prerequisite = {focus = YRK_create_military_acadamy}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+
